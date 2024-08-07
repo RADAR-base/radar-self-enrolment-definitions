@@ -1,1 +1,63 @@
-"[\n    {\n        \"field_name\":\"study_info_field_1\",\n        \"form_name\":\"study_info\",\n        \"section_header\":\"\",\n        \"field_type\":\"info\",\n        \"field_label\":\"Test study info. Please add your study details and overview here.\",\n        \"select_choices_or_calculations\":\"\",\n        \"field_note\":\"\",\n        \"text_validation_type_or_show_slider_number\":\"\",\n        \"text_validation_min\":\"\",\n        \"text_validation_max\":\"\",\n        \"identifier\":\"\",\n        \"branching_logic\":\"\",\n        \"required_field\":\"y\",\n        \"custom_alignment\":\"\",\n        \"question_number\":\"\",\n        \"matrix_group_name\":\"\",\n        \"matrix_ranking\":\"\",\n        \"field_annotation\":\"info-type\"\n    },\n    {\n        \"field_name\":\"study_info_field_2\",\n        \"form_name\":\"study_info\",\n        \"section_header\":\"\",\n        \"field_type\":\"checkbox\",\n        \"field_label\":\"Select how you found out about this study?\",\n        \"select_choices_or_calculations\":[\n            {\n                \"code\":\"1\",\n                \"label\":\"Phone\"\n            },\n            {\n                \"code\":\"2\",\n                \"label\":\"Text\"\n            },\n            {\n                \"code\":\"3\",\n                \"label\":\"Email\"\n            },\n            {\n                \"code\":\"4\",\n                \"label\":\"In-Person\"\n            },\n            {\n                \"code\":\"5\",\n                \"label\":\"Other\"\n            }\n        ],\n        \"field_note\":\"\",\n        \"text_validation_type_or_show_slider_number\":\"\",\n        \"text_validation_min\":\"\",\n        \"text_validation_max\":\"\",\n        \"identifier\":\"\",\n        \"branching_logic\":\"\",\n        \"required_field\":\"\",\n        \"custom_alignment\":\"\",\n        \"question_number\":\"\",\n        \"matrix_group_name\":\"\",\n        \"matrix_ranking\":\"\",\n        \"field_annotation\":\"\"\n    }\n]"
+[
+    {
+        "field_name":"study_info_field_1",
+        "form_name":"study_info",
+        "section_header":"",
+        "field_type":"info",
+        "field_label":"Test study info. Please add your study details and overview here.",
+        "select_choices_or_calculations":"",
+        "field_note":"",
+        "text_validation_type_or_show_slider_number":"",
+        "text_validation_min":"",
+        "text_validation_max":"",
+        "identifier":"",
+        "branching_logic":"",
+        "required_field":"y",
+        "custom_alignment":"",
+        "question_number":"",
+        "matrix_group_name":"",
+        "matrix_ranking":"",
+        "field_annotation":"info-type"
+    },
+    {
+        "field_name":"study_info_field_2",
+        "form_name":"study_info",
+        "section_header":"",
+        "field_type":"checkbox",
+        "field_label":"Select how you found out about this study?",
+        "select_choices_or_calculations":[
+            {
+                "code":"1",
+                "label":"Phone"
+            },
+            {
+                "code":"2",
+                "label":"Text"
+            },
+            {
+                "code":"3",
+                "label":"Email"
+            },
+            {
+                "code":"4",
+                "label":"In-Person"
+            },
+            {
+                "code":"5",
+                "label":"Other"
+            }
+        ],
+        "field_note":"",
+        "text_validation_type_or_show_slider_number":"",
+        "text_validation_min":"",
+        "text_validation_max":"",
+        "identifier":"",
+        "branching_logic":"",
+        "required_field":"",
+        "custom_alignment":"",
+        "question_number":"",
+        "matrix_group_name":"",
+        "matrix_ranking":"",
+        "field_annotation":""
+    }
+]
