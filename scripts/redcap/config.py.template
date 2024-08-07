@@ -1,0 +1,19 @@
+REDCAP_PROJECT="" # REDCap project ID
+REDCAP_TOKEN="" # REDCap API token
+REDCAP_API_URL="" # URL to the REDCap API
+REDCAP_FIELDS=[] # List of fields to pull from REDCap. If empty, all fields will be pulled.
+
+GITHUB_TOKEN="" # GitHub API token
+GITHUB_OWNER="RADAR-base" # GitHub owner
+GITHUB_REPO="radar-self-enrolment-definitions" # GitHub repository
+GITHUB_BRANCH="{project}" # GitHub branch
+GITHUB_COMMIT_MESSAGE="Updated content from redcap project {project}" # Commit message
+
+VERSION="v1" # Version of the sync
+STUDY_INFO_FORM="sep_study_info" # Name of the form in REDCap that contains the study information
+CONSENT_FORM="sep_consent"     # Name of the form in REDCap that contains the consent information
+ELIGIBILITY_FORM="sep_eligibility" # Name of the form in REDCap that contains the eligibility information
+
+STUDY_INFO_PATH="{project}/study_info/{project}_study_info_{version}.json" # Path to the study info JSON file
+CONSENT_PATH="{project}/consent/{project}_consent_{version}.json" # Path to the consent JSON file
+ELIGIBILITY_PATH="{project}/eligibility/{project}_eligibility_{version}.json" # Path to the eligibility JSON file
