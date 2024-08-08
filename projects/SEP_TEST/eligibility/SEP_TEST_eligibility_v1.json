@@ -7,7 +7,7 @@
         "field_label":"How old are you?",
         "select_choices_or_calculations":"",
         "field_note":"",
-        "text_validation_type_or_show_slider_number":"number",
+        "text_validation_type_or_show_slider_number":"integer",
         "text_validation_min":"0",
         "text_validation_max":"120",
         "identifier":"",
