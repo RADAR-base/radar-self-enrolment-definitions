@@ -9,7 +9,7 @@ The definitions are divided into multiple files based on the type of information
 
 #### Study Information
 
-The study information definitions define the study information that is displayed to the user. The study information is displayed on the home page of the portal. The study information definitions are stored in the `study_info` directory.
+The study information definitions define the study information displayed to the user on the portal's study home page. The study information definitions are stored in the `study_info` directory.
 
 #### Eligibility
 
@@ -17,7 +17,7 @@ The eligibility definitions define the eligibility criteria that the user must m
 
 #### Consent
 
-The consent definitions define the consent form that the user must agree to before participating in the study. The consent definitions are stored in the `consent` directory.
+The consent definitions define mandatory and optional consent questions that the user must agree to before participating in the study. The consent definitions are stored in the `consent` directory.
 
 
 ## Scripts
