@@ -64,5 +64,25 @@
         "matrix_group_name":"",
         "matrix_ranking":"",
         "field_annotation":""
+    },
+    {
+        "field_name":"study_info_field_3",
+        "form_name":"sep_study_info",
+        "section_header":"",
+        "field_type":"descriptive",
+        "field_label":"Take a look and download the <a href=\"https:\/\/www.ouh.nhs.uk\/researchers\/planning\/documents\/participant-information-sheet.pdf\" target=\"blank\">Study PIS<\/a>",
+        "select_choices_or_calculations":"",
+        "field_note":"",
+        "text_validation_type_or_show_slider_number":"",
+        "text_validation_min":"",
+        "text_validation_max":"",
+        "identifier":"",
+        "branching_logic":"",
+        "required_field":"",
+        "custom_alignment":"",
+        "question_number":"",
+        "matrix_group_name":"",
+        "matrix_ranking":"",
+        "field_annotation":""
     }
 ]
