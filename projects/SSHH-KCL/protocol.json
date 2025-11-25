@@ -1,0 +1,312 @@
+{
+    "name": "Sleep Hygiene Study",
+    "studyId": "SSHH-KCL",
+    "healthIssues": [],
+    "onboarding": {
+        "metadata": {},
+        "steps": []
+    },
+    "protocols": [
+        {
+            "id": "connect",
+            "appearance": {},
+            "schedule": {},
+            "metadata": {
+                "title": "Connect Devices",
+                "order": 2,
+                "description": "Optionally connect your wearable or smartphone health apps to share relevant sleep and activity data.",
+                "optional": true,
+                "type": "inbuilt",
+                "inbuiltId": "connect",
+                "options": {
+                    "title": "TASK: Connect my device(s)",
+                    "description": "Click on the connect button for your device.",
+                    "devices": [
+                        {
+                            "id": "fitbit",
+                            "title": "Fitbit"
+                        },
+                        {
+                            "id": "garmin",
+                            "title": "Garmin"
+                        },
+                        {
+                            "id": "oura",
+                            "title": "Oura Ring"
+                        },
+                        {
+                            "id": "apple_health",
+                            "title": "Apple Health"
+                        },
+                        {
+                            "id": "radar_prmt",
+                            "title": "RADAR pRMT"
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "enrolment": {
+        "eligibility": {
+            "title": "Who Can Take Part",
+            "description": "We can only accept people onto our study if they answer Yes to the following questions.",
+            "items": [
+                {
+                    "fieldType": "yesno",
+                    "id": "criteria1",
+                    "description": "Are you over 13 years of age?"
+                },
+                {
+                    "fieldType": "yesno",
+                    "id": "criteria2",
+                    "description": "Do you own and use a smartphone?"
+                },
+                {
+                    "fieldType": "yesno",
+                    "id": "criteria3",
+                    "description": "If you are an Android smartphone user, is your Android version 9 or higher? (if you are not sure, you can check by going to your Settings -> About Phone or by searching Android Version in your settings.)"
+                },
+                {
+                    "fieldType": "yesno",
+                    "id": "criteria4",
+                    "description": "Is your phone not made by Huawei, Nokia or Xiaomi?"
+                }
+            ]
+        },
+        "consent": {
+            "title": "Consent",
+            "description": "Before you can take part in this study, we need your consent to complete questionnaires about your sleep habits and share data from your wearable devices or smartphone apps. If you are not an adult, this consent form needs to be filled up by your guardian.",
+            "requiredItems": [
+                {
+                    "fieldType": "yesno",
+                    "id": "required1",
+                    "description": "I confirm that I have read and understood the information sheet dated 09/05/2025 for the above project. I have had the opportunity to consider the information and asked questions which have been answered to my satisfaction."
+                },
+                {
+                    "fieldType": "yesno",
+                    "id": "required2",
+                    "description": "I consent voluntarily to be a participant in this project and understand that I can refuse to take part and can withdraw from the project at any time, without having to give a reason."
+                },
+                {
+                    "fieldType": "yesno",
+                    "id": "required3",
+                    "description": "I understand my personal information will be processed for the purposes explained to me in the Information Sheet. I understand that such information will be handled under the terms of UK data protection law, including the UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018."
+                }
+            ],
+            "optionalItems": [
+                {
+                    "fieldType": "yesno",
+                    "id": "optional1",
+                    "description": "I understand that my information may be subject to review by responsible individuals from the College for monitoring and audit purposes."
+                },
+                {
+                    "fieldType": "yesno",
+                    "id": "optional2",
+                    "description": "I agree to wear my wearable device for as much of the time as possible during my Particpation Period of three months to one year."
+                },
+                {
+                    "fieldType": "yesno",
+                    "id": "optional3",
+                    "description": "I agree to install the RADAR pRMT application on my smartphone during my Participation Period and understand that this app records data about my smartphone use, activity, environment and relative location. I understand that I will be able to control which data is accessed using permissions settings on my smartphone."
+                },
+                {
+                    "fieldType": "yesno",
+                    "id": "optional4",
+                    "description": "I agree to install and use the RADAR aRMT application on my smartphone that will ask me to answer questions about myself regularly."
+                },
+                {
+                    "fieldType": "yesno",
+                    "id": "optional5",
+                    "description": "I agree that the researcher may retain my contact details so that I may be contacted in the future by King's College London researchers who would like to invite me to participate in future studies of a similar nature."
+                },
+                {
+                    "fieldType": "yesno",
+                    "id": "optional6",
+                    "description": "I agree that the researcher may collect retrospective data from my wearable device account history."
+                },
+                {
+                    "fieldType": "yesno",
+                    "id": "optional7",
+                    "description": "I agree that the research team can archive my anonymous data for future research projects."
+                },
+                {
+                    "fieldType": "yesno",
+                    "id": "optional8",
+                    "description": "I consent for my anonymized data being shared with other researchers around the world, beyond the RADAR Sleep Hygiene Study group, and used in future biomedical research projects after ethics approval. These projects can take place in universities, hospitals, non-profit groups, companies, and/or government laboratories. All researchers must respect the laws and ethical guidelines for biomedical research."
+                },
+                {
+                    "fieldType": "yesno",
+                    "id": "optional9",
+                    "description": "I consent to my study data being analysed and published. I understand that my confidentiality will be maintained, and it will not be possible to identify me in any publication."
+                }
+            ],
+            "signatureDescription": "By signing this consent form, I declare that I have provided accurate identity details (full name and electronic signature)."
+        },
+        "account": {
+            "title": "Register Account",
+            "description": "You need an account to give us your information and (optionally) connect your wearable or smartphone app."
+        }
+    },
+    "studyUiConfig": {
+        "materialTheme": {
+            "typography": {
+                "allVariants": {
+                    "fontFamily": "var(--font-montserrat)",
+                    "wordBreak": "break-word",
+                    "whiteSpace": "pre-wrap"
+                },
+                "h1": {
+                    "fontSize": "2rem",
+                    "fontWeight": "700",
+                    "color": "#0E1B4D",
+                    "wordBreak": "normal",
+                    "overflow": "hidden"
+                },
+                "h2": {
+                    "fontSize": "1.5rem",
+                    "fontWeight": "700",
+                    "color": "#0E1B4D"
+                },
+                "h3": {
+                    "fontSize": "1rem",
+                    "fontWeight": "700",
+                    "color": "#334155"
+                },
+                "h4": {
+                    "fontSize": "1rem",
+                    "fontWeight": "600"
+                },
+                "button": {
+                    "textTransform": "none",
+                    "wordBreak": "normal"
+                },
+                "body1": {},
+                "body2": {}
+            },
+            "palette": {
+                "background": {
+                    "default": "#ffffff"
+                },
+                "primary": {
+                    "light": "#253168",
+                    "main": "#0E1B4D",
+                    "dark": "#080F2E",
+                    "contrastText": "#ffffff"
+                },
+                "secondary": {
+                    "light": "#D6BCFA",
+                    "main": "#A78BFA",
+                    "dark": "#6D28D9",
+                    "contrastText": "#1F2937"
+                },
+                "success": {
+                    "main": "#02a765"
+                },
+                "warning": {
+                    "main": "#e4700c"
+                },
+                "error": {
+                    "main": "#d4311d"
+                }
+            },
+            "components": {
+                "MuiButton": {
+                    "defaultProps": {
+                        "disableElevation": true,
+                        "sx": {
+                            "borderRadius": 3
+                        }
+                    }
+                },
+                "MuiAppBar": {
+                    "defaultProps": {
+                        "elevation": 0,
+                        "position": "static"
+                    }
+                },
+                "MuiToggleButton": {
+                    "styleOverrides": {
+                        "root": {
+                            "borderRadius": 32,
+                            "fontSize": "1em"
+                        }
+                    }
+                },
+                "MuiTextField": {
+                    "defaultProps": {
+                        "variant": "standard"
+                    }
+                },
+                "MuiInputLabel": {
+                    "styleOverrides": {
+                        "standard": {
+                            "fontSize": "1rem"
+                        },
+                        "shrink": {
+                            "fontSize": "1rem",
+                            "fontWeight": "700",
+                            "transform": "translate(0, -10px)"
+                        }
+                    }
+                }
+            }
+        },
+        "faviconSrc": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f319.png",
+        "navbar": {
+            "links": [
+                {
+                    "text": "Home",
+                    "href": "/SSHH-KCL"
+                }
+            ],
+            "logoSrc": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f319.png"
+        },
+        "footer": {
+            "columns": [
+                {
+                    "title": "Study Links",
+                    "items": [
+                        {
+                            "text": "Home",
+                            "href": "#"
+                        },
+                        {
+                            "text": "About the study",
+                            "href": "#"
+                        }
+                    ]
+                },
+                {
+                    "title": "Contact Us",
+                    "items": [
+                        {
+                            "text": "sleepstudy@kcl.ac.uk",
+                            "href": "mailto:sleepstudy@kcl.ac.uk"
+                        }
+                    ]
+                },
+                {
+                    "title": "Legal Links",
+                    "items": [
+                        {
+                            "text": "Privacy Policy",
+                            "href": "privacy"
+                        },
+                        {
+                            "text": "Cookie Policy",
+                            "href": "cookies"
+                        }
+                    ]
+                }
+            ],
+            "copyrightText": "© 2024 King's College London"
+        },
+        "portal": {
+            "title": "Complete Tasks to Join Study"
+        },
+        "analytics": {
+            "gaId": ""
+        }
+    }
+}

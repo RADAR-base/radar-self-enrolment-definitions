@@ -1,0 +1,10 @@
+{
+    "background": "white",
+    "blocks": [
+        {
+            "blockType": "markdown",
+            "title": "Cookie Information",
+            "content": "<br />\n### This study website uses cookies.\n<br />\nWe use cookies to understand how people use this website and to improve the study experience. We use Google Analytics to collect anonymous usage information (e.g. page views, navigation, link clicks).\n<br />\nThere are three cookie options on our website: (1) Website usage cookies (2) Functional cookies (3) Essential cookies. ‘Website usage cookies’ allow us to understand how visitors use the website. ‘Functional cookies’ allow you to save your progress while the browser is open and resume later. ‘Essential cookies’ are required for basic site functionality and are deleted when you close your browser.\n<br />\nIf you do not wish to save cookies, you can select ‘Essential cookies’.\n<br />\nSleep Hygiene Study Team.\n"
+        }
+    ]
+}

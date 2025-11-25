@@ -1,0 +1,75 @@
+{
+    "blocks": [
+        {
+            "blockType": "column",
+            "noCard": true,
+            "blockBackground": "white",
+            "title": "",
+            "content": {
+                "block1": {
+                    "blockType": "markdown",
+                    "content": "# Improve Your Sleep with the King's College London Sleep Hygiene Study\n<br />\n- Sleep is essential for health and wellbeing\n- Simple habits can improve sleep quality\n<br />\n<img src='https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&h=400&auto=format&fit=crop' alt='sleep night sky' style='width:60%; max-width:800px; display:block; margin:0 auto; border-radius:12px;' />\n<br />\n<button variant='contained' href='SSHH-KCL/enrol'>Join Study</button>"
+                }
+            }
+        },
+        {
+            "blockType": "markdown",
+            "noCard": true,
+            "title": "Who Can Take Part?",
+            "blockBackground": "white",
+            "content": "To take part in this study you must:\n- Be aged 16 or over\n- Live in the United Kingdom\n<br />\nYou can withdraw from the study at any time."
+        },
+        {
+            "blockType": "column",
+            "noCard": true,
+            "blockBackground": "white",
+            "title": "About the Sleep Hygiene Study",
+            "content": {
+                "block1": {
+                    "blockType": "text",
+                    "content": "The King's College London Sleep Hygiene Study aims to understand how daily routines and digital device data relate to sleep quality. Participants will complete short questionnaires and, if they choose, can connect wearable devices or smartphone apps to share relevant sleep and activity data."
+                },
+                "block2": {
+                    "blockType": "markdown",
+                    "content": "Partners: King's College London, South London and Maudsley NHS Foundation Trust.\n<br /><br />\n<button variant='contained' href='https://www.kcl.ac.uk/'>Learn more</button>"
+                }
+            }
+        },
+        {
+            "blockType": "markdown",
+            "noCard": true,
+            "title": "What happens after you sign up?",
+            "blockBackground": "white",
+            "content": "After completing the sign-up form, the study enrollment process consists of the following steps:\n- Reading the Information Sheet\n- Providing consent\n- Completing our questionnaire\n- (Optional) Connecting wearable devices or health apps"
+        },
+        {
+            "blockType": "accordion",
+            "noCard": true,
+            "title": "Frequently Asked Questions",
+            "items": [
+                {
+                    "title": "Am I eligible?",
+                    "content": "If you are 16 or over and live in the UK, you can take part."
+                },
+                {
+                    "title": "How do I sign up?",
+                    "content": "Click the Join Study button and follow the steps to create an account, read the Information Sheet, give consent, and complete our questionnaire."
+                }
+            ]
+        },
+        {
+            "blockType": "markdown",
+            "noCard": true,
+            "title": "Talk to us",
+            "blockBackground": "white",
+            "content": "Email us: **sleepstudy@kcl.ac.uk**\n<br /><br />\nOffice hours: Monday to Friday, 9:00am to 5:00pm (UK time)."
+        },
+        {
+            "blockType": "markdown",
+            "noCard": true,
+            "title": "",
+            "blockBackground": "white",
+            "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/SSHH-KCL/resources/kcl-logo.png' alt='KCL logo' style='width:72px; display:block; margin:16px auto 8px; opacity:0.95;' width='72'/>"
+        }
+    ]
+}

@@ -1,0 +1,326 @@
+{
+  "name": "GLAD Study",
+  "studyId": "RADAR-GLAD-KCL-s1",
+  "healthIssues": [],
+  "onboarding": {
+    "metadata": {},
+    "steps": []
+  },
+  "protocols": [
+    {
+      "id": "connect",
+      "appearance": {},
+      "schedule": {},
+      "metadata": {
+        "title": "Connect Devices",
+        "order": 2,
+        "description": "Share your fitness tracker or smartphone app with us.",
+        "optional": false,
+        "type": "inbuilt",
+        "inbuiltId": "connect",
+        "options": {
+          "title": "TASK: Connect my device(s)",
+          "description": "<p>Click on the connect button for your device.</p><p>The study team will collect past physical activity data, if available, from 1st July 2016 until 31st December 2024. This will be a one-off transfer of data. We will not collect any activity data beyond the 31st December 2024.</p>",
+          "devices": [
+            {
+              "id": "fitbit",
+              "title": "Fitbit Tab",
+              "description": "Before clicking Connect, you can read [step-by-step instructions](/study/paprka/resources/guides/PAPrKA_Study_Guide_Fitbit.docx) or watch a video [link TBC] to see how to share your Fitbit physical activity data.\n"
+            },
+            {
+              "id": "garmin",
+              "title": "Garmin Tab",
+              "description": "Before clicking Connect, you can read [step-by-step instructions](/study/paprka/resources/guides/PAPrKA_Study_Guide_Garmin.docx) or watch a video [link TBC] to see how to share your Garmin physical activity data.\n"
+            },
+            {
+              "id": "oura",
+              "title": "Oura Ring Tab",
+              "description": "Before clicking Connect, you can read [step-by-step instructions](/study/paprka/resources/guides/PAPrKA_Study_Guide_Oura.docx) or watch a video [link TBC] to see how to share your Oura Ring physical activity data.\n"
+            },
+            {
+              "id": "apple_health",
+              "title": "Apple Health",
+              "description": "Before clicking Connect, you can [step-by-step instructions](/study/paprka/resources/guides/PAPrKA_Study_Guide_iPhone.docx) or watch a video[link TBC] to see how to share your iPhone or Apple Watch physical activity data.\n"
+            },
+            {
+              "id": "radar_prmt",
+              "title": "RADAR pRMT",
+              "description": "Before clicking Connect, you can read [step-by-step instructions](/study/paprka/resources/guides/PAPrKA_Study_Guide_Android.docx) or watch a video [link TBC] to see how to share your Android phone physical activity data.\n"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "enrolment": {
+    "eligibility": {
+      "title": "Who Can Take Part",
+      "description": "We can only accept people onto our study if they answer Yes to the following questions.",
+      "items": [
+        {
+          "fieldType": "yesno",
+          "id": "criteria1",
+          "description": "Are you over 16 years of age?"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "criteria2",
+          "description": "Do you live in the United Kingdom?"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "criteria3",
+          "description": "Have you ever experienced anxiety or depressive disorders (with or without a medical diagnosis) or have never experienced any mental health disorder?"
+        }
+      ]
+    },
+    "consent": {
+      "title": "Consent",
+      "description": "Before you can take part in this study, we need your consent to complete questionnaires about your mental health experiences and share data from your wearable devices or smartphone apps.\n<br />\nWe also need you to create an account, using an email and password, so you can log back into the GLAD research study portal. You may want to do this to update your personal information or if you decide to leave the study.\n<br />\nYour data will be managed by the GLAD research team and will not be shared with any other parties. You can find out more information about the way we use personal information, and the rights individuals have to control and manage their data in our [privacy policy](https://gladstudy.org.uk/privacy).\n",
+      "requiredItems": [
+        {
+          "fieldType": "yesno",
+          "id": "required1",
+          "description": "I confirm that I have read the attached information sheet for the GLAD Study and have had the opportunity to consider the information and ask questions and had these answered satisfactorily.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required2",
+          "description": "I understand that my participation in the study is voluntary and that I am free to withdraw at any time without giving a reason and without detriment to myself. I understand that it will not be possible to remove my data from the project once it has been anonymised and forms part of the data set.\n\nI agree to take part on this basis.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required3",
+          "description": "I understand my involvement in this study involves:\n- Completing online questionnaires about my mental health experiences on a platform hosted by King's College London\n- Sharing data from my wearable devices or smartphone apps (such as Fitbit, Apple Watch, Garmin, or health apps)\n- Allowing the GLAD team to analyse my questionnaire responses and wearable data to understand risk factors for anxiety and depression\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required4",
+          "description": "I give permission for the GLAD team to access and collect data from my wearable devices or smartphone apps. This includes physical activity data, sleep patterns, heart rate, and other health metrics that may be relevant to understanding anxiety and depression.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required5",
+          "description": "I give permission for the GLAD team to access and analyse my questionnaire responses about my mental health experiences, including any history of anxiety or depression symptoms, treatments received, and family history of mental health conditions.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required6",
+          "description": "I give permission for the GLAD team to link my questionnaire responses with my wearable device data to investigate how lifestyle factors, physical activity, and sleep patterns may influence anxiety and depression risk.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required7",
+          "description": "I understand that the data linkage involves combining my questionnaire responses with my wearable device data to form a complete research dataset. I give permission for my data to be linked and analysed together.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required8",
+          "description": "I give permission for the GLAD team to work with researchers at King's College London and partner institutions to analyse my linked data to answer the study's research questions about lifestyle and environmental risk factors for anxiety and depression.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required9",
+          "description": "I agree that any data collected may be included in anonymous form in **publications, academic theses, dissertations, or conference presentations.**\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required10",
+          "description": "I understand that data collected during the study may be looked at by individuals from King's College London, the NIHR Mental Health BioResource, or regulatory authorities, where it is relevant to my taking part in this research. I give permission for these individuals to have access to my data.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required11",
+          "description": "I agree to take part in this study.\n"
+        }
+      ],
+      "optionalItems": [
+        {
+          "fieldType": "yesno",
+          "id": "optional1",
+          "description": "I agree my questionnaire data and wearable device data, being held at King's College London, can be used by other researchers to answer research questions over and above those for the GLAD study.\n\nI agree on the basis that only pseudonymised data will be shared and where there are data protection measures in place to ensure the confidentiality of the data.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "optional2",
+          "description": "I agree that the researchers may contact me in future about other mental health research projects that I might be eligible for.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "optional3",
+          "description": "I agree that the researchers may retain my contact details in order to provide me with a summary of the findings for this study.\n"
+        }
+      ],
+      "signatureDescription": "**Data Protection**\n\n**The personal information we collect and use to conduct this research will be processed in accordance with data protection law as explained in the Participant Information Sheet and the [Privacy Notice for Research Participants](https://gladstudy.org.uk/privacy).**\n\nBy signing this consent form, I declare that I have provided accurate identity details (full name and electronic signature).\n"
+    },
+    "account": {
+      "title": "Register Account",
+      "description": "You need an account to give us your information and connect your fitness tracker or smartphone app.\nYou can find out more information about the way we use personal information, and the rights individuals have to control and manage their data in our [privacy policy](https://documents.manchester.ac.uk/display.aspx?DocID=37095)\n"
+    }
+  },
+  "studyUiConfig": {
+    "materialTheme": {
+      "typography": {
+        "allVariants": {
+          "fontFamily": "var(--font-montserrat)",
+          "wordBreak": "break-word",
+          "whiteSpace": "pre-wrap"
+        },
+        "h1": {
+          "fontSize": "2rem",
+          "fontWeight": "700",
+          "color": "#003865",
+          "wordBreak": "normal",
+          "overflow": "hidden"
+        },
+        "h2": {
+          "fontSize": "1.5rem",
+          "fontWeight": "700",
+          "color": "#003865"
+        },
+        "h3": {
+          "fontSize": "1rem",
+          "fontWeight": "700",
+          "color": "#444"
+        },
+        "h4": {
+          "fontSize": "1rem",
+          "fontWeight": "600"
+        },
+        "button": {
+          "textTransform": "none",
+          "wordBreak": "normal"
+        },
+        "body1": {},
+        "body2": {}
+      },
+      "palette": {
+        "background": {
+          "default": "#ffffff"
+        },
+        "primary": {
+          "light": "#FFE566",
+          "main": "#ECC303",
+          "dark": "#CCAA00",
+          "contrastText": "#000000"
+        },
+        "secondary": {
+          "light": "#4F86C6",
+          "main": "#1D4F91",
+          "dark": "#123764",
+          "contrastText": "#ffffff"
+        },
+        "success": {
+          "main": "#02a765"
+        },
+        "warning": {
+          "main": "#e4700c"
+        },
+        "error": {
+          "main": "#d4311d"
+        }
+      },
+      "components": {
+        "MuiButton": {
+          "defaultProps": {
+            "disableElevation": true,
+            "sx": {
+              "borderRadius": 3
+            }
+          }
+        },
+        "MuiAppBar": {
+          "defaultProps": {
+            "elevation": 0,
+            "position": "static"
+          }
+        },
+        "MuiToggleButton": {
+          "styleOverrides": {
+            "root": {
+              "borderRadius": 32,
+              "fontSize": "1em"
+            }
+          }
+        },
+        "MuiTextField": {
+          "defaultProps": {
+            "variant": "standard"
+          }
+        },
+        "MuiInputLabel": {
+          "styleOverrides": {
+            "standard": {
+              "fontSize": "1rem"
+            },
+            "shrink": {
+              "fontSize": "1rem",
+              "fontWeight": "700",
+              "transform": "translate(0, -10px)"
+            }
+          }
+        }
+      }
+    },
+    "faviconSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RADAR-GLAD-KCL-s1/resources/glad-big.png",
+    "navbar": {
+      "links": [
+        {
+          "text": "Home",
+          "href": "/RADAR-GLAD-KCL-s1"
+        }
+      ],
+      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RADAR-GLAD-KCL-s1/resources/glad-big.png"
+    },
+    "footer": {
+      "columns": [
+        {
+          "title": "Study Links",
+          "items": [
+            {
+              "text": "Home",
+              "href": "#"
+            },
+            {
+              "text": "About the study",
+              "href": "#"
+            },
+            {
+              "text": "LinkedIn",
+              "href": "https://www.linkedin.com/company/onsentia"
+            }
+          ]
+        },
+        {
+          "title": "Contact Us",
+          "items": [
+            {
+              "text": "support@onsentia.com",
+              "href": "mailto:support@onsentia.com"
+            }
+          ]
+        },
+        {
+          "title": "Legal Links",
+          "items": [
+            {
+              "text": "Privacy Policy",
+              "href": "privacy"
+            },
+            {
+              "text": "Cookie Policy",
+              "href": "cookies"
+            }
+          ]
+        }
+      ],
+      "copyrightText": "© 2024 Onsentia"
+    },
+    "portal": {
+      "title": "Complete Tasks to Join Study"
+    },
+    "analytics": {
+      "gaId": ""
+    }
+  }
+}

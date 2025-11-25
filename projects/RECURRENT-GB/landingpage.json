@@ -1,0 +1,20 @@
+{
+    "blocks": [
+        {
+            "blockType": "column",
+            "noCard": true,
+            "blockBackground": "white",
+            "title": "",
+            "content": {
+                "block1": {
+                    "blockType": "markdown",
+                    "content": "# RECURRENT-GB: Repeat surgery for recurrent glioblastoma.<br/><br/>\nThe aim of this trial is to evaluate the clinical efficacy and cost-effectiveness of repeat surgery to resect GB upon tumour recurrence.\n<br/><br/>\n<button variant='contained' href='RECURRENT-GB/enrol'>Join Study</button>"
+                },
+                "block2": {
+                    "blockType": "markdown",
+                    "content": ""
+                }
+            }
+        }
+    ]
+}
