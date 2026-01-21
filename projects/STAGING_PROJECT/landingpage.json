@@ -7,7 +7,11 @@
       "content": {
         "block1": {
           "blockType": "Hero",
-          "content": "This is a test"
+          "content": "This is a Hero Block"
+        },
+        "block2": {
+          "blockType": "markdown",
+          "content": "This is a Markdown Block"
         }
       },
       "sx": {
