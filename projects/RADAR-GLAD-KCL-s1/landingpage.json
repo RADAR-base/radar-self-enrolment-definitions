@@ -13,7 +13,7 @@
         "block2": {
           "blockType": "video",
           "video": {
-            "src": "http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RADAR-GLAD-KCL-s1/resources/video.mp4",
+            "src": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RADAR-GLAD-KCL-s1/resources/video.mp4",
             "type": "video/mp4",
             "width": "100%",
             "params": {
@@ -27,7 +27,7 @@
         }
       }
     },
-    { 
+    {
       "blockType": "column",
       "noCard": true,
       "blockBackground": "white",
@@ -35,7 +35,7 @@
       "content": {
         "block1": {
           "blockType": "markdown",
-          "content": "![GLAD Wearable Data Study](http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RADAR-GLAD-KCL-s1/resources/image.jpg)"
+          "content": "![GLAD Wearable Data Study](https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RADAR-GLAD-KCL-s1/resources/image.jpg)"
         },
         "block2": {
           "blockType": "markdown",
