@@ -7,12 +7,20 @@
         "block1": {
           "blockType": "hero",
           "title": "This is a hero title column 1 block 1",
-          "content": "hero block content column 1 block 1 "
+          "content": "hero block content column 1 block 1 ",
+          "sx": {
+            "backgroundColor": "lightblue",
+            "border": "1px solid black"
+          }
         },
         "block2": {
           "blockType": "hero",
           "title": "This is a hero title column 2 block 2",
-          "content": "hero block content column 2 block 2 "
+          "content": "hero block content column 2 block 2 ",
+          "sx": {
+            "backgroundColor": "lightblue",
+            "border": "1px solid black"
+          }
         }
       }
     },
