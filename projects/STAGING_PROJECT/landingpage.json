@@ -3,20 +3,34 @@
     {
       "blockType": "hero",
       "noCard": true,
-      "title": "block1",
-      "content": "This is a Hero Block"
+      "title": "hero block title",
+      "content": {
+        "block1": {
+          "blockType": "column",
+          "content": {
+            "block1": {
+              "title": "This is a hero title column 1 block 1",
+              "content": "hero block content column 1 block 1 "
+            },
+            "block2": {
+              "title": "This is a hero title column 2 block 2",
+              "content": "hero block content column 2 block 2 "
+            }
+          }
+        }
+      }
     },
     {
       "blockType": "hero",
       "noCard": true,
-      "title": "block2",
-      "content": "This is a Hero Block2"
+      "title": "hero block title",
+      "content": "This is a hero block content"
     },
     {
       "blockType": "markdown",
       "noCard": true,
-      "title": "block3",
-      "content": "this is a markdown block"
+      "title": "markdown block title",
+      "content": "this is a markdown block content"
     },
     {
       "blockType": "column",
