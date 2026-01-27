@@ -9,8 +9,8 @@
           "title": "This is a hero title column 1 block 1",
           "content": "hero block content column 1 block 1 ",
           "sx": {
-            "backgroundColor": "lightblue",
-            "border": "1px solid black"
+            "bgcolor": "secondary.light",
+            "border": "1"
           }
         },
         "block2": {
@@ -18,8 +18,8 @@
           "title": "This is a hero title column 2 block 2",
           "content": "hero block content column 2 block 2 ",
           "sx": {
-            "backgroundColor": "lightblue",
-            "border": "1px solid black"
+            "bgcolor": "secondary.light",
+            "border": "1"
           }
         }
       }
