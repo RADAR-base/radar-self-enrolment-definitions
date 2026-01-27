@@ -1,6 +1,22 @@
 {
   "blocks": [
     {
+      "blockType": "Hero",
+      "title": "block1",
+      "content": "This is a Hero Block"
+    },
+    {
+      "blockType": "Hero",
+      "title": "block2",
+      "content": "This is a Hero Block2"
+    },
+    {
+      "blockType": "markdown",
+      "noCard": true,
+      "title": "block3",
+      "content": "this is a markdown block"
+    },
+    {
       "blockType": "column",
       "noCard": true,
       "blockBackground": "white",
