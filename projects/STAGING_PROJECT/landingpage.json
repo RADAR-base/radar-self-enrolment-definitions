@@ -13,11 +13,11 @@
           "blockType": "hero",
           "title": "This is a hero title column 2 block 2",
           "content": "hero block content column 2 block 2 "
+        },
+        "sx": {
+          "bgcolor": "secondary.light",
+          "border": "1px solid black"
         }
-      },
-      "sx": {
-        "bgcolor": "secondary.light",
-        "border": "1px solid black"
       }
     },
     {
