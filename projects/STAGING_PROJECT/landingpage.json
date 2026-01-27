@@ -1,12 +1,14 @@
 {
   "blocks": [
     {
-      "blockType": "Hero",
+      "blockType": "hero",
+      "noCard": true,
       "title": "block1",
       "content": "This is a Hero Block"
     },
     {
-      "blockType": "Hero",
+      "blockType": "hero",
+      "noCard": true,
       "title": "block2",
       "content": "This is a Hero Block2"
     },
