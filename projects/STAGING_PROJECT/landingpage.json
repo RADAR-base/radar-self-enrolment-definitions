@@ -10,8 +10,8 @@
           "content": "This is a Hero Block"
         },
         "block2": {
-          "blockType": "markdown",
-          "content": "This is a Markdown Block"
+          "blockType": "Hero",
+          "content": "This is a a Hero Block2"
         }
       },
       "sx": {
