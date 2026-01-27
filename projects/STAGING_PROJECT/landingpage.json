@@ -3,7 +3,7 @@
     {
       "blockType": "hero",
       "noCard": true,
-      "title": "hero block title",
+      "title": "",
       "content": {
         "block1": {
           "blockType": "column",
