@@ -7,10 +7,12 @@
       "content": {
         "block1": {
           "blockType": "Hero",
+          "title": "block1",
           "content": "This is a Hero Block"
         },
         "block2": {
           "blockType": "Hero",
+          "title": "block2",
           "content": "This is a a Hero Block2"
         }
       },
