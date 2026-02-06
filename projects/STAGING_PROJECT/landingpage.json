@@ -2,21 +2,39 @@
   "blocks": [
     {
       "blockType": "column",
-      "title": "Test",
-      "blockBackground": "black",
+      "noCard": true,
       "content": {
         "block1": {
-          "blockType": "Hero",
-          "content": "This is a Hero Block"
+          "blockType": "hero",
+          "title": "This is a hero title column 1 block 1",
+          "content": "hero block content column 1 block 1 ",
+          "sx": {
+            "bgcolor": "secondary.light",
+            "border": "1px solid black"
+          }
         },
         "block2": {
-          "blockType": "markdown",
-          "content": "This is a Markdown Block"
+          "blockType": "hero",
+          "title": "This is a hero title column 2 block 2",
+          "content": "hero block content column 2 block 2 ",
+          "sx": {
+            "bgcolor": "secondary.light",
+            "border": "1px solid red"
+          }
         }
-      },
-      "sx": {
-        "border": "4px solid red"
       }
+    },
+    {
+      "blockType": "hero",
+      "noCard": true,
+      "title": "hero block title",
+      "content": "This is a hero block content"
+    },
+    {
+      "blockType": "markdown",
+      "noCard": true,
+      "title": "markdown block title",
+      "content": "this is a markdown block content"
     },
     {
       "blockType": "column",
