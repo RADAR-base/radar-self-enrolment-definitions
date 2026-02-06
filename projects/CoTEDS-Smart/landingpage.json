@@ -12,7 +12,7 @@
                 },
                 "block2": {
                     "blockType": "markdown",
-                    "content": "![CoTEDS-Smart](https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/CoTEDS-Smart/resources/image.jpg)"
+                    "content": "![CoTEDS-Smart](https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/CoTEDS-Smart/resources/image.jpg)"
                 }
             }
         },
@@ -24,7 +24,7 @@
             "content": {
                 "block1": {
                     "blockType": "markdown",
-                    "content": "![CoTEDS-Smart wearable data](https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/CoTEDS-Smart/resources/icon.png)"
+                    "content": "![CoTEDS-Smart wearable data](https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/CoTEDS-Smart/resources/icon.png)"
                 },
                 "block2": {
                     "blockType": "markdown",
