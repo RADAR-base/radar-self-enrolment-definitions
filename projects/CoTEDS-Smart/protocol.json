@@ -43,9 +43,9 @@
               "description": "Before clicking Connect, you can read step-by-step instructions or watch a video to see how to share your iPhone or Apple Watch physical activity data."
             },
             {
-              "id": "radar_prmt",
-              "title": "RADAR pRMT",
-              "description": "Before clicking Connect, you can read step-by-step instructions or watch a video to see how to share your Android phone physical activity data."
+              "id": "radar_armt",
+              "title": "RADAR aRMT",
+              "description": "Before clicking Connect, you can read step-by-step instructions or watch a video to see how to share your questionnaire data."
             }
           ]
         }
