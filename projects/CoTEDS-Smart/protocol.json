@@ -109,7 +109,6 @@
           "description": "I agree to take part in this study.\n"
         }
       ],
-      "optionalItems": [],
       "signatureDescription": "**Data Protection**\n\n**The personal information we collect and use to conduct this research will be processed in accordance with data protection law as explained in the Participant Information Sheet and the Privacy Notice for Research Participants.**\n\nBy signing this consent form, I declare that I have provided accurate identity details (full name and electronic signature).\n"
     },
     "account": {
