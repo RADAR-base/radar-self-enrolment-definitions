@@ -221,7 +221,7 @@
         }
       }
     },
-    "faviconSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/CoTEDS-Smart/resources/icon.png",
+    "faviconSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/CoTEDS-Smart/resources/icon.png",
     "navbar": {
       "links": [
         {
@@ -229,7 +229,7 @@
           "href": "/CoTEDS-Smart"
         }
       ],
-      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/CoTEDS-Smart/resources/icon.png"
+      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/CoTEDS-Smart/resources/icon.png"
     },
     "footer": {
       "columns": [
