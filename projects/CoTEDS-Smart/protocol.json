@@ -1,0 +1,285 @@
+{
+  "name": "CoTEDS-Smart",
+  "studyId": "CoTEDS-Smart",
+  "healthIssues": [],
+  "onboarding": {
+    "metadata": {},
+    "steps": []
+  },
+  "protocols": [
+    {
+      "id": "connect",
+      "appearance": {},
+      "schedule": {},
+      "metadata": {
+        "title": "Connect Devices",
+        "order": 2,
+        "description": "Share your fitness tracker or smartphone app with us.",
+        "optional": false,
+        "type": "inbuilt",
+        "inbuiltId": "connect",
+        "options": {
+          "title": "TASK: Connect my device(s)",
+          "description": "<p>Click on the connect button for your device.</p><p>The study team will collect activity, sleep, and health data from your wearable devices or smartphone apps. This data will be collected securely via RADAR-base and linked with your existing CoTEDS and TEDS data.</p>",
+          "devices": [
+            {
+              "id": "fitbit",
+              "title": "Fitbit",
+              "description": "Before clicking Connect, you can read step-by-step instructions or watch a video to see how to share your Fitbit physical activity data."
+            },
+            {
+              "id": "garmin",
+              "title": "Garmin",
+              "description": "Before clicking Connect, you can read step-by-step instructions or watch a video to see how to share your Garmin physical activity data."
+            },
+            {
+              "id": "oura",
+              "title": "Oura Ring",
+              "description": "Before clicking Connect, you can read step-by-step instructions or watch a video to see how to share your Oura Ring physical activity data."
+            },
+            {
+              "id": "apple_health",
+              "title": "Apple Health",
+              "description": "Before clicking Connect, you can read step-by-step instructions or watch a video to see how to share your iPhone or Apple Watch physical activity data."
+            },
+            {
+              "id": "radar_prmt",
+              "title": "RADAR pRMT",
+              "description": "Before clicking Connect, you can read step-by-step instructions or watch a video to see how to share your Android phone physical activity data."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "enrolment": {
+    "eligibility": {
+      "title": "Who can take part in CoTEDS-Smart?",
+      "description": "We can only accept people onto our study if they answer Yes to the following questions.",
+      "items": [
+        {
+          "fieldType": "yesno",
+          "id": "criteria1",
+          "description": "Are you over 18 years of age?"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "criteria2",
+          "description": "Do you live in England, Wales, Northern Ireland, Isle of Man or Guernsey?"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "criteria3",
+          "description": "Are you part of the existing CoTEDS study?"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "criteria4",
+          "description": "Do you use a smartphone (Apple or Android), Fitbit, Apple Watch, Garmin or Oura Ring?"
+        }
+      ]
+    },
+    "consent": {
+      "title": "Consent",
+      "description": "Before you can take part in CoTEDS-Smart, we need your consent to share data from your wearable devices or smartphone apps (such as activity, sleep, and heart rate data) alongside your existing CoTEDS participation.\n<br />\nWe also need you to create an account, using an email and password, so you can log back into the CoTEDS-Smart portal. You may want to do this to update your personal information or if you decide to leave the study.\n<br />\nYour data will be managed by the CoTEDS research team and will not be shared with any other parties. You can find out more information about the way we use personal information in our [privacy policy](privacy).\n",
+      "requiredItems": [
+        {
+          "fieldType": "yesno",
+          "id": "required1",
+          "description": "I confirm that I have read the attached information sheet for CoTEDS-Smart and have had the opportunity to consider the information and ask questions and had these answered satisfactorily.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required2",
+          "description": "I understand that my participation is voluntary and that I am free to withdraw at any time without giving a reason. I understand that it will not be possible to remove my data once it has been anonymised and forms part of the data set. I agree to take part on this basis.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required3",
+          "description": "I give permission for the CoTEDS team to collect data from my wearable devices or smartphone apps (activity, sleep, heart rate and related metrics) and to link and analyse this data with my existing TEDS and CoTEDS data for research on physical activity, sleep, mental health and physical health during pregnancy and parenthood.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required4",
+          "description": "I agree that any data collected may be included in anonymous form in publications, academic theses, dissertations, or conference presentations. I understand that my data may be accessed by the CoTEDS research team, King's College London, and regulatory authorities where relevant to my participation.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required5",
+          "description": "I agree to take part in this study.\n"
+        }
+      ],
+      "optionalItems": [],
+      "signatureDescription": "**Data Protection**\n\n**The personal information we collect and use to conduct this research will be processed in accordance with data protection law as explained in the Participant Information Sheet and the Privacy Notice for Research Participants.**\n\nBy signing this consent form, I declare that I have provided accurate identity details (full name and electronic signature).\n"
+    },
+    "account": {
+      "title": "Register Account",
+      "description": "You need an account to connect your fitness tracker or smartphone app so we can collect activity, sleep, and health data.\nYou can find out more information about the way we use personal information in our [privacy policy](privacy).\n"
+    }
+  },
+  "studyUiConfig": {
+    "materialTheme": {
+      "typography": {
+        "allVariants": {
+          "fontFamily": "var(--font-montserrat)",
+          "wordBreak": "break-word",
+          "whiteSpace": "pre-wrap"
+        },
+        "h1": {
+          "fontSize": "2rem",
+          "fontWeight": "700",
+          "color": "#0099CC",
+          "wordBreak": "normal",
+          "overflow": "hidden"
+        },
+        "h2": {
+          "fontSize": "1.5rem",
+          "fontWeight": "700",
+          "color": "#0099CC"
+        },
+        "h3": {
+          "fontSize": "1rem",
+          "fontWeight": "700",
+          "color": "#333333"
+        },
+        "h4": {
+          "fontSize": "1rem",
+          "fontWeight": "600"
+        },
+        "button": {
+          "textTransform": "none",
+          "wordBreak": "normal"
+        },
+        "body1": {},
+        "body2": {}
+      },
+      "palette": {
+        "background": {
+          "default": "#FFF8E1"
+        },
+        "primary": {
+          "light": "#5BC0EB",
+          "main": "#0099CC",
+          "dark": "#0077A3",
+          "contrastText": "#ffffff"
+        },
+        "secondary": {
+          "light": "#666666",
+          "main": "#333333",
+          "dark": "#2C2C2C",
+          "contrastText": "#ffffff"
+        },
+        "success": {
+          "main": "#02a765"
+        },
+        "warning": {
+          "main": "#e4700c"
+        },
+        "error": {
+          "main": "#d4311d"
+        }
+      },
+      "components": {
+        "MuiButton": {
+          "defaultProps": {
+            "disableElevation": true,
+            "sx": {
+              "borderRadius": 3
+            }
+          }
+        },
+        "MuiAppBar": {
+          "defaultProps": {
+            "elevation": 0,
+            "position": "static"
+          }
+        },
+        "MuiToggleButton": {
+          "styleOverrides": {
+            "root": {
+              "borderRadius": 32,
+              "fontSize": "1em"
+            }
+          }
+        },
+        "MuiTextField": {
+          "defaultProps": {
+            "variant": "standard"
+          }
+        },
+        "MuiInputLabel": {
+          "styleOverrides": {
+            "standard": {
+              "fontSize": "1rem"
+            },
+            "shrink": {
+              "fontSize": "1rem",
+              "fontWeight": "700",
+              "transform": "translate(0, -10px)"
+            }
+          }
+        }
+      }
+    },
+    "faviconSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/CoTEDS-Smart/resources/icon.png",
+    "navbar": {
+      "links": [
+        {
+          "text": "Home",
+          "href": "/CoTEDS-Smart"
+        }
+      ],
+      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/CoTEDS-Smart/resources/icon.png"
+    },
+    "footer": {
+      "columns": [
+        {
+          "title": "Study Links",
+          "items": [
+            {
+              "text": "Home",
+              "href": "#"
+            },
+            {
+              "text": "About the study",
+              "href": "#"
+            },
+            {
+              "text": "LinkedIn",
+              "href": "https://www.linkedin.com/company/onsentia"
+            }
+          ]
+        },
+        {
+          "title": "Contact Us",
+          "items": [
+            {
+              "text": "support@onsentia.com",
+              "href": "mailto:support@onsentia.com"
+            }
+          ]
+        },
+        {
+          "title": "Legal Links",
+          "items": [
+            {
+              "text": "Privacy Policy",
+              "href": "privacy"
+            },
+            {
+              "text": "Cookie Policy",
+              "href": "cookies"
+            }
+          ]
+        }
+      ],
+      "copyrightText": "© 2025 Onsentia"
+    },
+    "portal": {
+      "title": "Complete Tasks to Join Study"
+    },
+    "analytics": {
+      "gaId": ""
+    }
+  }
+}

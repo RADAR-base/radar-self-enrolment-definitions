@@ -1,0 +1,99 @@
+{
+    "blocks": [
+        {
+            "blockType": "column",
+            "noCard": true,
+            "blockBackground": "white",
+            "title": "",
+            "content": {
+                "block1": {
+                    "blockType": "markdown",
+                    "content": "# CoTEDS-Smart\n<br />\nCoTEDS-Smart is an extension to the main CoTEDS study. It is focussed on data that is passively collected via smartwatches, fitness trackers and smartphone health apps.\n\nAt CoTEDS, we are interested in understanding relationships between sleep, physical activity, mental health, and physical health during pregnancy and parenthood. By joining CoTEDS-Smart you would help us learn about these relationships by sharing the high quality data that is passively collected by your fitness tracker.\n<br />\n<button variant='contained' href='CoTEDS-Smart/enrol'>Sign Up Here</button>"
+                },
+                "block2": {
+                    "blockType": "markdown",
+                    "content": "![CoTEDS-Smart](https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/CoTEDS-Smart/resources/image.jpg)"
+                }
+            }
+        },
+        {
+            "blockType": "column",
+            "noCard": true,
+            "blockBackground": "white",
+            "title": "",
+            "content": {
+                "block1": {
+                    "blockType": "markdown",
+                    "content": "![CoTEDS-Smart wearable data](https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/CoTEDS-Smart/resources/icon.png)"
+                },
+                "block2": {
+                    "blockType": "markdown",
+                    "noCard": true,
+                    "title": "Who can take part in CoTEDS-Smart?",
+                    "blockBackground": "white",
+                    "content": "Any CoTEDS participant over the age of 18, regardless of sex or gender, who lives in England, Wales, Northern Ireland, Isle of Man or Guernsey. This means most TEDS twins are eligible to take part, as are most of the partners of TEDS twins.\n<br />\nWe're looking for people who use a smartphone (Apple or Android), Fitbit, Apple Watch, Garmin or Oura Ring.\n<br />\nParticipation in CoTEDS-Smart is entirely optional; you can continue taking part in CoTEDS without joining CoTEDS-Smart. You can also join CoTEDS-Smart regardless of whether you have completed your CoTEDS questionnaires.\n<br />\nYou can withdraw from the study at any time."
+                }
+            }
+        },
+        {
+            "blockType": "column",
+            "noCard": true,
+            "blockBackground": "white",
+            "title": "About CoTEDS-Smart",
+            "content": {
+                "block1": {
+                    "blockType": "text",
+                    "content": "To complement the questionnaire data that you provide, we are interested in exploring relationships using data that is routinely collected by smartwatches, fitness trackers and smartphone apps. Sharing the data collected by them has the potential to provide exciting new scientific insights.\n\nUltimately this may help to inform the development of better health interventions, and improved treatment during pregnancy, the perinatal period and parenthood."
+                },
+                "block2": {
+                    "blockType": "markdown",
+                    "content": "Your data will be collected securely via RADAR-base (managed by Onsentia, developed at King's College London).\n<br /><br />\n<button variant='contained' href='CoTEDS-Smart/enrol'>Sign Up Here</button>"
+                }
+            }
+        },
+        {
+            "blockType": "markdown",
+            "noCard": true,
+            "title": "What will you use this data for?",
+            "blockBackground": "white",
+            "content": "We will collect data from participants' wearable fitness trackers and combine it with other data collected in TEDS and CoTEDS. We will then analyse the combined data to understand associations between fitness tracker data and other indicators of health and wellbeing.\n\nResearch questions we can address include:\n- Can fitness tracker data collected during pregnancy distinguish between parents who experience perinatal physical/mental health problems and those who do not?\n- Does fitness tracker data agree with self-reported questionnaire data on sleep quality and duration?\n- Does parenthood lead to an increase or decrease in physical activity?\n- How do cardiovascular changes occur over the duration of pregnancy?\n\nYour data will not be shared with anyone other than academic researchers and will not be used for any purpose other than health/wellbeing research."
+        },
+        {
+            "blockType": "markdown",
+            "noCard": true,
+            "title": "What does data sharing involve?",
+            "blockBackground": "white",
+            "content": "To share the data that your device collects you will need to connect your device on a secure research platform called RADAR-base. From the website you can:\n- Check that you can take part\n- Sign an electronic consent form\n- Set up a study account\n- Complete up to 4 tasks to connect your device\n\nWe have designed a step-by-step process that will support anyone to connect their device. Completing these steps will take approximately 20 to 35 minutes depending on device (including upload time)."
+        },
+        {
+            "blockType": "accordion",
+            "noCard": true,
+            "title": "Frequently Asked Questions",
+            "items": [
+                {
+                    "title": "Who can take part?",
+                    "content": "Any CoTEDS participant aged 18 or over who lives in England, Wales, Northern Ireland, Isle of Man or Guernsey, and who uses a smartphone (Apple or Android), Fitbit, Apple Watch, Garmin or Oura Ring."
+                },
+                {
+                    "title": "How do I sign up?",
+                    "content": "Click the Sign Up Here button and follow the steps to create an account, read the information sheet, give consent, and connect your device."
+                },
+                {
+                    "title": "What wearable data will you collect?",
+                    "content": "With your permission we will collect passive data such as daily activity, sleep duration and quality, and heart-rate metrics from your connected wearable or health app. This helps us link day-to-day patterns with health and wellbeing during pregnancy and parenthood."
+                },
+                {
+                    "title": "What if I don't own a smartwatch or fitness tracker?",
+                    "content": "In the future we hope to be able to provide smartwatches or fitness trackers to some participants who don't already own one (this depends on funding). If you have expressed an interest and we can provide you with a device, we may be in touch by email."
+                }
+            ]
+        },
+        {
+            "blockType": "markdown",
+            "noCard": true,
+            "title": "Talk to us",
+            "blockBackground": "white",
+            "content": "For questions about CoTEDS-Smart, please contact the CoTEDS study team.\n<br />\nPlease note: participation in CoTEDS-Smart is optional and does not affect your continued participation in CoTEDS."
+        }
+    ]
+}
