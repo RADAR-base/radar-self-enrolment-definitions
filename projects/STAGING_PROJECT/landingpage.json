@@ -4,15 +4,14 @@
       "blockType": "column",
       "blockBackground": "background.secondary",
       "sx": {
-        "margin": "0",
-        "padding": "0",
         "width": "100%"
       },
       "noCard": true,
       "content": {
         "block1": {
           "sx": {
-            "width": "50%"
+            "width": "50%",
+            "align-items": "center"
           },
           "blockType": "hero",
           "title": "Improve Your Sleep with Kings College London Sleep Hygiene Study"
