@@ -4,6 +4,7 @@
       "blockType": "column",
       "blockBackground": "background.secondary",
       "sx": {
+        "margin": "0",
         "width": "100vw"
       },
       "noCard": true,
