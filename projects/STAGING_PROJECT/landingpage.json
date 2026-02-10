@@ -42,12 +42,20 @@
       "blockType": "column",
       "noCard": true,
       "content": {
-        "block1": {},
+        "block1": {
+          "sx": {
+            "width": "50%"
+          }
+        },
         "block2": {
-          "blockType":"markdown",
+          "sx": {
+            "width": "50%"
+          },
+          "blockType": "markdown",
           "noCard": true,
+          "title": "",
           "content": {
-            "block1":{
+            "block1": {
               "blockType": "hero",
               "sx": {
                 "align-items": "top",
@@ -55,8 +63,20 @@
               },
               "title": "About the Sleep Hygiene Study"
             },
-            "block2": {},
-            "block3": {}
+            "block2": {
+              "blockType": "markdown",
+              "noCard": true,
+              "title": "About the study",
+              "blockBackground": "white",
+              "content": "We are inviting people who had a knee replacement...\n\n<ol><li>Information you provide in a survey.</li></ol>"
+            },
+            "block3": {
+              "blockType": "markdown",
+              "noCard": true,
+              "title": "About the study",
+              "blockBackground": "white",
+              "content": "We are inviting people who had a knee replacement...\n\n<ol><li>Information you provide in a survey.</li></ol>"
+            }
           }
         }
       }
