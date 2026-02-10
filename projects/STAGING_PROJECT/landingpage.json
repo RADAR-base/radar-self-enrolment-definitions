@@ -17,7 +17,7 @@
           "cta": {
             "text": "Join Study",
             "href": "/enrol",
-            "color": "success"
+            "variant": "success"
           }
         },
         "block2": {
