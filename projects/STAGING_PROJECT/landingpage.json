@@ -6,6 +6,7 @@
       "content": {
         "block1": {
            "sx": {
+            "backgroundColor": "background.primary",
             "width": "50vw"
           },
           "blockType": "hero",
@@ -28,11 +29,6 @@
               "poster": "http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/poster.png"
             }
           }
-        },
-        "sx": {
-          "columnCount": "2",
-          "padding": "0",
-          "margin": "0"
         }
       }
     }
