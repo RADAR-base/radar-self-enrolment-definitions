@@ -6,7 +6,10 @@
       "content": {
         "block1": {
           "blockType": "hero",
-          "title": "Improve Your Sleep with Kings College London Sleep Hygiene Study"
+          "title": "Improve Your Sleep with Kings College London Sleep Hygiene Study",
+          "sx": {
+            "width": "50%"
+          }
         },
         "block2": {
           "blockType": "video",
@@ -20,6 +23,9 @@
               "autoPlay": false,
               "playsInline": true,
               "poster": "http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/poster.png"
+            },
+            "sx": {
+              "width": "50%"
             }
           }
         },
