@@ -16,11 +16,7 @@
           "title": "Improve Your Sleep with Kings College London Sleep Hygiene Study",
           "cta": {
             "text": "Join Study",
-            "href": "/enrol",
-            "sx":{
-              "bgColor": "primary.main",
-              "fontSize": "1rem"
-            }
+            "href": "/enrol"
           }
         },
         "block2": {
