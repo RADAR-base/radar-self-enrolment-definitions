@@ -13,7 +13,9 @@
             "align-items": "center"
           },
           "blockType": "hero",
-          "title": "# Improve Your Sleep with the King's College London Sleep Hygiene Study\n<br />\n<button variant='contained' href='STAGING_PROJECT/enrol'>Join Study</button>",
+          "title": "Improve Your Sleep with Kings College London Sleep Hygiene Study",
+          "subtitle": "# Improve Your Sleep with the King's College London Sleep Hygiene Study\n<br />\n- Sleep is essential for health and wellbeing\n- Simple habits can improve sleep quality\n<br />\n<img src='https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=800&h=400&auto=format&fit=crop' alt='sleep night sky' style='width:60%; max-width:800px; display:block; margin:0 auto; border-radius:12px;' />\n<br />\n<button variant='contained' href='SSHH-KCL/enrol'>Join Study</button>"
+        },
         "block2": {
           "sx": {
             "width": "50%"
