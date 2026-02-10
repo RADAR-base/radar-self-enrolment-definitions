@@ -60,16 +60,11 @@
         {
           "fieldType": "yesno",
           "id": "criteria2",
-          "description": "Do you live in England, Wales, Northern Ireland, Isle of Man or Guernsey?"
-        },
-        {
-          "fieldType": "yesno",
-          "id": "criteria3",
           "description": "Are you part of the existing CoTEDS study?"
         },
         {
           "fieldType": "yesno",
-          "id": "criteria4",
+          "id": "criteria3",
           "description": "Do you use a smartphone (Apple or Android), Fitbit, Apple Watch, Garmin or Oura Ring?"
         }
       ]
