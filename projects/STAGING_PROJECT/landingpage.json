@@ -4,7 +4,7 @@
       "blockType": "column",
       "blockBackground": "background.secondary",
       "sx": {
-        "width": "50vw"
+        "width": "100vw"
       },
       "noCard": true,
       "content": {
