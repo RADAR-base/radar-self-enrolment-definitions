@@ -3,14 +3,10 @@
     {
       "blockType": "column",
       "noCard": true,
-      "sx": {
-        "padding": "0",
-        "margin": "0"
-      },
       "content": {
         "block1": {
           "blockType": "hero",
-          "title": "Improve Your Sleep with Kings College London Sleep Hygiene Study",
+          "title": "Improve Your Sleep with Kings College London Sleep Hygiene Study"
         },
         "block2": {
           "blockType": "video",
@@ -26,6 +22,10 @@
               "poster": "http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/poster.png"
             }
           }
+        },
+        "sx": {
+          "padding": "0",
+          "margin": "0"
         }
       }
     }
