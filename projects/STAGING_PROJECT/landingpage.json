@@ -14,7 +14,7 @@
           },
           "blockType": "hero",
           "title": "Improve Your Sleep with Kings College London Sleep Hygiene Study",
-          "subtitle": "# <button variant='contained' href='SSHH-KCL/enrol'>Join Study</button>"
+          "subtitle": "# <button variant='secondary' href='SSHH-KCL/enrol'>Join Study</button>"
         },
         "block2": {
           "sx": {
