@@ -161,7 +161,8 @@
                     "fontWeight": "700",
                     "color": "#ffe0da",
                     "wordBreak": "normal",
-                    "overflow": "hidden"
+                    "overflow": "hidden",
+                    "width": "100%"
                 },
                 "h2": {
                     "fontSize": "1.5rem",
