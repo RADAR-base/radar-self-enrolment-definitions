@@ -2,11 +2,14 @@
   "blocks": [
     {
       "blockType": "column",
+      "blockBackground": "background.secondary",
+      "sx": {
+        "width": "50vw"
+      },
       "noCard": true,
       "content": {
         "block1": {
-           "sx": {
-            "backgroundColor": "background.primary",
+          "sx": {
             "width": "50vw"
           },
           "blockType": "hero",
