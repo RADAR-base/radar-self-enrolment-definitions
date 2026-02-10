@@ -22,7 +22,7 @@
               "muted": false,
               "autoPlay": false,
               "playsInline": true,
-              "poster": "http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/STAGING_PROJECT/resources/poster.png"
+              "poster": "http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/poster.png"
             }
           }
         }
