@@ -17,7 +17,10 @@
           "cta": {
             "text": "Join Study",
             "href": "/enrol",
-            "bgcolor": "primary.main"
+            "sx":{
+              "bgColor": "primary.main",
+              "fontSize": "1rem"
+            },
           }
         },
         "block2": {
