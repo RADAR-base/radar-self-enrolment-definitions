@@ -6,8 +6,8 @@
       "content": {
         "block1": {
           "blockType": "hero",
-          "title": "This is a hero title column 1 block 1",
-          "content": "hero block content column 1 block 1 ",
+          "title": "Improve Your Sleep with Kings College London Sleep Hygiene Study",
+          "content": "hero block content column 1 block 1",
           "sx": {
             "bgcolor": "secondary.light",
             "border": "1px solid black"
