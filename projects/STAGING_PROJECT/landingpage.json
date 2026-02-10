@@ -69,13 +69,6 @@
               "title": "About the study",
               "blockBackground": "white",
               "content": "We are inviting people who had a knee replacement...\n\n<ol><li>Information you provide in a survey.</li></ol>"
-            },
-            "block3": {
-              "blockType": "markdown",
-              "noCard": true,
-              "title": "About the study",
-              "blockBackground": "white",
-              "content": "We are inviting people who had a knee replacement...\n\n<ol><li>Information you provide in a survey.</li></ol>"
             }
           }
         }
