@@ -40,12 +40,24 @@
     },
     {
       "blockType": "column",
-      "blockBackground": "white",
+      "noCard": true,
       "content": {
         "block1": {},
         "block2": {
-          "blockType": "hero",
-          "title": "About the Sleep Hygiene Study"
+          "blockType":"markdown",
+          "noCard": true,
+          "content": {
+            "block1":{
+              "blockType": "hero",
+              "sx": {
+                "align-items": "top",
+                "color": "bgcolor.secondary"
+              },
+              "title": "About the Sleep Hygiene Study"
+            },
+            "block2": {},
+            "block3": {}
+          }
         }
       }
     }
