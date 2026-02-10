@@ -157,7 +157,7 @@
                     "whiteSpace": "pre-wrap"
                 },
                 "h1": {
-                    "fontSize": "3rem",
+                    "fontSize": "2.5rem",
                     "fontWeight": "700",
                     "color": "#ffe0da",
                     "wordBreak": "normal",

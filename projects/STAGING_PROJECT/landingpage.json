@@ -7,10 +7,8 @@
         "block1": {
           "blockType": "hero",
           "title": "Improve Your Sleep with Kings College London Sleep Hygiene Study",
-          "content": "hero block content column 1 block 1",
           "sx": {
-            "bgcolor": "secondary.light",
-            "border": "1px solid black"
+            "padding": "0rem"
           }
         },
         "block2": {
