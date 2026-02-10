@@ -8,7 +8,8 @@
           "blockType": "hero",
           "title": "Improve Your Sleep with Kings College London Sleep Hygiene Study",
           "sx": {
-            "padding": "0rem"
+            "padding": "0rem",
+            "margin": "0rem"
           }
         },
         "block2": {
