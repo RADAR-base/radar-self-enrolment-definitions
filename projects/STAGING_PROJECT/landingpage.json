@@ -18,8 +18,7 @@
             "text": "Join Study",
             "href": "SSHH-KCL/enrol",
             "sx": {
-              "backgroundColor": "background.secondary",
-              "padding": "1rem"
+              "width": "20%"
             }
           }
         },
