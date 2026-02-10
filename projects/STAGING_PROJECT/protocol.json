@@ -186,8 +186,7 @@
             },
             "palette": {
                 "background": {
-                    "default": "#ffffff",
-                    "primary": "#214d72",
+                    "default": "#214d72",
                     "secondary": "#9775bd",
                     "tertiary": "#f1b3be",
                     "quaternary": "#ffe0da",
