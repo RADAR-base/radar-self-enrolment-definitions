@@ -24,7 +24,7 @@
             "content": {
                 "block1": {
                     "blockType": "markdown",
-                    "content": "![CoTEDS-Smart wearable data](https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/CoTEDS-Smart/resources/icon.png)"
+                    "content": "![CoTEDS-Smart wearable data](https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/CoTEDS-Smart/resources/image-2.png)"
                 },
                 "block2": {
                     "blockType": "markdown",
@@ -85,6 +85,18 @@
                 {
                     "title": "What if I don't own a smartwatch or fitness tracker?",
                     "content": "In the future we hope to be able to provide smartwatches or fitness trackers to some participants who don't already own one (this depends on funding). If you have expressed an interest and we can provide you with a device, we may be in touch by email."
+                },
+                {
+                    "title": "What is RADAR-base?",
+                    "content": "RADAR-base is a secure, open-source research platform based at King's College London, where CoTEDS is also based. It is used to collect data from wearables, smartphones and other devices. In CoTEDS-Smart, RADAR-base connects your device and collects your activity, sleep and related health data so it can be linked with your existing TEDS and CoTEDS information. Data collected via RADAR-base is stored securely at King's College London."
+                },
+                {
+                    "title": "What is Onsentia?",
+                    "content": "Onsentia manages the RADAR-base platform and self-enrolment portal used in CoTEDS-Smart. Onsentia provides the secure technical infrastructure that allows you to connect your device and share your data safely with the CoTEDS research team."
+                },
+                {
+                    "title": "Are there any incentives for taking part in CoTEDS-Smart?",
+                    "content": "As a thank you for taking part, we plan to offer incentives."
                 }
             ]
         },
@@ -93,7 +105,7 @@
             "noCard": true,
             "title": "Talk to us",
             "blockBackground": "white",
-            "content": "For questions about CoTEDS-Smart, please contact the CoTEDS study team.\n<br />\nPlease note: participation in CoTEDS-Smart is optional and does not affect your continued participation in CoTEDS."
+            "content": "For questions about CoTEDS-Smart, please contact the CoTEDS study team: coteds-project@kcl.ac.uk.\n<br />\nPlease note: participation in CoTEDS-Smart is optional and does not affect your continued participation in CoTEDS.\n<br /><br />\nFor quick answers to common questions, see our [Frequently Asked Questions](#faq) section above."
         }
     ]
 }
