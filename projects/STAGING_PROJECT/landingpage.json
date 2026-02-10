@@ -18,7 +18,7 @@
             "children": "# <button variant='contained' href='SSHH-KCL/enrol'>Join Study</button>",
             "sx": {
               "width": "50%",
-              "backgroundColor": "background.secondary"
+              "backgroundColor": "white"
             }
           }
         },
