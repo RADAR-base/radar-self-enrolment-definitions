@@ -20,7 +20,7 @@
             "sx":{
               "bgColor": "primary.main",
               "fontSize": "1rem"
-            },
+            }
           }
         },
         "block2": {
