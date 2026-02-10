@@ -40,7 +40,7 @@
     },
     {
       "blockType": "column",
-      "sx": {,
+      "sx": {
         "width": "100%"
       },
       "noCard": true,
