@@ -17,7 +17,10 @@
           "cta": {
             "text": "Join Study",
             "href": "SSHH-KCL/enrol",
-            "variant": "contained"
+            "sx": {
+              "backgroundColor": "background.secondary",
+              "padding": "1rem"
+            }
           }
         },
         "block2": {
