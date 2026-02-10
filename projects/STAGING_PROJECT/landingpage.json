@@ -40,12 +40,17 @@
     },
     {
       "blockType": "column",
+      "sx": {,
+        "width": "100%"
+      },
       "noCard": true,
       "content": {
         "block1": {
           "sx": {
             "width": "50%"
-          }
+          },
+          "blockType": "hero",
+          "title": "Image PlaceHolder"
         },
         "block2": {
           "sx": {
@@ -53,7 +58,6 @@
           },
           "blockType": "markdown",
           "noCard": true,
-          "title": "",
           "content": {
             "block1": {
               "sx": {
