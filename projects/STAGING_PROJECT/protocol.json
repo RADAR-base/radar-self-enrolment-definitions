@@ -220,6 +220,7 @@
                     "defaultProps": {
                         "disableElevation": true,
                         "sx": {
+                            "padding": "10px 24px",
                             "borderRadius": 3
                         }
                     }

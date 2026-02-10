@@ -16,10 +16,8 @@
           "title": "Improve Your Sleep with Kings College London Sleep Hygiene Study",
           "cta": {
             "text": "Join Study",
-            "href": "SSHH-KCL/enrol",
-            "sx": {
-              "width": "20%"
-            }
+            "href": "/enrol",
+            "color": "success"
           }
         },
         "block2": {
