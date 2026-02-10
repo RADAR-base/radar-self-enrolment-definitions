@@ -56,19 +56,12 @@
           "title": "",
           "content": {
             "block1": {
-              "blockType": "hero",
               "sx": {
                 "align-items": "top",
                 "color": "bgcolor.secondary"
               },
+              "blockType": "hero",
               "title": "About the Sleep Hygiene Study"
-            },
-            "block2": {
-              "blockType": "markdown",
-              "noCard": true,
-              "title": "About the study",
-              "blockBackground": "white",
-              "content": "We are inviting people who had a knee replacement...\n\n<ol><li>Information you provide in a survey.</li></ol>"
             }
           }
         }
