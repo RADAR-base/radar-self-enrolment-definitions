@@ -37,6 +37,17 @@
           }
         }
       }
+    },
+    {
+      "blockType": "column",
+      "blockBackground": "white",
+      "content": {
+        "block1": {},
+        "block2": {
+          "blockType": "hero",
+          "title": "About the Sleep Hygiene Study"
+        }
+      }
     }
   ]
 }
