@@ -157,21 +157,22 @@
                     "whiteSpace": "pre-wrap"
                 },
                 "h1": {
-                    "fontSize": "2rem",
+                    "fontSize": "3rem",
                     "fontWeight": "700",
-                    "color": "#0E1B4D",
+                    "color": "#ffe0da",
                     "wordBreak": "normal",
-                    "overflow": "hidden"
+                    "overflow": "hidden",
+                    "width": "100%"
                 },
                 "h2": {
                     "fontSize": "1.5rem",
                     "fontWeight": "700",
-                    "color": "#0E1B4D"
+                    "color": "#ffe0da"
                 },
                 "h3": {
                     "fontSize": "1rem",
                     "fontWeight": "700",
-                    "color": "#334155"
+                    "color": "#ffe0da"
                 },
                 "h4": {
                     "fontSize": "1rem",
@@ -186,7 +187,11 @@
             },
             "palette": {
                 "background": {
-                    "default": "#ffffff"
+                    "default": "#214d72",
+                    "secondary": "#9775bd",
+                    "tertiary": "#f1b3be",
+                    "quaternary": "#ffe0da",
+                    "quinary": "#242c3d"
                 },
                 "primary": {
                     "light": "#253168",
@@ -254,6 +259,7 @@
         },
         "faviconSrc": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f319.png",
         "navbar": {
+            "backgroundColor": "background.default",
             "links": [
                 {
                     "text": "Home",
