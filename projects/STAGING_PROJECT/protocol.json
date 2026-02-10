@@ -221,7 +221,6 @@
             "disableElevation": true,
             "sx": {
               "padding": "10px 24px",
-              "backgroundColor": "background.secondary",
               "borderRadius": 3
             }
           }
