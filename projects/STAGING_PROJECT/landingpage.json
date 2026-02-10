@@ -12,12 +12,18 @@
           }
         },
         "block2": {
-          "blockType": "hero",
-          "title": "This is a hero title column 2 block 2",
-          "content": "hero block content column 2 block 2 ",
-          "sx": {
-            "bgcolor": "secondary.light",
-            "border": "1px solid red"
+          "blockType": "video",
+          "video": {
+            "src": "http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RADAR-GLAD-KCL-s1/resources/video.mp4",
+            "type": "video/mp4",
+            "width": "100%",
+            "params": {
+              "controls": true,
+              "muted": false,
+              "autoPlay": false,
+              "playsInline": true,
+              "poster": "http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RADAR-GLAD-KCL-s1/resources/poster.svg"
+            }
           }
         }
       }
