@@ -54,20 +54,12 @@
         },
         "block2": {
           "sx": {
-            "width": "50%"
+            "width": "50%",
+            "align-items": "top",
+            "color": "bgcolor.secondary"
           },
-          "blockType": "markdown",
-          "noCard": true,
-          "content": {
-            "block1": {
-              "sx": {
-                "align-items": "top",
-                "color": "bgcolor.secondary"
-              },
-              "blockType": "hero",
-              "title": "About the Sleep Hygiene Study"
-            }
-          }
+          "blockType": "hero",
+          "title": "About the Sleep Hygiene Study"
         }
       }
     }
