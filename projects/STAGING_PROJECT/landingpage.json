@@ -76,7 +76,8 @@
       "sx": {
         "width": "50%",
         "bgcolor": "background.quaternary",
-        "color": "background.quinary"
+        "color": "background.quinary",
+        "justifyContent": "center"
       },
       "noCard": true,
       "title": "Testing Nesting blocks",
