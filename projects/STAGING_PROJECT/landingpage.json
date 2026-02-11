@@ -53,6 +53,16 @@
       "noCard": true,
       "title": "Testing Nesting blocks"
     },
+    {
+      "blockType": "hero",
+      "sx": {
+        "width": "50%",
+        "bgcolor": "background.quaternary",
+        "color": "background.quinary"
+      },
+      "noCard": true,
+      "title": "About the Sleep Hygiene Study"
+    },
 
     {
       "blockType": "column",
