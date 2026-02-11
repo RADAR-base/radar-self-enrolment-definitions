@@ -48,17 +48,19 @@
       "content": {
         "block1": {
           "sx": {
-            "width": "50%"
+            "width": "50%",
+            "alignContent": "flex-start"
           },
           "blockType": "hero",
           "title": "Image PlaceHolder"
         },
         "block2": {
           "sx": {
-            "width": "50%"
+            "width": "50%",
+            "alignContent": "flex-start"
           },
           "blockType": "hero",
-          "blockBackground": "background.secondary",
+          "blockBackground": "white",
           "title": "About the Sleep Hygiene Study"
         }
       }
