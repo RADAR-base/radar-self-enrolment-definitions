@@ -43,7 +43,8 @@
         "color": "background.quinary",
         "justifyContent": "center",
         "alignItems": "center",
-        "alignContent": "center"
+        "alignContent": "center",
+        "flex": "1"
       },
       "noCard": true,
       "content": {
@@ -61,7 +62,6 @@
             "sx": {
               "fontSize": "1rem",
               "fontWeight": "400",
-              "width": "100%",
               "justifyContent": "center",
               "alignItems": "center",
               "alignContent": "center"
