@@ -162,7 +162,7 @@
           "color": "#ffe0da",
           "wordBreak": "normal",
           "overflow": "hidden",
-          "width": "100%"
+          "width": "auto"
         },
         "h2": {
           "fontSize": "1.5rem",
