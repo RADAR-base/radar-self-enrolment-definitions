@@ -1,6 +1,7 @@
 {
   "sx": {
-    "flexWrap": "wrap"
+    "flexWrap": "wrap",
+    "flexDirection": "row"
   },
   "blocks": [
     {
