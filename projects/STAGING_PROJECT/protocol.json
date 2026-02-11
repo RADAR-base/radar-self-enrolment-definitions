@@ -175,6 +175,10 @@
           "fontSize": "1rem",
           "fontWeight": "600"
         },
+        "span" :{
+            "marginTop:": "1rem",
+            "marginBottom": "auto"
+        },
         "button": {
           "textTransform": "none",
           "wordBreak": "normal"
