@@ -241,12 +241,14 @@
           }
         },
         "MuiBox": {
-          "root": {
-            "width": "100%",
-            "flex": "1",
-            "justifyContent": "center",
-            "alignItems": "center",
-            "alignContent": "center"
+          "styleOverrides": {
+            "root": {
+              "width": "100%",
+              "flex": "1",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "alignContent": "center"
+            }
           }
         },
         "MuiInputLabel": {
