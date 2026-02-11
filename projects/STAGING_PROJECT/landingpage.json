@@ -38,9 +38,9 @@
     {
       "blockType": "column",
       "sx": {
-        "width": "80%",
-        "marginLeft": "10%",
-        "marginRight": "10%",
+        "width": "100%",
+        "paddingLeft": "10%",
+        "paddingRight": "10%",
         "bgcolor": "background.quaternary",
         "color": "background.quinary",
         "justifyContent": "center",
