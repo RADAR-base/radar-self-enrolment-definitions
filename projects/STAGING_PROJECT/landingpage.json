@@ -7,7 +7,8 @@
         "paddingBottom": "auto",
         "width": "100%",
         "height": "100%",
-        "bgcolor": "bg.default"
+        "bgcolor": "bg.default",
+        "color": "background.quaternary"
       },
       "noCard": true,
       "content": {
@@ -45,7 +46,8 @@
       "blockType": "column",
       "sx": {
         "width": "100%",
-        "bgcolor": "background.quaternary"
+        "bgcolor": "background.quaternary",
+        "color": "background.quinary"
       },
       "noCard": true,
       "content": {
