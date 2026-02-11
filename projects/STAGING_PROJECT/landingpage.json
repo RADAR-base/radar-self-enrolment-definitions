@@ -42,7 +42,8 @@
       "blockType": "column",
       "sx": {
         "width": "100%",
-        "bgcolor": "background.secondary"
+        "bgcolor": "background.quaternary",
+        "color": "background.242c3d"
       },
       "noCard": true,
       "content": {
@@ -58,7 +59,6 @@
             "width": "50%"
           },
           "blockType": "hero",
-          "blockBackground": "white",
           "title": "About the Sleep Hygiene Study"
         }
       }
