@@ -39,8 +39,6 @@
       "blockType": "column",
       "sx": {
         "width": "100%",
-        "paddingLeft": "10%",
-        "paddingRight": "10%",
         "bgcolor": "background.quaternary",
         "color": "background.quinary",
         "justifyContent": "center",
@@ -64,8 +62,9 @@
               "fontSize": "1rem",
               "fontWeight": "400",
               "width": "100%",
-              "marginLeft": "auto",
-              "marginRight": "auto"
+              "justifyContent": "center",
+              "alignItems": "center",
+              "alignContent": "center"
             }
           }
         }
