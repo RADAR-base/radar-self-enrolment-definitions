@@ -5,7 +5,8 @@
       "sx": {
         "paddingTop": "1rem",
         "paddingBottom": "1rem",
-        "width": "100%"
+        "width": "100%",
+        "bgcolor": "text.quaternary"
       },
       "noCard": true,
       "content": {
@@ -49,7 +50,7 @@
         "block1": {
           "sx": {
             "width": "50%",
-            "color": "#242c3d"
+            "color": "text.quinary"
           },
           "blockType": "hero",
           "title": "Image PlaceHolder"
@@ -57,7 +58,7 @@
         "block2": {
           "sx": {
             "width": "50%",
-            "color": "#242c3d"
+            "color": "text.quinary"
           },
           "blockType": "hero",
           "title": "About the Sleep Hygiene Study"
