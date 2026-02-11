@@ -12,7 +12,7 @@
         "block1": {
           "sx": {
             "width": "50%",
-            "align-items": "center"
+            "alignItems": "center"
           },
           "blockType": "hero",
           "title": "Improve Your Sleep with Kings College London Sleep Hygiene Study",
@@ -49,7 +49,7 @@
         "block1": {
           "sx": {
             "width": "50%",
-            "alignContent": "flex-start"
+            "alignItems": "flex-start"
           },
           "blockType": "hero",
           "title": "Image PlaceHolder"
@@ -57,7 +57,8 @@
         "block2": {
           "sx": {
             "width": "50%",
-            "alignContent": "flex-start"
+            "alignItems": "flex-start",
+            "textAlign": "left"
           },
           "blockType": "hero",
           "blockBackground": "white",
