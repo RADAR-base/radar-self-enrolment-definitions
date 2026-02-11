@@ -3,9 +3,10 @@
     {
       "blockType": "column",
       "sx": {
-        "paddingTop": "1rem",
-        "paddingBottom": "1rem",
+        "paddingTop": "auto",
+        "paddingBottom": "auto",
         "width": "100%",
+        "height": "100%",
         "bgcolor": "bg.default"
       },
       "noCard": true,
@@ -43,14 +44,15 @@
       "blockType": "column",
       "sx": {
         "width": "100%",
-        "bgcolor": "background.quaternary"
+        "bgcolor": "background.quaternary",
+        "color": "black"
       },
       "noCard": true,
       "content": {
         "block1": {
           "sx": {
             "width": "50%",
-            "color": "primary.main"
+            "color": "black"
           },
           "blockType": "hero",
           "title": "Image PlaceHolder"
@@ -58,7 +60,7 @@
         "block2": {
           "sx": {
             "width": "50%",
-            "color": "primary.main"
+            "color": "black"
           },
           "blockType": "hero",
           "title": "About the Sleep Hygiene Study"
