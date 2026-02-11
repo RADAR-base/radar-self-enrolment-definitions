@@ -3,8 +3,8 @@
     {
       "blockType": "column",
       "sx": {
-        "paddingTop": "2rem",
-        "paddingBottom": "2rem",
+        "paddingTop": "1rem",
+        "paddingBottom": "1rem",
         "width": "100%"
       },
       "noCard": true,
@@ -47,7 +47,8 @@
       "content": {
         "block1": {
           "sx": {
-            "width": "50%"
+            "width": "50%",
+            "align-items": "top"
           },
           "blockType": "hero",
           "title": "Image PlaceHolder"
