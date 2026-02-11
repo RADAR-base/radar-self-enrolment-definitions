@@ -44,26 +44,32 @@
     },
 
     {
-      "blockType": "hero",
       "sx": {
-        "width": "50%",
-        "bgcolor": "background.quaternary",
-        "color": "background.quinary",
         "flexDirection": "column"
       },
-      "noCard": true,
-      "title": "Testing Nesting blocks"
-    },
-    {
-      "blockType": "hero",
-      "sx": {
-        "width": "50%",
-        "bgcolor": "background.quaternary",
-        "color": "background.quinary",
-        "flexDirection": "column"
+      
+      {
+        "blockType": "hero",
+        "sx": {
+          "width": "50%",
+          "bgcolor": "background.quaternary",
+          "color": "background.quinary",
+          "flexDirection": "column"
+        },
+        "noCard": true,
+        "title": "Testing Nesting blocks"
       },
-      "noCard": true,
-      "title": "About the Sleep Hygiene Study"
+      {
+        "blockType": "hero",
+        "sx": {
+          "width": "50%",
+          "bgcolor": "background.quaternary",
+          "color": "background.quinary",
+          "flexDirection": "column"
+        },
+        "noCard": true,
+        "title": "About the Sleep Hygiene Study"
+      }
     },
 
     {
