@@ -240,6 +240,13 @@
             "variant": "standard"
           }
         },
+        "MuiTypography": {
+          "styleOverrides": {
+            "root": {
+              "width": "100%"
+            }
+          }
+        },
         "MuiBox": {
           "styleOverrides": {
             "root": {
