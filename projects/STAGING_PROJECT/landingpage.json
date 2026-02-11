@@ -62,10 +62,7 @@
             "block1": {
               "blockType": "text",
               "content": "test"
-            },
-            "block2": {
-              "blockType": "text",
-              "content": "test"
+            }
           }
         },
         "block2": {
