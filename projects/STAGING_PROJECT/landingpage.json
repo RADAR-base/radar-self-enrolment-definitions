@@ -42,6 +42,18 @@
         }
       }
     },
+
+    {
+      "blockType": "hero",
+      "sx": {
+        "width": "50%",
+        "bgcolor": "background.quaternary",
+        "color": "background.quinary"
+      },
+      "noCard": true,
+      "title": "Testing Nesting blocks"
+    },
+
     {
       "blockType": "column",
       "sx": {
@@ -57,13 +69,7 @@
             "color": "background.quinary"
           },
           "blockType": "markdown",
-          "title": "Testing Nesting blocks",
-          "content": {
-            "block1": {
-              "blockType": "text",
-              "content": "test"
-            }
-          }
+          "title": "Testing Nesting blocks"
         },
         "block2": {
           "sx": {
