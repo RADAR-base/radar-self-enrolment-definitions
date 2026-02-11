@@ -44,7 +44,7 @@
         "justifyContent": "center",
         "alignItems": "center",
         "alignContent": "center",
-        "flex": "1"
+        "flex": "1 1 auto"
       },
       "noCard": true,
       "content": {
@@ -54,7 +54,8 @@
         },
         "block2": {
           "sx": {
-            "width": "100%"
+            "width": "100%",
+            "flex": "1 1 auto"
           },
           "blockType": "hero",
           "title": {
@@ -62,9 +63,11 @@
             "sx": {
               "fontSize": "1rem",
               "fontWeight": "400",
+              "width": "100%",
               "justifyContent": "center",
               "alignItems": "center",
-              "alignContent": "center"
+              "alignContent": "center",
+              "flex": "1 1 auto"
             }
           }
         }
