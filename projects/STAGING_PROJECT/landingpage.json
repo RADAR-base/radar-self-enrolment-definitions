@@ -58,7 +58,7 @@
             "width": "50%"
           },
           "blockType": "hero",
-          "blockBackground": "background.secondary"
+          "blockBackground": "background.secondary",
           "title": "About the Sleep Hygiene Study"
         }
       }
