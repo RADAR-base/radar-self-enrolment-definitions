@@ -1,4 +1,7 @@
 {
+  "sx": {
+    "flexWrap": "wrap"
+  },
   "blocks": [
     {
       "blockType": "column",
