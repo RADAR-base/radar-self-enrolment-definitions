@@ -48,14 +48,16 @@
       "sx": {
         "width": "100%",
         "bgcolor": "background.quaternary",
-        "color": "background.quinary"
+        "color": "background.quinary",
+        "alignContent": "center"
       },
       "noCard": true,
       "content": {
         "block1": {
           "sx": {
             "width": "50%",
-            "color": "background.quinary"
+            "color": "background.quinary",
+            "alignContent": "center"
           },
           "blockType": "hero",
           "title": "About the Sleep Hygiene Study"
