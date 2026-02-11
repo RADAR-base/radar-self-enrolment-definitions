@@ -63,7 +63,8 @@
         "block2": {
           "sx": {
             "width": "50%",
-            "color": "background.quinary"
+            "color": "background.quinary",
+            "justifyContent": "center"
           },
           "blockType": "markdown",
           "content": "The King's College London Sleep Hygiene Study aims to understand how  daily routines and digital device data relate to sleep quality.  Participants will complete short questionnaires and, if they choose, can connect wearable devices or smartphone apps to share relevant sleep and activity data."
@@ -76,8 +77,7 @@
       "sx": {
         "width": "50%",
         "bgcolor": "background.quaternary",
-        "color": "background.quinary",
-        "justifyContent": "center"
+        "color": "background.quinary"
       },
       "noCard": true,
       "title": "Testing Nesting blocks",
