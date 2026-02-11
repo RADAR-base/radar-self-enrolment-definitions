@@ -53,10 +53,6 @@
       "noCard": true,
       "content": {
         "block1": {
-          "sx": {
-            "width": "50%",
-            "color": "background.quinary"
-          },
           "blockType": "hero",
           "title": "About the Sleep Hygiene Study"
         },
