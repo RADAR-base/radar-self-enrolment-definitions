@@ -41,25 +41,24 @@
     {
       "blockType": "column",
       "sx": {
-        "width": "100%"
+        "width": "100%",
+        "alignContent": "flex-start"
       },
       "noCard": true,
       "content": {
         "block1": {
           "sx": {
-            "width": "50%",
-            "align-items": "top"
+            "width": "50%"
           },
           "blockType": "hero",
           "title": "Image PlaceHolder"
         },
         "block2": {
           "sx": {
-            "width": "50%",
-            "align-items": "top",
-            "color": "bgcolor.secondary"
+            "width": "50%"
           },
           "blockType": "hero",
+          "blockBackground": "background.secondary"
           "title": "About the Sleep Hygiene Study"
         }
       }
