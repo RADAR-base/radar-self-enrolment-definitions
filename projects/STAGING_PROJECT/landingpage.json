@@ -40,10 +40,7 @@
       "sx": {
         "width": "100%",
         "bgcolor": "background.quaternary",
-        "color": "background.quinary",
-        "alignItems": "center",
-        "alignContent": "center",
-        "justifyContent": "center"
+        "color": "background.quinary"
       },
       "noCard": true,
       "content": {
@@ -53,7 +50,12 @@
         },
         "block2": {
           "blockType": "markdown",
-          "content": "The King's College London Sleep Hygiene Study aims to understand how  daily routines and digital device data relate to sleep quality.  Participants will complete short questionnaires and, if they choose, can connect wearable devices or smartphone apps to share relevant sleep and activity data."
+          "content": "The King's College London Sleep Hygiene Study aims to understand how  daily routines and digital device data relate to sleep quality.  Participants will complete short questionnaires and, if they choose, can connect wearable devices or smartphone apps to share relevant sleep and activity data.",
+          "sx": {
+            "alignItems": "center",
+            "alignContent": "center",
+            "justifyContent": "center"
+          }
         }
       }
     },
