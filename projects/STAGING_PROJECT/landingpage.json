@@ -51,7 +51,8 @@
         "color": "background.quinary"
       },
       "noCard": true,
-      "title": "Testing Nesting blocks"
+      "title": "Testing Nesting blocks",
+      "subtitle": "Testing subtitle for nesting blocks"
     },
     {
       "blockType": "hero",
@@ -61,7 +62,8 @@
         "color": "background.quinary"
       },
       "noCard": true,
-      "title": "About the Sleep Hygiene Study"
+      "title": "About the Sleep Hygiene Study",
+      "subtitle": "Testing subtitle for nesting blocks"
     },
 
     {
