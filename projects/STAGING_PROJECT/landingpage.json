@@ -41,25 +41,20 @@
     {
       "blockType": "column",
       "sx": {
-        "width": "100%",
-        "alignContent": "flex-start"
+        "width": "100%"
       },
       "noCard": true,
       "content": {
         "block1": {
           "sx": {
-            "width": "50%",
-            "alignItems": "flex-start"
+            "width": "50%"
           },
           "blockType": "hero",
           "title": "Image PlaceHolder"
         },
         "block2": {
           "sx": {
-            "width": "50%",
-            "alignItems": "flex-start",
-            "textAlign": "left",
-            "alignContent": "flex-end"
+            "width": "50%"
           },
           "blockType": "hero",
           "blockBackground": "white",
