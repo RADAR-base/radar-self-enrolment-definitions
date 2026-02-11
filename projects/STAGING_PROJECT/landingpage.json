@@ -41,7 +41,8 @@
     {
       "blockType": "column",
       "sx": {
-        "width": "100%"
+        "width": "100%",
+        "bgcolor": "background.secondary"
       },
       "noCard": true,
       "content": {
