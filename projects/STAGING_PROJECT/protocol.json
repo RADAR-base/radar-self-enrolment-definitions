@@ -159,17 +159,20 @@
         "h1": {
           "fontSize": "3rem",
           "fontWeight": "700",
+          "color": "#ffe0da",
           "wordBreak": "normal",
           "overflow": "hidden",
           "width": "auto"
         },
         "h2": {
           "fontSize": "1.5rem",
-          "fontWeight": "700"
+          "fontWeight": "700",
+          "color": "#ffe0da"
         },
         "h3": {
           "fontSize": "1rem",
-          "fontWeight": "700"
+          "fontWeight": "700",
+          "color": "#ffe0da"
         },
         "h4": {
           "fontSize": "1rem",
@@ -190,14 +193,6 @@
           "quaternary": "#ffe0da",
           "quinary": "#242c3d"
         },
-        "text": {
-          "default": "#214d72",
-          "secondary": "#9775bd",
-          "tertiary": "#f1b3be",
-          "quaternary": "#ffe0da",
-          "quinary": "#242c3d"
-        },
-
         "primary": {
           "light": "#253168",
           "main": "#0E1B4D",
