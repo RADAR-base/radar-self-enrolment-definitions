@@ -93,6 +93,7 @@
         "width": "100%",
         "bgcolor": "background.quaternary",
         "color": "background.quinary",
+        "paddingBottom": "2rem",
 
         "& .MuiBox-root": {
           "flex": "1",
@@ -145,7 +146,35 @@
       },
       "blockType": "markdown",
       "noCard": true,
-      "title": "Who Can Take Part"
+      "title": "Who Can Take Part",
+      "content": "After completing the sign-up form, the study enrollment process consists of the following steps:"
+    },
+
+    {
+      "sx": {
+        "width": "100%",
+        "bgcolor": "background.quaternary",
+        "color": "background.quinary"
+      },
+      "blockType": "column",
+      "content": {
+        "block1": {
+          "blockType": "markdown",
+          "content": "Test"
+        },
+        "block2": {
+          "blockType": "markdown",
+          "content": "Test"
+        },
+        "block3": {
+          "blockType": "markdown",
+          "content": "Test"
+        },
+        "block4": {
+          "blockType": "markdown",
+          "content": "Test"
+        }
+      }
     }
   ]
 }
