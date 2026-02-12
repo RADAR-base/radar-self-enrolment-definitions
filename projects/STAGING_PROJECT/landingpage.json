@@ -13,8 +13,12 @@
         "& .MuiTypography-h1": {
           "flex": "1"
         },
-        "& .MuiGrid2-root": {
-          "alignContent": "center"
+        "& .MuiTypography": {
+          "flex": "1"
+        },
+        "& .MuiBox-root": {
+          "alignContent": "center",
+          "alignItems": "center"
         }
       },
       "noCard": true,
