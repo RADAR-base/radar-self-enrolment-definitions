@@ -23,7 +23,8 @@
         },
 
         "& .MuiButton-root": {
-          "backgroundColor": "#ffe0da"
+          "backgroundColor": "#ffe0da",
+          "color": "#242c3d"
         }
       },
       "noCard": true,
