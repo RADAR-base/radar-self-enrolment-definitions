@@ -16,9 +16,12 @@
         "& .MuiTypography": {
           "flex": "1"
         },
+        "& .MuiGrid2-root": {
+          "alignContent": "center"
+        },
         "& .MuiBox-root": {
-          "alignContent": "center",
-          "alignItems": "center"
+          "alignItems": "center",
+          "flex": "1"
         }
       },
       "noCard": true,
