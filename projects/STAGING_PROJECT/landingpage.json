@@ -66,6 +66,7 @@
         },
 
         "& .MuiTypography-h2": {
+          "flex": "1",
           "fontSize": "3rem",
           "fontWeight": "700",
           "width": "100%",
@@ -105,6 +106,7 @@
         },
 
         "& .MuiTypography-h2": {
+          "flex": "1",
           "fontSize": "3rem",
           "fontWeight": "700",
           "width": "100%",
@@ -114,14 +116,12 @@
       "noCard": true,
       "content": {
         "block1": {
-          "sx": { "width": "50%" },
           "blockType": "markdown",
           "title": "Who Can Take Part",
-          "content": ""
+          "content": "You can withdraw from the study at any time"
         },
         "block2": {
-          "sx": { "width": "50%" },
-          "blockType": "markdown",
+          "blockType": "hero",
           "title": ""
         }
       }
