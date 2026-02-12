@@ -10,10 +10,10 @@
         "justifyContent": "center",
         "alignItems": "center",
         "alignContent": "center",
-        "& .mui-1fm2dmf": {
+        "& .MuiTypography-h1": {
           "flex": "1"
         },
-        "& .mui-1mkg23x": {
+        "& .MuiGrid2-root": {
           "alignContent": "center"
         }
       },
