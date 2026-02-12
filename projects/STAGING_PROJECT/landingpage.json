@@ -16,7 +16,7 @@
           "flex": "1"
         },
         "& .mui-1mkg23x": {
-          "justifyContent": "center"
+          "alignContent": "center"
         }
       },
       "noCard": true,
