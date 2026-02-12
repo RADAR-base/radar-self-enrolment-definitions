@@ -124,7 +124,7 @@
         },
         "block2": {
           "blockType": "markdown",
-          "content": "<div style='display: flex; gap: 2rem; align-items: center; justify-content: space-between'><h3>Be Aged 16 Or Over</h3><img src='http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/uk.png' width='30%'/></div><div style='display: flex; gap: 2rem; align-items: center; justify-content: space-between'><h3>Live in the UK</h3><img src='http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/uk.png' width='30%'/></div>"
+          "content": "<div style='display: flex; gap: 2rem; align-items: center; justify-content: space-between margin-bottom: 1rem;'><h3>Be Aged 16 Or Over</h3><img src='http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/uk.png' width='30%'/></div><div style='display: flex; gap: 2rem; align-items: center; justify-content: space-between; margin-top: 1rem;'><h3>Live in the UK</h3><img src='http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/uk.png' width='30%'/></div>"
         }
       }
     }
