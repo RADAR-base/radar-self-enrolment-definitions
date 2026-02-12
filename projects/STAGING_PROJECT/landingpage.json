@@ -50,9 +50,13 @@
     {
       "blockType": "column",
       "sx": {
-        "maxWidth": "90%",
-        "bgcolor": "background.tertiary",
-        "color": "background.quinary"
+        "width": "100%",
+        "bgcolor": "background.quaternary",
+        "color": "background.quinary",
+
+        "& .MuiTypography-h1": {
+          "flex": "1"
+        }
       },
       "noCard": true,
       "content": {
