@@ -130,6 +130,19 @@
     },
 
     {
+      "sx": {
+        "width": "100%",
+        "bgcolor": "background.quaternary",
+        "color": "background.quinary",
+
+        "& .MuiTypography-h2": {
+          "flex": "1",
+          "fontSize": "3rem",
+          "fontWeight": "700",
+          "width": "100%",
+          "textAlign": "left"
+        }
+      },
       "blockType": "markdown",
       "noCard": true,
       "title": "Who Can Take Part"
