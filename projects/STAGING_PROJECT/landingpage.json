@@ -114,11 +114,13 @@
       "noCard": true,
       "content": {
         "block1": {
+          "sx": { "width": "50%" },
           "blockType": "markdown",
           "title": "Who Can Take Part",
           "content": ""
         },
         "block2": {
+          "sx": { "width": "50%" },
           "blockType": "markdown",
           "title": ""
         }
