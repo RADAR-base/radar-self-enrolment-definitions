@@ -114,7 +114,7 @@
           "width": "100%",
           "textAlign": "left"
         }
-      },
+      }, 
       "noCard": true,
       "content": {
         "block1": {
@@ -124,7 +124,7 @@
         },
         "block2": {
           "blockType": "markdown",
-          "content": "# <img src='http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/uk.png' style='width: 30%; height: auto'/>"
+          "content": "<img src='http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/uk.png' width='30%'/>"
         }
       }
     }
