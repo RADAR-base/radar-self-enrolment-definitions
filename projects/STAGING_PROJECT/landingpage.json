@@ -55,13 +55,14 @@
         "paddingBottom": "2rem",
         "bgcolor": "background.quaternary",
         "color": "background.quinary",
-        "justifyContent": "center",
-        "alignItems": "center",
-        "alignContent": "center",
 
         "& .MuiBox-root": {
           "flex": "1",
           "alignItems": "center"
+        },
+
+        "& .MuiGrid2-root": {
+          "alignContent": "center"
         },
 
         "& .MuiTypography-h2": {
