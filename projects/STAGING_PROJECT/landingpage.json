@@ -51,13 +51,15 @@
       "blockType": "column",
       "sx": {
         "width": "100%",
+        "paddingTop": "2rem",
+        "paddingBottom": "2rem",
         "bgcolor": "background.quaternary",
         "color": "background.quinary",
         "justifyContent": "center",
         "alignItems": "center",
         "alignContent": "center",
 
-        "& .MuiTypography-h1": {
+        "& .MuiBox-root": {
           "flex": "1"
         }
       },
