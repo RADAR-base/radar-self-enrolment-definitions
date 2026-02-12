@@ -4,6 +4,7 @@
       "blockType": "column",
       "sx": {
         "width": "100%",
+        "maxWidth": "90%",
         "height": "100%",
         "bgcolor": "bg.default",
         "color": "background.quaternary",
