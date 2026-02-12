@@ -4,9 +4,13 @@
       "blockType": "column",
       "sx": {
         "width": "100%",
+        "maxWidth": "90%",
         "height": "100%",
         "bgcolor": "bg.default",
         "color": "background.quaternary",
+        "justifyContent": "start",
+        "alignItems": "center",
+        "alignContent": "center",
         "& .MuiTypography-h1": {
           "flex": "1"
         },
