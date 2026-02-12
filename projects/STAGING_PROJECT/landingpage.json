@@ -101,6 +101,7 @@
 
         "& .MuiGrid2-root": {
           "alignSelf": "center",
+          "width": "100%",
           "alignContent": "center"
         },
 
