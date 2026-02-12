@@ -27,7 +27,7 @@
         "block1": {
           "blockType": "hero",
           "title": "Improve Your Sleep with King's College London Sleep Hygiene Study",
-          "subtitle": "<button style='fontSize: 2rem; padding: 10px 24px; margin: 1rem 0; background-color: #ffe0da; color: #242c3d; align-self:flex-start' variant='contained' href='STAGING_PROJECT/enrol'>Join Study</button>"
+          "subtitle": "<button style='fontSize: 2rem; padding: 10px 24px; margin: 1rem 0; color: #242c3d; align-self:flex-start' variant='contained' href='STAGING_PROJECT/enrol'>Join Study</button>"
         },
         "block2": {
           "blockType": "video",
