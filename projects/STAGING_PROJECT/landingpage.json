@@ -51,7 +51,7 @@
       "blockType": "column",
       "sx": {
         "maxWidth": "90%",
-        "bgcolor": "background.triary",
+        "bgcolor": "background.tertiary",
         "color": "background.quinary"
       },
       "noCard": true,
