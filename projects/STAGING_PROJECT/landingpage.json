@@ -50,8 +50,8 @@
     {
       "blockType": "column",
       "sx": {
-        "width": "100%",
-        "bgcolor": "background.quaternary",
+        "maxWidth": "90%",
+        "bgcolor": "background.triary",
         "color": "background.quinary"
       },
       "noCard": true,
