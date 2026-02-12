@@ -14,7 +14,8 @@
           "flex": "1"
         },
         "& .MuiTypography": {
-          "flex": "1"
+          "flex": "1",
+          "alignSelf": "flex-start"
         },
         "& .MuiGrid2-root": {
           "alignContent": "center"
