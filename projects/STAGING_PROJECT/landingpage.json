@@ -62,7 +62,7 @@
         },
 
         "& .MuiGrid2-root": {
-          "alignContent": "center"
+          "alignSelf": "center"
         },
 
         "& .MuiTypography-h2": {
