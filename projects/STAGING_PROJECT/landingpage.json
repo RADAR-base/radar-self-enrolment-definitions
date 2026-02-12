@@ -160,7 +160,7 @@
         "width": "100%",
         "bgcolor": "background.quaternary",
         "color": "background.quinary",
-        "textAlign": "center"
+        "align": "center"
       },
       "noCard": true,
       "blockType": "column",
