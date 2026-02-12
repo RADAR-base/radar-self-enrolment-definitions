@@ -102,7 +102,7 @@
 
         "& .MuiGrid2-root": {
           "alignSelf": "center"
-        },
+        }
       },
       "noCard": true,
       "content": {
