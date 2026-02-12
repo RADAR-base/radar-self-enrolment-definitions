@@ -20,6 +20,11 @@
         "& .MuiBox-root": {
           "alignItems": "center",
           "flex": "1"
+        },
+
+        "&:hover": {
+          "backgroundColor": "#f1b3be",
+          "color": "#242c3d" 
         }
       },
       "noCard": true,
