@@ -123,13 +123,13 @@
       "noCard": true,
       "content": {
         "block1": {
-          "blockType": "markdown",
+          "blockType": "hero",
           "title": "Who Can Take Part",
-          "content": "You can withdraw from the study at any time"
+          "subtitle": "You can withdraw from the study at any time"
         },
         "block2": {
           "blockType": "markdown",
-          "content": "<div><h2>Live in the UK</h2><div></div><div><h2>Live in the UK</h2></div></div>"
+          "content": "<div><h3>Be aged 16 or over</h3><div></div><div><h3>Live in the UK</h3></div></div>"
         }
       }
     }
