@@ -52,54 +52,20 @@
       "sx": {
         "width": "100%",
         "bgcolor": "background.quaternary",
-        "color": "background.quinary",
-        "justifyContent": "center",
-        "alignItems": "center",
-        "alignContent": "center"
+        "color": "background.quinary"
       },
       "noCard": true,
       "content": {
-        "sx": {
-          "bgcolor": "background.tertiary"
-        },
         "block1": {
           "blockType": "hero",
           "title": "About the Sleep Hygiene Study"
         },
         "block2": {
           "blockType": "hero",
-          "title": {
-            "children": "The King's College London Sleep Hygiene Study aims to understand how  daily routines and digital device data relate to sleep quality.  Participants will complete short questionnaires and, if they choose, can connect wearable devices or smartphone apps to share relevant sleep and activity data.",
-            "sx": {
-              "fontSize": "1rem",
-              "fontWeight": "400"
-            }
+          "subtitle": "The King's College London Sleep Hygiene Study aims to understand how daily routines and digital device data relate to sleep quality. Participants will complete short questionnaires and, if they choose, can connect wearable devices or smartphone apps to share relevant sleep and activity data."
           }
         }
       }
-    },
-
-    {
-      "blockType": "hero",
-      "sx": {
-        "width": "50%",
-        "bgcolor": "background.quaternary",
-        "color": "background.quinary"
-      },
-      "noCard": true,
-      "title": "Testing Nesting blocks",
-      "subtitle": "Testing subtitle for nesting blocks"
-    },
-    {
-      "blockType": "hero",
-      "sx": {
-        "width": "50%",
-        "bgcolor": "background.quaternary",
-        "color": "background.quinary"
-      },
-      "noCard": true,
-      "title": "About the Sleep Hygiene Study",
-      "subtitle": "Testing subtitle for nesting blocks"
     }
   ]
 }
