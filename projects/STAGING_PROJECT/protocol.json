@@ -240,21 +240,12 @@
             "variant": "standard"
           }
         },
-        "MuiTypography": {
-          "styleOverrides": {
-            "root": {
-              "width": "100%"
-            }
-          }
-        },
         "MuiBox": {
           "styleOverrides": {
             "root": {
               "width": "100%",
-              "flex": "1",
-              "justifyContent": "center",
-              "alignItems": "center",
-              "alignContent": "center"
+              "flexDirection": "row",
+              "flexWrap": "wrap"
             }
           }
         },
