@@ -244,8 +244,12 @@
           "styleOverrides": {
             "root": {
               "width": "100%",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "alignContent": "center",
               "flexDirection": "row",
-              "flexWrap": "wrap"
+              "flexWrap": "wrap",  
+               "flex": "1" 
             }
           }
         },

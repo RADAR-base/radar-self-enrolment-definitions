@@ -8,7 +8,10 @@
         "width": "100%",
         "height": "100%",
         "bgcolor": "bg.default",
-        "color": "background.quaternary"
+        "color": "background.quaternary",
+        "&.mui-1fm2dmf": {
+          "flex": "1"
+        }
       },
       "noCard": true,
       "content": {
@@ -43,10 +46,7 @@
         "color": "background.quinary",
         "justifyContent": "center",
         "alignItems": "center",
-        "alignContent": "center",
-        "padding": "0",
-        "margin": "0",
-        "flex": "1"
+        "alignContent": "center"
       },
       "noCard": true,
       "content": {
