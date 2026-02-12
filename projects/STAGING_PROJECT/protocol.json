@@ -240,6 +240,17 @@
             "variant": "standard"
           }
         },
+        "MuiBox": {
+          "defaultProps": {
+            "sx": {
+              "flexDirection": "row",
+              "flexWrap": "wrap"
+            }
+          },
+          "styleOverrides": {
+            "root": { "flexDirection": "row", "flexWrap": "wrap" }
+          }
+        },
         "MuiInputLabel": {
           "styleOverrides": {
             "standard": {

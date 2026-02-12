@@ -51,6 +51,7 @@
       "blockType": "column",
       "sx": {
         "width": "100%",
+        "maxWidth": "90%",
         "bgcolor": "background.quaternary",
         "color": "background.quinary",
         "justifyContent": "center",
@@ -59,6 +60,9 @@
       },
       "noCard": true,
       "content": {
+        "sx": {
+          "bgcolor": "background.tertiary"
+        },
         "block1": {
           "blockType": "hero",
           "title": "About the Sleep Hygiene Study"
@@ -79,7 +83,7 @@
     {
       "blockType": "hero",
       "sx": {
-        "width": "50%",
+        "width": "100%",
         "bgcolor": "background.quaternary",
         "color": "background.quinary"
       },
@@ -90,7 +94,7 @@
     {
       "blockType": "hero",
       "sx": {
-        "width": "50%",
+        "width": "100%",
         "bgcolor": "background.quaternary",
         "color": "background.quinary"
       },
