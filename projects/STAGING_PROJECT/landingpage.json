@@ -91,8 +91,8 @@
       "blockType": "column",
       "sx": {
         "width": "100%",
-        "bgcolor": "background.quaternary",
-        "color": "background.quinary",
+        "bgcolor": "background.secondary",
+        "color": "background.quaternary",
         "paddingBottom": "2rem",
 
         "& .MuiBox-root": {
@@ -133,8 +133,8 @@
     {
       "sx": {
         "width": "100%",
-        "bgcolor": "background.secondary",
-        "color": "background.quaternary",
+        "bgcolor": "background.quaternary",
+        "color": "background.quinary",
 
         "& .MuiTypography-h2": {
           "flex": "1",
@@ -146,7 +146,7 @@
       },
       "blockType": "markdown",
       "noCard": true,
-      "title": "Who Can Take Part",
+      "title": "What Happens After You Sign Up",
       "content": "After completing the sign-up form, the study enrollment process consists of the following steps:"
     },
 
