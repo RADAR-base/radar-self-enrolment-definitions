@@ -240,19 +240,6 @@
             "variant": "standard"
           }
         },
-        "MuiBox": {
-          "styleOverrides": {
-            "root": {
-              "width": "100%",
-              "justifyContent": "center",
-              "alignItems": "center",
-              "alignContent": "center",
-              "flexDirection": "row",
-              "flexWrap": "wrap",  
-               "flex": "1" 
-            }
-          }
-        },
         "MuiInputLabel": {
           "styleOverrides": {
             "standard": {

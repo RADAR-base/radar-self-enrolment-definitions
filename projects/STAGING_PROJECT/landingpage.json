@@ -9,7 +9,7 @@
         "height": "100%",
         "bgcolor": "bg.default",
         "color": "background.quaternary",
-        "&.mui-1fm2dmf": {
+        "& .mui-1fm2dmf": {
           "flex": "1"
         }
       },
