@@ -118,7 +118,7 @@
         },
         "block2": {
           "blockType": "markdown",
-          "content": "<div><div style='display: flex; gap: 20%; align-items: center; justify-content: center'><h3>Be aged 16 or over</h3></div><div style='display:flex; gap:20%; align-items:center;justify-content:center'><h3>Live in the UK</h3><div style='width: 30%; max-width:30%><img src='http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/uk.png'/></div></div></div>"
+          "content": "# <div style='display: flex; gap: 20%; align-items: center; justify-content: center'><h3>Be aged 16 or over</h3></div><div style='display:flex; gap:20%; align-items:center;justify-content:center'><h3>Live in the UK</h3><div style='width: 30%'><img src='http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/uk.png'/></div></div>"
         }
       }
     }
