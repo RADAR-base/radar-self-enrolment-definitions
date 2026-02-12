@@ -100,7 +100,7 @@
         },
 
         "& .MuiGrid2-root": {
-          "alignSelf": "center",
+          "alignSelf": "center"
         },
 
         "& .MuiTypography-h1": {
