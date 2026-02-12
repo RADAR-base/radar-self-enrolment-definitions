@@ -115,7 +115,7 @@
           "textAlign": "left"
         },
 
-        "& .MuiTypography-body": {
+        "& .MuiTypography-body1": {
           "width": "100%",
           "textAlign": "left"
         }
