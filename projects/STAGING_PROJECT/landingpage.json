@@ -128,8 +128,8 @@
           "content": "You can withdraw from the study at any time"
         },
         "block2": {
-          "blockType": "hero",
-          "title": ""
+          "blockType": "markdown",
+          "content": "<div><h2>Live in the UK</h2><div></div><div><h2>Live in the UK</h2></div></div>"
         }
       }
     }
