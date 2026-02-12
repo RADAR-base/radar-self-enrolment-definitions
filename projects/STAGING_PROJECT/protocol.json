@@ -240,6 +240,13 @@
             "variant": "standard"
           }
         },
+        
+        "mui-1kfdq23": {
+          "styleOverrides": {
+            "flexWrap": "wrap",
+            "flexDirection": "row"
+          }
+        },
         "MuiInputLabel": {
           "styleOverrides": {
             "standard": {
