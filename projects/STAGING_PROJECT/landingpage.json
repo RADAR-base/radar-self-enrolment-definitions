@@ -133,8 +133,8 @@
     {
       "sx": {
         "width": "100%",
-        "bgcolor": "background.quaternary",
-        "color": "background.quinary",
+        "bgcolor": "background.secondary",
+        "color": "background.quaternary",
 
         "& .MuiTypography-h2": {
           "flex": "1",
