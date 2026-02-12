@@ -124,7 +124,7 @@
         },
         "block2": {
           "blockType": "markdown",
-          "content": "<div style='display: flex; gap:20%; justify-content: center; align-items: center'><h3>Live in the UK</h3><img src='http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/uk.png' width='30%'/></div>"
+          "content": "<div style='display: flex; justify-content: center; align-items: center'><h3 style='margin-right:20%'>Live in the UK</h3><img src='http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/uk.png' width='30%'/></div>"
         }
       }
     }
