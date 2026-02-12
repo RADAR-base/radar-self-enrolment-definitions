@@ -219,6 +219,12 @@
             "sx": {
               "borderRadius": 3
             }
+          },
+          "root": {
+            "&:hover": {
+              "backgroundColor": "#f1b3be",
+              "color": "#242c3d"
+            }
           }
         },
         "MuiAppBar": {
