@@ -51,7 +51,6 @@
       "blockType": "column",
       "sx": {
         "width": "100%",
-        "maxWidth": "90%",
         "bgcolor": "background.quaternary",
         "color": "background.quinary",
         "justifyContent": "center",
@@ -83,7 +82,7 @@
     {
       "blockType": "hero",
       "sx": {
-        "width": "100%",
+        "width": "50%",
         "bgcolor": "background.quaternary",
         "color": "background.quinary"
       },
@@ -94,7 +93,7 @@
     {
       "blockType": "hero",
       "sx": {
-        "width": "100%",
+        "width": "50%",
         "bgcolor": "background.quaternary",
         "color": "background.quinary"
       },
