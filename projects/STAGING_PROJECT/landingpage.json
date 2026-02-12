@@ -156,6 +156,7 @@
         "bgcolor": "background.quaternary",
         "color": "background.quinary"
       },
+      "noCard": true,
       "blockType": "column",
       "content": {
         "block1": {
