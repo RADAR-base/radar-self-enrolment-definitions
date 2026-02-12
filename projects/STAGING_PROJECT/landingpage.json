@@ -159,25 +159,30 @@
       "sx": {
         "width": "100%",
         "bgcolor": "background.quaternary",
-        "color": "background.quinary"
+        "color": "background.quinary",
+        "textAlign": "center"
       },
       "noCard": true,
       "blockType": "column",
       "content": {
         "block1": {
           "blockType": "markdown",
+          "title": "Img",
           "content": "Reading the Information Sheet"
         },
         "block2": {
           "blockType": "markdown",
+          "title": "Img",
           "content": "Providing consent"
         },
         "block3": {
           "blockType": "markdown",
+          "title": "Img",
           "content": "Completing our questionnaire"
         },
         "block4": {
           "blockType": "markdown",
+          "title": "Img",
           "content": "Connecting wearable devices or health apps"
         }
       }
