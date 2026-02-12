@@ -81,7 +81,7 @@
         "block2": {
           "blockType": "markdown",
           "title": "About the Sleep Hygiene Study",
-          "content": "The King's College London Sleep Hygiene Study aims to understand how daily routines and digital device data relate to sleep quality. Participants will complete short questionnaires and, if they choose, can connect wearable devices or smartphone apps to share relevant sleep and activity data."
+          "content": "The King's College London Sleep Hygiene Study aims to understand how daily routines and digital device data relate to sleep quality. Participants will complete short questionnaires and, if they choose, can connect wearable devices or smartphone apps to share relevant sleep and activity data.\n<br /><br />Partners: King's College London, South London and Maudsley NHS Foundation Trust.\n<br /><br />\n<button variant='contained' href='https://www.kcl.ac.uk/'>Learn more</button>"
         }
       }
     },
@@ -102,13 +102,21 @@
 
         "& .MuiGrid2-root": {
           "alignSelf": "center"
+        },
+
+        "& .MuiTypography-h2": {
+          "fontSize": "3rem",
+          "fontWeight": "700",
+          "width": "100%",
+          "textAlign": "left"
         }
       },
       "noCard": true,
       "content": {
         "block1": {
-          "blockType": "hero",
-          "title": "Who Can Take Part"
+          "blockType": "markdown",
+          "title": "Who Can Take Part",
+          "content": ""
         },
         "block2": {
           "blockType": "markdown",
