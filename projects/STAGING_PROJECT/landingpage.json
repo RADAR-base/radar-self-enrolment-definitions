@@ -91,8 +91,6 @@
       "blockType": "column",
       "sx": {
         "width": "100%",
-        "paddingTop": "2rem",
-        "paddingBottom": "2rem",
         "bgcolor": "background.quaternary",
         "color": "background.quinary",
 
@@ -102,13 +100,24 @@
         },
 
         "& .MuiGrid2-root": {
-          "alignSelf": "center"
+          "alignSelf": "center",
+          "alignContent": "center"
+        },
+
+        "& .MuiTypography-h1": {
+          "flex": "1",
+          "width": "100%",
+          "textAlign": "left"
         },
 
         "& .MuiTypography-h2": {
           "flex": "1",
           "fontSize": "3rem",
           "fontWeight": "700",
+          "width": "100%",
+          "textAlign": "left"
+        },
+        "& .MuiTypography-body1": {
           "width": "100%",
           "textAlign": "left"
         }
@@ -122,7 +131,7 @@
         },
         "block2": {
           "blockType": "markdown",
-          "content": "<div><div><h2>Be aged 16 or over</h2><div></div><div><h2>Live in the UK</h2></div></div>"
+          "content": "<div><div><h3>Be aged 16 or over</h3><div></div><div><h3>Live in the UK</h3></div></div>"
         }
       }
     }
