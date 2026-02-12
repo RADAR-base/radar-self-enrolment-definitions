@@ -160,8 +160,10 @@
         "width": "100%",
         "bgcolor": "background.quaternary",
         "color": "background.quinary",
-        "textAlign": "center",
-        "flexGrow": "1"
+
+        "& .MuiTypography-root": {
+          "textAlign": "center"
+        }
       },
       "noCard": true,
       "blockType": "column",
