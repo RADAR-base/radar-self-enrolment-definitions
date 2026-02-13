@@ -162,7 +162,8 @@
 
         "& .MuiBox-root": {
           "flex": "none",
-          "alignItems": "center"
+          "alignItems": "center",
+          "justifyContent": "center"
         },
 
         "& .MuiGrid2-root": {
@@ -193,6 +194,38 @@
         }
       }
     },
+
+     {
+        "blockType": "column",
+        "noCard": true,
+        "blockBackground": "#9775bd",
+        "sx": {
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "center",
+        "width": "100%",
+        "color": "#ffffff",
+
+        "& .MuiTypography-root": {
+          "textAlign": "center"
+        }
+      },
+      "content": {
+        "block1": {
+          "blockType": "markdown",
+          "title": "Img",
+          "content": "Contributing to research on digital wellbeing and sleep health"
+        },
+        "block2": {
+          "blockType": "markdown",
+          "title": "Receive a summary of your own sleep data at the end of the study",
+        },
+        "block3": {
+          "blockType": "markdown",
+          "title": "Help improve public health recommendations around screen time and sleep",
+        }
+      }
+    }
 
     {
       "sx": {
