@@ -162,8 +162,7 @@
 
         "& .MuiBox-root": {
           "flex": "none",
-          "alignItems": "center",
-          "justifyContent": "center"
+          "alignItems": "center"
         },
 
         "& .MuiGrid2-root": {
@@ -193,6 +192,26 @@
           "content": "<div style='display: flex; gap: 2rem; align-items: center; justify-content: space-between; margin-bottom: 2rem;'><h3>Are 13 years or older</h3><img src='http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/uk.png' width='40%'/></div><div style='display: flex; gap: 2rem; align-items: center; justify-content: space-between; margin-bottom: 2rem'><h3>Regularly use a smartphone & Own a wearable device</h3><img src='http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/uk.png' width='40%'/></div><div style='display: flex; gap: 2rem; align-items: center; justify-content: space-between; margin-bottom: 2rem;'><h3>Install two secure research apps on your smartphone</h3><img src='http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/uk.png' width='40%'/></div><div style='display: flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Wear your device regularly, including overnight</h3><img src='http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/uk.png' width='40%'/></div>"
         }
       }
+    },
+
+    {
+      "blockType": "markdown",
+      "noCard": true,
+      "blockBackground": "#9775bd",
+      "sx": {
+        "width": "100%",
+        "color": "#ffffff",
+
+        "& .MuiTypography-h2": {
+          "fontSize": "3rem",
+          "fontWeight": "700",
+          "width": "100%",
+          "textAlign": "left"
+        }
+      },
+
+      "title": "Benefits",
+      "content": "Although there is no direct financial reward. However:"
     },
 
     {
