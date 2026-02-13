@@ -168,7 +168,6 @@
 
         "& .MuiGrid2-root": {
           "alignSelf": "center"
-
         },
 
         "& .MuiTypography-h1": {
@@ -270,8 +269,7 @@
       },
       "blockType": "markdown",
       "noCard": true,
-      "title": "What Happens After You Sign Up",
-      "content": "After completing the sign-up form, the study enrollment process consists of the following steps:"
+      "title": "How This Study Works"
     },
 
     {
@@ -289,23 +287,23 @@
       "content": {
         "block1": {
           "blockType": "markdown",
-          "title": "Img",
-          "content": "Reading the Information Sheet"
+          "title": "Phone Data is Collected",
+          "content": "Track your app usage and screen habits"
         },
         "block2": {
           "blockType": "markdown",
-          "title": "Img",
-          "content": "Providing consent"
+          "title": "Sleep Data is Collected",
+          "content": "Monitor your sleep, heart rate and movement patterns through your wearable device"
         },
         "block3": {
           "blockType": "markdown",
-          "title": "Img",
-          "content": "Completing our questionnaire"
+          "title": "Answer Questionnaires",
+          "content": "Recieve short daily questionnaires about your sleep and mood"
         },
         "block4": {
           "blockType": "markdown",
-          "title": "Img",
-          "content": "Connecting wearable devices or health apps"
+          "title": "Analayse Patterns Overtime",
+          "content": "Researchers will analyse the sleep data over several months to identify patterns and insights"
         }
       }
     }
