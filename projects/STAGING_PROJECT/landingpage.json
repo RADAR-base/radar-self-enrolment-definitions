@@ -161,12 +161,14 @@
         "paddingBottom": "2rem",
 
         "& .MuiBox-root": {
-          "flex": "none",
+          "flex": "0.8",
+          "width": "100%",
           "alignItems": "center"
         },
 
         "& .MuiGrid2-root": {
           "alignSelf": "center"
+
         },
 
         "& .MuiTypography-h1": {
