@@ -53,9 +53,9 @@
     {
       "blockType": "column",
       "noCard": true,
+      "blockBackground": "background.secondary",
       "sx": {
         "width": "100%",
-        "bgcolor": "bg.secondary",
         "color": "primary.contrastText",
         "paddingBottom": "2rem",
 
