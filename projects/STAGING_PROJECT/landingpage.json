@@ -53,9 +53,14 @@
     {
       "sx": {
         "width": "100%",
-        "bgcolor": "bg.default",
-        "color": "background.quaternary",
-        "paddingBottom": "2rem"
+        "bgcolor": "bg.secondary",
+        "color": "background.white",
+        "paddingBottom": "2rem",
+
+        "& .MuiBox-root": {
+          "width": "100%",
+          "flex": "0"
+        }
       },
       "noCard": true,
       "blockType": "hero",
