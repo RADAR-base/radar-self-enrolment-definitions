@@ -61,7 +61,9 @@
 
         "& .MuiBox-root": {
           "flex": "1",
-          "alignItems": "center"
+          "alignItems": "center",
+          "paddingLeft": "0rem",
+          "paddingRight": "0rem"
         },
 
         "& .MuiGrid2-root": {
