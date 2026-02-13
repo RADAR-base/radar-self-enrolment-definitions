@@ -215,15 +215,13 @@
       "components": {
         "MuiButton": {
           "defaultProps": {
-            "disableElevation": true,
-            "color": "#ffffff"
+            "disableElevation": true
           },
           "styleOverrides": {
             "root": {
               "&:hover": {
                 "backgroundColor": "#f1b3be",
-                "color": "#242c3d",
-                "borderRadius": "24px"
+                "color": "#242c3d"
               }
             }
           }
@@ -236,9 +234,7 @@
           "styleOverrides": {
             "root": {
               "backgroundColor": "#214d72",
-              "color": "#ffffff",
-              "border": "none",
-              "boxShadow": "none"
+              "color": "#ffffff"
             }
           }
         },
