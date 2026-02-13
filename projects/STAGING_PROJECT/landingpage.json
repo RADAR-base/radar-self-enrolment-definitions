@@ -44,8 +44,7 @@
               "controls": true,
               "muted": false,
               "autoPlay": false,
-              "playsInline": true,
-              "poster": "http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/poster.png"
+              "playsInline": true
             }
           }
         }
@@ -81,7 +80,10 @@
       "content": {
         "block1": {
           "blockType": "hero",
-          "title": ""
+          "heroImg": {
+            "src": "http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/sleep.png",
+            "alt": "Sleep Hygiene Study Illustration"
+          }
         },
         "block2": {
           "blockType": "markdown",
@@ -96,6 +98,7 @@
       "sx": {
         "width": "100%",
         "paddingTop": "2rem",
+        "paddingBottom": "2rem",
         "bgcolor": "background.quaternary",
         "color": "background.quinary",
 
