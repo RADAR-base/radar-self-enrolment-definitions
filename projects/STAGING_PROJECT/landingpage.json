@@ -103,7 +103,7 @@
         "block2": {
           "blockType": "markdown",
           "title": "About the Sleep Hygiene Study",
-          "content": "The Study of Sleep Hygiene and Health is a citizen science research project investigating how smartphone use — particularly before bedtime — influences sleep quality, duration, and overall sleep hygiene.\n<br />By combining wearable device data, smartphone usage information, and short daily questionnaires, we aim to better understand the relationship between digital behaviour and sleep in real-world settings.\n<br />Partners: King's College London, South London and Maudsley NHS Foundation Trust.\n<br />\n<a variant='contained' href='http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/RADAR_Sleep_Hygiene_PIS.pdf' target='_blank' download='RADAR_Sleep_Hygiene_PIS.pdf'>Learn more</a>"
+          "content": "The Study of Sleep Hygiene and Health is a citizen science research project investigating how smartphone use — particularly before bedtime — influences sleep quality, duration, and overall sleep hygiene.\n<br />By combining wearable device data, smartphone usage information, and short daily questionnaires, we aim to better understand the relationship between digital behaviour and sleep in real-world settings.\n<br />Partners: King's College London, South London and Maudsley NHS Foundation Trust.\n<br />\n<button variant='contained' href='http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/RADAR_Sleep_Hygiene_PIS.pdf' target='_blank' download='RADAR_Sleep_Hygiene_PIS.pdf'>Learn more</button>"
         }
       }
     },
