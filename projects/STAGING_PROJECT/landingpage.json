@@ -6,7 +6,7 @@
         "width": "100%",
         "height": "100%",
         "bgcolor": "bg.default",
-        "color": "background.quaternary",
+        "color": "#ffffff",
         "justifyContent": "center",
         "alignItems": "center",
         "alignContent": "center",
@@ -185,7 +185,7 @@
         "block1": {
           "blockType": "hero",
           "title": "Who Can Take Part",
-          "subtitle": "You can withdraw from the study at any time"
+          "subtitle": "No diagnosed medical condition is required — this is a general population study.<br />You can withdraw from the study at any time."
         },
         "block2": {
           "blockType": "markdown",
