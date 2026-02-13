@@ -128,7 +128,7 @@
         },
         "block2": {
           "blockType": "markdown",
-          "content": "<div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Investigate whether increased screen time before sleep is associated with:</h2><br /><p>Delayed sleep onset<br />Shorter sleep duration<br />Reduced sleep efficiency</p></div><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Examine whether different app categories (e.g., social media, gaming, productivity) have different effects on sleep</h2></div>            <div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Compare sleep patterns across different age groups</h2></div><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Explore long-term sleep behaviour over several months</h2></div>"
+          "content": "<div style='display:flex; gap: 1rem; flex-direction:column'><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Investigate whether increased screen time before sleep is associated with:</h2><br /><p>Delayed sleep onset<br />Shorter sleep duration<br />Reduced sleep efficiency</p></div><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Examine whether different app categories (e.g., social media, gaming, productivity) have different effects on sleep</h2></div>            <div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Compare sleep patterns across different age groups</h2></div><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Explore long-term sleep behaviour over several months</h2></div></div>"
         }
       }
     },
