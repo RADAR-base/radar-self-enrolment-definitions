@@ -52,10 +52,11 @@
 
     {
       "blockType": "hero",
+      "noCard": true,
       "sx": {
         "width": "100%",
         "bgcolor": "bg.secondary",
-        "color": "white",
+        "color": "primary.contrastText",
         "paddingBottom": "2rem",
 
         "& .MuiBox-root": {
