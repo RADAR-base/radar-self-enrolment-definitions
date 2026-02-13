@@ -80,7 +80,7 @@
       "content": {
         "block1": {
           "blockType": "markdown",
-          "content": "![Sleep Hygiene Illustration](http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/poster.png)"
+          "content": "<img src='http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/poster.png' alt='Sleep Hygiene Poster' width='80%'/>"
         },
         "block2": {
           "blockType": "markdown",
