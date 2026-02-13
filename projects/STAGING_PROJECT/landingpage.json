@@ -54,6 +54,10 @@
       "blockType": "hero",
       "noCard": true,
       "blockBackground": "#9775bd",
+      "sx":{
+        "color": "#ffffff",
+        "width": "100rem"
+      },
       "title": "Smartphones are now an integral part of daily life. Many people use their phones before bed — for social media, messaging, gaming, or watching videos. However, it is not fully understood how different types of phone interactions influence sleep."
     },
 
