@@ -11,15 +11,14 @@
         "alignItems": "center",
         "alignContent": "center",
         "& .MuiTypography-h1": {
-          "flex": "auto",
+          "flex": "1",
           "alignSelf": "flex-start"
         },
         "& .MuiGrid2-root": {
           "alignContent": "center"
         },
         "& .MuiBox-root": {
-          "alignItems": "center",
-          "flex": "auto"
+          "alignItems": "center"
         },
 
         "& .MuiButton-root": {
@@ -60,7 +59,6 @@
         "color": "background.quinary",
 
         "& .MuiBox-root": {
-          "flex": "auto",
           "alignItems": "flex-start",
           "paddingLeft": "0rem",
           "paddingRight": "0rem"
@@ -71,7 +69,7 @@
         },
 
         "& .MuiTypography-h2": {
-          "flex": "auto",
+          "flex": "1",
           "fontSize": "3rem",
           "fontWeight": "700",
           "width": "100%",
@@ -102,7 +100,6 @@
         "color": "background.quinary",
 
         "& .MuiBox-root": {
-          "flex": "auto",
           "alignItems": "center"
         },
 
@@ -111,13 +108,13 @@
         },
 
         "& .MuiTypography-h1": {
-          "flex": "auto",
+          "flex": "1",
           "width": "100%",
           "textAlign": "left"
         },
 
         "& .MuiTypography-h2": {
-          "flex": "auto",
+          "flex": "1",
           "fontSize": "1.5rem",
           "fontWeight": "700",
           "width": "100%",
@@ -147,7 +144,6 @@
         "paddingBottom": "2rem",
 
         "& .MuiBox-root": {
-          "flex": "auto",
           "alignItems": "center"
         },
 
@@ -156,13 +152,13 @@
         },
 
         "& .MuiTypography-h1": {
-          "flex": "auto",
+          "flex": "1",
           "width": "100%",
           "textAlign": "left"
         },
 
         "& .MuiTypography-body1": {
-          "flex": "auto",
+          "flex": "1",
           "width": "100%",
           "textAlign": "left"
         }
@@ -188,7 +184,7 @@
         "color": "background.quinary",
 
         "& .MuiTypography-h2": {
-          "flex": "auto",
+          "flex": "1",
           "fontSize": "3rem",
           "fontWeight": "700",
           "width": "100%",
