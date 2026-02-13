@@ -108,6 +108,12 @@
           "alignSelf": "center"
         },
 
+        "& .MuiTypography-h1": {
+          "flex": "1",
+          "width": "100%",
+          "textAlign": "left"
+        },
+
         "& .MuiTypography-h2": {
           "flex": "1",
           "fontSize": "1.5rem",
