@@ -232,12 +232,12 @@
         "MuiAppBar": {
           "defaultProps": {
             "elevation": 0,
-            "position": "static",
-            "backgroundColor": "background.quaternary"
+            "position": "static"
           },
           "styleOverrides": {
             "root": {
-              "backgroundColor": "#ffe0da"
+              "color": "#ffffff",
+              "backgroundColor": "background.default"
             }
           }
         },
