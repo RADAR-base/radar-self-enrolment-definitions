@@ -80,9 +80,10 @@
       "content": {
         "block1": {
           "blockType": "hero",
+          "title": "",
           "heroImg": {
             "src": "http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/sleep.png",
-            "alt": "Sleep Hygiene Study Illustration"
+            "altText": "Sleep Hygiene Study Illustration"
           }
         },
         "block2": {
