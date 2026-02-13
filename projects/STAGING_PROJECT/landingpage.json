@@ -204,12 +204,17 @@
         "textAlign": "center",
         "gap": "0",
         "paddingBottom": "0rem",
-        "justifyContent": "center",
 
         "& .MuiTypography-h2": {
           "fontSize": "3rem",
           "fontWeight": "700",
           "width": "100%"
+        },
+
+        "& .MuiBox-root": {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "gap": "0"
         }
       },
 
