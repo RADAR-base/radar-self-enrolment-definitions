@@ -254,7 +254,11 @@
             "flexWrap": "wrap"
           },
           "styleOverrides": {
-            "root": { "flexDirection": "row", "flexWrap": "wrap" }
+            "root": { 
+              "flexDirection": "row",
+              "flexWrap": "wrap",
+              "minHeight": "auto"
+             }
           }
         },
         "MuiInputLabel": {
