@@ -232,9 +232,13 @@
         "MuiAppBar": {
           "defaultProps": {
             "elevation": 0,
-            "position": "static",
-            "backgroundColor": "background.default",
-            "color": "#ffffff"
+            "position": "static"
+          },
+          "styleOverrides": {
+            "root": {
+              "backgroundColor": "#214d72",
+              "color": "#ffffff"
+            }
           }
         },
         "MuiToggleButton": {
