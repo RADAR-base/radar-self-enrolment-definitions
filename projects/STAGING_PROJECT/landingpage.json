@@ -79,11 +79,8 @@
       "noCard": true,
       "content": {
         "block1": {
-          "blockType": "hero",
-          "title": "",
-          "heroImg": {
-            "src": "http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/sleep.png",
-            "altText": "Sleep Hygiene Study Illustration"
+          "blockType": "markdown",
+          "content": "![Sleep Hygiene Illustration](http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/sleep.png)"
           }
         },
         "block2": {
