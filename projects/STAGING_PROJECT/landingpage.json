@@ -201,12 +201,13 @@
       "sx": {
         "width": "100%",
         "color": "#ffffff",
+        "textAlign": "center",
+        "gap": "0",
 
         "& .MuiTypography-h2": {
           "fontSize": "3rem",
           "fontWeight": "700",
-          "width": "100%",
-          "textAlign": "left"
+          "width": "100%"
         }
       },
 
