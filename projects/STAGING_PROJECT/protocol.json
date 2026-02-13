@@ -216,7 +216,6 @@
         "MuiButton": {
           "defaultProps": {
             "disableElevation": true,
-            "borderRadius": 3,
             "color": "#ffffff"
           },
           "styleOverrides": {
