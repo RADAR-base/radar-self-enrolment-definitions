@@ -254,10 +254,10 @@
             "flexWrap": "wrap"
           },
           "styleOverrides": {
-            "root": { 
+            "root": {
               "flexDirection": "row",
               "flexWrap": "wrap"
-             }
+            }
           }
         },
         "MuiInputLabel": {
@@ -276,6 +276,7 @@
     },
     "faviconSrc": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f319.png",
     "navbar": {
+      "blockBackground": "#ffe0da",
       "links": [
         {
           "text": "Home",
@@ -287,9 +288,7 @@
     "footer": {
       "columns": [
         {
-          "sx": {
-            "bgcolor": "background.default"
-          },
+          "blockBackground": "#ffe0da",
           "title": "Study Links",
           "items": [
             {
