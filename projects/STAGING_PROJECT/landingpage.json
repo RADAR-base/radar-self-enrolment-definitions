@@ -120,12 +120,13 @@
       "content": {
         "block1": {
           "blockType": "markdown",
-          "title": "What is the purpose of this study?",
+          "title": "Our Aims",
           "content": "Smartphones are now an integral part of daily life. Many people use their phones before bed — for social media, messaging, gaming, or watching videos. However, it is not fully understood how different types of phone interactions influence sleep."
         },
         "block2": {
-          "blockType": "hero",
-          "title": ""
+          "blockType": "markdown",
+          "title": "Investigate whether increased screen time before sleep is associated with: Delayed sleep onset, Shorter sleep duration, Reduced sleep efficiency\nExamine whether different app categories (e.g., social media, gaming, productivity) have different effects on sleep\nCompare sleep patterns across different age groups\nExplore long-term sleep behaviour over several months",
+          "content": "Our goal is to generate evidence that can inform healthier digital habits and improve sleep hygiene recommendations."
         }
       }
     },
