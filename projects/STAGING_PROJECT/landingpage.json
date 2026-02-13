@@ -51,7 +51,7 @@
     },
 
     {
-      "blockType": "hero",
+      "blockType": "column",
       "noCard": true,
       "sx": {
         "width": "100%",
@@ -64,7 +64,12 @@
           "flex": "1"
         }
       },
-      "title": "Smartphones are now an integral part of daily life. Many people use their phones before bed — for social media, messaging, gaming, or watching videos. However, it is not fully understood how different types of phone interactions influence sleep."
+      "content": {
+        "block1": {
+          "blockType": "hero",
+          "title": "Smartphones are now an integral part of daily life. Many people use their phones before bed — for social media, messaging, gaming, or watching videos. However, it is not fully understood how different types of phone interactions influence sleep."
+        }
+      }
     },
 
     {
