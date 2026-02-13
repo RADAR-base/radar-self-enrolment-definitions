@@ -128,9 +128,8 @@
         },
         "block2": {
           "blockType": "markdown",
-          "content": "<div style='background-color: white; border-radius: 48px'><h2>1. Investigate whether increased screen time before sleep is associated with: Delayed sleep onset, Shorter sleep duration, Reduced sleep efficiency\n<br />Examine whether different app categories (e.g., social media, gaming, productivity) have different effects on sleep\n<br />Compare sleep patterns across different age groups\n<br />Explore long-term sleep behaviour over several months</h2><br /></div><br /><p>Our goal is to generate evidence that can inform healthier digital habits and improve sleep hygiene recommendations.</p>"
-
-          }
+          "content": "<div style='background-color: white; border-radius: 48px; padding:2rem'><h2>1. Investigate whether increased screen time before sleep is associated with:</h2><p>Delayed sleep onset<br />Shorter sleep duration<br />Reduced sleep efficiency</p></div>"
+        }
       }
     },
 
