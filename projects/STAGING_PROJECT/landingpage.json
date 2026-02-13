@@ -61,7 +61,7 @@
         "alignContent": "center",
 
         "& .MuiBox-root": {
-          "flex": "1",
+          "flex": "none",
           "width": "100%",
           "gap": "0"
         }
