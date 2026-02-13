@@ -216,14 +216,14 @@
         "MuiButton": {
           "defaultProps": {
             "disableElevation": true,
-            "borderRadius": "32px",
             "color": "#ffffff"
           },
           "styleOverrides": {
             "root": {
               "&:hover": {
                 "backgroundColor": "#f1b3be",
-                "color": "#242c3d"
+                "color": "#242c3d",
+                "borderRadius": "24px"
               }
             }
           }
