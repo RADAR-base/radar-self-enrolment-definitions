@@ -57,7 +57,6 @@
       "sx": {
         "width": "100%",
         "paddingTop": "2rem",
-        "paddingBottom": "2rem",
         "bgcolor": "background.quaternary",
         "color": "background.quinary",
 
@@ -87,7 +86,46 @@
         "block2": {
           "blockType": "markdown",
           "title": "About the Sleep Hygiene Study",
-          "content": "The King's College London Sleep Hygiene Study aims to understand how daily routines and digital device data relate to sleep quality. Participants will complete short questionnaires and, if they choose, can connect wearable devices or smartphone apps to share relevant sleep and activity data.\n<br />Partners: King's College London, South London and Maudsley NHS Foundation Trust.\n<br />\n<button variant='contained' href='https://www.kcl.ac.uk/'>Learn more</button>"
+          "content": "The Study of Sleep Hygiene and Health is a citizen science research project investigating how smartphone use — particularly before bedtime — influences sleep quality, duration, and overall sleep hygiene.\n<br />By combining wearable device data, smartphone usage information, and short daily questionnaires, we aim to better understand the relationship between digital behaviour and sleep in real-world settings.\n<br />Partners: King's College London, South London and Maudsley NHS Foundation Trust.\n<br /><br />\n<button variant='contained' href='https://www.kcl.ac.uk/'>Learn more</button>"
+        }
+      }
+    },
+
+    {
+      "blockType": "column",
+      "sx": {
+        "width": "100%",
+        "paddingTop": "2rem",
+        "bgcolor": "background.quaternary",
+        "color": "background.quinary",
+
+        "& .MuiBox-root": {
+          "flex": "1",
+          "alignItems": "center"
+        },
+
+        "& .MuiGrid2-root": {
+          "alignSelf": "center"
+        },
+
+        "& .MuiTypography-h2": {
+          "flex": "1",
+          "fontSize": "3rem",
+          "fontWeight": "700",
+          "width": "100%",
+          "textAlign": "left"
+        }
+      },
+      "noCard": true,
+      "content": {
+        "block1": {
+          "blockType": "markdown",
+          "title": "What is the purpose of this study?",
+          "content": "Smartphones are now an integral part of daily life. Many people use their phones before bed — for social media, messaging, gaming, or watching videos. However, it is not fully understood how different types of phone interactions influence sleep."
+        },
+        "block2": {
+          "blockType": "hero",
+          "title": ""
         }
       }
     },
