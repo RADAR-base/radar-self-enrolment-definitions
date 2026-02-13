@@ -195,11 +195,11 @@
       }
     },
 
-     {
-        "blockType": "column",
-        "noCard": true,
-        "blockBackground": "#9775bd",
-        "sx": {
+    {
+      "blockType": "column",
+      "noCard": true,
+      "blockBackground": "#9775bd",
+      "sx": {
         "justifyContent": "center",
         "alignItems": "center",
         "alignContent": "center",
@@ -218,14 +218,14 @@
         },
         "block2": {
           "blockType": "markdown",
-          "title": "Receive a summary of your own sleep data at the end of the study",
+          "title": "Receive a summary of your own sleep data at the end of the study"
         },
         "block3": {
           "blockType": "markdown",
-          "title": "Help improve public health recommendations around screen time and sleep",
+          "title": "Help improve public health recommendations around screen time and sleep"
         }
       }
-    }
+    },
 
     {
       "sx": {
