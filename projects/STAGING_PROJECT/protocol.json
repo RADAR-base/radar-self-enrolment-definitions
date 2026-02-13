@@ -218,7 +218,8 @@
             "disableElevation": true,
             "sx": {
               "color": "#ffffff",
-              "borderRadius": 3
+              "borderRadius": 3,
+              "borderColor": "#f1b3be"
             }
           },
           "styleOverrides": {
