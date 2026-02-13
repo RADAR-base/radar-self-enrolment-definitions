@@ -256,8 +256,7 @@
           "styleOverrides": {
             "root": { 
               "flexDirection": "row",
-              "flexWrap": "wrap",
-              "minHeight": "auto"
+              "flexWrap": "wrap"
              }
           }
         },
