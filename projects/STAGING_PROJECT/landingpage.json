@@ -335,13 +335,13 @@
           "noCard": true,
           "title": "Use The RADAR-base Apps",
           "content": "RADAR Passive App and RADAR Active App"
+        },
+        "block3": {
+          "blockType": "markdown",
+          "noCard": true,
+          "title": "Take The Cognitive Tests",
+          "content": "You will be invited to complete short online cognitive tasks using the Cognitron platform to explore how sleep and phone use relate to attention and thinking performance."
         }
-      },
-      "block3": {
-        "blockType": "markdown",
-        "noCard": true,
-        "title": "Take The Cognitive Tests",
-        "content": "You will be invited to complete short online cognitive tasks using the Cognitron platform to explore how sleep and phone use relate to attention and thinking performance."
       }
     },
     {
