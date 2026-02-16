@@ -327,19 +327,22 @@
         "block1": {
           "blockType": "markdown",
           "noCard": true,
+          "sx": {
+            "bgcolor": "#fffff",
+            "padding": "2rem"
+          },
           "title": "Wear Your Wearable Device",
           "content": "We will ask you to wear your fitness tracker or smart device as much as possible during the study (for at least 3 months, optionally up to 12 months). From this, we will measure Sleep duration, Sleep stages (where available), Sleep onset and offset, Heart rate, Physical activity"
         },
         "block2": {
           "blockType": "markdown",
-          "noCard": true,
-          "title": "Use The RADAR-base Apps",
+          "subtitle": "Use The RADAR-base Apps",
           "content": "RADAR Passive App and RADAR Active App"
         },
         "block3": {
           "blockType": "markdown",
           "noCard": true,
-          "title": "Take The Cognitive Tests",
+          "subtitle": "Take The Cognitive Tests",
           "content": "You will be invited to complete short online cognitive tasks using the Cognitron platform to explore how sleep and phone use relate to attention and thinking performance."
         }
       }
