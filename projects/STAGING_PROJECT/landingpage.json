@@ -323,7 +323,7 @@
         }
       },
       "title": "Your Participation",
-      "content": "<div><h3>Wear Your Wearable Device</h3></div>"
+      "content": "<div style='dislay:flex; gap: 2rem'><div style='background-color: white; border-radius: 48px; padding: 2rem'><h3>Wear Your Wearable Device</h3></div><div style='background-color: white; border-radius: 48px; padding: 2rem'><h3>Use The RADAR-base Apps</h3></div><div style='background-color: white; border-radius: 48px; padding: 2rem'><h3>Take The Cognitive Tests</h3></div></div>"
     },
     {
       "blockType": "accordion",
