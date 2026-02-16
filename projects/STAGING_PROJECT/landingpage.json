@@ -332,7 +332,15 @@
         "color": "background.quinary",
         "width": "100%"
       },
-      "content": "<div style='background-color: white; border-radius: 48px; padding: 2rem; margin-bottom: 1rem'><h3>Wear Your Wearable Device</h3><br /><p>We will ask you to wear your fitness tracker or smart device as much as possible during the study (for at least 3 months, optionally up to 12 months). From this, we will measure: <ul><li>Sleep duration</li><li>Sleep stages (where available)</li><li>Sleep onset and offset</li><li>Heart rate</li><li></li></ul></p></div>"
+      "content": {
+        "children": [
+          "<div style='background-color:white; border-radius:48px; padding:2rem; margin-bottom:1rem'>",
+          "<h3>Wear Your Wearable Device</h3>",
+          "<br />",
+          "<p>We will ask you to wear your fitness tracker or smart device as much as possible during the study (for at least 3 months, optionally up to 12 months). From this, we will measure: <ul><li>Sleep duration</li><li>Sleep stages (where available)</li><li>Sleep onset and offset</li><li>Heart rate</li><li>Physical Activity</li></ul></p>",
+          "</div>"
+        ]
+      }
     },
     {
       "blockType": "markdown",
