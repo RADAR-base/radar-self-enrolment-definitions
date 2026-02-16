@@ -320,6 +320,11 @@
           "fontWeight": "700",
           "width": "100%",
           "textAlign": "left"
+        },
+
+        " & .MuiGrid2-root": {
+          "bgcolor": "#ffffff",
+          "padding": "2rem"
         }
       },
       "title": "Your Participation",
@@ -327,10 +332,6 @@
         "block1": {
           "blockType": "markdown",
           "noCard": true,
-          "blockBackground": "white",
-          "sx": {
-            "padding": "2rem"
-          },
           "title": "Wear Your Wearable Device",
           "content": "We will ask you to wear your fitness tracker or smart device as much as possible during the study (for at least 3 months, optionally up to 12 months). From this, we will measure Sleep duration, Sleep stages (where available), Sleep onset and offset, Heart rate, Physical activity"
         },
