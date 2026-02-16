@@ -322,8 +322,37 @@
           "textAlign": "left"
         }
       },
-      "title": "Your Participation",
-      "content": "<div style='background-color: white; border-radius: 48px; padding: 2rem; margin-bottom: 1rem'><h3>Wear Your Wearable Device</h3><br /><p>We will ask you to wear your fitness tracker or smart device as much as possible during the study (for at least 3 months, optionally up to 12 months). From this, we will measure: <ul><li>Sleep duration</li><li>Sleep stages (where available)</li><li>Sleep onset and offset</li><li>Heart rate</li><li>Physical activity</li></ul></p></div><div style='background-color: white; border-radius: 48px; padding: 2rem; margin: 1rem 0'><h3>Use The RADAR-base Apps</h3><br /><p>You will install:\nRADAR Passive App used to monitor your data.\nRADAR Active App which will send short questionnaires taking around 2-3 minutes.</p></div><div style='background-color: white; border-radius: 48px; padding: 2rem; margin-top: 1rem'><h3>Take The Cognitive Tests</h3><br /><p>You will be invited to complete short online cognitive tasks using the Cognitron platform to explore how sleep and phone use relate to attention and thinking performance.</p></div>"
+      "title": "Your Participation"
+    },
+    {
+      "blockType": "markdown",
+      "noCard": true,
+      "sx": {
+        "bgcolor": "background.quaternary",
+        "color": "background.quinary",
+        "width": "100%"
+      },
+      "title": "Wear Your Wearable Device"
+    },
+    {
+      "blockType": "markdown",
+      "noCard": true,
+      "sx": {
+        "bgcolor": "background.quaternary",
+        "color": "background.quinary",
+        "width": "100%"
+      },
+      "title": "Use The RADAR-base Apps"
+    },
+    {
+      "blockType": "markdown",
+      "noCard": true,
+      "sx": {
+        "bgcolor": "background.quaternary",
+        "color": "background.quinary",
+        "width": "100%"
+      },
+      "title": "Take The Cognitive Tests"
     },
     {
       "blockType": "accordion",
