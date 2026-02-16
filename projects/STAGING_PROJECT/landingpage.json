@@ -311,6 +311,9 @@
     {
       "blockType": "accordion",
       "noCard": true,
+      "sx": {
+        "color": "#ffffff"
+      },
       "title": "Frequently Asked Questions",
       "items": [
         {
