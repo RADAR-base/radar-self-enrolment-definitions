@@ -309,6 +309,19 @@
       }
     },
     {
+      "blockType": "markdown",
+      "noCard": true,
+      "sx": {
+        "& .MuiTypography-h2": {
+          "fontSize": "3rem",
+          "fontWeight": "700",
+          "width": "100%",
+          "textAlign": "left"
+        }
+      },
+      "title": "Your Participation"
+    },
+    {
       "blockType": "accordion",
       "noCard": true,
       "sx": {
