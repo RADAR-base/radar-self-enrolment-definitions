@@ -322,9 +322,9 @@
           "textAlign": "left"
         },
 
-        " & .MuiGrid2-root": {
+        "& .MuiGrid2-root": {
           "bgcolor": "#ffffff",
-          "padding": "2rem"
+          "borderRadius": "48px"
         }
       },
       "title": "Your Participation",
