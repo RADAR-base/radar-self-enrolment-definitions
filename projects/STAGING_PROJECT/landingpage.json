@@ -312,6 +312,9 @@
       "blockType": "markdown",
       "noCard": true,
       "sx": {
+        "bgcolor": "background.quaternary",
+        "color": "background.quinary",
+        "width": "100%",
         "& .MuiTypography-h2": {
           "fontSize": "3rem",
           "fontWeight": "700",
@@ -319,7 +322,8 @@
           "textAlign": "left"
         }
       },
-      "title": "Your Participation"
+      "title": "Your Participation",
+      "content": "<div><h3>Wear Your Wearable Device</h3></div>"
     },
     {
       "blockType": "accordion",
