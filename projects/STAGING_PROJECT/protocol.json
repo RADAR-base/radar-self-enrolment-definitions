@@ -288,6 +288,10 @@
         {
           "text": "Home",
           "href": "/STAGING_PROJECT"
+        },
+        {
+          "text": "FAQ",
+          "href": "#faq"
         }
       ],
       "logoSrc": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f319.png"

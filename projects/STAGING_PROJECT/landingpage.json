@@ -309,6 +309,32 @@
       }
     },
     {
+      "blockType": "markdown",
+      "noCard": true,
+      "blockBackground": "#9775bd",
+      "sx": {
+        "width": "100%",
+        "color": "#ffffff",
+        "gap": "0",
+        "paddingBottom": "0rem",
+
+        "& .MuiTypography-h2": {
+          "fontSize": "3rem",
+          "fontWeight": "700",
+          "width": "100%",
+          "textAlign": "center"
+        },
+
+        "& .MuiBox-root": {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "gap": "0"
+        }
+      },
+
+      "title": "Meet the team",
+    },
+    {
       "blockType": "accordion",
       "noCard": true,
       "sx": {
