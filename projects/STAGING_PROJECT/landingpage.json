@@ -309,30 +309,18 @@
       }
     },
     {
-      "blockType": "markdown",
+      "blockType": "carousel",
       "noCard": true,
       "blockBackground": "#9775bd",
-      "sx": {
-        "width": "100%",
-        "color": "#ffffff",
-        "gap": "0",
-        "paddingBottom": "0rem",
-
-        "& .MuiTypography-h2": {
-          "fontSize": "3rem",
-          "fontWeight": "700",
-          "width": "100%",
-          "textAlign": "center"
-        },
-
-        "& .MuiBox-root": {
-          "alignItems": "center",
-          "justifyContent": "center",
-          "gap": "0"
+      "title": "Meet The Team",
+      "items": [
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/STAGING_PROJECT/resources/kcl-logo.png",
+          "title": "Will Dixon",
+          "content": "Professor of Digital Epidemiology",
+          "href": "https://research.manchester.ac.uk/en/persons/will.dixon"
         }
-      },
-
-      "title": "Meet the team"
+      ]
     },
     {
       "blockType": "accordion",
