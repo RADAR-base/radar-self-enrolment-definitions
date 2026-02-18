@@ -157,7 +157,7 @@
           "whiteSpace": "pre-wrap"
         },
         "h1": {
-          "fontSize": "3rem",
+          "fontSize": "2rem",
           "fontWeight": "700",
           "wordBreak": "normal",
           "overflow": "hidden",
@@ -292,10 +292,6 @@
         {
           "text": "FAQ",
           "href": "#faq"
-        },
-        {
-          "text": "",
-          "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/RADAR-GLAD-KCL-s1/resources/kcl-logo.png"
         }
       ],
       "logoSrc": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f319.png"
