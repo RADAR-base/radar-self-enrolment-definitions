@@ -382,7 +382,13 @@
       "blockType": "accordion",
       "noCard": true,
       "sx": {
-        "color": "#ffffff"
+        "color": "#ffffff",
+        "& .MuiTypography-h2": {
+          "fontSize": "3rem",
+          "fontWeight": "700",
+          "width": "100%",
+          "color": "#ffffff"
+        }
       },
       "title": "Frequently Asked Questions",
       "items": [
