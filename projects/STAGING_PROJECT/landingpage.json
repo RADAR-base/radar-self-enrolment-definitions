@@ -312,6 +312,14 @@
       "blockType": "carousel",
       "noCard": true,
       "blockBackground": "#9775bd",
+      "sx": {
+        "& .MuiTypography-h2": {
+          "fontSize": "3rem",
+          "fontWeight": "700",
+          "width": "100%",
+          "color": "#ffffff"
+        }
+      },
       "title": "Meet The Team",
       "items": [
         {
