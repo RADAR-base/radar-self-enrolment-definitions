@@ -1,5 +1,5 @@
 {
-  "name": "Sleep Hygiene Study",
+  "name": "Study of Sleep Hygiene and Health",
   "studyId": "STAGING_PROJECT",
   "healthIssues": [],
   "onboarding": {
@@ -292,6 +292,10 @@
         {
           "text": "FAQ",
           "href": "#faq"
+        },
+        {
+          "text": "",
+          "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/RADAR-GLAD-KCL-s1/resources/kcl-logo.png"
         }
       ],
       "logoSrc": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f319.png"
