@@ -318,11 +318,6 @@
           "fontWeight": "700",
           "width": "100%",
           "color": "#ffffff"
-        },
-
-        "& .swiper-slide": {
-          "justifyContent": "center",
-          "alignItems": "center"
         }
       },
       "title": "Meet The Team",
