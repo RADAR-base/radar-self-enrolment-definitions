@@ -243,7 +243,7 @@
           }
         },
         "MuiTypography-h1": {
-          "defaultProps": {
+          "styleOverrides": {
             "fontSize": "1.5rem"
           }
         },
