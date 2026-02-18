@@ -315,55 +315,55 @@
       "title": "Meet The Team",
       "items": [
         {
-          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/STAGING_PROJECT/resources/richard.png",
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/richard.png",
           "title": "Professor Richard Dobson",
           "content": "Head of Bioinformatics",
           "href": "https://phidatalab.org/team/richard-dobson/"
         },
         {
-          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/STAGING_PROJECT/resources/amos.jpg",
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/amos.jpg",
           "title": "Dr Amos Folarin",
           "content": "Senior Software Development Group Leader",
           "href": "https://phidatalab.org/team/amos-folarin/"
         },
         {
-          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/STAGING_PROJECT/resources/akash.jpg",
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/akash.jpg",
           "title": "Akash Roy Choudhury",
           "content": "Data Scientist",
           "href": "https://phidatalab.org/team/akash-roy-choudhury/"
         },
         {
-          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/STAGING_PROJECT/resources/zulqarnain.jpg",
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/zulqarnain.jpg",
           "title": "Dr Zulqarnain Rashid",
           "content": "Lead Research Software Engineer",
           "href": "https://phidatalab.org/team/zulqarnain-rashid/"
         },
         {
-          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/STAGING_PROJECT/resources/pauline.png",
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/pauline.png",
           "title": "Pauline Conde",
           "content": "Software Developer",
           "href": "https://phidatalab.org/team/pauline-conde/"
         },
         {
-          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/STAGING_PROJECT/resources/yatharth.jpg",
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/yatharth.jpg",
           "title": "Yatharth Ranjan",
           "content": "Software Developer and PhD student",
           "href": "https://phidatalab.org/team/yatharth-ranjan/"
         },
         {
-          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/STAGING_PROJECT/resources/heet.jpg",
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/heet.jpg",
           "title": "Heet Sankesara",
           "content": "Software Developer",
           "href": "https://phidatalab.org/team/heet-sankesara/"
         },
         {
-          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/STAGING_PROJECT/resources/yuezhou.png",
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/yuezhou.png",
           "title": "Yuezhou Zhang",
           "content": "PhD student",
           "href": "https://phidatalab.org/team/yuezhou-zhang/"
         },
         {
-          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/STAGING_PROJECT/resources/callum.jpg",
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/callum.jpg",
           "title": "Callum Stewart",
           "content": "PhD student",
           "href": "https://phidatalab.org/team/callum-stewart/"
