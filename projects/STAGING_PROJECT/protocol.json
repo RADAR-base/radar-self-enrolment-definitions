@@ -157,11 +157,13 @@
           "whiteSpace": "pre-wrap"
         },
         "h1": {
-          "fontSize": "2rem",
-          "fontWeight": "700",
-          "wordBreak": "normal",
-          "overflow": "hidden",
-          "width": "auto"
+          "defaultProps": {
+            "fontSize": "2rem",
+            "fontWeight": "700",
+            "wordBreak": "normal",
+            "overflow": "hidden",
+            "width": "auto"
+          }
         },
         "h2": {
           "fontSize": "1.5rem",

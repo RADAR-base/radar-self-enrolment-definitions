@@ -11,7 +11,7 @@
         "alignItems": "center",
         "alignContent": "center",
         "& .MuiTypography-h1": {
-          "flex": "1",
+          "flex": "none",
           "alignSelf": "flex-start"
         },
         "& .MuiGrid2-root": {
@@ -68,7 +68,7 @@
         },
 
         "& .MuiTypography-h1": {
-          "flex": "1",
+          "flex": "none",
           "width": "100%",
           "textAlign": "left",
           "fontSize": "2rem"
@@ -134,7 +134,7 @@
         },
 
         "& .MuiTypography-h1": {
-          "flex": "1",
+          "flex": "none",
           "width": "100%",
           "textAlign": "left"
         },
