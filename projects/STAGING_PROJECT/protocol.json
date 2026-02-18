@@ -239,8 +239,12 @@
             "root": {
               "backgroundColor": "#214d72",
               "color": "#ffffff",
-              "fontSize": "1.5rem"
             }
+          }
+        },
+        "MuiTypography-h1": {
+          "defaultProps": {
+            "fontSize": "1.5rem"
           }
         },
         "MuiToggleButton": {
