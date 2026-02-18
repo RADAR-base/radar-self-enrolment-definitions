@@ -11,6 +11,7 @@
         "alignItems": "center",
         "alignContent": "center",
         "& .MuiTypography-h1": {
+          "fontSize": "3rem",
           "flex": "none",
           "alignSelf": "flex-start"
         },
