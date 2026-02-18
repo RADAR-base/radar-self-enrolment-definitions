@@ -326,9 +326,7 @@
           "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/richard.png",
           "title": "Professor Richard Dobson",
           "content": "Head of Bioinformatics",
-          "href": "https://phidatalab.org/team/richard-dobson/",
-          "noCard": true,
-          "blockBackground": "#ffe0da"
+          "href": "https://phidatalab.org/team/richard-dobson/"
         },
         {
           "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/amos.jpg",
