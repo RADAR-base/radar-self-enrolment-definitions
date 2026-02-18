@@ -238,7 +238,8 @@
           "styleOverrides": {
             "root": {
               "backgroundColor": "#214d72",
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "fontSize": "1.5rem"
             }
           }
         },
