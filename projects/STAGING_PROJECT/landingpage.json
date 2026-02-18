@@ -11,7 +11,7 @@
         "alignItems": "center",
         "alignContent": "center",
         "& .MuiTypography-h1": {
-          "fontSize": "3rem",
+          "fontSize": "2rem",
           "flex": "none",
           "alignSelf": "flex-start"
         },
@@ -69,10 +69,10 @@
         },
 
         "& .MuiTypography-h1": {
+          "fontSize": "3rem",
           "flex": "none",
           "width": "100%",
-          "textAlign": "left",
-          "fontSize": "2rem"
+          "textAlign": "left"
         }
       },
       "title": "Smartphones are now an integral part of daily life. Many people use their phones before bed — for social media, messaging, gaming, or watching videos. However, it is not fully understood how different types of phone interactions influence sleep."
@@ -137,6 +137,7 @@
         "& .MuiTypography-h1": {
           "flex": "none",
           "width": "100%",
+          "fontSize": "3rem",
           "textAlign": "left"
         },
 
@@ -182,7 +183,8 @@
         "& .MuiTypography-h1": {
           "flex": "none",
           "width": "100%",
-          "textAlign": "left"
+          "textAlign": "left",
+          "fontSize": "3rem"
         },
 
         "& .MuiTypography-body1": {
