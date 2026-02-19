@@ -16,8 +16,10 @@
           "padding": "1rem 0",
           "borderRadius": "24px"
         },
-
         "& .MuiPaper-rounded": {
+          "borderRadius": "24px"
+        },
+        "& .MuiAccordion-rounded": {
           "borderRadius": "24px"
         }
       },
