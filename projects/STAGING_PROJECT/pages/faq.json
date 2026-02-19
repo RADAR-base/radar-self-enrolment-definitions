@@ -13,6 +13,7 @@
         "& .MuiPaper-root": {
           "boxShadow": "none",
           "margin": "1rem 0",
+          "padding": "1rem 0",
           "borderRadius": "24px"
         }
       },
