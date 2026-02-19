@@ -232,8 +232,8 @@
           }
         },
         "MuiPaper": {
-          "styleOverrides": {
-            "borderRadius": "24px"
+          "defaultProps": {
+            "id": "faq"
           }
         },
         "MuiAppBar": {
