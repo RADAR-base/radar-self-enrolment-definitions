@@ -4,7 +4,6 @@
       "blockType": "accordion",
       "noCard": true,
       "sx": {
-        "color": "#ffffff",
         "& .MuiTypography-h2": {
           "fontSize": "3rem",
           "fontWeight": "700",
@@ -16,32 +15,38 @@
           "margin": "1rem 0"
         },
         "& .MuiButtonBase-root": {
-            "borderRadius": "24px"
+          "borderRadius": "24px"
         }
       },
       "title": "Frequently Asked Questions",
       "items": [
         {
+          "noCard": true,
           "title": "How long does the study last?",
           "content": "The minimum participation we need is 3 months. But there is an option for a possible extension up to 12 months."
         },
         {
+          "noCard": true,
           "title": "What will I need to do?",
           "content": "Wear Your Wearable Device: We will ask you to wear your fitness tracker or smart device as much as possible during the study (for at least 3 months, optionally up to 12 months).\n<br />You will install RADAR Passive App (used to monitor your data) and RADAR Active App (send short daily and weekly questionnaires, taking around 2-3 minutes).\n<br />Take a Cognitive Test: You will be invited to complete short online cognitive tasks using the Cognitron platform to explore how sleep and phone use relate to attention and thinking performance."
         },
         {
+          "noCard": true,
           "title": "What wearable can I use?",
           "content": "The devices that are compatible are Fitbit, Oura Ring, Garmin, Apple Watch, Polar, Empatica E4."
         },
         {
+          "noCard": true,
           "title": "What will happen to the data?",
           "content": "Your data will be used to:<br />Analysed to understand patterns of smartphone use and sleep.<br />Used to publish scientific findings (you will never be identifiable).<br />Potentially shared in de-identified form with approved researchers worldwide (if you consent).<br />You may choose whether or not your anonymised data can be shared for future research."
         },
         {
+          "noCard": true,
           "title": "How is my data protected?",
           "content": "Your privacy is extremely important to us.<br />Your data is processed in accordance with the UK GDPR and the Data Protection Act 2018 where all data are de-identified using a unique study ID.<br />Your name and contact details are stored separately and securely.<br />We do not access the content of messages or calls Relative location data are offset to prevent identification.<br />King’s College London is the study sponsor and data controller."
         },
         {
+          "noCard": true,
           "title": "Are there any risks?",
           "content": "Risks are minimal.<br />The study requires a small amount of time for questionnaires.<br />There is a very small cybersecurity risk similar to everyday smartphone use.<br />If you feel uncomfortable with our data collection — you may withdraw at any time with/without giving a reason. You may request deletion of identifiable data within the first 30 days."
         }
