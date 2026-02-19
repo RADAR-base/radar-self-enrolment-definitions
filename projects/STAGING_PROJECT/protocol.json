@@ -231,6 +231,12 @@
             }
           }
         },
+        "MuiPaper": {
+          "defaultProps": {
+            "elevation": 0,
+            "square": true
+          }
+        },
         "MuiAppBar": {
           "defaultProps": {
             "elevation": 0,
