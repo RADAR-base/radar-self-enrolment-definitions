@@ -11,8 +11,9 @@
           "width": "100%",
           "color": "#ffffff"
         },
-        " .MuiPaper-root": {
-          "boxShadow": "none"
+        "& .MuiPaper-root": {
+          "boxShadow": "none",
+          "margin": "2rem 0"
         }
       },
       "title": "Frequently Asked Questions",
