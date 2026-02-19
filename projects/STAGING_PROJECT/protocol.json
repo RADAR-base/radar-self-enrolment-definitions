@@ -231,20 +231,6 @@
             }
           }
         },
-        "MuiPaper": {
-          "defaultProps": {
-            "elevation": 0,
-            "sx": {
-              "borderRadius": "24px",
-              "margin": "1rem 0"
-            }
-          },
-          "styleOverrides": {
-            "root": {
-              "borderRadius": "24px"
-            }
-          }
-        },
         "MuiAppBar": {
           "defaultProps": {
             "elevation": 0,

@@ -9,6 +9,13 @@
           "fontWeight": "700",
           "width": "100%",
           "color": "#ffffff"
+        },
+        "& .MuiPaper-root": {
+          "boxShadow": "none",
+          "margin": "1rem 0"
+        },
+        "& .MuiButtonBase-root": {
+          "borderRadius": "24px"
         }
       },
       "title": "Frequently Asked Questions",
