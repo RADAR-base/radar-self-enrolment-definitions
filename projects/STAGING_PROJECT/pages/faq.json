@@ -12,9 +12,7 @@
         },
         "& .MuiPaper-root": {
           "boxShadow": "none",
-          "margin": "1rem 0"
-        },
-        "& .MuiButtonBase-root": {
+          "margin": "1rem 0",
           "borderRadius": "24px"
         }
       },
