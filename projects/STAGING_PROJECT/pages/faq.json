@@ -9,10 +9,6 @@
           "fontWeight": "700",
           "width": "100%",
           "color": "#ffffff"
-        },
-        "& .MuiPaper-root": {
-          "boxShadow": "none",
-          "padding": "1rem 0"
         }
       },
       "title": "Frequently Asked Questions",
@@ -21,9 +17,9 @@
           "title": "How long does the study last?",
           "content": "The minimum participation we need is 3 months. But there is an option for a possible extension up to 12 months."
         },
-        { 
-            "title": "How do I take part?",
-            "content": "To take part, you need to:\n<ul><li>Check your eligibility.</li>\n<li>Read the Participant Information Sheet.</li>\n<li>Provide electronic consent.</li>\n<li>Install the apps and begin participation.</li></ul>"
+        {
+          "title": "How do I take part?",
+          "content": "To take part, you need to:\n<ul><li>Check your eligibility.</li>\n<li>Read the Participant Information Sheet.</li>\n<li>Provide electronic consent.</li>\n<li>Install the apps and begin participation.</li></ul>"
         },
         {
           "title": "What will I need to do?",
@@ -43,7 +39,7 @@
         },
         {
           "title": "Are there any risks?",
-          "content": "Risks are minimal.<br />The study requires a small amount of time for questionnaires.<br />There is a very small cybersecurity risk similar to everyday smartphone use.<br />If you feel uncomfortable with our data collection — you may withdraw at any time with/without giving a reason. You may request deletion of identifiable data within the first 30 days."
+          "content": "Risks are minimal.<br /><ul><li>The study requires a small amount of time for questionnaires.<li>\n<li>There is a very small cybersecurity risk similar to everyday smartphone use.</li>\n<li>If you feel uncomfortable with our data collection — you may withdraw at any time with/without giving a reason. You may request deletion of identifiable data within the first 30 days."
         }
       ]
     }
