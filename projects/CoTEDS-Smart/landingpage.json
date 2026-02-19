@@ -31,7 +31,7 @@
                     "noCard": true,
                     "title": "Who can take part in CoTEDS-Smart?",
                     "blockBackground": "white",
-                    "content": "Any CoTEDS participant over the age of 18, regardless of sex or gender, who lives in England, Wales, Northern Ireland, Isle of Man or Guernsey. This means most TEDS twins are eligible to take part, as are most of the partners of TEDS twins.\n<br />\nWe're looking for people who use a smartphone (Apple or Android), Fitbit, Apple Watch, Garmin or Oura Ring.\n<br />\nParticipation in CoTEDS-Smart is entirely optional; you can continue taking part in CoTEDS without joining CoTEDS-Smart. You can also join CoTEDS-Smart regardless of whether you have completed your CoTEDS questionnaires.\n<br />\nYou can withdraw from the study at any time."
+                    "content": "Any TEDS twins and/or coparents enrolled in the Children of TEDS study with their child(ren) are eligible to take part.\n<br />\nWe're looking for people who use a smartphone (Apple or Android), Fitbit, Apple Watch, Garmin or Oura Ring.\n<br />\nParticipation in CoTEDS-Smart is entirely optional; you can continue taking part in CoTEDS without joining CoTEDS-Smart. You can also join CoTEDS-Smart regardless of whether you have completed your CoTEDS questionnaires.\n<br />\nYou can withdraw from the study at any time."
                 }
             }
         },
@@ -96,7 +96,7 @@
                 },
                 {
                     "title": "Are there any incentives for taking part in CoTEDS-Smart?",
-                    "content": "As a thank you for taking part, we plan to offer incentives."
+                    "content": "As a thank you for taking part, we plan to offer a £10 Love2Shop voucher upon the transfer of the smartwatch data."
                 }
             ]
         },
