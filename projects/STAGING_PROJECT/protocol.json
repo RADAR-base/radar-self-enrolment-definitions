@@ -235,7 +235,8 @@
           "defaultProps": {
             "elevation": 0,
             "sx": {
-              "borderRadius": "24px"
+              "borderRadius": "24px",
+              "margin": "1rem 0"
             }
           },
           "styleOverrides": {
