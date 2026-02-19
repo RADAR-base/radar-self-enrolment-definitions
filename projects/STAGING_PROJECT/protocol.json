@@ -231,6 +231,11 @@
             }
           }
         },
+        "MuiPaper": {
+          "styleOverrides": {
+            "borderRadius": "24px"
+          }
+        },
         "MuiAppBar": {
           "defaultProps": {
             "elevation": 0,
