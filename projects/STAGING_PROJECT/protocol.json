@@ -231,11 +231,6 @@
             }
           }
         },
-        "MuiPaper": {
-          "defaultProps": {
-            "id": "faq"
-          }
-        },
         "MuiAppBar": {
           "defaultProps": {
             "elevation": 0,
@@ -296,7 +291,7 @@
         },
         {
           "text": "FAQ",
-          "href": "#faq"
+          "href": "/faq"
         }
       ],
       "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/logo.png"
