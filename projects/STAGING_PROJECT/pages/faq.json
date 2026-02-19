@@ -13,8 +13,10 @@
         },
         "& .MuiPaper-root": {
           "boxShadow": "none",
-          "borderRadius": "24px",
           "margin": "1rem 0"
+        },
+        "& .MuiPaper-rounded": {
+          "borderRadius": "24px"
         }
       },
       "title": "Frequently Asked Questions",
