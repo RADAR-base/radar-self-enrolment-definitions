@@ -232,6 +232,12 @@
           }
         },
         "MuiPaper": {
+          "defaultProps": {
+            "elevation": 0,
+            "sx": {
+              "borderRadius": "24px"
+            }
+          },
           "styleOverrides": {
             "root": {
               "borderRadius": "24px"
