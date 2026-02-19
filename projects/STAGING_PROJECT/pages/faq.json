@@ -28,7 +28,21 @@
         {
           "title": "What wearable can I use?",
           "content": "The devices that are compatible are Fitbit, Oura Ring, Garmin, Apple Watch, Polar, Empatica E4."
-        },
+        }
+      ]
+    },
+    {
+      "blockType": "accordion",
+      "noCard": true,
+      "sx": {
+        "& .MuiTypography-h2": {
+          "fontWeight": "700",
+          "width": "100%",
+          "color": "#ffffff"
+        }
+      },
+      "title": "Data & Privacy",
+      "items": [
         {
           "title": "What will happen to the data?",
           "content": "Your data will be:\n<ul><li>Analysed to understand patterns of smartphone use and sleep.</li>\n<li>Used to publish scientific findings (you will never be identifiable).</li>\n<li>Potentially shared in de-identified form with approved researchers worldwide (if you consent).</li>\n<li>You may choose whether or not your anonymised data can be shared for future research.</li></ul>"
