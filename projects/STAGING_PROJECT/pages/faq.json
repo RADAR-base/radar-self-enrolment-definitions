@@ -15,8 +15,8 @@
           "boxShadow": "none",
           "margin": "1rem 0"
         },
-        "& .MuiPaper-rounded": {
-          "borderRadius": "24px"
+        "& .MuiButtonBase-root": {
+            "borderRadius": "24px"
         }
       },
       "title": "Frequently Asked Questions",
