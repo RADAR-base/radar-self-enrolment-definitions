@@ -12,7 +12,6 @@
           "color": "#ffffff"
         },
         " .MuiPaper-root": {
-          "borderRadius": "24px",
           "boxShadow": "none"
         }
       },
