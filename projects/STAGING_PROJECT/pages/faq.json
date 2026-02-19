@@ -24,10 +24,28 @@
         {
           "title": "What will I need to do?",
           "content": "Wear Your Wearable Device: We will ask you to wear your fitness tracker or smart device as much as possible during the study (for at least 3 months, optionally up to 12 months).\n<br />You will need to install:\n<ul><li>RADAR Passive App (used to monitor your data)</li>\n<li>RADAR Active App (send short daily and weekly questionnaires, taking around 2-3 minutes).</li></ul>\n<br />Take a Cognitive Test: You will be invited to complete short online cognitive tasks using the Cognitron platform to explore how sleep and phone use relate to attention and thinking performance."
-        },
+        }
+      ]
+    },
+    {
+      "blockType": "accordion",
+      "noCard": true,
+      "sx": {
+        "& .MuiTypography-h2": {
+          "fontWeight": "700",
+          "width": "100%",
+          "color": "#ffffff"
+        }
+      },
+      "title": "Compatibility",
+      "items": [
         {
           "title": "What wearable can I use?",
           "content": "The devices that are compatible are Fitbit, Oura Ring, Garmin, Apple Watch, Polar, Empatica E4."
+        },
+        {
+            "title": "What smartphone can I use?",
+            "content": "You must have an Android mobile device with version 5.1 or later or Apple mobile device with iOS version 14 or later"
         }
       ]
     },
