@@ -109,8 +109,7 @@
           "color": "#ffffff"
         },
         "& .MuiBox-root": {
-          "paddingTop": "0",
-          "paddingBottom": "0"
+          "paddingTop": "0"
         }
       },
       "title": "Other Issues",
