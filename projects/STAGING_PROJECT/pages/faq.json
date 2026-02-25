@@ -9,6 +9,10 @@
           "fontWeight": "700",
           "width": "100%",
           "color": "#ffffff"
+        },
+        "& .MuiBox-root": {
+          "paddingTop": "0",
+          "paddingBottom": "0"
         }
       },
       "title": "Frequently Asked Questions",
@@ -39,6 +43,10 @@
           "fontWeight": "700",
           "width": "100%",
           "color": "#ffffff"
+        },
+        "& .MuiBox-root": {
+          "paddingTop": "0",
+          "paddingBottom": "0"
         }
       },
       "title": "Compatibility",
@@ -65,6 +73,10 @@
           "fontWeight": "700",
           "width": "100%",
           "color": "#ffffff"
+        },
+        "& .MuiBox-root": {
+          "paddingTop": "0",
+          "paddingBottom": "0"
         }
       },
       "title": "Data & Privacy",
@@ -95,6 +107,10 @@
           "fontWeight": "700",
           "width": "100%",
           "color": "#ffffff"
+        },
+        "& .MuiBox-root": {
+          "paddingTop": "0",
+          "paddingBottom": "0"
         }
       },
       "title": "Other Issues",
