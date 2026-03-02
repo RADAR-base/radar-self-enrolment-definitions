@@ -217,9 +217,9 @@
           "defaultProps": {
             "disableElevation": true,
             "sx": {
-              "color": "#ffffff",
+              "color": "#b2b2b2",
               "borderRadius": 3,
-              "borderColor": "#f1b3be"
+              "borderColor": "#b2b2b2"
             }
           },
           "styleOverrides": {
