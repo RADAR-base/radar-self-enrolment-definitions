@@ -113,7 +113,7 @@
     },
     "studyInformation": {
       "title": "Study Information",
-      "content": "We understand that you may have questions about our research, what your involvement would be and much more. Please read carefully the Participant Information Sheet to find answers to these questions. If you have any questions about what you have read, please feel free to contact the team on <coteds-project@kcl.ac.uk>.\n<br />\n<PdfViewer fileUrl='/study/paprka/resources/paprka_pis.pdf' />\n<br />\n<button variant='contained' target='_blank' href='/study/study/paprka/resources/paprka_pis.pdf'>Download Participant Information</button>"
+      "content": "We understand that you may have questions about our research, what your involvement would be and much more. Please read carefully the Participant Information Sheet to find answers to these questions. If you have any questions about what you have read, please feel free to contact the team on <coteds-project@kcl.ac.uk>.\n<br />\n<PdfViewer fileUrl='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/main/projects/CoTEDS-Smart/resources/coteds-smart_pis.pdf' />\n<br />\n<button variant='contained' target='_blank' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/main/projects/CoTEDS-Smart/resources/coteds-smart_pis.pdf'>Download Participant Information</button>"
     },
     "account": {
       "title": "Register Account",
