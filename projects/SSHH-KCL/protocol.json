@@ -1,6 +1,6 @@
 {
   "name": "Study of Sleep Hygiene and Health",
-  "studyId": "STAGING_PROJECT",
+  "studyId": "SSHH-KCL",
   "healthIssues": [],
   "onboarding": {
     "metadata": {},
@@ -306,14 +306,14 @@
       "links": [
         {
           "text": "Home",
-          "href": "/STAGING_PROJECT"
+          "href": "/SSHH-KCL"
         },
         {
           "text": "FAQ",
           "href": "/faq"
         }
       ],
-      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/logo.png"
+      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/SSHH-KCL/resources/logo.png"
     },
     "footer": {
       "columns": [
