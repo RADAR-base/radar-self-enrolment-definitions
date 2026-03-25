@@ -41,6 +41,10 @@
             {
               "id": "radar_prmt",
               "title": "RADAR pRMT"
+            },
+            {
+              "id": "radar_armt",
+              "title": "RADAR aRMT"
             }
           ]
         }
