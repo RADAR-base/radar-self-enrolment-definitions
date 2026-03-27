@@ -88,13 +88,13 @@
         "color": "background.quinary",
 
         "& .MuiBox-root": {
-          "alignItems": "flex-start",
+          "alignItems": "start",
           "paddingLeft": "0rem",
           "paddingRight": "0rem"
         },
 
         "& .MuiGrid2-root": {
-          "alignSelf": "center"
+          "alignSelf": "start"
         },
 
         "& .MuiTypography-h2": {
@@ -228,11 +228,11 @@
         "& .MuiBox-root": {
           "flex": "0.8",
           "width": "100%",
-          "alignItems": "center"
+          "alignItems": "start"
         },
 
         "& .MuiGrid2-root": {
-          "alignSelf": "center"
+          "alignSelf": "start"
         },
 
         "& .MuiTypography-h1": {
