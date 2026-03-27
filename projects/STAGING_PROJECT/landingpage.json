@@ -122,7 +122,7 @@
       "sx": {
         "width": "100%",
         "bgcolor": "bg.default",
-        "color": "background.quinary",
+        "color": "#ffffff",
 
         "& .MuiTypography-h2": {
           "fontSize": "3rem",
@@ -140,7 +140,7 @@
       "sx": {
         "width": "100%",
         "bgcolor": "bg.default",
-        "color": "background.quinary",
+        "color": "#ffffff",
 
         "& .MuiTypography-root": {
           "textAlign": "center"
