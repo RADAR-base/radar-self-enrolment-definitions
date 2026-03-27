@@ -1,6 +1,15 @@
 {
   "blocks": [
     {
+      "sx": {
+        "position": "fixed",
+        "top": "90%",
+        "right": "10%"
+      },
+      "blockType": "markdown",
+      "content": "<button href='STAGING_PROJECT/enrol'>Join Study</button>"
+    },
+    {
       "blockType": "column",
       "sx": {
         "width": "100%",
