@@ -4,10 +4,12 @@
       "sx": {
         "position": "fixed",
         "top": "90%",
-        "right": "10%"
+        "right": "10%",
+        "width": "2rem"
       },
       "blockType": "markdown",
-      "content": "<button href='STAGING_PROJECT/enrol'>Join Study</button>"
+      "noCard": true,
+      "content": "<button variant='contained' href='STAGING_PROJECT/enrol'>Join Study</button>"
     },
     {
       "blockType": "column",
