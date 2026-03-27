@@ -5,8 +5,14 @@
         "position": "fixed",
         "top": "80%",
         "right": "10%",
-        "width": "2rem"
+        "width": "5rem",
+
+        "& .MuiButton-root": {
+          "backgroundColor": "#ffe0da",
+          "color": "#242c3d"
+        }
       },
+
       "blockType": "markdown",
       "noCard": true,
       "content": "<button variant='contained' href='STAGING_PROJECT/enrol'>Join Study</button>"
