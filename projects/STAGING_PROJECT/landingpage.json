@@ -25,7 +25,7 @@
 
       "blockType": "markdown",
       "noCard": true,
-      "content": "<button variant='contained' href='STAGING_PROJECT/enrol'>Join Study</button>"
+      "content": "<button href='STAGING_PROJECT/enrol'>Join Study</button>"
     },
     {
       "blockType": "column",
