@@ -3,8 +3,8 @@
     {
       "sx": {
         "position": "fixed",
-        "top": "80%",
-        "right": "10%",
+        "bottom": "16",
+        "right": "16",
         "mixBlendMode": "difference",
         "& .MuiButton-root": {
           "backgroundColor": "#ffe0da",
