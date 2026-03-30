@@ -6,7 +6,7 @@
         "top": "80%",
         "right": "10%",
         "width": "5rem",
-
+        "mixBlendMode": "difference",
         "& .MuiButton-root": {
           "backgroundColor": "#ffe0da",
           "color": "#242c3d"
@@ -138,7 +138,7 @@
     {
       "sx": {
         "width": "100%",
-        "bgcolor": "bg.default",
+        "bgcolor": "#9775bd",
         "color": "#ffffff",
 
         "& .MuiTypography-h2": {
@@ -238,8 +238,8 @@
       "blockType": "column",
       "sx": {
         "width": "100%",
-        "bgcolor": "bg.default",
-        "color": "#ffffff",
+        "bgcolor": "background.quaternary",
+        "color": "background.quinary",
         "paddingBottom": "2rem",
 
         "& .MuiBox-root": {
