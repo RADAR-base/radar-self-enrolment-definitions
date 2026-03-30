@@ -14,7 +14,6 @@
           "maxWidth": "100%"
         },
         "& .MuiButton-root": {
-          "backgroundColor": "#0F172A",
           "color": "white",
           "width": "10%"
         }
