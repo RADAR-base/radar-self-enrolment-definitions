@@ -14,10 +14,12 @@
         },
         "& .MuiButton-root": {
           "width": "10vw",
-          "opacity": "0.5"
+          "opacity": "0.5",
+          "border": "solid 2px #f1b3be"
         },
         "& .MuiButton-root:hover": {
-          "opacity": "1.0"
+          "opacity": "1.0",
+          "backgroundColor": "#f1b3be"
         }
       },
 
@@ -49,8 +51,8 @@
         },
 
         "& .MuiButton-root": {
-          "backgroundColor": "#b2b2b2",
-          "color": "#0e1b4d"
+          "backgroundColor": "#f1b3be",
+          "color": "#242c3d"
         },
 
         "& .MuiButton-root:hover": {
