@@ -6,6 +6,7 @@
         "padding": "0",
         "width": "100%",
         "bottom": "5%",
+        "zIndex": "100",
         "mixBlendMode": "difference",
         "& .MuiBox-root": {
           "alignItems": "end",
@@ -143,6 +144,51 @@
     },
 
     {
+      "blockType": "column",
+      "sx": {
+        "width": "100%",
+        "paddingTop": "2rem",
+        "paddingBottom": "2rem",
+        "bgcolor": "background.quaternary",
+        "color": "background.quinary",
+
+        "& .MuiBox-root": {
+          "alignItems": "center"
+        },
+
+        "& .MuiGrid2-root": {
+          "alignSelf": "start"
+        },
+
+        "& .MuiTypography-h1": {
+          "flex": "none",
+          "width": "100%",
+          "fontSize": "3rem",
+          "textAlign": "left"
+        },
+
+        "& .MuiTypography-h2": {
+          "fontSize": "1.5rem",
+          "fontWeight": "700",
+          "width": "100%",
+          "textAlign": "left"
+        }
+      },
+      "noCard": true,
+      "content": {
+        "block1": {
+          "blockType": "hero",
+          "title": "Our Aims",
+          "subtitle": "Our goal is to generate evidence that can inform healthier digital habits and improve sleep hygiene recommendations."
+        },
+        "block2": {
+          "blockType": "markdown",
+          "content": "<div style='display:flex; gap: 1rem; flex-direction:column'><div style='background-color:white; borderRadius:48px; padding:2rem'><h2>Investigate whether increased screen time before sleep is associated with:</h2><br /><p>Delayed sleep onset<br />Shorter sleep duration<br />Reduced sleep efficiency</p></div><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Examine whether different app categories (e.g., social media, gaming, productivity) have different effects on sleep</h2></div><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Compare sleep patterns across different age groups</h2></div><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Explore long-term sleep behaviour over several months</h2></div></div>"
+        }
+      }
+    },
+
+    {
       "sx": {
         "width": "100%",
         "bgcolor": "#9775bd",
@@ -192,51 +238,6 @@
           "blockType": "markdown",
           "title": "Analayse Patterns Overtime",
           "content": "Researchers will analyse the sleep data over several months to identify patterns and insights"
-        }
-      }
-    },
-
-    {
-      "blockType": "column",
-      "sx": {
-        "width": "100%",
-        "paddingTop": "2rem",
-        "paddingBottom": "2rem",
-        "bgcolor": "background.quaternary",
-        "color": "background.quinary",
-
-        "& .MuiBox-root": {
-          "alignItems": "center"
-        },
-
-        "& .MuiGrid2-root": {
-          "alignSelf": "start"
-        },
-
-        "& .MuiTypography-h1": {
-          "flex": "none",
-          "width": "100%",
-          "fontSize": "3rem",
-          "textAlign": "left"
-        },
-
-        "& .MuiTypography-h2": {
-          "fontSize": "1.5rem",
-          "fontWeight": "700",
-          "width": "100%",
-          "textAlign": "left"
-        }
-      },
-      "noCard": true,
-      "content": {
-        "block1": {
-          "blockType": "hero",
-          "title": "Our Aims",
-          "subtitle": "Our goal is to generate evidence that can inform healthier digital habits and improve sleep hygiene recommendations."
-        },
-        "block2": {
-          "blockType": "markdown",
-          "content": "<div style='display:flex; gap: 1rem; flex-direction:column'><div style='background-color:white; borderRadius:48px; padding:2rem'><h2>Investigate whether increased screen time before sleep is associated with:</h2><br /><p>Delayed sleep onset<br />Shorter sleep duration<br />Reduced sleep efficiency</p></div><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Examine whether different app categories (e.g., social media, gaming, productivity) have different effects on sleep</h2></div><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Compare sleep patterns across different age groups</h2></div><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Explore long-term sleep behaviour over several months</h2></div></div>"
         }
       }
     },
