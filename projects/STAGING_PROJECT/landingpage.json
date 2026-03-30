@@ -5,6 +5,7 @@
         "position": "fixed",
         "padding": "0",
         "bottom": "5%",
+        "width": "100%",
         "mixBlendMode": "difference",
         "& .MuiBox-root": {
           "alignItems": "end",
