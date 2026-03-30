@@ -129,6 +129,10 @@
           "fontWeight": "700",
           "width": "100%",
           "textAlign": "left"
+        },
+
+        "& .MuiTypography-body1": {
+          "fontSize": "1.25rem"
         }
       },
       "noCard": true,
