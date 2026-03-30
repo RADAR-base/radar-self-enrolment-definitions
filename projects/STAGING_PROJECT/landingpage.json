@@ -10,7 +10,8 @@
         "& .MuiBox-root": {
           "alignItems": "end",
           "padding": "0",
-          "width": "100%"
+          "width": "100%",
+          "maxWidth": "100%"
         },
         "& .MuiButton-root": {
           "backgroundColor": "#ffe0da",
