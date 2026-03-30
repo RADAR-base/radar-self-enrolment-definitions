@@ -9,15 +9,14 @@
         "mixBlendMode": "difference",
         "& .MuiBox-root": {
           "alignItems": "end",
-          "padding": "0",
+          "paddingRight": "5%",
           "width": "100%",
           "maxWidth": "100%"
         },
         "& .MuiButton-root": {
           "backgroundColor": "#ffe0da",
           "color": "#242c3d",
-          "width": "10%",
-          "marginRight": "5%"
+          "width": "10%"
         }
       },
 
