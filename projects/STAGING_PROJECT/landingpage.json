@@ -3,13 +3,13 @@
     {
       "sx": {
         "position": "fixed",
-        "bottom": "80%",
+        "bottom": "10%",
+        "alignItems": "end",
         "mixBlendMode": "difference",
         "& .MuiButton-root": {
           "backgroundColor": "#ffe0da",
           "color": "#242c3d",
-          "width": "10%",
-          "marginRight": "10%"
+          "width": "10%"
         }
       },
 
