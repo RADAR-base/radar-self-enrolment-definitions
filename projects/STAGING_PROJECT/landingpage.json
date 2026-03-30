@@ -53,6 +53,11 @@
         "& .MuiButton-root": {
           "backgroundColor": "#ffe0da",
           "color": "#242c3d"
+        },
+
+        "& .MuiButton-root:hover": {
+          "backgroundColor": "#242c3d",
+          "color": "#ffe0da"
         }
       },
       "noCard": true,
