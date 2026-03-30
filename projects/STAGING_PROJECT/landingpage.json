@@ -14,9 +14,7 @@
         },
         "& .MuiButton-root": {
           "width": "10vw",
-          "opacity": "0.5",
-          "borderRadius": 3,
-          "borderColor": "#b2b2b2"
+          "opacity": "0.5"
         },
         "& .MuiButton-root:hover": {
           "opacity": "1.0"
@@ -48,6 +46,16 @@
         },
         "& .MuiBox-root": {
           "alignItems": "center"
+        },
+
+        "& .MuiButton-root": {
+          "backgroundColor": "#b2b2b2",
+          "color": "#0e1b4d"
+        },
+
+        "& .MuiButton-root:hover": {
+          "backgroundColor": "#0e1b4d",
+          "color": "#b2b2b2"
         }
       },
       "noCard": true,
