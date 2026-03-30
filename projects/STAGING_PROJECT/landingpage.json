@@ -13,7 +13,6 @@
           "maxWidth": "100%"
         },
         "& .MuiButton-root": {
-          "width": "10vw",
           "opacity": "0.5",
           "border": "solid 2px #f1b3be"
         },
