@@ -48,16 +48,6 @@
         },
         "& .MuiBox-root": {
           "alignItems": "center"
-        },
-
-        "& .MuiButton-root": {
-          "backgroundColor": "#ffe0da",
-          "color": "#b2b2b2"
-        },
-
-        "& .MuiButton-root:hover": {
-          "backgroundColor": "#b2b2b2",
-          "color": "#ffe0da"
         }
       },
       "noCard": true,
