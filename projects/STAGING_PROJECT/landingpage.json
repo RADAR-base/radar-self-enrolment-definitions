@@ -3,6 +3,7 @@
     {
       "sx": {
         "position": "fixed",
+        "padding": "0",
         "bottom": "5%",
         "mixBlendMode": "difference",
         "& .MuiBox-root": {
