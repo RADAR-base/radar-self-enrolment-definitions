@@ -156,7 +156,7 @@
     {
       "sx": {
         "width": "100%",
-        "bgcolor": "bg.default",
+        "bgcolor": "#9775bd",
         "color": "#ffffff",
 
         "& .MuiTypography-root": {
@@ -238,8 +238,8 @@
       "blockType": "column",
       "sx": {
         "width": "100%",
-        "bgcolor": "background.quaternary",
-        "color": "background.quinary",
+        "bgcolor": "bg.default",
+        "color": "#ffffff",
         "paddingBottom": "2rem",
 
         "& .MuiBox-root": {
