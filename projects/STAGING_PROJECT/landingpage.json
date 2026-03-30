@@ -15,7 +15,11 @@
         },
         "& .MuiButton-root": {
           "color": "white",
-          "width": "10%"
+          "width": "10%",
+          "opacity": "0.5"
+        },
+        "& .MuiButton-root:hover": {
+          "opacity": "1.0"
         }
       },
 
