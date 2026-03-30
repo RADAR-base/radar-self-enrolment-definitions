@@ -4,8 +4,8 @@
       "sx": {
         "position": "fixed",
         "padding": "0",
-        "bottom": "5%",
         "width": "100%",
+        "bottom": "5%",
         "mixBlendMode": "difference",
         "& .MuiBox-root": {
           "alignItems": "end",
@@ -16,7 +16,8 @@
         "& .MuiButton-root": {
           "backgroundColor": "#ffe0da",
           "color": "#242c3d",
-          "width": "10%"
+          "width": "10%",
+          "marginRight": "5%"
         }
       },
 
