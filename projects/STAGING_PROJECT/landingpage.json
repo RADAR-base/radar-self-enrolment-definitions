@@ -7,7 +7,6 @@
         "width": "100vw",
         "bottom": "5%",
         "zIndex": "100",
-        "mixBlendMode": "difference",
         "& .MuiBox-root": {
           "alignItems": "end",
           "paddingRight": "5%",
@@ -16,7 +15,7 @@
         },
         "& .MuiButton-root": {
           "backgroundColor": "#0F172A",
-          "color": "#242c3d",
+          "color": "white",
           "width": "10%"
         }
       },
