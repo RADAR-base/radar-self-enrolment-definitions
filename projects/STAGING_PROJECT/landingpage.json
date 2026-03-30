@@ -7,7 +7,6 @@
         "width": "100vw",
         "bottom": "5%",
         "zIndex": "100",
-        "mixBlendMode": "difference",
         "& .MuiBox-root": {
           "alignItems": "end",
           "paddingRight": "5%",
@@ -15,7 +14,9 @@
         },
         "& .MuiButton-root": {
           "width": "10vw",
-          "opacity": "0.5"
+          "opacity": "0.5",
+          "borderRadius": 3,
+          "borderColor": "#b2b2b2"
         },
         "& .MuiButton-root:hover": {
           "opacity": "1.0"
