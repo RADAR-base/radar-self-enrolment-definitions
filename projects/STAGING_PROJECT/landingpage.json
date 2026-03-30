@@ -3,10 +3,11 @@
     {
       "sx": {
         "position": "fixed",
-        "bottom": "10%",
+        "bottom": "5%",
         "mixBlendMode": "difference",
         "& .MuiBox-root": {
-          "alignItems": "end"
+          "alignItems": "end",
+          "padding": "0"
         },
         "& .MuiButton-root": {
           "backgroundColor": "#ffe0da",
