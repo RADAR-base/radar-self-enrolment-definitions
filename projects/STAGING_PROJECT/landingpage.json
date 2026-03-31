@@ -13,7 +13,6 @@
           "maxWidth": "100%"
         },
         "& .MuiButton-root": {
-          "color": "#242c3d",
           "border": "solid 2px rgba(241,179,190,0.5)",
           "backdropFilter": "blur(1.5rem)"
         },
