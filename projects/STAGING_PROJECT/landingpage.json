@@ -15,7 +15,8 @@
         "& .MuiButton-root": {
           "opacity": "0.5",
           "color": "#242c3d",
-          "border": "solid 2px #f1b3be"
+          "border": "solid 2px #f1b3be",
+          "filter": "blur(1.5rem)"
         },
         "& .MuiButton-root:hover": {
           "opacity": "1.0",
