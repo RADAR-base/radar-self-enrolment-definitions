@@ -282,7 +282,7 @@
         }
       }
     },
-    "faviconSrc": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f319.png",
+    "faviconSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/favicon.png",
     "navbar": {
       "links": [
         {
@@ -294,7 +294,7 @@
           "href": "/faq"
         }
       ],
-      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/logo.png"
+      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/sshh.png"
     },
     "footer": {
       "columns": [
@@ -315,8 +315,8 @@
           "title": "Contact Us",
           "items": [
             {
-              "text": "sleepstudy@kcl.ac.uk",
-              "href": "mailto:sleepstudy@kcl.ac.uk"
+              "text": "sshh@kcl.ac.uk",
+              "href": "mailto:sshh@kcl.ac.uk"
             }
           ]
         },

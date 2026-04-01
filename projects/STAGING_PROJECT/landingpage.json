@@ -1,6 +1,32 @@
 {
   "blocks": [
     {
+      "sx": {
+        "position": "fixed",
+        "padding": "0",
+        "width": "100vw",
+        "bottom": "5%",
+        "zIndex": "100",
+        "& .MuiBox-root": {
+          "alignItems": "end",
+          "paddingRight": "5%",
+          "maxWidth": "100%"
+        },
+        "& .MuiButton-root": {
+          "border": "solid 2px rgba(241,179,190,0.5)",
+          "backdropFilter": "blur(1.5rem)"
+        },
+        "& .MuiButton-root:hover": {
+          "opacity": "1.0",
+          "backgroundColor": "#f1b3be"
+        }
+      },
+
+      "blockType": "markdown",
+      "noCard": true,
+      "content": "<button href='STAGING_PROJECT/enrol'>Join Study</button>"
+    },
+    {
       "blockType": "column",
       "sx": {
         "width": "100%",
@@ -24,15 +50,20 @@
         },
 
         "& .MuiButton-root": {
-          "backgroundColor": "#ffe0da",
+          "backgroundColor": "#f1b3be",
           "color": "#242c3d"
+        },
+
+        "& .MuiButton-root:hover": {
+          "backgroundColor": "#0e1b4d",
+          "color": "#b2b2b2"
         }
       },
       "noCard": true,
       "content": {
         "block1": {
           "blockType": "hero",
-          "title": "Discover How Your Daily Habits Relate to Sleep with the Study of Sleep Hygiene and Health (SSHH)",
+          "title": "Discover How Your Mobile Phone Usage Relate to Sleep with the Study of Sleep Hygiene and Health (SSHH)",
           "subtitle": "<button style='fontSize: 2rem; padding: 10px 24px; margin: 1rem 0; align-self:flex-start' variant='contained' href='STAGING_PROJECT/enrol'>Join Study</button>"
         },
         "block2": {
@@ -102,6 +133,10 @@
           "fontWeight": "700",
           "width": "100%",
           "textAlign": "left"
+        },
+
+        "& .MuiTypography-body1": {
+          "fontSize": "1.25rem"
         }
       },
       "noCard": true,
@@ -132,7 +167,7 @@
         },
 
         "& .MuiGrid2-root": {
-          "alignSelf": "center"
+          "alignSelf": "start"
         },
 
         "& .MuiTypography-h1": {
@@ -158,7 +193,61 @@
         },
         "block2": {
           "blockType": "markdown",
-          "content": "<div style='display:flex; gap: 1rem; flex-direction:column'><div style='background-color:white; borderRadius:48px; padding:2rem'><h2>Investigate whether increased screen time before sleep is associated with:</h2><br /><p>Delayed sleep onset<br />Shorter sleep duration<br />Reduced sleep efficiency</p></div><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Examine whether different app categories (e.g., social media, gaming, productivity) have different effects on sleep</h2></div><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Compare sleep patterns across different age groups</h2></div><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Explore long-term sleep behaviour over several months</h2></div></div>"
+          "content": "<div style='display:flex; gap: 1rem; flex-direction:column;'><div style='background-color:white; border-radius:48px; padding:2rem'><h2>Investigate whether increased screen time before sleep is associated with:</h2><br /><p>Delayed sleep onset<br />Shorter sleep duration<br />Reduced sleep efficiency</p></div><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Examine whether different app categories (e.g., social media, gaming, productivity) have different effects on sleep</h2></div><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Compare sleep patterns across different age groups</h2></div><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Explore long-term sleep behaviour over several months</h2></div></div>"
+        }
+      }
+    },
+
+    {
+      "sx": {
+        "width": "100%",
+        "bgcolor": "#9775bd",
+        "color": "#ffffff",
+
+        "& .MuiTypography-h2": {
+          "fontSize": "3rem",
+          "fontWeight": "700",
+          "width": "100%",
+          "textAlign": "left"
+        }
+      },
+      "blockType": "markdown",
+      "noCard": true,
+      "title": "How This Study Works"
+    },
+
+    {
+      "sx": {
+        "width": "100%",
+        "bgcolor": "#9775bd",
+        "color": "#ffffff",
+
+        "& .MuiTypography-root": {
+          "textAlign": "center"
+        }
+      },
+      "noCard": true,
+      "blockType": "column",
+      "content": {
+        "block1": {
+          "blockType": "markdown",
+          "title": "Phone Data is Collected",
+          "content": "Track your app usage and screen habits"
+        },
+        "block2": {
+          "blockType": "markdown",
+          "title": "Sleep Data is Collected",
+          "content": "Monitor your sleep, heart rate and movement patterns through your wearable device"
+        },
+        "block3": {
+          "blockType": "markdown",
+          "title": "Answer Questionnaires",
+          "content": "Recieve short daily questionnaires about your sleep and mood"
+        },
+        "block4": {
+          "blockType": "markdown",
+          "title": "Analayse Patterns Overtime",
+          "content": "Researchers will analyse the sleep data over several months to identify patterns and insights"
         }
       }
     },
@@ -167,18 +256,16 @@
       "blockType": "column",
       "sx": {
         "width": "100%",
-        "bgcolor": "bg.default",
-        "color": "#ffffff",
+        "bgcolor": "background.quaternary",
+        "color": "background.quinary",
         "paddingBottom": "2rem",
 
         "& .MuiBox-root": {
-          "flex": "0.8",
-          "width": "100%",
           "alignItems": "center"
         },
 
         "& .MuiGrid2-root": {
-          "alignSelf": "center"
+          "alignSelf": "start"
         },
 
         "& .MuiTypography-h1": {
@@ -202,7 +289,7 @@
         },
         "block2": {
           "blockType": "markdown",
-          "content": "<div style='display: flex; gap: 2rem; align-items: center; justify-content: space-between; margin-bottom: 2rem;'><h3>Are 13 years or older</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/teenagerandadult.png' height='100rem'/></div><div style='display: flex; gap: 2rem; align-items: center; justify-content: space-between; margin-bottom: 2rem'><h3>Regularly use a smartphone & Own a wearable device</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/devices.png' height='100rem'/></div><div style='display: flex; gap: 2rem; align-items: center; justify-content: space-between; margin-bottom: 2rem;'><h3>Install two secure research apps on your smartphone</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/radarApps.png' height='100rem'/></div><div style='display: flex; gap: 2rem; align-items: center; justify-content: space-between; margin-bottom:2rem'><h3>Wear your device regularly, including overnight</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/sleep.png' height='100rem'/></div><div style='display: flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Answer Questionnaires and Cognitive Tests</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/regularlydevice.png' height='100rem'/></div>"
+          "content": "<div style='display:flex; gap: 1rem; flex-direction:column;'><div style='background-color: white; border-radius:48px; padding:2rem; display: flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Are 13 years or older</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/teenagerandadult.png' height='100rem'/></div><div style='background-color: white; border-radius:48px; padding:2rem; display: flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Regularly use a smartphone & Own a wearable device</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/devices.png' height='100rem'/></div><div style='background-color: white; border-radius:48px; padding:2rem; display: flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Install two secure research apps on your smartphone</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/radarApps.png' height='100rem'/></div><div style='background-color: white; border-radius:48px; padding:2rem; display: flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Wear your device regularly, including overnight</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/sleep.png' height='100rem'/></div><div style='background-color: white; border-radius:48px; padding:2rem; display:flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Answer Questionnaires and Cognitive Tests</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/regularlydevice.png' height='100rem'/></div></div>"
         }
       }
     },
@@ -266,59 +353,6 @@
       }
     },
 
-    {
-      "sx": {
-        "width": "100%",
-        "bgcolor": "background.quaternary",
-        "color": "background.quinary",
-
-        "& .MuiTypography-h2": {
-          "fontSize": "3rem",
-          "fontWeight": "700",
-          "width": "100%",
-          "textAlign": "left"
-        }
-      },
-      "blockType": "markdown",
-      "noCard": true,
-      "title": "How This Study Works"
-    },
-
-    {
-      "sx": {
-        "width": "100%",
-        "bgcolor": "background.quaternary",
-        "color": "background.quinary",
-
-        "& .MuiTypography-root": {
-          "textAlign": "center"
-        }
-      },
-      "noCard": true,
-      "blockType": "column",
-      "content": {
-        "block1": {
-          "blockType": "markdown",
-          "title": "Phone Data is Collected",
-          "content": "Track your app usage and screen habits"
-        },
-        "block2": {
-          "blockType": "markdown",
-          "title": "Sleep Data is Collected",
-          "content": "Monitor your sleep, heart rate and movement patterns through your wearable device"
-        },
-        "block3": {
-          "blockType": "markdown",
-          "title": "Answer Questionnaires",
-          "content": "Recieve short daily questionnaires about your sleep and mood"
-        },
-        "block4": {
-          "blockType": "markdown",
-          "title": "Analayse Patterns Overtime",
-          "content": "Researchers will analyse the sleep data over several months to identify patterns and insights"
-        }
-      }
-    },
     {
       "blockType": "carousel",
       "noCard": true,
