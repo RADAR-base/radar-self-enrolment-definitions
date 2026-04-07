@@ -1,6 +1,6 @@
 {
-  "name": "CoTEDS-Smart",
-  "studyId": "CoTEDS-Smart",
+  "name": "Cycle Study",
+  "studyId": "PMDD-KCL",
   "healthIssues": [],
   "onboarding": {
     "metadata": {},
@@ -151,14 +151,14 @@
         "h1": {
           "fontSize": "2rem",
           "fontWeight": "700",
-          "color": "#0099CC",
+          "color": "#e69612",
           "wordBreak": "normal",
           "overflow": "hidden"
         },
         "h2": {
           "fontSize": "1.5rem",
           "fontWeight": "700",
-          "color": "#0099CC"
+          "color": "#e69612"
         },
         "h3": {
           "fontSize": "1rem",
@@ -178,28 +178,28 @@
       },
       "palette": {
         "background": {
-          "default": "#FFF8E1"
+          "default": "#ffffff"
         },
         "primary": {
-          "light": "#5BC0EB",
-          "main": "#0099CC",
-          "dark": "#0077A3",
+          "light": "#f3b85a",
+          "main": "#e69612",
+          "dark": "#c9820f",
           "contrastText": "#ffffff"
         },
         "secondary": {
-          "light": "#666666",
-          "main": "#333333",
-          "dark": "#2C2C2C",
+          "light": "#7a7a7a",
+          "main": "#4a4a4a",
+          "dark": "#2f2f2f",
           "contrastText": "#ffffff"
         },
         "success": {
-          "main": "#02a765"
+          "main": "#2e7d32"
         },
         "warning": {
-          "main": "#e4700c"
+          "main": "#e69612"
         },
         "error": {
-          "main": "#d4311d"
+          "main": "#b40000"
         }
       },
       "components": {
@@ -252,7 +252,7 @@
           "href": "/CoTEDS-Smart"
         }
       ],
-      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/CoTEDS-Smart/resources/icon.png"
+      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/icon.png"
     },
     "footer": {
       "columns": [
