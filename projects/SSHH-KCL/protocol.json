@@ -305,7 +305,7 @@
         }
       }
     },
-    "faviconSrc": "https://raw.githubusercontent.com/twitter/twemoji/master/assets/72x72/1f319.png",
+    "faviconSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/SSHH-KCL/resources/favicon.png",
     "navbar": {
       "links": [
         {
@@ -317,7 +317,7 @@
           "href": "/faq"
         }
       ],
-      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/SSHH-KCL/resources/logo.png"
+      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/SSHH-KCL/resources/sshh.png"
     },
     "footer": {
       "columns": [
