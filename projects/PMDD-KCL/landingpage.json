@@ -20,12 +20,12 @@
       "content": {
         "block1": {
           "blockType": "hero",
-          "title": "The Cycle Study: Help us explore premenstrual disorders across the menstrual cycle",
+          "title": "Help us explore premenstrual disorders across the menstrual cycle",
           "subtitle": "Premenstrual disorders, including Premenstrual Syndrome (PMS) and Premenstrual Dysphoric Disorder (PMDD), can have severe effects on daily life. Help us understand how wearable data such as sleep, activity, and heart rate relates to PMDD.<br /><br /><button style='font-size:1.1rem; padding:10px 22px;' variant='contained' href='PMDD-KCL/enrol'>Join Study</button>"
         },
         "block2": {
           "blockType": "markdown",
-          "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Cycle%20Study_Logo%202.png' alt='Cycle Study logo' width='80%'/>"
+          "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Image%201_Phone.jpeg' alt='Cycle Study logo' width='80%'/>"
         }
       }
     },
@@ -81,7 +81,7 @@
       "content": {
         "block1": {
           "blockType": "markdown",
-          "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Image%201_Phone.jpeg' alt='Phone with study app' width='95%'/>"
+          "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Image%203_Phone.jpeg' alt='Phone with study app' width='95%'/>"
         },
         "block2": {
           "blockType": "markdown",
