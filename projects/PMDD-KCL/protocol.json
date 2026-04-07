@@ -133,7 +133,7 @@
     },
     "studyInformation": {
       "title": "Study Information",
-      "content": "We understand that you may have questions about our research, what your involvement would be and much more. Please read carefully the Participant Information Sheet to find answers to these questions. If you have any questions about what you have read, please feel free to contact the team on <coteds-project@kcl.ac.uk>.\n<br />\n<PdfViewer fileUrl='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/main/projects/paprka/resources/paprka_pis.pdf' />\n<br />\n<button variant='contained' target='_blank' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/main/projects/paprka/resources/paprka_pis.pdf'>Download Participant Information</button>"
+      "content": "We understand that you may have questions about our research, what your involvement would be and much more. Please read carefully the Participant Information Sheet to find answers to these questions. If you have any questions about what you have read, please feel free to contact the team on <cyclestudy@kcl.ac.uk>.\n<br />\n<PdfViewer fileUrl='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/main/projects/paprka/resources/paprka_pis.pdf' />\n<br />\n<button variant='contained' target='_blank' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/main/projects/paprka/resources/paprka_pis.pdf'>Download Participant Information</button>"
     },
     "account": {
       "title": "Register Account",
@@ -244,12 +244,12 @@
         }
       }
     },
-    "faviconSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/CoTEDS-Smart/resources/icon.png",
+    "faviconSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/icon.png",
     "navbar": {
       "links": [
         {
           "text": "Home",
-          "href": "/CoTEDS-Smart"
+          "href": "/PMDD-KCL"
         }
       ],
       "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/icon.png"
@@ -273,8 +273,8 @@
           "title": "Contact Us",
           "items": [
             {
-              "text": "coteds-project@kcl.ac.uk",
-              "href": "mailto:coteds-project@kcl.ac.uk"
+              "text": "cyclestudy@kcl.ac.uk",
+              "href": "mailto:cyclestudy@kcl.ac.uk"
             }
           ]
         },
