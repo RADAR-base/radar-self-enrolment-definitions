@@ -21,7 +21,6 @@
           "backgroundColor": "#f1b3be"
         }
       },
-
       "blockType": "markdown",
       "noCard": true,
       "content": "<button href='STAGING_PROJECT/enrol'>Join Study</button>"
@@ -48,12 +47,10 @@
         "& .MuiBox-root": {
           "alignItems": "center"
         },
-
         "& .MuiButton-root": {
           "backgroundColor": "#f1b3be",
           "color": "#242c3d"
         },
-
         "& .MuiButton-root:hover": {
           "backgroundColor": "#0e1b4d",
           "color": "#b2b2b2"
@@ -69,7 +66,7 @@
         "block2": {
           "blockType": "video",
           "video": {
-            "src": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RADAR-GLAD-KCL-s1/resources/video.mp4",
+            "src": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/SSHH-KCL/resources/video.mp4",
             "type": "video/mp4",
             "width": "100%",
             "params": {
@@ -82,7 +79,6 @@
         }
       }
     },
-
     {
       "blockType": "hero",
       "noCard": true,
@@ -93,13 +89,11 @@
         "alignItems": "center",
         "alignContent": "center",
         "textAlign": "center",
-
         "& .MuiBox-root": {
           "flex": "none",
           "width": "100%",
           "gap": "0"
         },
-
         "& .MuiTypography-h1": {
           "fontSize": "3rem",
           "flex": "none",
@@ -109,7 +103,6 @@
       },
       "title": "Smartphones are now an integral part of daily life. Many people use their phones before bed — for social media, messaging, gaming, or watching videos. However, it is not fully understood how different types of phone interactions influence sleep."
     },
-
     {
       "blockType": "column",
       "sx": {
@@ -117,24 +110,20 @@
         "paddingTop": "2rem",
         "bgcolor": "background.quaternary",
         "color": "background.quinary",
-
         "& .MuiBox-root": {
           "alignItems": "flex-start",
           "paddingLeft": "0rem",
           "paddingRight": "0rem"
         },
-
         "& .MuiGrid2-root": {
           "alignSelf": "center"
         },
-
         "& .MuiTypography-h2": {
           "fontSize": "3rem",
           "fontWeight": "700",
           "width": "100%",
           "textAlign": "left"
         },
-
         "& .MuiTypography-body1": {
           "fontSize": "1.25rem"
         }
@@ -152,7 +141,6 @@
         }
       }
     },
-
     {
       "blockType": "column",
       "sx": {
@@ -161,22 +149,18 @@
         "paddingBottom": "2rem",
         "bgcolor": "background.quaternary",
         "color": "background.quinary",
-
         "& .MuiBox-root": {
           "alignItems": "center"
         },
-
         "& .MuiGrid2-root": {
           "alignSelf": "start"
         },
-
         "& .MuiTypography-h1": {
           "flex": "none",
           "width": "100%",
           "fontSize": "3rem",
           "textAlign": "left"
         },
-
         "& .MuiTypography-h2": {
           "fontSize": "1.5rem",
           "fontWeight": "700",
@@ -197,13 +181,11 @@
         }
       }
     },
-
     {
       "sx": {
         "width": "100%",
         "bgcolor": "#9775bd",
         "color": "#ffffff",
-
         "& .MuiTypography-h2": {
           "fontSize": "3rem",
           "fontWeight": "700",
@@ -215,13 +197,11 @@
       "noCard": true,
       "title": "How This Study Works"
     },
-
     {
       "sx": {
         "width": "100%",
         "bgcolor": "#9775bd",
         "color": "#ffffff",
-
         "& .MuiTypography-root": {
           "textAlign": "center"
         }
@@ -251,7 +231,6 @@
         }
       }
     },
-
     {
       "blockType": "column",
       "sx": {
@@ -259,22 +238,18 @@
         "bgcolor": "background.quaternary",
         "color": "background.quinary",
         "paddingBottom": "2rem",
-
         "& .MuiBox-root": {
           "alignItems": "center"
         },
-
         "& .MuiGrid2-root": {
           "alignSelf": "start"
         },
-
         "& .MuiTypography-h1": {
           "flex": "none",
           "width": "100%",
           "textAlign": "left",
           "fontSize": "3rem"
         },
-
         "& .MuiTypography-body1": {
           "width": "100%",
           "textAlign": "left"
@@ -293,7 +268,6 @@
         }
       }
     },
-
     {
       "blockType": "markdown",
       "noCard": true,
@@ -303,25 +277,21 @@
         "color": "#ffffff",
         "gap": "0",
         "paddingBottom": "0rem",
-
         "& .MuiTypography-h2": {
           "fontSize": "3rem",
           "fontWeight": "700",
           "width": "100%",
           "textAlign": "center"
         },
-
         "& .MuiBox-root": {
           "alignItems": "center",
           "justifyContent": "center",
           "gap": "0"
         }
       },
-
       "title": "Benefits",
       "content": "Although there is no direct financial reward. However:"
     },
-
     {
       "blockType": "column",
       "noCard": true,
@@ -332,7 +302,6 @@
         "alignContent": "center",
         "width": "100%",
         "color": "#ffffff",
-
         "& .MuiTypography-root": {
           "textAlign": "center"
         }
@@ -352,7 +321,6 @@
         }
       }
     },
-
     {
       "blockType": "carousel",
       "noCard": true,
