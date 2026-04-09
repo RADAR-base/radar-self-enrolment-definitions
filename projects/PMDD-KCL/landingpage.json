@@ -10,11 +10,11 @@
         "color": "#2a2a2a",
         "alignItems": "center",
         "& .MuiButton-root": {
-          "backgroundColor": "#b40000",
+          "backgroundColor": "#e69612",
           "color": "#ffffff"
         },
         "& .MuiButton-root:hover": {
-          "backgroundColor": "#d95f02"
+          "backgroundColor": "#950000"
         }
       },
       "content": {
@@ -104,7 +104,7 @@
     {
       "blockType": "carousel",
       "noCard": true,
-      "blockBackground": "#b40000",
+      "blockBackground": "#e69612",
       "sx": {
         "& .MuiTypography-h2": {
           "fontSize": "2.2rem",

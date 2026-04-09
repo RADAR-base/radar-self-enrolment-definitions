@@ -151,14 +151,14 @@
         "h1": {
           "fontSize": "2rem",
           "fontWeight": "700",
-          "color": "#e69612",
+          "color": "#950000",
           "wordBreak": "normal",
           "overflow": "hidden"
         },
         "h2": {
           "fontSize": "1.5rem",
           "fontWeight": "700",
-          "color": "#e69612"
+          "color": "#950000"
         },
         "h3": {
           "fontSize": "1rem",
@@ -181,9 +181,9 @@
           "default": "#ffffff"
         },
         "primary": {
-          "light": "#f3b85a",
-          "main": "#e69612",
-          "dark": "#c9820f",
+          "light": "#b33a3a",
+          "main": "#950000",
+          "dark": "#770000",
           "contrastText": "#ffffff"
         },
         "secondary": {
@@ -196,10 +196,10 @@
           "main": "#2e7d32"
         },
         "warning": {
-          "main": "#e69612"
+          "main": "#950000"
         },
         "error": {
-          "main": "#b40000"
+          "main": "#e69612"
         }
       },
       "components": {
