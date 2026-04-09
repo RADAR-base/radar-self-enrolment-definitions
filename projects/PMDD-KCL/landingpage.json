@@ -26,7 +26,9 @@
         },
         "& .MuiButton-root": {
           "backgroundColor": "#950000",
-          "color": "#ffffff"
+          "color": "#ffffff",
+          "border": "1px solid #f2c266",
+          "boxShadow": "0 6px 16px rgba(230, 150, 18, 0.25)"
         },
         "& .MuiButton-root:hover": {
           "backgroundColor": "#e69612"
@@ -57,7 +59,7 @@
         }
       },
       "title": "",
-      "content": "<div style='max-width:980px; margin:0 auto; background:#ffffff; border-radius:20px; padding:2rem 2.2rem; box-shadow:0 10px 28px rgba(0,0,0,0.06); border:1px solid #f6e3dc;'><p style='margin-top:0;'>Premenstrual disorders, including Premenstrual Syndrome (PMS) and Premenstrual Dysphoric Disorder (PMDD), can have severe effects on daily life.</p><ul style='margin:0.25rem 0 1rem 1.2rem;'><li style='margin-bottom:0.4rem;'>PMS clinically affects around 1 in 3 people who menstruate</li><li>PMDD clinically affects around 1 in 20 people who menstruate</li></ul><p>These conditions are characterised by physical and emotional symptoms that heighten during the luteal phase (the time between ovulation and menstruation).</p><p style='margin-bottom:0;'>The Cycle Study aims to improve understanding of why premenstrual disorders occur and how to provide better support and treatment.</p></div>"
+      "content": "<div style='max-width:980px; margin:0 auto; background:#ffffff; border-radius:20px; padding:2rem 2.2rem; box-shadow:0 10px 28px rgba(230,150,18,0.10); border:1px solid #f2c266;'><p style='margin-top:0;'>Premenstrual disorders, including <strong style='color:#950000;'>Premenstrual Syndrome (PMS)</strong> and <strong style='color:#950000;'>Premenstrual Dysphoric Disorder (PMDD)</strong>, can have severe effects on daily life.</p><ul style='margin:0.25rem 0 1rem 1.2rem;'><li style='margin-bottom:0.4rem;'><strong style='color:#e69612;'>1 in 3</strong> people who menstruate are clinically affected by PMS</li><li><strong style='color:#e69612;'>1 in 20</strong> people who menstruate are clinically affected by PMDD</li></ul><p>These conditions are characterised by physical and emotional symptoms that heighten during the <strong style='color:#950000;'>luteal phase</strong> (the time between ovulation and menstruation).</p><p style='margin-bottom:0;'>The Cycle Study aims to improve understanding of why premenstrual disorders occur and how to provide better support and treatment.</p></div>"
     },
     {
       "blockType": "column",
@@ -85,7 +87,7 @@
         "block1": {
           "blockType": "markdown",
           "title": "Who Can Take Part?",
-          "content": "To take part in the Cycle Study, you must own a wearable device and have been diagnosed with PMDD.<br /><br />You must also:<br />- Be aged 18 or over<br />- Live in the UK<br />- Be fluent in English<br />- Not be on hormonal contraception<br />- Not be pregnant or breastfeeding"
+          "content": "To take part in the Cycle Study, you must own a wearable device and have been diagnosed with <strong style='color:#950000;'>PMDD</strong>.<br /><br />You must also:<br />- Be <strong style='color:#e69612;'>aged 18 or over</strong><br />- Live in the UK<br />- Be fluent in English<br />- Not be on hormonal contraception<br />- Not be pregnant or breastfeeding"
         },
         "block2": {
           "blockType": "markdown",
@@ -120,7 +122,7 @@
         "block2": {
           "blockType": "markdown",
           "title": "About the Cycle Study",
-          "content": "The Cycle Study, led by researchers at King's College London (KCL), explores how PMDD fluctuates across the menstrual cycle and how it is influenced by environment, co-occurring conditions, and broader indicators of health.<br /><br />To do this, we combine questionnaire data with wearable device insights such as sleep and activity patterns."
+          "content": "The Cycle Study, led by researchers at King's College London (KCL), explores how <strong style='color:#950000;'>PMDD fluctuates across the menstrual cycle</strong> and how it is influenced by environment, co-occurring conditions, and broader indicators of health.<br /><br />To do this, we combine questionnaire data with wearable device insights such as <strong style='color:#e69612;'>sleep</strong> and <strong style='color:#e69612;'>activity</strong> patterns."
         }
       }
     },
@@ -142,7 +144,7 @@
         }
       },
       "title": "What Happens After You Sign Up",
-      "content": "<div style='background:#fff8f5; border:1px solid #f4ddd4; border-radius:18px; padding:1.4rem 1.6rem;'><p style='margin-top:0;'>After filling out the sign-up form, you will be asked to:</p><ul style='margin:0 0 0 1.2rem;'><li>Complete a screening questionnaire to check eligibility</li><li>Read the Information Sheet</li><li>Provide consent</li><li>Connect your wearable so we can securely collect activity, sleep, and health data</li><li>Complete daily and weekly questionnaires for two menstrual cycles or a maximum of 10 weeks (whichever comes first) via the Active app</li></ul></div>"
+      "content": "<div style='background:#fffaf1; border:1px solid #f2c266; border-radius:18px; padding:1.4rem 1.6rem;'><p style='margin-top:0;'>After filling out the sign-up form, you will be asked to:</p><ul style='margin:0 0 0 1.2rem;'><li>Complete a <strong style='color:#950000;'>screening questionnaire</strong> to check eligibility</li><li>Read the Information Sheet</li><li>Provide consent</li><li>Connect your wearable so we can securely collect <strong style='color:#e69612;'>activity, sleep, and health data</strong></li><li>Complete daily and weekly questionnaires for <strong style='color:#950000;'>two menstrual cycles</strong> or a maximum of 10 weeks (whichever comes first) via the Active app</li></ul></div>"
     },
     {
       "blockType": "carousel",
@@ -197,6 +199,14 @@
     {
       "blockType": "accordion",
       "noCard": true,
+      "sx": {
+        "& .MuiTypography-h2": {
+          "color": "#950000"
+        },
+        "& .MuiAccordionSummary-expandIconWrapper": {
+          "color": "#e69612"
+        }
+      },
       "title": "Frequently Asked Questions",
       "items": [
         {
