@@ -5,36 +5,42 @@
       "noCard": true,
       "sx": {
         "width": "100%",
-        "padding": "3rem 0",
-        "bgcolor": "#ffffff",
+        "padding": "4rem 0 3rem",
+        "bgcolor": "#fff8f5",
         "color": "#2a2a2a",
         "alignItems": "center",
+        "& .MuiGrid2-root": {
+          "alignItems": "center"
+        },
+        "& .MuiBox-root": {
+          "gap": "1rem"
+        },
         "& .MuiTypography-h1": {
-          "fontSize": "2.5rem",
+          "fontSize": "3rem",
           "fontWeight": "700",
           "lineHeight": 1.15
         },
         "& .MuiTypography-body1": {
-          "fontSize": "1.15rem",
-          "lineHeight": 1.6
+          "fontSize": "1.2rem",
+          "lineHeight": 1.65
         },
         "& .MuiButton-root": {
-          "backgroundColor": "#e69612",
+          "backgroundColor": "#950000",
           "color": "#ffffff"
         },
         "& .MuiButton-root:hover": {
-          "backgroundColor": "#950000"
+          "backgroundColor": "#e69612"
         }
       },
       "content": {
         "block1": {
           "blockType": "hero",
           "title": "Help us explore premenstrual disorders across the menstrual cycle",
-          "subtitle": "<button style='font-size:1.1rem; padding:10px 22px;' variant='contained' href='PMDD-KCL/enrol'>Join Study</button>"
+          "subtitle": "Join a King's College London research study using wearable and questionnaire data to better understand PMDD.<br /><br /><button style='font-size:1.05rem; padding:12px 28px; border-radius:999px;' variant='contained' href='PMDD-KCL/enrol'>Join Study</button>"
         },
         "block2": {
           "blockType": "markdown",
-          "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Image%201_Phone.jpeg' alt='Cycle Study logo' width='80%'/>"
+          "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Image%201_Phone.jpeg' alt='Cycle Study hero image' style='width:90%; border-radius:24px; box-shadow:0 14px 32px rgba(20,20,20,0.14); object-fit:cover;'/>"
         }
       }
     },
@@ -43,32 +49,29 @@
       "noCard": true,
       "sx": {
         "width": "100%",
-        "bgcolor": "#fff5f2",
+        "bgcolor": "#fff8f5",
         "color": "#2a2a2a",
-        "& .MuiTypography-h2": {
-          "fontSize": "2.2rem",
-          "fontWeight": "700"
-        },
         "& .MuiTypography-body1": {
-          "fontSize": "1.2rem",
-          "lineHeight": 1.7
+          "fontSize": "1.15rem",
+          "lineHeight": 1.75
         }
       },
       "title": "",
-      "content": "Premenstrual disorders, including Premenstrual Syndrome (PMS) and Premenstrual Dysphoric Disorder (PMDD), can have severe effects on daily life.<br /><br />- PMS clinically affects around 1 in 3 people who menstruate<br />- PMDD clinically affects around 1 in 20 people who menstruate<br /><br />These conditions are characterised by physical and emotional symptoms that heighten during the luteal phase (the time between ovulation and menstruation).<br /><br />The Cycle Study aims to improve understanding of why premenstrual disorders occur and how to provide better support and treatment."
+      "content": "<div style='max-width:980px; margin:0 auto; background:#ffffff; border-radius:20px; padding:2rem 2.2rem; box-shadow:0 10px 28px rgba(0,0,0,0.06); border:1px solid #f6e3dc;'><p style='margin-top:0;'>Premenstrual disorders, including Premenstrual Syndrome (PMS) and Premenstrual Dysphoric Disorder (PMDD), can have severe effects on daily life.</p><ul style='margin:0.25rem 0 1rem 1.2rem;'><li style='margin-bottom:0.4rem;'>PMS clinically affects around 1 in 3 people who menstruate</li><li>PMDD clinically affects around 1 in 20 people who menstruate</li></ul><p>These conditions are characterised by physical and emotional symptoms that heighten during the luteal phase (the time between ovulation and menstruation).</p><p style='margin-bottom:0;'>The Cycle Study aims to improve understanding of why premenstrual disorders occur and how to provide better support and treatment.</p></div>"
     },
     {
       "blockType": "column",
       "noCard": true,
       "sx": {
         "width": "100%",
-        "paddingTop": "1rem",
-        "paddingBottom": "1rem",
+        "paddingTop": "2.5rem",
+        "paddingBottom": "2.5rem",
         "bgcolor": "#ffffff",
         "color": "#2a2a2a",
         "& .MuiTypography-h2": {
           "fontSize": "2rem",
-          "fontWeight": "700"
+          "fontWeight": "700",
+          "color": "#950000"
         },
         "& .MuiTypography-body1": {
           "fontSize": "1.15rem",
@@ -86,7 +89,7 @@
         },
         "block2": {
           "blockType": "markdown",
-          "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Image%202_Wearable.jpeg' alt='Wearable device' width='95%'/>"
+          "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Image%202_Wearable.jpeg' alt='Wearable device' style='width:95%; border-radius:20px; box-shadow:0 12px 24px rgba(0,0,0,0.12); object-fit:cover;'/>"
         }
       }
     },
@@ -95,13 +98,14 @@
       "noCard": true,
       "sx": {
         "width": "100%",
-        "paddingTop": "1rem",
-        "paddingBottom": "1rem",
+        "paddingTop": "2.5rem",
+        "paddingBottom": "2.5rem",
         "bgcolor": "#fff5f2",
         "color": "#2a2a2a",
         "& .MuiTypography-h2": {
           "fontSize": "2rem",
-          "fontWeight": "700"
+          "fontWeight": "700",
+          "color": "#950000"
         },
         "& .MuiTypography-body1": {
           "fontSize": "1.15rem",
@@ -111,7 +115,7 @@
       "content": {
         "block1": {
           "blockType": "markdown",
-          "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Image%203_Phone.jpeg' alt='Phone with study app' width='95%'/>"
+          "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Image%203_Phone.jpeg' alt='Phone with study app' style='width:95%; border-radius:20px; box-shadow:0 12px 24px rgba(0,0,0,0.12); object-fit:cover;'/>"
         },
         "block2": {
           "blockType": "markdown",
@@ -129,7 +133,8 @@
         "color": "#2a2a2a",
         "& .MuiTypography-h2": {
           "fontSize": "2rem",
-          "fontWeight": "700"
+          "fontWeight": "700",
+          "color": "#950000"
         },
         "& .MuiTypography-body1": {
           "fontSize": "1.15rem",
@@ -137,12 +142,12 @@
         }
       },
       "title": "What Happens After You Sign Up",
-      "content": "After filling out the sign-up form, you will be asked to:<br />- Complete a screening questionnaire to check eligibility<br />- Read the Information Sheet<br />- Provide consent<br />- Connect your wearable so we can securely collect activity, sleep, and health data<br />- Complete daily and weekly questionnaires for two menstrual cycles or a maximum of 10 weeks (whichever comes first) via the Active app"
+      "content": "<div style='background:#fff8f5; border:1px solid #f4ddd4; border-radius:18px; padding:1.4rem 1.6rem;'><p style='margin-top:0;'>After filling out the sign-up form, you will be asked to:</p><ul style='margin:0 0 0 1.2rem;'><li>Complete a screening questionnaire to check eligibility</li><li>Read the Information Sheet</li><li>Provide consent</li><li>Connect your wearable so we can securely collect activity, sleep, and health data</li><li>Complete daily and weekly questionnaires for two menstrual cycles or a maximum of 10 weeks (whichever comes first) via the Active app</li></ul></div>"
     },
     {
       "blockType": "carousel",
       "noCard": true,
-      "blockBackground": "#e69612",
+      "blockBackground": "#950000",
       "sx": {
         "& .MuiTypography-h2": {
           "fontSize": "2.2rem",
@@ -217,11 +222,12 @@
       "noCard": true,
       "sx": {
         "width": "100%",
-        "bgcolor": "#fff5f2",
+        "bgcolor": "#fff8f5",
         "color": "#2a2a2a",
         "& .MuiTypography-h2": {
           "fontSize": "2rem",
-          "fontWeight": "700"
+          "fontWeight": "700",
+          "color": "#950000"
         },
         "& .MuiTypography-body1": {
           "fontSize": "1.1rem",
