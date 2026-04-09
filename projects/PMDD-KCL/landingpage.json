@@ -9,6 +9,15 @@
         "bgcolor": "#ffffff",
         "color": "#2a2a2a",
         "alignItems": "center",
+        "& .MuiTypography-h1": {
+          "fontSize": "2.5rem",
+          "fontWeight": "700",
+          "lineHeight": 1.15
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "1.15rem",
+          "lineHeight": 1.6
+        },
         "& .MuiButton-root": {
           "backgroundColor": "#e69612",
           "color": "#ffffff"
@@ -37,7 +46,12 @@
         "bgcolor": "#fff5f2",
         "color": "#2a2a2a",
         "& .MuiTypography-h2": {
-          "fontSize": "2.2rem"
+          "fontSize": "2.2rem",
+          "fontWeight": "700"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "1.2rem",
+          "lineHeight": 1.7
         }
       },
       "title": "",
@@ -52,6 +66,14 @@
         "paddingBottom": "1rem",
         "bgcolor": "#ffffff",
         "color": "#2a2a2a",
+        "& .MuiTypography-h2": {
+          "fontSize": "2rem",
+          "fontWeight": "700"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "1.15rem",
+          "lineHeight": 1.65
+        },
         "& .MuiBox-root": {
           "alignItems": "flex-start"
         }
@@ -76,7 +98,15 @@
         "paddingTop": "1rem",
         "paddingBottom": "1rem",
         "bgcolor": "#fff5f2",
-        "color": "#2a2a2a"
+        "color": "#2a2a2a",
+        "& .MuiTypography-h2": {
+          "fontSize": "2rem",
+          "fontWeight": "700"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "1.15rem",
+          "lineHeight": 1.65
+        }
       },
       "content": {
         "block1": {
@@ -96,7 +126,15 @@
       "sx": {
         "width": "100%",
         "bgcolor": "#ffffff",
-        "color": "#2a2a2a"
+        "color": "#2a2a2a",
+        "& .MuiTypography-h2": {
+          "fontSize": "2rem",
+          "fontWeight": "700"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "1.15rem",
+          "lineHeight": 1.65
+        }
       },
       "title": "What Happens After You Sign Up",
       "content": "After filling out the sign-up form, you will be asked to:<br />- Complete a screening questionnaire to check eligibility<br />- Read the Information Sheet<br />- Provide consent<br />- Connect your wearable so we can securely collect activity, sleep, and health data<br />- Complete daily and weekly questionnaires for two menstrual cycles or a maximum of 10 weeks (whichever comes first) via the Active app"
@@ -180,7 +218,15 @@
       "sx": {
         "width": "100%",
         "bgcolor": "#fff5f2",
-        "color": "#2a2a2a"
+        "color": "#2a2a2a",
+        "& .MuiTypography-h2": {
+          "fontSize": "2rem",
+          "fontWeight": "700"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "1.1rem",
+          "lineHeight": 1.6
+        }
       },
       "title": "Talk to Us",
       "content": "Email us: cyclestudy@kcl.ac.uk<br />Office hours: Monday to Friday, 9:00am to 5:00pm (UK time)."
