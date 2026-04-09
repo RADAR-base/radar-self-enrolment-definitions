@@ -21,7 +21,7 @@
         "block1": {
           "blockType": "hero",
           "title": "Help us explore premenstrual disorders across the menstrual cycle",
-          "subtitle": "Premenstrual disorders, including Premenstrual Syndrome (PMS) and Premenstrual Dysphoric Disorder (PMDD), can have severe effects on daily life. Help us understand how wearable data such as sleep, activity, and heart rate relates to PMDD.<br /><br /><button style='font-size:1.1rem; padding:10px 22px;' variant='contained' href='PMDD-KCL/enrol'>Join Study</button>"
+          "subtitle": "<button style='font-size:1.1rem; padding:10px 22px;' variant='contained' href='PMDD-KCL/enrol'>Join Study</button>"
         },
         "block2": {
           "blockType": "markdown",
@@ -40,8 +40,8 @@
           "fontSize": "2.2rem"
         }
       },
-      "title": "Overview",
-      "content": "PMS clinically affects around 1 in 3 people who menstruate, and PMDD clinically affects around 1 in 20 people who menstruate. These conditions are characterised by physical and emotional symptoms that heighten during the luteal phase (the time between ovulation and menstruation).<br /><br />The Cycle Study aims to improve understanding of why premenstrual disorders occur and how to provide better support and treatment."
+      "title": "",
+      "content": "Premenstrual disorders, including Premenstrual Syndrome (PMS) and Premenstrual Dysphoric Disorder (PMDD), can have severe effects on daily life.<br /><br />- PMS clinically affects around 1 in 3 people who menstruate<br />- PMDD clinically affects around 1 in 20 people who menstruate<br /><br />These conditions are characterised by physical and emotional symptoms that heighten during the luteal phase (the time between ovulation and menstruation).<br /><br />The Cycle Study aims to improve understanding of why premenstrual disorders occur and how to provide better support and treatment."
     },
     {
       "blockType": "column",
