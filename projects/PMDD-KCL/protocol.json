@@ -20,27 +20,27 @@
         "inbuiltId": "connect",
         "options": {
           "title": "TASK: Connect my device(s)",
-          "description": "<p>Click on the connect button for your device.</p><p>The study team will collect activity, sleep, and health data from your wearable devices or smartphone apps. This data will be collected securely via RADAR-base and linked with your existing CoTEDS and TEDS data.</p>",
+          "description": "<p>Click on the connect button for your device.</p><p>The study team will collect activity, sleep, and health data from your wearable devices or smartphone apps. This data will be collected securely via RADAR-base.</p>",
           "devices": [
             {
               "id": "fitbit",
               "title": "Fitbit",
-              "description": "Before clicking Connect, you can read step-by-step instructions or watch a video to see how to share your Fitbit physical activity data."
+              "description": "By clicking Connect, you can read step-by-step instructions or watch a video to see how to share your Fitbit data. We are collecting physical activity, heart rate, and sleep data."
             },
             {
               "id": "garmin",
               "title": "Garmin",
-              "description": "Before clicking Connect, you can read step-by-step instructions or watch a video to see how to share your Garmin physical activity data."
+              "description": "By clicking Connect, you can read step-by-step instructions or watch a video to see how to share your Garmin data. We are collecting physical activity, heart rate, and sleep data."
             },
             {
               "id": "oura",
               "title": "Oura Ring",
-              "description": "Before clicking Connect, you can read step-by-step instructions or watch a video to see how to share your Oura Ring physical activity data."
+              "description": "By clicking Connect, you can read step-by-step instructions or watch a video to see how to share your Oura Ring data. We are collecting physical activity, heart rate, temperature, and sleep data."
             },
             {
               "id": "radar_armt",
               "title": "RADAR Questionnaire App",
-              "description": "Before clicking Connect, you can read step-by-step instructions or watch a video to see how to share your RADAR aRMT physical activity data."
+              "description": "By clicking Connect, you can read step-by-step instructions or watch a video to see how to share your RADAR aRMT physical activity data."
             }
           ]
         }
@@ -265,7 +265,7 @@
             },
             {
               "text": "About the study",
-              "href": "https://www.teds.ac.uk/coteds/"
+              "href": "https://www.kcl.ac.uk/research/cycle-study"
             }
           ]
         },
@@ -283,7 +283,7 @@
           "items": [
             {
               "text": "Privacy Policy",
-              "href": "https://www.teds.ac.uk/about-teds/privacy-policy/"
+              "href": "/"
             }
           ]
         }
