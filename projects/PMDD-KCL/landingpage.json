@@ -34,13 +34,11 @@
           "backgroundColor": "#e69612"
         },
         "@media (min-width: 900px)": {
-          "& .MuiGrid2-root.test:nth-of-type(1)": {
-            "flex": "0 0 66.6667%",
-            "maxWidth": "66.6667%"
+          "& .MuiGrid2-container > .test:nth-of-type(1)": {
+            "gridColumn": "span 8"
           },
-          "& .MuiGrid2-root.test:nth-of-type(2)": {
-            "flex": "0 0 33.3333%",
-            "maxWidth": "33.3333%"
+          "& .MuiGrid2-container > .test:nth-of-type(2)": {
+            "gridColumn": "span 4"
           }
         }
       },
