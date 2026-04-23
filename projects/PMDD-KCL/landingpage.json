@@ -33,6 +33,17 @@
         "& .MuiButton-root:hover": {
           "backgroundColor": "#e69612"
         },
+        "& > div": {
+          "maxWidth": "1440px",
+          "paddingLeft": {
+            "xs": 1,
+            "sm": 2
+          },
+          "paddingRight": {
+            "xs": 1,
+            "sm": 2
+          }
+        },
         "@media (min-width: 900px)": {
           "& .MuiGrid2-container > .test:nth-of-type(1)": {
             "gridColumn": "span 8"
