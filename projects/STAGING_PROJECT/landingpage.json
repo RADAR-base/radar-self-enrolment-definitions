@@ -64,7 +64,7 @@
       "content": {
         "block1": {
           "blockType": "markdown",
-          "content": "<h1>Discover How Your Mobile Phone Usage affects your Sleep</h1><button style='fontSize: 2rem; padding: 10px 24px; margin: 1rem 0; align-self:flex-start' variant='contained' href='STAGING_PROJECT/enrol'>Join Study</button>"
+          "content": "<h1>Study of Sleep Hygiene and Health (SSHH)</h1><h2>Discover How Your Mobile Phone Usage affects your Sleep</h2><button style='fontSize: 2rem; padding: 10px 24px; margin: 1rem 0; align-self:flex-start' variant='contained' href='STAGING_PROJECT/enrol'>Join Study</button>"
         },
         "block2": {
           "blockType": "video",
@@ -164,8 +164,12 @@
         },
 
         "@media only screen and (max-device-width: 480px)": {
+          "&. MuiBox-root": {
+            "justifyContent": "center"
+          },
           "& .MuiTypography-h1": {
-            "fontSize": "2rem"
+            "fontSize": "1.5rem",
+            "textAlign": "center"
           }
         }
       },
@@ -199,6 +203,18 @@
 
         "& .MuiTypography-body1": {
           "fontSize": "1.25rem"
+        },
+
+        "@media only screen and (max-device-width: 480px)": {
+          "&. MuiBox-root": {
+            "alignItems": "center"
+          },
+          "& .MuiTypography-h1": {
+            "textAlign": "center"
+          },
+          "&.MuiTypography-body1": {
+            "textAlign": "center"
+          }
         }
       },
       "noCard": true,
