@@ -7,16 +7,15 @@
         "width": "100vw",
         "bottom": "5%",
         "zIndex": "100",
-        "mixBlendMode": "difference",
-        
+
         "& .MuiBox-root": {
           "alignItems": "end",
           "paddingRight": "5%",
           "maxWidth": "100%"
         },
         "& .MuiButton-root": {
-          "backgroundColor": "black",
-          "color": "white"
+          "border": "solid 2px rgba(241,179,190,0.5)",
+          "backdropFilter": "blur(1.5rem)"
         },
         "& .MuiButton-root:hover": {
           "opacity": "1.0",
@@ -69,7 +68,7 @@
       "content": {
         "block1": {
           "blockType": "markdown",
-          "content": "<h1>Study of Sleep Hygiene and Health (SSHH)</h1></br><h2>Discover How Your Mobile Phone Usage affects your Sleep</h2><button style='fontSize: 2rem; padding: 10px 24px; margin: 1rem 0; align-self:flex-start' variant='contained' href='STAGING_PROJECT/enrol'>Join Study</button>"
+          "content": "<h1>Study of Sleep Hygiene and Health (SSHH)</h1>\n<br /><h2>Discover How Your Mobile Phone Usage affects your Sleep</h2><button style='fontSize: 2rem; padding: 10px 24px; margin: 1rem 0; align-self:flex-start' variant='contained' href='STAGING_PROJECT/enrol'>Join Study</button>"
         },
         "block2": {
           "blockType": "video",
