@@ -38,6 +38,7 @@
         "justifyContent": "center",
         "alignItems": "center",
         "alignContent": "center",
+
         "& .MuiTypography-h1": {
           "fontSize": "2.5rem",
           "flex": "none",
@@ -48,10 +49,6 @@
         },
         "& .MuiBox-root": {
           "alignItems": "center"
-        },
-
-        "&. MuiTypography-h2": {
-          "fontWeight": "normal"
         },
 
         "& .MuiButton-root": {
@@ -68,7 +65,7 @@
       "content": {
         "block1": {
           "blockType": "markdown",
-          "content": "<h1>Study of Sleep Hygiene and Health (SSHH)</h1>\n<br /><h2>Discover How Your Mobile Phone Usage affects your Sleep</h2><button style='fontSize: 2rem; padding: 10px 24px; margin: 1rem 0; align-self:flex-start' variant='contained' href='STAGING_PROJECT/enrol'>Join Study</button>"
+          "content": "<h1>Study of Sleep Hygiene and Health (SSHH)</h1>\n<br /><h2 style='fontWeight: normal;'>Discover How Your Mobile Phone Usage affects your Sleep</h2><button style='fontSize: 2rem; padding: 10px 24px; margin: 1rem 0; align-self:flex-start' variant='contained' href='STAGING_PROJECT/enrol'>Join Study</button>"
         },
         "block2": {
           "blockType": "video",
