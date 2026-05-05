@@ -7,6 +7,8 @@
         "width": "100vw",
         "bottom": "5%",
         "zIndex": "100",
+        "mixBlendMode": "difference",
+        
         "& .MuiBox-root": {
           "alignItems": "end",
           "paddingRight": "5%",
@@ -14,8 +16,7 @@
         },
         "& .MuiButton-root": {
           "backgroundColor": "black",
-          "color": "white",
-          "mixBlendMode": "difference"
+          "color": "white"
         },
         "& .MuiButton-root:hover": {
           "opacity": "1.0",
@@ -25,7 +26,7 @@
 
       "blockType": "markdown",
       "noCard": true,
-      "content": "<button href='STAGING_PROJECT/enrol'>Join Study</button>"
+      "content": "<button style='mix-blend-mode: difference;' href='STAGING_PROJECT/enrol'>Join Study</button>"
     },
     {
       "blockType": "column",
@@ -168,7 +169,7 @@
         },
 
         "@media only screen and (max-device-width: 480px)": {
-          "&. MuiBox-root": {
+          "& .MuiBox-root": {
             "justifyContent": "center"
           },
           "& .MuiTypography-h1": {
@@ -210,9 +211,18 @@
         },
 
         "@media only screen and (max-device-width: 480px)": {
-          "& .MuiGrid2-grid-sm-12": {
+          "& .MuiBox-root": {
             "alignItems": "center",
-            "alignSelf": "center",
+            "alignSelf": "center"
+          },
+          "& .MuiGrid2-root": {
+            "alignItems": "center",
+            "alignSelf": "center"
+          },
+          "& .MuiTypography-h2": {
+            "textAlign": "center"
+          },
+          "& .MuiTypography-body1": {
             "textAlign": "center"
           }
         }
