@@ -7,14 +7,14 @@
         "width": "100vw",
         "bottom": "5%",
         "zIndex": "100",
-
         "& .MuiBox-root": {
           "alignItems": "end",
           "paddingRight": "5%",
           "maxWidth": "100%"
         },
         "& .MuiButton-root": {
-          "border": "solid 2px rgba(241,179,190,0.5)",
+          "color": "#242c3d",
+          "border": "solid 2px #f1b3be",
           "backdropFilter": "blur(1.5rem)"
         },
         "& .MuiButton-root:hover": {
@@ -59,6 +59,10 @@
         "& .MuiButton-root:hover": {
           "backgroundColor": "#0e1b4d",
           "color": "#b2b2b2"
+        },
+
+        "@media only screen and (max-device-width: 480px)": {
+          "padding": "0rem"
         }
       },
       "noCard": true,
@@ -83,7 +87,7 @@
         }
       }
     },
-    
+
     {
       "blockType": "hero",
       "noCard": true,
