@@ -78,7 +78,7 @@
         "block2": {
           "blockType": "video",
           "video": {
-            "src": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/sshh_video.mp4",
+            "src": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/video.mp4",
             "type": "video/mp4",
             "width": "100%",
             "params": {
