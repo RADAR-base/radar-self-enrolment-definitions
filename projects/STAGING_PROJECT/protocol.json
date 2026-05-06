@@ -1,5 +1,5 @@
 {
-  "name": "Study of Sleep Hygiene and Health",
+  "name": "",
   "studyId": "STAGING_PROJECT",
   "healthIssues": [],
   "onboarding": {
@@ -306,8 +306,8 @@
               "href": "#"
             },
             {
-              "text": "About the study",
-              "href": "#"
+              "text": "FAQ",
+              "href": "/faq"
             }
           ]
         },
