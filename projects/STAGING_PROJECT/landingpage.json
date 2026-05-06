@@ -14,8 +14,8 @@
         },
         "& .MuiButton-root": {
           "color": "white",
-          "mixBlendMode": "difference",
-          "border": "solid 2px #f1b3be",
+          "backgroundColor": "#214d72",
+          "opacity": "0.8",
           "backdropFilter": "blur(1.5rem)"
         },
         "& .MuiButton-root:hover": {
@@ -26,7 +26,7 @@
 
       "blockType": "markdown",
       "noCard": true,
-      "content": "<button href='STAGING_PROJECT/enrol'>Join Study</button>"
+      "content": "<button href='STAGING_PROJECT/enrol'><span>Join Study</span></button>"
     },
     {
       "blockType": "column",
