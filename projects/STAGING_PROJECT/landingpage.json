@@ -78,14 +78,16 @@
         "block2": {
           "blockType": "video",
           "video": {
-            "src": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RADAR-GLAD-KCL-s1/resources/video.mp4",
+            "src": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/sshh_video.mp4",
             "type": "video/mp4",
             "width": "100%",
             "params": {
               "controls": true,
               "muted": false,
               "autoPlay": false,
-              "playsInline": true
+              "playsInline": true,
+              "poster": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/video_thumbnail.png"
+
             }
           }
         }
