@@ -50,7 +50,7 @@
   "enrolment": {
     "studyInformation": {
       "title": "Study Information",
-      "content": "We understand that you may have questions about our research, what your involvement would be and much more. Please read carefully the Participant Information Sheet to find answers to these questions. If you have any questions about what you have read, please feel free to contact the team on <cyclestudy@kcl.ac.uk>.\n<br />\n<PdfViewer fileUrl='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/dev/projects/PMDD-KCL/resources/pis.pdf' />\n<br />\n<button variant='contained' target='_blank' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/dev/projects/PMDD-KCL/resources/pis.pdf'>Download Participant Information</button>"
+      "content": "We understand that you may have questions about our research, what your involvement would be and much more. Please read carefully the Participant Information Sheet to find answers to these questions. If you have any questions about what you have read, please feel free to contact the team on <cyclestudy@kcl.ac.uk>.\n<br />\n<PdfViewer fileUrl='https://dev.radarbasedev.co.uk/study/study/PMDD-KCL/resources/cycle_pis.pdf' />\n<br />\n<button variant='contained' target='_blank' href='https://dev.radarbasedev.co.uk/study/study/PMDD-KCL/resources/cycle_pis.pdf'>Download Participant Information</button>"
     },
     "eligibility": {
       "title": "Who can take part in the Cycle Study?",
