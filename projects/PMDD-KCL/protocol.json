@@ -160,6 +160,47 @@
       ],
       "signatureDescription": "**Data Protection**\n\n**The personal information we collect and use to conduct this research will be processed in accordance with data protection law as explained in the Participant Information Sheet and the Privacy Notice for Research Participants.**\n\nBy signing this consent form, I declare that I have provided accurate identity details (full name and electronic signature).\n"
     },
+    "additional": {
+      "title": "Register Account",
+      "items": [
+        {
+          "field_name": "pmdd_additional_age",
+          "form_name": "pmdd_additional",
+          "field_type": "text",
+          "field_label": "What is your age?",
+          "required_field": "true"
+        },
+        {
+          "field_name": "pmdd_additional_gender",
+          "form_name": "pmdd_additional",
+          "section_header": "",
+          "field_type": "dropdown",
+          "field_label": "Gender",
+          "select_choices_or_calculations": [
+            {
+              "code": "0",
+              "label": "Male"
+            },
+            {
+              "code": "1",
+              "label": "Female"
+            },
+            {
+              "code": "2",
+              "label": "Other"
+            }
+          ],
+          "required_field": "true"
+        },
+        {
+          "field_name": "pmdd_additional_other",
+          "form_name": "pmdd_additional",
+          "field_type": "text",
+          "field_label": "If you chose 'Other', please specify your gender",
+          "required_field": "false"
+        }
+      ]
+    },
     "account": {
       "title": "Register Account",
       "description": "You need an account to connect your fitness tracker or smartphone app so we can collect activity, sleep, and health data.\nYou can find out more information about the way we use personal information in our [privacy policy](privacy).\n"
