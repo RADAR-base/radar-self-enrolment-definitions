@@ -164,6 +164,12 @@
       "title": "Register Account",
       "items": [
         {
+          "field_name": "pmdd_additional_heading",
+          "form_name": "pmdd_additional",
+          "field_type": "descriptive",
+          "field_label": "You need an account to give us your information and connect your fitness tracker or smartphone app."
+        },
+        {
           "field_name": "pmdd_additional_age",
           "form_name": "pmdd_additional",
           "field_type": "text",
@@ -196,8 +202,7 @@
           "field_name": "pmdd_additional_other",
           "form_name": "pmdd_additional",
           "field_type": "text",
-          "field_label": "If you chose 'Other', please specify your gender",
-          "required_field": "false"
+          "field_label": "If you chose 'Other', please specify your gender"
         }
       ]
     },
