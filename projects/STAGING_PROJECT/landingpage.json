@@ -13,19 +13,20 @@
           "maxWidth": "100%"
         },
         "& .MuiButton-root": {
-          "color": "#242c3d",
+          "color": "white",
+          "mixBlendMode": "difference",
           "border": "solid 2px #f1b3be",
           "backdropFilter": "blur(1.5rem)"
         },
         "& .MuiButton-root:hover": {
           "opacity": "1.0",
           "backgroundColor": "#f1b3be"
-        }
+        },
       },
 
       "blockType": "markdown",
       "noCard": true,
-      "content": "<button style='mix-blend-mode: difference;' href='STAGING_PROJECT/enrol'>Join Study</button>"
+      "content": "<button href='STAGING_PROJECT/enrol'>Join Study</button>"
     },
     {
       "blockType": "column",
@@ -73,7 +74,7 @@
       "content": {
         "block1": {
           "blockType": "markdown",
-          "content": "<div id='test'><h1>Study of Sleep Hygiene and Health (SSHH)</h1>\n<br /><h2 style='fontWeight: normal;'>Discover How Your Mobile Phone Usage affects your Sleep</h2><button style='fontSize: 2rem; padding: 10px 24px; margin: 1rem 0; align-self:flex-start' variant='contained' href='STAGING_PROJECT/enrol'>Join Study</button></div>"
+          "content": "<div id='test'><h1>Study of Sleep Hygiene & Health (SSHH)</h1>\n<br /><h2 style='fontWeight: normal;'>Discover How Your Mobile Phone Usage affects your Sleep</h2><button style='fontSize: 2rem; padding: 10px 24px; margin: 1rem 0; align-self:flex-start' variant='contained' href='STAGING_PROJECT/enrol'>Join Study</button></div>"
         },
         "block2": {
           "blockType": "video",
@@ -183,8 +184,8 @@
         },
         "block2": {
           "blockType": "markdown",
-          "title": "About The Study of Sleep Hygiene and Health",
-          "content": "The Study of Sleep Hygiene and Health (SSHH) is a citizen science research project investigating how smartphone use — particularly before bedtime — influences sleep quality, duration, and overall sleep hygiene.\n<br />By combining wearable device data, smartphone usage information, and short daily questionnaires, we aim to better understand the relationship between digital behaviour and sleep in real-world settings.\n<br />Partners: King's College London, South London and Maudsley NHS Foundation Trust.\n<br />\n<button variant='contained' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/RADAR_Sleep_Hygiene_PIS.pdf' target='_blank' download='RADAR_Sleep_Hygiene_PIS.pdf'>Learn more</button>"
+          "title": "About The Study of Sleep Hygiene & Health",
+          "content": "The Study of Sleep Hygiene & Health (SSHH) is a citizen science research project investigating how smartphone use — particularly before bedtime — influences sleep quality, duration, and overall sleep hygiene.\n<br />By combining wearable device data, smartphone usage information, and short daily questionnaires, we aim to better understand the relationship between digital behaviour and sleep in real-world settings.\n<br />Partners: King's College London, South London and Maudsley NHS Foundation Trust.\n<br />\n<button variant='contained' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/RADAR_Sleep_Hygiene_PIS.pdf' target='_blank' download='RADAR_Sleep_Hygiene_PIS.pdf'>Learn more</button>"
         }
       }
     },
@@ -330,7 +331,7 @@
         },
         "block2": {
           "blockType": "markdown",
-          "content": "<div style='display:flex; gap: 1rem; flex-direction:column;'><div style='background-color: white; border-radius:48px; padding:2rem; display: flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Are 13 years or older</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/teenagerandadult.png' height='100rem'/></div><div style='background-color: white; border-radius:48px; padding:2rem; display: flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Regularly use a smartphone & Own a wearable device</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/devices.png' height='100rem'/></div><div style='background-color: white; border-radius:48px; padding:2rem; display: flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Install two secure research apps on your smartphone</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/radarApps.png' height='100rem'/></div><div style='background-color: white; border-radius:48px; padding:2rem; display: flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Wear your device regularly, including overnight</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/sleep.png' height='100rem'/></div><div style='background-color: white; border-radius:48px; padding:2rem; display:flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Answer Questionnaires and Cognitive Tests</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/regularlydevice.png' height='100rem'/></div></div>"
+          "content": "<div style='display:flex; gap: 1rem; flex-direction:column;'><div style='background-color: white; border-radius:48px; padding:2rem; display: flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Are 13 years or older</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/teenagerandadult.png' height='100rem'/></div><div style='background-color: white; border-radius:48px; padding:2rem; display: flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Regularly use a smartphone & Own a wearable device</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/devices.png' height='100rem'/></div><div style='background-color: white; border-radius:48px; padding:2rem; display: flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Install two secure research apps on your smartphone</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/radarApps.png' height='100rem'/></div><div style='background-color: white; border-radius:48px; padding:2rem; display: flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Wear your device regularly, including overnight</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/sleep.png' height='100rem'/></div><div style='background-color: white; border-radius:48px; padding:2rem; display:flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Answer Questionnaires & Cognitive Tests</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/regularlydevice.png' height='100rem'/></div></div>"
         }
       }
     },
@@ -381,7 +382,7 @@
       "content": {
         "block1": {
           "blockType": "markdown",
-          "title": "Contributing to research on digital wellbeing and sleep health"
+          "title": "Contributing to research on digital wellbeing & sleep health"
         },
         "block2": {
           "blockType": "markdown",
@@ -389,7 +390,7 @@
         },
         "block3": {
           "blockType": "markdown",
-          "title": "Help improve public health recommendations around screen time and sleep"
+          "title": "Help improve public health recommendations around screen time & sleep"
         }
       }
     },
