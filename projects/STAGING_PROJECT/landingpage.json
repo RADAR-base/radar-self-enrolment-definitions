@@ -21,7 +21,7 @@
         "& .MuiButton-root:hover": {
           "opacity": "1.0",
           "backgroundColor": "#f1b3be"
-        },
+        }
       },
 
       "blockType": "markdown",
