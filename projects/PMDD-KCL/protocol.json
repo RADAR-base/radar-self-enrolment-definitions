@@ -48,6 +48,10 @@
     }
   ],
   "enrolment": {
+    "studyInformation": {
+      "title": "Study Information",
+      "content": "We understand that you may have questions about our research, what your involvement would be and much more. Please read carefully the Participant Information Sheet to find answers to these questions. If you have any questions about what you have read, please feel free to contact the team on <cyclestudy@kcl.ac.uk>.\n<br />\n<PdfViewer fileUrl='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/main/projects/PMDD-KCL/resources/pis.pdf' />\n<br />\n<button variant='contained' target='_blank' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/main/projects/paprka/resources/paprka_pis.pdf'>Download Participant Information</button>"
+    },
     "eligibility": {
       "title": "Who can take part in the Cycle Study?",
       "description": "We can only accept people onto our study if they answer Yes to the following questions.",
@@ -55,7 +59,7 @@
         {
           "fieldType": "yesno",
           "id": "criteria1",
-          "description": "Are you aged 18 or over?"
+          "description": "Are you aged between 18 and 45?"
         },
         {
           "fieldType": "yesno",
@@ -80,12 +84,17 @@
         {
           "fieldType": "yesno",
           "id": "criteria6",
-          "description": "Are you currently not using hormonal contraception?"
+          "description": "Are you currently NOT using hormonal contraception?"
         },
         {
           "fieldType": "yesno",
           "id": "criteria7",
-          "description": "Are you currently not pregnant and not breastfeeding?"
+          "description": "Are you currently NOT pregnant and not breastfeeding?"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "criteria8",
+          "description": "Are you currently NOT under the support of an NHS crisis team for your mental health or have been in the last 6 months?"
         }
       ]
     },
@@ -96,12 +105,12 @@
         {
           "fieldType": "yesno",
           "id": "required1",
-          "description": "I confirm that I have read and understood the Participant Information Sheet for the Cycle Study and that I meet the eligibility criteria. I confirm I have had the opportunity to consider the information provided and to ask questions which have been answered to my satisfaction.\n"
+          "description": "I confirm that I have read and understood the information sheet dated 18/12/2025, Version One, for the above project and that I meet the eligibility criteria. I confirm I have had the opportunity to consider the information provided and to ask questions which have been answered to my satisfaction.\n"
         },
         {
           "fieldType": "yesno",
           "id": "required2",
-          "description": "I consent voluntarily to be a participant in this project and understand that I can refuse to take part and can withdraw from the project at any time, without having to give a reason. I understand that I am free to withdraw my data from this specific study for 1 month after data has been provided. If I withdraw from the study, then the Cycle Study will cease collecting new data as soon as possible and within a month of the request being made.\n"
+          "description": "I consent voluntarily to be a participant in this project and understand that I can refuse to take part and can withdraw from the project at any time while taking part, without having to give a reason, and up until four weeks after taking part.\n"
         },
         {
           "fieldType": "yesno",
@@ -116,24 +125,40 @@
         {
           "fieldType": "yesno",
           "id": "required5",
-          "description": "I consent to my non-identifiable data being shared with third parties within and outside the UK, for research purposes. Data will only be shared with academic researchers for research purposes.\n"
+          "description": "I understand that the study will collect all previously recorded data from my phone and wearable device such as sleep, heart rate, and physical activity and will continue to collect data via my phone and wearable device for the 8-10 week duration of the study. This information will be de-identified and will not include anything which could identify me by name, address, or date of birth.\n"
         },
         {
           "fieldType": "yesno",
           "id": "required6",
-          "description": "I agree that the Cycle Study research team can archive my pseudonymised data for future research projects.\n"
+          "description": "I understand that I must not take part if I fall under the exclusion criteria as detailed in the information sheet. This includes receiving care from a crisis team for mental health currently, or in the past 6 months.\n"
         },
         {
           "fieldType": "yesno",
           "id": "required7",
-          "description": "I agree that the Cycle Study research team may retain my contact details so that I may be contacted in the future by King's College London researchers to invite me to participate in future studies.\n"
+          "description": "I understand that I will need to withdraw from the study if I indicate that I start receiving care from a crisis team whilst taking part.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required8",
+          "description": "I understand that the study involves sensitive questions, and covers questions on mental health, including about self-harm and suicidal ideation.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required9",
+          "description": "I understand that I can contact the study team via email about the research, or if I become distressed whilst taking part, and that the study email is monitored 9-5pm on weekdays and does not constitute crisis support.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required10",
+          "description": "I consent to the anonymised data being used for research publications, conferences, and other outputs such as blogs.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required11",
+          "description": "I consent to my email being used to receive a summary of the project findings.\n"
         }
       ],
       "signatureDescription": "**Data Protection**\n\n**The personal information we collect and use to conduct this research will be processed in accordance with data protection law as explained in the Participant Information Sheet and the Privacy Notice for Research Participants.**\n\nBy signing this consent form, I declare that I have provided accurate identity details (full name and electronic signature).\n"
-    },
-    "studyInformation": {
-      "title": "Study Information",
-      "content": "We understand that you may have questions about our research, what your involvement would be and much more. Please read carefully the Participant Information Sheet to find answers to these questions. If you have any questions about what you have read, please feel free to contact the team on <cyclestudy@kcl.ac.uk>.\n<br />\n<PdfViewer fileUrl='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/main/projects/paprka/resources/paprka_pis.pdf' />\n<br />\n<button variant='contained' target='_blank' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/main/projects/paprka/resources/paprka_pis.pdf'>Download Participant Information</button>"
     },
     "account": {
       "title": "Register Account",
