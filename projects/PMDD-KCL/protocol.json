@@ -20,7 +20,7 @@
         "inbuiltId": "connect",
         "options": {
           "title": "TASK: Connect my device(s)",
-          "description": "<p>Click on the connect button for your device.</p><p>The study team will collect activity, sleep, and health data from your wearable devices or smartphone apps. This data will be collected securely via RADAR-base.</p>",
+          "description": "<p>Click on the connect button for your device.</p><p>The study team will collect activity, sleep, and health data from your wearable devices or smartphone apps. This data will be collected securely via RADAR-base. Once you have connected your devices, you can sign out of this portal.</p>",
           "devices": [
             {
               "id": "fitbit",
