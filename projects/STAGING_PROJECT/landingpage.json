@@ -267,6 +267,14 @@
           "fontWeight": "700",
           "width": "100%",
           "textAlign": "left"
+        },
+
+        "@media only screen and (max-device-width: 480px)": {
+          "paddingTop": "2rem",
+
+          "& .MuiBox-root": {
+            "gap": "0"
+          }
         }
       },
       "blockType": "markdown",
@@ -282,6 +290,15 @@
 
         "& .MuiTypography-root": {
           "textAlign": "center"
+        },
+
+        "@media only screen and (max-device-width: 480px)": {
+          "paddingTop": "0rem",
+          "paddingBottom": "2rem",
+
+          "& .MuiGrid2-root": {
+            "--Grid-rowSpacing": "32px"
+          }
         }
       },
       "noCard": true,
