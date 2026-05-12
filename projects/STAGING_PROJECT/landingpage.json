@@ -203,6 +203,10 @@
           "alignItems": "center"
         },
 
+        "& .MuiGrid2-root > .MuiBox-root": {
+          "gap": "0"
+        },
+
         "& .MuiGrid2-root": {
           "alignSelf": "start"
         },
@@ -219,6 +223,24 @@
           "fontWeight": "700",
           "width": "100%",
           "textAlign": "left"
+        },
+
+        "@media only screen and (max-device-width: 480px)": {
+          "& .MuiBox-root > .MuiBox-root": {
+            "padding": "0"
+          },
+          "& .MuiBox-root > .MuiBox-root > .MuiBox-root": {
+            "padding": "0"
+          },
+          "& .MuiGrid2-root": {
+            "minHeight": "0"
+          },
+          "& .MuiGrid2-root > .MuiBox-root": {
+            "justifyContent": "start"
+          },
+          "& .MuiTypography-root": {
+            "textAlign": "left"
+          }
         }
       },
       "noCard": true,
