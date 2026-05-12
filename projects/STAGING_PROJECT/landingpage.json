@@ -162,7 +162,7 @@
         "@media only screen and (max-device-width: 480px)": {
           "& .MuiBox-root": {
             "alignItems": "center",
-            "alignSelf": "center",
+            "alignSelf": "center"
           },
           "& .MuiGrid2-root": {
             "alignItems": "center",
