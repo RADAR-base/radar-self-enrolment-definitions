@@ -204,7 +204,8 @@
         },
 
         "& .MuiGrid2-root > .MuiBox-root": {
-          "gap": "0"
+          "gap": "0",
+          "alignItems": "start"
         },
 
         "& .MuiGrid2-root": {
@@ -235,7 +236,7 @@
           "& .MuiGrid2-root": {
             "minHeight": "0"
           },
-          "& .MuiGrid2-root > .MuiBox-root": {
+          "& .MuiGrid2-root > .MuiGrid2-root .MuiBox-root": {
             "justifyContent": "start"
           },
           "& .MuiTypography-root": {
