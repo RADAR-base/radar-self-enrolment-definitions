@@ -382,7 +382,7 @@
             "minHeight": "0",
             "textAlign": "left"
           },
-          "& .MuiTypography-h2": {
+          "& .MuiTypography-h3": {
             "fontSize": "1.25rem"
           }
         }
