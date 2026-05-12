@@ -233,11 +233,9 @@
           "& .MuiBox-root > .MuiBox-root > .MuiBox-root": {
             "padding": "0"
           },
-          "& .MuiGrid2-root": {
-            "minHeight": "0"
-          },
           "& .MuiGrid2-root > .MuiGrid2-root .MuiBox-root": {
-            "justifyContent": "start"
+            "justifyContent": "start",
+            "minHeight": "0"
           },
           "& .MuiTypography-root": {
             "textAlign": "left"
