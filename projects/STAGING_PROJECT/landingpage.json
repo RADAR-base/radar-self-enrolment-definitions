@@ -338,6 +338,7 @@
         "width": "100%",
         "bgcolor": "background.quaternary",
         "color": "background.quinary",
+        "paddingTop": "2rem",
         "paddingBottom": "2rem",
 
         "& .MuiBox-root": {
@@ -374,9 +375,7 @@
           },
           "& .MuiGrid2-root > .MuiGrid2-root .MuiBox-root": {
             "justifyContent": "start",
-            "minHeight": "0"
-          },
-          "& .MuiTypography-root": {
+            "minHeight": "0",
             "textAlign": "left"
           }
         }
