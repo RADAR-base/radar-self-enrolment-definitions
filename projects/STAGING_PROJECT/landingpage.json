@@ -6,7 +6,7 @@
         "padding": "0",
         "width": "auto",
         "bottom": "2.5vw",
-        "right": "5vw",
+        "right": "2.5vw",
         "zIndex": "100",
         "& .MuiBox-root": {
           "padding": "0"
@@ -162,7 +162,7 @@
         "@media only screen and (max-device-width: 480px)": {
           "& .MuiBox-root": {
             "alignItems": "center",
-            "alignSelf": "center"
+            "alignSelf": "center",
           },
           "& .MuiGrid2-root": {
             "alignItems": "center",
@@ -424,7 +424,7 @@
         {
           "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/akash.jpg",
           "title": "Akash Roy Choudhury",
-          "content": "Data Scientist",
+          "content": "PhD student",
           "href": "https://phidatalab.org/team/akash-roy-choudhury/"
         },
         {
@@ -441,7 +441,7 @@
         },
         {
           "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/yatharth.jpg",
-          "title": "Yatharth Ranjan",
+          "title": "Dr Yatharth Ranjan",
           "content": "Software Developer",
           "href": "https://phidatalab.org/team/yatharth-ranjan/"
         },
@@ -453,7 +453,7 @@
         },
         {
           "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/yuezhou.png",
-          "title": "Yuezhou Zhang",
+          "title": "Dr Yuezhou Zhang",
           "content": "Data Scientist",
           "href": "https://phidatalab.org/team/yuezhou-zhang/"
         },
@@ -465,13 +465,13 @@
         },
         {
           "imgSrc": "",
-          "title": "Peter Hellyer",
+          "title": "Dr Peter Hellyer",
           "content": "Senior Lecturer",
           "href": "https://kclpure.kcl.ac.uk/portal/en/persons/peter.hellyer/"
         },
         {
           "imgSrc": "",
-          "title": "Adam Hampshire",
+          "title": "Dr Adam Hampshire",
           "content": "Professor of Cognitive & Computational Neuroscience",
           "href": "https://www.kcl.ac.uk/people/adam-hampshire"
         },
