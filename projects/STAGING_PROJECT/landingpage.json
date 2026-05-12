@@ -239,6 +239,10 @@
           },
           "& .MuiTypography-root": {
             "textAlign": "left"
+          },
+
+          "& .MuiTypography-h2": {
+            "fontSize": "1.25rem"
           }
         }
       },
@@ -377,6 +381,9 @@
             "justifyContent": "start",
             "minHeight": "0",
             "textAlign": "left"
+          },
+          "& .MuiTypography-h2": {
+            "fontSize": "1.25rem"
           }
         }
       },
