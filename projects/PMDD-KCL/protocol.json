@@ -50,7 +50,7 @@
   "enrolment": {
     "studyInformation": {
       "title": "Study Information",
-      "content": "We understand that you may have questions about our research, what your involvement would be and much more. Please read carefully the Participant Information Sheet to find answers to these questions. If you have any questions about what you have read, please feel free to contact the team on <cyclestudy@kcl.ac.uk>.\n<br />\n<PdfViewer fileUrl='https://dev.radarbasedev.co.uk/study/study/PMDD-KCL/resources/cycle_pis.pdf' />\n<br />\n<button variant='contained' target='_blank' href='https://dev.radarbasedev.co.uk/study/study/PMDD-KCL/resources/cycle_pis.pdf'>Download Participant Information</button>"
+      "content": "Please take some time to review the Participant Information Sheet again, as it contains answers to many common questions related to taking part. If you have any questions, please contact the team on <cyclestudy@kcl.ac.uk>.\n<br />\n<PdfViewer fileUrl='https://dev.radarbasedev.co.uk/study/study/PMDD-KCL/resources/cycle_pis.pdf' />\n<br />\n<button variant='contained' target='_blank' href='https://dev.radarbasedev.co.uk/study/study/PMDD-KCL/resources/cycle_pis.pdf'>Download Participant Information</button>"
     },
     "eligibility": {
       "title": "Who can take part in the Cycle Study?",
@@ -167,7 +167,7 @@
           "field_name": "pmdd_additional_heading",
           "form_name": "pmdd_additional",
           "field_type": "descriptive",
-          "field_label": "You need an account to give us your information and connect your fitness tracker or smartphone app."
+          "field_label": "You need an account to connect your fitness tracker or smartphone app so we can collect activity, sleep, and health data. You can find out more information about the way we use personal information in our [privacy policy](privacy)."
         },
         {
           "field_name": "pmdd_additional_age",
