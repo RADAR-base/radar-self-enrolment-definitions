@@ -265,12 +265,13 @@
         "width": "100%",
         "bgcolor": "#9775bd",
         "color": "#ffffff",
+        "paddingBottom": "0rem",
 
         "& .MuiTypography-h2": {
           "fontSize": "3rem",
           "fontWeight": "700",
           "width": "100%",
-          "textAlign": "left"
+          "textAlign": "center"
         },
 
         "@media only screen and (max-device-width: 480px)": {
@@ -291,6 +292,7 @@
         "width": "100%",
         "bgcolor": "#9775bd",
         "color": "#ffffff",
+        "paddingTop": "0rem",
 
         "& .MuiTypography-root": {
           "textAlign": "center"
@@ -529,19 +531,19 @@
           "href": "https://phidatalab.org/team/callum-stewart/"
         },
         {
-          "imgSrc": "",
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/peter.png",
           "title": "Dr Peter Hellyer",
           "content": "Senior Lecturer",
           "href": "https://kclpure.kcl.ac.uk/portal/en/persons/peter.hellyer/"
         },
         {
-          "imgSrc": "",
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/adam.png",
           "title": "Dr Adam Hampshire",
           "content": "Professor of Cognitive & Computational Neuroscience",
           "href": "https://www.kcl.ac.uk/people/adam-hampshire"
         },
         {
-          "imgSrc": "",
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/milena.png",
           "title": "Milena Davudova",
           "content": "Research Assistant",
           "href": "https://kclpure.kcl.ac.uk/portal/en/persons/milena.davudova"
