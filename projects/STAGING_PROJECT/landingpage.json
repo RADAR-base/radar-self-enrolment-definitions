@@ -4,18 +4,18 @@
       "sx": {
         "position": "fixed",
         "padding": "0",
-        "width": "100vw",
-        "bottom": "5%",
+        "width": "auto",
+        "bottom": "2.5vw",
+        "right": "2.5vw",
         "zIndex": "100",
         "& .MuiBox-root": {
-          "alignItems": "end",
-          "paddingRight": "5%",
-          "maxWidth": "100%"
+          "padding": "0"
         },
         "& .MuiButton-root": {
           "color": "white",
-          "backgroundColor": "rgba(33, 77, 114, 0.8)",
-          "backdropFilter": "blur(1.5rem)"
+          "backgroundColor": "#f1b3be70",
+          "backdropFilter": "blur(5rem)",
+          "padding": "1vh 1vw"
         },
         "& .MuiButton-root:hover": {
           "opacity": "1.0",
@@ -66,7 +66,11 @@
         },
 
         "@media only screen and (max-device-width: 480px)": {
-          "padding": "1rem 0rem"
+          "padding": "1rem 0rem",
+
+          "& #test": {
+            "paddingRight": "0rem"
+          }
         }
       },
       "noCard": true,
@@ -87,7 +91,6 @@
               "autoPlay": false,
               "playsInline": true,
               "poster": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/video_thumbnail.png"
-
             }
           }
         }
@@ -204,6 +207,11 @@
           "alignItems": "center"
         },
 
+        "& .MuiGrid2-root > .MuiBox-root": {
+          "gap": "0",
+          "alignItems": "start"
+        },
+
         "& .MuiGrid2-root": {
           "alignSelf": "start"
         },
@@ -220,6 +228,26 @@
           "fontWeight": "700",
           "width": "100%",
           "textAlign": "left"
+        },
+
+        "@media only screen and (max-device-width: 480px)": {
+          "& .MuiBox-root > .MuiBox-root": {
+            "padding": "0"
+          },
+          "& .MuiBox-root > .MuiBox-root > .MuiBox-root": {
+            "padding": "0"
+          },
+          "& .MuiGrid2-root > .MuiGrid2-root .MuiBox-root": {
+            "justifyContent": "start",
+            "minHeight": "0"
+          },
+          "& .MuiTypography-root": {
+            "textAlign": "left"
+          },
+
+          "& .MuiTypography-h2": {
+            "fontSize": "1.25rem"
+          }
         }
       },
       "noCard": true,
@@ -241,12 +269,21 @@
         "width": "100%",
         "bgcolor": "#9775bd",
         "color": "#ffffff",
+        "paddingBottom": "0rem",
 
         "& .MuiTypography-h2": {
           "fontSize": "3rem",
           "fontWeight": "700",
           "width": "100%",
-          "textAlign": "left"
+          "textAlign": "center"
+        },
+
+        "@media only screen and (max-device-width: 480px)": {
+          "paddingTop": "2rem",
+
+          "& .MuiBox-root": {
+            "gap": "0"
+          }
         }
       },
       "blockType": "markdown",
@@ -259,9 +296,19 @@
         "width": "100%",
         "bgcolor": "#9775bd",
         "color": "#ffffff",
+        "paddingTop": "0rem",
 
         "& .MuiTypography-root": {
           "textAlign": "center"
+        },
+
+        "@media only screen and (max-device-width: 480px)": {
+          "paddingTop": "0rem",
+          "paddingBottom": "2rem",
+
+          "& .MuiGrid2-root": {
+            "--Grid-rowSpacing": "32px"
+          }
         }
       },
       "noCard": true,
@@ -301,6 +348,7 @@
         "width": "100%",
         "bgcolor": "background.quaternary",
         "color": "background.quinary",
+        "paddingTop": "2rem",
         "paddingBottom": "2rem",
 
         "& .MuiBox-root": {
@@ -309,6 +357,11 @@
 
         "& .MuiGrid2-root": {
           "alignSelf": "start"
+        },
+
+        "& .MuiGrid2-root > .MuiBox-root": {
+          "gap": "0",
+          "alignItems": "start"
         },
 
         "& .MuiTypography-h1": {
@@ -321,6 +374,23 @@
         "& .MuiTypography-body1": {
           "width": "100%",
           "textAlign": "left"
+        },
+
+        "@media only screen and (max-device-width: 480px)": {
+          "& .MuiBox-root > .MuiBox-root": {
+            "padding": "0"
+          },
+          "& .MuiBox-root > .MuiBox-root > .MuiBox-root": {
+            "padding": "0"
+          },
+          "& .MuiGrid2-root > .MuiGrid2-root .MuiBox-root": {
+            "justifyContent": "start",
+            "minHeight": "0",
+            "textAlign": "left"
+          },
+          "& .MuiTypography-h3": {
+            "fontSize": "1.25rem"
+          }
         }
       },
       "noCard": true,
@@ -425,7 +495,7 @@
         {
           "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/akash.jpg",
           "title": "Akash Roy Choudhury",
-          "content": "Data Scientist",
+          "content": "PhD student",
           "href": "https://phidatalab.org/team/akash-roy-choudhury/"
         },
         {
@@ -437,32 +507,50 @@
         {
           "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/pauline.png",
           "title": "Pauline Conde",
-          "content": "Software Developer",
+          "content": "PhD student",
           "href": "https://phidatalab.org/team/pauline-conde/"
         },
         {
           "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/yatharth.jpg",
-          "title": "Yatharth Ranjan",
-          "content": "Software Developer and PhD student",
+          "title": "Dr Yatharth Ranjan",
+          "content": "Software Developer",
           "href": "https://phidatalab.org/team/yatharth-ranjan/"
         },
         {
           "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/heet.jpg",
           "title": "Heet Sankesara",
-          "content": "Software Developer",
+          "content": "PhD student",
           "href": "https://phidatalab.org/team/heet-sankesara/"
         },
         {
           "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/yuezhou.png",
-          "title": "Yuezhou Zhang",
-          "content": "PhD student",
+          "title": "Dr Yuezhou Zhang",
+          "content": "Data Scientist",
           "href": "https://phidatalab.org/team/yuezhou-zhang/"
         },
         {
           "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/callum.jpg",
           "title": "Callum Stewart",
-          "content": "PhD student",
+          "content": "Data Scientist",
           "href": "https://phidatalab.org/team/callum-stewart/"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/peter.png",
+          "title": "Dr Peter Hellyer",
+          "content": "Senior Lecturer",
+          "href": "https://kclpure.kcl.ac.uk/portal/en/persons/peter.hellyer/"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/adam.png",
+          "title": "Dr Adam Hampshire",
+          "content": "Professor of Cognitive & Computational Neuroscience",
+          "href": "https://www.kcl.ac.uk/people/adam-hampshire"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/milena.png",
+          "title": "Milena Davudova",
+          "content": "Research Assistant",
+          "href": "https://kclpure.kcl.ac.uk/portal/en/persons/milena.davudova"
         }
       ]
     }
