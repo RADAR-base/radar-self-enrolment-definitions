@@ -68,41 +68,6 @@
           "field_label": "Cycle Study ID",
           "required_field": "true",
           "text_validation_type_or_show_slider_number": ""
-        },
-        {
-          "field_name": "pmdd_additional_age",
-          "form_name": "pmdd_additional",
-          "field_type": "text",
-          "field_label": "What is your age?",
-          "required_field": "true"
-        },
-        {
-          "field_name": "pmdd_additional_gender",
-          "form_name": "pmdd_additional",
-          "section_header": "",
-          "field_type": "dropdown",
-          "field_label": "Gender",
-          "select_choices_or_calculations": [
-            {
-              "code": "0",
-              "label": "Male"
-            },
-            {
-              "code": "1",
-              "label": "Female"
-            },
-            {
-              "code": "2",
-              "label": "Other"
-            }
-          ],
-          "required_field": "true"
-        },
-        {
-          "field_name": "pmdd_additional_other",
-          "form_name": "pmdd_additional",
-          "field_type": "text",
-          "field_label": "If you chose 'Other', please specify your gender"
         }
       ]
     },
