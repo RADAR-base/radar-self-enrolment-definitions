@@ -25,12 +25,12 @@
                         {
                             "id": "fitbit",
                             "title": "Fitbit",
-                            "description": "Connect your Fitbit account."
+                            "description": "Connect your Fitbit account if you have one."
                         },
                         {
                             "id": "radar_armt",
                             "title": "RADAR aRMT",
-                            "description": "Connect via RADAR aRMT."
+                            "description": "Connect the RADAR Questionnaire app for this study."
                         }
                     ]
                 }
