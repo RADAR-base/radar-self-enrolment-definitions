@@ -25,22 +25,26 @@
             {
               "id": "fitbit",
               "title": "Fitbit",
-              "description": "By clicking Connect, you can read step-by-step instructions or watch a video to see how to share your Fitbit data. We are collecting physical activity, heart rate, and sleep data."
+              "description": "By clicking Connect, you can read step-by-step instructions to see how to share your Fitbit data. We are collecting physical activity, heart rate, and sleep data.",
+              "guideUrl": "https://canva.link/7aymaosboigy27y"
             },
             {
               "id": "garmin",
               "title": "Garmin",
-              "description": "By clicking Connect, you can read step-by-step instructions or watch a video to see how to share your Garmin data. We are collecting physical activity, heart rate, and sleep data."
+              "description": "By clicking Connect, you can read step-by-step instructions to see how to share your Garmin data. We are collecting physical activity, heart rate, and sleep data.",
+              "guideUrl": "https://canva.link/7aymaosboigy27y"
             },
             {
               "id": "oura",
               "title": "Oura Ring",
-              "description": "By clicking Connect, you can read step-by-step instructions or watch a video to see how to share your Oura Ring data. We are collecting physical activity, heart rate, temperature, and sleep data."
+              "description": "By clicking Connect, you can read step-by-step instructions to see how to share your Oura Ring data. We are collecting physical activity, heart rate, temperature, and sleep data.",
+              "guideUrl": "https://canva.link/7aymaosboigy27y"
             },
             {
               "id": "radar_armt",
               "title": "RADAR Questionnaire App",
-              "description": "By clicking Connect, you can read step-by-step instructions or watch a video to see how to share your RADAR aRMT physical activity data."
+              "description": "By clicking Connect, you can read step-by-step instructions to see how to share your RADAR aRMT physical activity, heart rate, and sleep data.",
+              "guideUrl": "https://canva.link/523uysldcjyimi7"
             }
           ]
         }
