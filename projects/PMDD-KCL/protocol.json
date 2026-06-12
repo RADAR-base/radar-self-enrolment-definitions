@@ -231,7 +231,8 @@
       "copyrightText": "© 2025 Onsentia"
     },
     "portal": {
-      "title": "Complete Tasks to Join Study"
+      "title": "Complete Tasks to Join Study",
+      "content": "Please click the 'To Do' button below to download the RADAR App and to connect your wearable device."
     },
     "analytics": {
       "gaId": ""
