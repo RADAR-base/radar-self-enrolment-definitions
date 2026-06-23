@@ -23,8 +23,8 @@
                     "description": "Click on the connect button for your device to share activity and health metrics in support of this study.",
                     "devices": [
                         {
-                            "id": "fitbit",
-                            "title": "Fitbit",
+                            "id": "google_health",
+                            "title": "Google Health",
                             "description": "Connect your Fitbit account if you have one."
                         },
                         {
