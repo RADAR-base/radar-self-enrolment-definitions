@@ -25,7 +25,7 @@
                         {
                             "id": "google_health",
                             "title": "Google Health",
-                            "description": "Connect your Fitbit account if you have one."
+                            "description": "Connect your Google account if you have one."
                         },
                         {
                             "id": "radar_armt",
