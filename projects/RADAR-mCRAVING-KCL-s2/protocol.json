@@ -19,10 +19,16 @@
         "type": "inbuilt",
         "inbuiltId": "connect",
         "options": {
-          "devices": [
-            "radar_armt"
-          ]
-        }
+                    "title": "TASK: Connect my device(s)",
+                    "description": "Click on the connect button for your device to share activity and health metrics in support of this study.",
+                    "devices": [
+                        {
+                            "id": "radar_armt",
+                            "title": "RADAR aRMT",
+                            "description": "Connect the RADAR Questionnaire app for this study."
+                        }
+                    ]
+                }
       }
     }
   ],
