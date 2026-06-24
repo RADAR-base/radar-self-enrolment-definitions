@@ -34,7 +34,7 @@
   },
   "studyUiConfig": {
     "materialTheme": {},
-    "faviconSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RADAR-mCRAVING-KCL-s2/resources/icon.png",
+    "faviconSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/RADAR-mCRAVING-KCL-s2/resources/icon.png",
     "navbar": {
       "links": [
         {
@@ -42,7 +42,7 @@
           "href": "/RADAR-mCRAVING-KCL-s2"
         }
       ],
-      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RADAR-mCRAVING-KCL-s2/resources/icon.png"
+      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/RADAR-mCRAVING-KCL-s2/resources/icon.png"
     },
     "footer": {
       "columns": [
