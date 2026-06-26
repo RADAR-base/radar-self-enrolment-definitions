@@ -43,6 +43,10 @@
               "title": "Google Health"
             },
             {
+              "id": "huawei",
+              "title": "Huawei"
+            },
+            {
               "id": "radar_prmt",
               "title": "RADAR pRMT"
             }
