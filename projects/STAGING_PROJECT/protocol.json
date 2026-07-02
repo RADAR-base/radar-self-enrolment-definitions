@@ -39,6 +39,14 @@
               "title": "Apple Health"
             },
             {
+              "id": "google_health",
+              "title": "Google Health"
+            },
+            {
+              "id": "huawei",
+              "title": "Huawei"
+            },
+            {
               "id": "radar_prmt",
               "title": "RADAR pRMT"
             }
