@@ -40,7 +40,21 @@
             },
             {
               "id": "google_health",
-              "title": "Google Health"
+              "title": "Google Health",
+              "confirmation": {
+                "whatHappensNext": "To maintain scientific integrity and prevent bias, RADAR-base does not share collected health data back with participants. Your information is securely routed directly to the relevant research team for this study, which may utilise the data for monitoring and analysis.",
+                "dataSharedItems": [
+                  { "label": "Activity & Fitness", "description": "Steps, total calories, and exercise sessions." },
+                  { "label": "Health Metrics", "description": "Heart rate, HRV, blood oxygen (oxy-heart-rate), sleep respiratory rate, and sleep temperature derivations." },
+                  { "label": "Sleep", "description": "Sleep stages and classic sleep data." },
+                  { "label": "Heart Health", "description": "Electrocardiogram (raw waveform) and irregular rhythm notifications (AFib)." },
+                  { "label": "Location", "description": "GPS trackpoints (collected only during active exercise)." },
+                  { "label": "Settings", "description": "Timezone information (to accurately align your daily data)." }
+                ],
+                "privacyPolicyUrl": "https://radar-base.org/google-privacy-policy/",
+                "publicationsUrl": "https://radar-base.org/publications/",
+                "adminEmail": "radar-base@kcl.ac.uk"
+              }
             },
             {
               "id": "huawei",
