@@ -115,6 +115,25 @@
       "title": "Study Information",
       "content": "We understand that you may have questions about our research, what your involvement would be and much more. Please read carefully the Participant Information Sheet to find answers to these questions. If you have any questions about what you have read, please feel free to contact the team on <coteds-project@kcl.ac.uk>.\n<br />\n<PdfViewer fileUrl='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/main/projects/CoTEDS-Smart/resources/pis.pdf' />\n<br />\n<button variant='contained' target='_blank' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/main/projects/paprka/resources/paprka_pis.pdf'>Download Participant Information</button>"
     },
+    "additional": {
+      "title": "Register Account",
+      "items": [
+        {
+          "field_name": "coteds_additional_heading",
+          "form_name": "coteds_additional",
+          "field_type": "descriptive",
+          "field_label": "You need an account to connect your fitness tracker or smartphone app so we can collect activity, sleep, and health data. You can find out more information about the way we use personal information in our [privacy policy](privacy)."
+        },
+        {
+          "field_name": "COTEDS_ID",
+          "form_name": "coteds_additional",
+          "field_type": "text",
+          "field_label": "CoTEDS Study ID",
+          "required_field": "true",
+          "text_validation_type_or_show_slider_number": ""
+        }
+      ]
+    },
     "account": {
       "title": "Register Account",
       "description": "You need an account to connect your fitness tracker or smartphone app so we can collect activity, sleep, and health data.\nYou can find out more information about the way we use personal information in our [privacy policy](privacy).\n"
