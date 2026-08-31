@@ -45,6 +45,19 @@
           ]
         }
       }
+    },
+    {
+      "id": "coteds_feedback",
+      "appearance": {},
+      "schedule": {},
+      "metadata": {
+        "title": "Feedback",
+        "order": 3,
+        "description": "Help us make this process easier for others.",
+        "optional": true,
+        "type": "redcap_local",
+        "path": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/CoTEDS-Smart/resources/coteds_feedback.json"
+      }
     }
   ],
   "enrolment": {
