@@ -51,12 +51,17 @@
       "appearance": {},
       "schedule": {},
       "metadata": {
-        "title": "Feedback",
+        "title": "End of Study Feedback",
         "order": 3,
         "description": "Help us make this process easier for others.",
         "optional": true,
-        "type": "redcap_local",
-        "path": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/CoTEDS-Smart/resources/coteds_feedback.json"
+        "type": "redcap_github",
+        "definitionLink": {
+          "org": "RADAR-base",
+          "project": "radar-self-enrolment-definitions",
+          "avsc": "projects/CoTEDS-Smart/resources/coteds_feedback.json",
+          "ref": "main"
+        }
       }
     }
   ],
