@@ -1,5 +1,5 @@
 {
-  "name": "Study of Sleep Hygiene and Health",
+  "name": "",
   "studyId": "SSHH-KCL",
   "healthIssues": [],
   "onboarding": {
@@ -41,10 +41,6 @@
             {
               "id": "radar_prmt",
               "title": "RADAR pRMT"
-            },
-            {
-              "id": "radar_armt",
-              "title": "RADAR aRMT"
             }
           ]
         }
@@ -52,6 +48,10 @@
     }
   ],
   "enrolment": {
+    "studyInformation": {
+      "title": "Study Information",
+      "content": "Please take some time to review the Participant Information Sheet again, as it contains answers to many common questions related to taking part. If you have any questions, please contact the team on <cyclestudy@kcl.ac.uk>.\n<br />\n<PdfViewer fileUrl='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/pis.pdf'/>\n<br />\n<button variant='contained' target='_blank' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/pis.pdf'>Download Participant Information</button>"
+    },
     "eligibility": {
       "title": "Who Can Take Part",
       "description": "We can only accept people onto our study if they answer Yes to the following questions.",
@@ -146,25 +146,6 @@
         }
       ],
       "signatureDescription": "By signing this consent form, I declare that I have provided accurate identity details (full name and electronic signature)."
-    },
-    "additional": {
-      "title": "Register Account",
-      "items": [
-        {
-          "field_name": "s_additional_heading",
-          "form_name": "s_additional",
-          "field_type": "descriptive",
-          "field_label": "You need an account to give us your information and (optionally) connect your wearable or smartphone app."
-        },
-        {
-          "field_name": "gbits_id",
-          "form_name": "s_additional",
-          "field_type": "text",
-          "field_label": "GBITs ID",
-          "required_field": "true",
-          "text_validation_type_or_show_slider_number": ""
-        }
-      ]
     },
     "account": {
       "title": "Register Account",
@@ -329,8 +310,8 @@
               "href": "#"
             },
             {
-              "text": "About the study",
-              "href": "#"
+              "text": "FAQ",
+              "href": "/faq"
             }
           ]
         },
@@ -338,8 +319,8 @@
           "title": "Contact Us",
           "items": [
             {
-              "text": "sleepstudy@kcl.ac.uk",
-              "href": "mailto:sleepstudy@kcl.ac.uk"
+              "text": "sshh@kcl.ac.uk",
+              "href": "mailto:sshh@kcl.ac.uk"
             }
           ]
         },
@@ -357,7 +338,7 @@
           ]
         }
       ],
-      "copyrightText": "© 2024 King's College London"
+      "copyrightText": "© 2026 King's College London"
     },
     "portal": {
       "title": "Complete Tasks to Join Study"
