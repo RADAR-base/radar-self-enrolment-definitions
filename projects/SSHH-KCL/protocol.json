@@ -50,7 +50,7 @@
   "enrolment": {
     "studyInformation": {
       "title": "Study Information",
-      "content": "Please take some time to review the Participant Information Sheet again, as it contains answers to many common questions related to taking part. If you have any questions, please contact the team on <cyclestudy@kcl.ac.uk>.\n<br />\n<PdfViewer fileUrl='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/SSHH-KCL/resources/RADAR_Sleep_Hygiene_PIS.pdf'/>\n<br />\n<button variant='contained' target='_blank' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/SSHH-KCL/resources/RADAR_Sleep_Hygiene_PIS.pdf'>Download Participant Information</button>"
+      "content": "Please take some time to review the Participant Information Sheet again, as it contains answers to many common questions related to taking part. If you have any questions, please contact the team on <sshh@kcl.ac.uk>.\n<br />\n<PdfViewer fileUrl='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/SSHH-KCL/resources/RADAR_Sleep_Hygiene_PIS.pdf'/>\n<br />\n<button variant='contained' target='_blank' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/SSHH-KCL/resources/RADAR_Sleep_Hygiene_PIS.pdf'>Download Participant Information</button>"
     },
     "eligibility": {
       "title": "Who Can Take Part",
