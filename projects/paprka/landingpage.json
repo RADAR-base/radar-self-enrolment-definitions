@@ -8,23 +8,54 @@
                 "children": "PAPrKA: How active are people after knee replacement surgery?",
                 "sx": {"color":"white"}
             },
-            "subtitle": "The **P**hysical **A**ctivity **P**atterns after **K**nee **A**rthroplasty (**PAPrKA**) study seeks to learn more about people's recovery after knee replacement. With your help, and through our research, we can support patients and doctors in the future make better informed decisions about knee replacement surgery.",
+            "subtitle": "The **P**hysical **A**ctivity **P**atterns after **K**nee **A**rthroplasty (**PAPrKA**) study seeks to learn more about people's recovery after knee replacement. With your help, and through our research, we can support patients and doctors in the future make better informed decisions about knee replacement surgery.<br /><br />",
             "sx": {"color": "white"},
-            "cta": {
+            "ctas": [
+              {
                 "text": "FAQs",
                 "href": "paprka/faqs"
-            },
-            "cta2": {
-                "text" :"Join Study",
-                "href": "paprka/enrol"
-            }
+              }, 
+              {
+                "text": "Video",
+                "href": "#5mFgOzLI5ZM"
+              }
+            ] 
+          },
+          {
+            "blockType": "markdown",
+            "noCard": true,
+            "title": "PAPrKA is now closed to new participants", 
+            "blockBackground": "white",
+            "content": "<p>Thank you to everyone who took part in the study. We are now analysing the data collected and will share our findings with participants once the study is complete. Your contribution has been invaluable and will help improve our understanding of recovery after knee replacement surgery.</p>"
+          },
+          {
+            "blockType": "markdown",
+            "noCard": true,
+            "blockBackground": "white",
+            "content": "<div style='position: fixed; bottom: 0; left: 0; transform: translateX(-50%); width: 100vw; max-width: none; z-index: 1110; box-sizing: border-box; padding: 16px 20px; background-color: #f28c28; color: #1f1f1f; text-align: center; font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5; font-weight: 600; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);'>PAPrKA is now closed to new participants. Thank you to everyone who took part.</div>"
           },
           {
             "blockType": "markdown",
             "noCard": true,
             "title": "About the study", 
             "blockBackground": "white",
-            "content": "<div id='more'></div>To learn more about recovery after knee replacement, we will bring together with your consent 3 bits of information:\n\n<ol><li>Information you provide in a survey.</li><li>A one-time collection of your physical activity information from either iPhone, Fitbit, Apple Watch or Oura Ring. Physical activity can include things such as steps you take daily, walking, numbers of flights of stairs you climb etc.</li><li>Access to your knee replacement surgery information (from the UK National Joint Registry).</li></ol><br />The University of Manchester is leading the PAPrKA research study in collaboration with King's College London and with support from the National Joint Registry."
+            "content": "<div id='more'></div>We are inviting people who had a knee replacement between 1<sup>st</sup> Jan 2017 and 31<sup>st</sup> Dec 2023 and who had tracked their physical activity data to join the PAPrKA study.\n<br />\nIn the study, we will bring together with your consent three pieces of information, i.e.:\n\n<ol><li>Information you provide in a survey.</li><li>A one-time collection of your physical activity information from either iPhone, Fitbit, Apple Watch or Oura Ring. Physical activity can include things such as steps you take daily, walking, numbers of flights of stairs you climb etc.</li><li>Access to your knee replacement surgery information (from the UK National Joint Registry).</li></ol><br />The University of Manchester is leading the PAPrKA research study in collaboration with King's College London and with support from the National Joint Registry."
+          },
+          {
+            "blockType": "imageGallery",
+            "columns": {"xs": 1, "sm": 2, "md": 3, "lg": 3, "xl": 3},
+            "gap": 1,
+            "borderRadius": 0,
+            "aspectRatio": "32/27",
+            "objectFit": "fill",
+            "images": [
+              {"src": "/study/paprka/resources/landingpage/image_guide_overview/overview-guide-1.jpeg", "alt": "1: Fitness data was tracked before surgery"},
+              {"src": "/study/paprka/resources/landingpage/image_guide_overview/overview-guide-2.jpeg", "alt": "2: Surgery was carried out"},
+              {"src": "/study/paprka/resources/landingpage/image_guide_overview/overview-guide-3.jpeg", "alt": "3: Fitness data was tracked"},
+              {"src": "/study/paprka/resources/landingpage/image_guide_overview/overview-guide-4.jpeg", "alt": "4: Taking part in PAPrKA"},
+              {"src": "/study/paprka/resources/landingpage/image_guide_overview/overview-guide-5.jpeg", "alt": "5: Linking your details"},
+              {"src": "/study/paprka/resources/landingpage/image_guide_overview/overview-guide-6.jpeg", "alt": "6: Our work begins!"}
+            ]
           },
           {
             "blockType": "video",
@@ -35,22 +66,31 @@
             }
           },
           {
-            "blockType": "column",
+            "blockType": "imageGallery",
+            "title": {"children": "Who can take part?", "sx": {"color": "white", "textAlign": "center"}},
+            "noCard": true,
+            "blockBackground": "#0098A8",
+            "columns": {"xs": 1, "sm": 2, "md": 3, "lg": 3, "xl": 3},
+            "gap": 0,
+            "borderRadius": 0,
+            "aspectRatio": "1/1",
+            "objectFit": "fill",
+            "images": [
+              {"src": "/study/paprka/resources/landingpage/image_guide_eligibility/eligibility 1.webp", "alt": "Have had total or partial knee replacement between January 2017 and December 2023"},
+              {"src": "/study/paprka/resources/landingpage/image_guide_eligibility/eligibility 2.webp", "alt": "Used a smartphone or fitness tracker to track activity before and after the knee replacement surgery. These are: iPhone, Fitbit, Apple Watch, and Oura Ring"},
+              {"src": "/study/paprka/resources/landingpage/image_guide_eligibility/eligibility 3.webp", "alt": "Were 18 or over at the time of surgery"},
+              {"src": "/study/paprka/resources/landingpage/image_guide_eligibility/eligibility 4.webp", "alt": "Lived in England, Wales, Northern Ireland, Isle of Man, or Guernsey at the time of surgery"},
+              {"src": "/study/paprka/resources/landingpage/image_guide_eligibility/eligibility 5.webp", "alt": "Can read and understand English or have support from someone who can"},
+              {"src": "/study/paprka/resources/landingpage/image_guide_eligibility/eligibility 6.webp", "alt": "Are happy to give PAPrKA researchers permission to take a copy of your physical activity data and join it with your knee replacement information from the National Joint Registry"}
+
+            ]
+          },
+          {
             "noCard": true,
             "blockBackground": "white",
-            "title": "",
-            "content": [
-                {
-                    "blockType": "markdown",
-                    "title": "Who can take part?",
-                    "content": "You must answer yes to all 5 questions to take part in the PAPrKA study.\n\n 1. Have you had a total or partial knee replacement because of knee osteoarthritis (NHS or private healthcare provider)?\n 2. Are you over 18 years old and lived in England, Wales, Northern Ireland, Isle of Man or Guernsey at the time of the surgery?\n 3. Have you used an **iPhone (6s and above), Fitbit, Apple Watch or Oura Ring** to track your physical activity at least six months before and one year after your knee replacement surgery? You can find out what device you have by checking the logo on the front or back of your device or logging to your device account.\n 4. Can you read and understand English or have support from someone who can?\n 5. Are you willing to give the study team access to your physical activity data and link it to your knee replacement information in the National Joint Registry?\n"
-                },              
-                {
-                    "blockType": "markdown",
-                    "title": "What will I have to do?",
-                    "content": "1. Check you can take part in the study.\n2. Sign an electronic consent form.\n3. Set up a study account.\n4. Complete up to 4 tasks.\n"
-                  }
-            ]
+            "blockType": "markdown",
+            "title": "What will I have to do?",
+            "content": "1. Check you can take part in the study.\n2. Sign an electronic consent form.\n3. Set up a study account.\n4. Complete up to 4 tasks.\n"
           },
           {
             "blockType": "column",
@@ -61,15 +101,11 @@
             "content": [
               {
                 "blockType": "markdown",
-                "content": "<div style='display:flex;flex-direction:column;justify-content:space-between;text-align:center;height:100%;gap:24px'>_Interested in taking part?_<div style='margin-left:auto;margin-right:auto'><button variant='contained' href='/study/paprka/enrol'>Join Study</button></div></div>"
+                "content": "<div style='display:flex;flex-direction:column;justify-content:space-between;text-align:center;height:100%;gap:24px'><div>_Need more help?_\nView our step-by-step guide</div><div style='margin-left:auto;margin-right:auto'><button variant='contained' href='/study/study/paprka/resources/guides/PAPrKA_Study_Guide.pdf'>Step-by-Step Guide</button></div></div>"
               },
               {
                 "blockType": "markdown",
-                "content": "<div style='display:flex;flex-direction:column;justify-content:space-between;text-align:center;height:100%;gap:24px'><div>_Need more help?_\nView our step-by-step guide</div><div style='margin-left:auto;margin-right:auto'><button variant='contained' href='/study/study/paprka/resources/guides/PAPrKA_Study_Guide.docx'>Step-by-Step Guide</button></div></div>"
-              },
-              {
-                "blockType": "markdown",
-                "content": "<div style='display:flex;flex-direction:column;justify-content:space-between;text-align:center;height:100%;gap:24px'><div>_More Information_\nFor full details, see our participant information sheet</div><div style='margin-left:auto;margin-right:auto'><button variant='contained' href='/study/study/paprka/resources/paprka_pis.pdf' target='_blank'>Information Sheet</button></div></div>"
+                "content": "<div style='display:flex;flex-direction:column;justify-content:space-between;text-align:center;height:100%;gap:24px'><div>_More Information_\nFor full details, see our participant information sheet</div><div style='margin-left:auto;margin-right:auto'><button variant='contained' href='/study/study/paprka/resources/paprka_pis.pdf' target='_blank'>Participant Information Sheet</button></div></div>"
               }
             ]
           },
@@ -78,20 +114,22 @@
             "noCard": true,
             "title": "Meet The Team",
             "items": [
-              {"imgSrc": "/study/paprka/resources/landingpage/profiles_will_dixon.png", "title": "Will Dixon", "content": "Professor of Digital Epidemiology", "href": "https://research.manchester.ac.uk/en/persons/will.dixon"},
-              {"imgSrc": "/study/paprka/resources/landingpage/profiles_ayo.png", "title": "Ayobami Esther Olanrewaju", "content": "PhD candidate in Musculoskeletal", "href": "https://research.manchester.ac.uk/en/persons/ayobami-olanrewaju"},
-              {"imgSrc": "/study/paprka/resources/landingpage/profiles_sabine.png", "title": "Sabine Van der veer", "content": "Senior Lecturer in Health Informatics", "href": "https://research.manchester.ac.uk/en/persons/sabine.vanderveer"},
-              {"imgSrc": "/study/paprka/resources/landingpage/profiles_david_wong.png", "title": "David Wong", "content": "A/Prof Health Informatics and Health Data Science", "href": "https://medicinehealth.leeds.ac.uk/medicine/staff/9808/dr-david-wong"},
-              {"imgSrc": "/study/paprka/resources/landingpage/profiles_shuai.png", "title": "Shuai Shao", "content": "Research Associate", "href": "https://research.manchester.ac.uk/en/persons/shuai-shao"},
-              {"imgSrc": "/study/paprka/resources/landingpage/profiles_amos.png", "title": "Amos Folarin", "content": "Senior Software Development Group Leader", "href": "https://www.kcl.ac.uk/people/amos-folarin"},
-              {"imgSrc": "/study/paprka/resources/landingpage/profiles_richard.png", "title": "Richard Dobson", "content": "Professor of Medical Bioinformatics", "href": "https://www.kcl.ac.uk/people/richard-dobson"},
-              {"imgSrc": "/study/paprka/resources/landingpage/profiles_mark.png", "title": "Mark Wilkinson", "content": "Professor of Orthopaedics", "href": "https://www.sheffield.ac.uk/smph/people/clinical-medicine/mark-wilkinson"},
-              {"imgSrc": "/study/paprka/resources/landingpage/profiles_michael_whitehouse.png", "title": "Michael Whitehouse", "content": "Professor of Trauma and Orthopaedics", "href": "https://www.bristol.ac.uk/people/person/Michael-Whitehouse-606eae62-257d-43da-aba1-7fed58b6246e"},
-              {"imgSrc": "/study/paprka/resources/landingpage/profiles_andrew.png", "title": "Andrew Judge", "content": "Professor of Translational Statistics", "href": "https://www.bristol.ac.uk/people/person/Andy-Judge-1d244ce0-922d-43f0-ba5a-becbea56e9cd"},
-              {"imgSrc": "/study/paprka/resources/landingpage/profiles_coral.png", "title": "Coral Stevenson", "content": "Project Administrator", "href": "https://personalpages.manchester.ac.uk/advanced.php?dn=cn%3DCoral+Stevenson%2Bumanroleid%3D1419951%2Cou%3DDivision+of+Informatics%5C%2C+Imaging+%26+Data+Sciences%2Cou%3DSchool+of+Health+Sciences%2Cou%3DFaculty+of+Biology%5C%2C+Medicine+and+Health%2Cou%3DPeople%2Co%3DUniversity+of+Manchester%2Cc%3DGB&employeeType=STAFF&action=read&form_input=Submit"},
-              {"imgSrc": "/study/paprka/resources/landingpage/profiles_elaine.png", "title": "Elaine Mackey", "content": "Information Governance Manager", "href": "https://research.manchester.ac.uk/en/persons/elaine.mackey"},
-              {"imgSrc": "/study/paprka/resources/landingpage/profiles_lynn.png", "title": "Lynn Laidlaw", "content": "Patient and Public Engagement and Involvement", "href": "https://www.kcl.ac.uk/people/lynn-laidlaw"},
-              {"imgSrc": "/study/paprka/resources/landingpage/profiles_louise.jpg", "title": "Louise Cook", "content": "Programme Manager", "href": "#"}            
+              {"imgSrc": "/study/paprka/resources/landingpage/profiles/will_dixon.png", "title": "William G Dixon", "content": "Professor of Digital Epidemiology", "href": "https://research.manchester.ac.uk/en/persons/will.dixon"},
+              {"imgSrc": "/study/paprka/resources/landingpage/profiles/ayo.png", "title": "Ayobami Esther Olanrewaju", "content": "PhD candidate in Musculoskeletal", "href": "https://research.manchester.ac.uk/en/persons/ayobami-olanrewaju"},
+              {"imgSrc": "/study/paprka/resources/landingpage/profiles/sabine.png", "title": "Sabine Van der veer", "content": "Professor of Health Informatics", "href": "https://research.manchester.ac.uk/en/persons/sabine.vanderveer"},
+              {"imgSrc": "/study/paprka/resources/landingpage/profiles/david_wong.png", "title": "David Wong", "content": "A/Prof Health Informatics and Health Data Science", "href": "https://medicinehealth.leeds.ac.uk/medicine/staff/9808/dr-david-wong"},
+              {"imgSrc": "/study/paprka/resources/landingpage/profiles/shuai.png", "title": "Shuai Shao", "content": "Research Associate", "href": "https://research.manchester.ac.uk/en/persons/shuai-shao"},
+              {"imgSrc": "/study/paprka/resources/landingpage/profiles/amos.png", "title": "Amos Folarin", "content": "Senior Software Development Group Leader", "href": "https://www.kcl.ac.uk/people/amos-folarin"},
+              {"imgSrc": "/study/paprka/resources/landingpage/profiles/richard.png", "title": "Richard Dobson", "content": "Professor of Medical Bioinformatics", "href": "https://www.kcl.ac.uk/people/richard-dobson"},
+              {"imgSrc": "/study/paprka/resources/landingpage/profiles/mark.png", "title": "Mark Wilkinson", "content": "Professor of Orthopaedics", "href": "https://www.sheffield.ac.uk/smph/people/clinical-medicine/mark-wilkinson"},
+              {"imgSrc": "/study/paprka/resources/landingpage/profiles/michael_whitehouse.png", "title": "Michael Whitehouse", "content": "Professor of Trauma and Orthopaedics", "href": "https://www.bristol.ac.uk/people/person/Michael-Whitehouse-606eae62-257d-43da-aba1-7fed58b6246e"},
+              {"imgSrc": "/study/paprka/resources/landingpage/profiles/andrew.png", "title": "Andrew Judge", "content": "Professor of Translational Statistics", "href": "https://www.bristol.ac.uk/people/person/Andy-Judge-1d244ce0-922d-43f0-ba5a-becbea56e9cd"},
+              {"imgSrc": "/study/paprka/resources/landingpage/profiles/coral.png", "title": "Coral Stevenson", "content": "Project Coordinator", "href": "https://personalpages.manchester.ac.uk/advanced.php?dn=cn%3DCoral+Stevenson%2Bumanroleid%3D1419951%2Cou%3DDivision+of+Informatics%5C%2C+Imaging+%26+Data+Sciences%2Cou%3DSchool+of+Health+Sciences%2Cou%3DFaculty+of+Biology%5C%2C+Medicine+and+Health%2Cou%3DPeople%2Co%3DUniversity+of+Manchester%2Cc%3DGB&employeeType=STAFF&action=read&form_input=Submit"},
+              {"imgSrc": "/study/paprka/resources/landingpage/profiles/elaine.png", "title": "Elaine Mackey", "content": "Information Governance Manager", "href": "https://research.manchester.ac.uk/en/persons/elaine.mackey"},
+              {"imgSrc": "/study/paprka/resources/landingpage/profiles/lynn.png", "title": "Lynn Laidlaw", "content": "Patient and Public Engagement and Involvement", "href": "https://www.kcl.ac.uk/people/lynn-laidlaw"},
+              {"imgSrc": "/study/paprka/resources/landingpage/profiles/louise.jpg", "title": "Louise Cook", "content": "Programme Manager", "href": "#"},
+              {"imgSrc": "/study/paprka/resources/landingpage/profiles/emma.jpg", "title": "Emma Pritchard", "content": "Research Associate", "href": "https://research.manchester.ac.uk/en/persons/emma-pritchard" },
+              {"imgSrc": "/study/paprka/resources/landingpage/profiles/fld.jpg", "title": "Fu Lian Doble", "content": "Communication Manager", "href": "" }
             ]
           },
           {
