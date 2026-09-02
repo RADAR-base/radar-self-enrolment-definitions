@@ -1,0 +1,241 @@
+{
+  "name": "The Cycle Study",
+  "studyId": "PMDD-KCL",
+  "healthIssues": [],
+  "onboarding": {
+    "metadata": {},
+    "steps": []
+  },
+  "protocols": [
+    {
+      "id": "connect",
+      "appearance": {},
+      "schedule": {},
+      "metadata": {
+        "title": "Connect Devices",
+        "order": 2,
+        "description": "Share your fitness tracker or smartphone app with us.",
+        "optional": false,
+        "type": "inbuilt",
+        "inbuiltId": "connect",
+        "options": {
+          "title": "TASK: Connect my device(s)",
+          "description": "<p>Click on the connect button for your device.</p><p>The study team will collect activity, sleep, and health data from your wearable devices or smartphone apps. This data will be collected securely via RADAR-base. Once you have connected your devices, you can sign out of this portal.</p>",
+          "devices": [
+            {
+              "id": "fitbit",
+              "title": "Fitbit",
+              "description": "By clicking Connect, you can read step-by-step instructions to see how to share your Fitbit data. We are collecting physical activity, heart rate, and sleep data.",
+              "guideUrl": "https://canva.link/7aymaosboigy27y"
+            },
+            {
+              "id": "garmin",
+              "title": "Garmin",
+              "description": "By clicking Connect, you can read step-by-step instructions to see how to share your Garmin data. We are collecting physical activity, heart rate, and sleep data.",
+              "guideUrl": "https://canva.link/7aymaosboigy27y"
+            },
+            {
+              "id": "oura",
+              "title": "Oura Ring",
+              "description": "By clicking Connect, you can read step-by-step instructions to see how to share your Oura Ring data. We are collecting physical activity, heart rate, temperature, and sleep data.",
+              "guideUrl": "https://canva.link/7aymaosboigy27y"
+            },
+            {
+              "id": "radar_armt",
+              "title": "RADAR Questionnaire App",
+              "description": "By clicking Connect, you can read step-by-step instructions to see how to share your RADAR aRMT physical activity, heart rate, and sleep data.",
+              "guideUrl": "https://canva.link/523uysldcjyimi7"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "enrolment": {
+    "studyInformation": {
+      "title": "Study Information",
+      "content": "Please take some time to review the Participant Information Sheet again, as it contains answers to many common questions related to taking part. If you have any questions, please contact the team on <cyclestudy@kcl.ac.uk>.\n<br />\n<PdfViewer fileUrl='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/pis.pdf'/>\n<br />\n<button variant='contained' target='_blank' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/pis.pdf'>Download Participant Information</button>"
+    },
+    "additional": {
+      "title": "Register Account",
+      "items": [
+        {
+          "field_name": "pmdd_additional_heading",
+          "form_name": "pmdd_additional",
+          "field_type": "descriptive",
+          "field_label": "You need an account to connect your fitness tracker or smartphone app so we can collect activity, sleep, and health data. You can find out more information about the way we use personal information in our [privacy policy](privacy)."
+        },
+        {
+          "field_name": "CSID",
+          "form_name": "pmdd_additional",
+          "field_type": "text",
+          "field_label": "Cycle Study ID",
+          "required_field": "true",
+          "text_validation_type_or_show_slider_number": ""
+        }
+      ]
+    },
+    "account": {
+      "title": "Register Account",
+      "description": "You need an account to connect your fitness tracker or smartphone app so we can collect activity, sleep, and health data.\nYou can find out more information about the way we use personal information in our [privacy policy](privacy).\n"
+    }
+  },
+  "studyUiConfig": {
+    "materialTheme": {
+      "typography": {
+        "allVariants": {
+          "fontFamily": "var(--font-montserrat)",
+          "wordBreak": "break-word",
+          "whiteSpace": "pre-wrap"
+        },
+        "h1": {
+          "fontSize": "2rem",
+          "fontWeight": "700",
+          "color": "#950000",
+          "wordBreak": "normal",
+          "overflow": "hidden"
+        },
+        "h2": {
+          "fontSize": "1.5rem",
+          "fontWeight": "700",
+          "color": "#950000"
+        },
+        "h3": {
+          "fontSize": "1rem",
+          "fontWeight": "700",
+          "color": "#333333"
+        },
+        "h4": {
+          "fontSize": "1rem",
+          "fontWeight": "600"
+        },
+        "button": {
+          "textTransform": "none",
+          "wordBreak": "normal"
+        },
+        "body1": {},
+        "body2": {}
+      },
+      "palette": {
+        "background": {
+          "default": "#ffffff"
+        },
+        "primary": {
+          "light": "#b33a3a",
+          "main": "#950000",
+          "dark": "#770000",
+          "contrastText": "#ffffff"
+        },
+        "secondary": {
+          "light": "#7a7a7a",
+          "main": "#4a4a4a",
+          "dark": "#2f2f2f",
+          "contrastText": "#ffffff"
+        },
+        "success": {
+          "main": "#2e7d32"
+        },
+        "warning": {
+          "main": "#950000"
+        },
+        "error": {
+          "main": "#e69612"
+        }
+      },
+      "components": {
+        "MuiButton": {
+          "defaultProps": {
+            "disableElevation": true,
+            "sx": {
+              "borderRadius": 3
+            }
+          }
+        },
+        "MuiAppBar": {
+          "defaultProps": {
+            "elevation": 0,
+            "position": "static"
+          }
+        },
+        "MuiToggleButton": {
+          "styleOverrides": {
+            "root": {
+              "borderRadius": 32,
+              "fontSize": "1em"
+            }
+          }
+        },
+        "MuiTextField": {
+          "defaultProps": {
+            "variant": "standard"
+          }
+        },
+        "MuiInputLabel": {
+          "styleOverrides": {
+            "standard": {
+              "fontSize": "1rem"
+            },
+            "shrink": {
+              "fontSize": "1rem",
+              "fontWeight": "700",
+              "transform": "translate(0, -10px)"
+            }
+          }
+        }
+      }
+    },
+    "faviconSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/icon.png",
+    "navbar": {
+      "links": [
+        {
+          "text": "Home",
+          "href": "/PMDD-KCL"
+        }
+      ],
+      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/icon.png"
+    },
+    "footer": {
+      "columns": [
+        {
+          "title": "Study Links",
+          "items": [
+            {
+              "text": "Home",
+              "href": "#"
+            },
+            {
+              "text": "About the study",
+              "href": "https://www.kcl.ac.uk/research/cycle-study"
+            }
+          ]
+        },
+        {
+          "title": "Contact Us",
+          "items": [
+            {
+              "text": "cyclestudy@kcl.ac.uk",
+              "href": "mailto:cyclestudy@kcl.ac.uk"
+            }
+          ]
+        },
+        {
+          "title": "Legal Links",
+          "items": [
+            {
+              "text": "Privacy Policy",
+              "href": "/PMDD-KCL/privacy"
+            }
+          ]
+        }
+      ],
+      "copyrightText": "© 2025 Onsentia"
+    },
+    "portal": {
+      "title": "Complete Tasks to Join Study",
+      "content": "Please click the 'To Do' button below to download the RADAR App and to connect your wearable device."
+    },
+    "analytics": {
+      "gaId": ""
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+    "name": "RECURRENT-GB Proxy Study",
+    "studyId": "RECURRENT-GB-Proxy",
+    "healthIssues": [],
+    "onboarding": {
+        "metadata": {},
+        "steps": []
+    },
+    "protocols": [
+        {
+            "id": "connect",
+            "appearance": {},
+            "schedule": {},
+            "metadata": {
+                "title": "Connect Devices",
+                "order": 2,
+                "description": "Take part in the study by completing tasks and questionnaires on behalf of a RECURRENT-GB participant.",
+                "optional": false,
+                "type": "inbuilt",
+                "inbuiltId": "connect",
+                "options": {
+                    "title": "TASK: Connect my device(s)",
+                    "description": "Click on the connect button for your device to share activity and health metrics in support of this study.",
+                    "devices": [
+                        {
+                            "id": "radar_armt",
+                            "title": "RADAR aRMT",
+                            "description": "Connect via RADAR aRMT."
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "enrolment": {
+        "account": {
+            "title": "Register Proxy/Carer Account",
+            "description": "You need an account to complete study tasks, questionnaires and, if applicable, connect devices on behalf of a RECURRENT-GB participant."
+        }
+    },
+    "studyUiConfig": {
+        "materialTheme": {
+            "typography": {
+                "allVariants": {
+                    "fontFamily": "var(--font-montserrat)",
+                    "wordBreak": "break-word",
+                    "whiteSpace": "pre-wrap"
+                },
+                "h1": {
+                    "fontSize": "2rem",
+                    "fontWeight": "700",
+                    "color": "#000000",
+                    "wordBreak": "normal",
+                    "overflow": "hidden"
+                },
+                "h2": {
+                    "fontSize": "1.5rem",
+                    "fontWeight": "700",
+                    "color": "#000000"
+                },
+                "h3": {
+                    "fontSize": "1rem",
+                    "fontWeight": "700",
+                    "color": "#000000"
+                },
+                "h4": {
+                    "fontSize": "1rem",
+                    "fontWeight": "600"
+                },
+                "button": {
+                    "textTransform": "none",
+                    "wordBreak": "normal"
+                },
+                "body1": {},
+                "body2": {}
+            },
+            "palette": {
+                "background": {
+                    "default": "#ffffff"
+                },
+                "primary": {
+                    "light": "#000000",
+                    "main": "#000000",
+                    "dark": "#000000",
+                    "contrastText": "#ffffff"
+                },
+                "secondary": {
+                    "light": "#000000",
+                    "main": "#000000",
+                    "dark": "#000000",
+                    "contrastText": "#ffffff"
+                },
+                "success": {
+                    "main": "#000000"
+                },
+                "warning": {
+                    "main": "#000000"
+                },
+                "error": {
+                    "main": "#000000"
+                }
+            },
+            "components": {
+                "MuiButton": {
+                    "defaultProps": {
+                        "disableElevation": true,
+                        "sx": {
+                            "borderRadius": 3
+                        }
+                    }
+                },
+                "MuiAppBar": {
+                    "defaultProps": {
+                        "elevation": 0,
+                        "position": "static"
+                    }
+                },
+                "MuiToggleButton": {
+                    "styleOverrides": {
+                        "root": {
+                            "borderRadius": 32,
+                            "fontSize": "1em"
+                        }
+                    }
+                },
+                "MuiTextField": {
+                    "defaultProps": {
+                        "variant": "standard"
+                    }
+                },
+                "MuiInputLabel": {
+                    "styleOverrides": {
+                        "standard": {
+                            "fontSize": "1rem"
+                        },
+                        "shrink": {
+                            "fontSize": "1rem",
+                            "fontWeight": "700",
+                            "transform": "translate(0, -10px)"
+                        }
+                    }
+                }
+            }
+        },
+        "faviconSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RADAR-mCRAVING-KCL-s1/resources/icon.png",
+        "navbar": {
+            "links": [
+                {
+                    "text": "Home",
+                    "href": "/RECURRENT-GB-Proxy"
+                }
+            ],
+            "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RADAR-mCRAVING-KCL-s1/resources/icon.png"
+        },
+        "footer": {
+            "columns": [
+                {
+                    "title": "Study Links",
+                    "items": [
+                        {
+                            "text": "Home",
+                            "href": "#"
+                        },
+                        {
+                            "text": "About the study",
+                            "href": "#"
+                        },
+                        {
+                            "text": "LinkedIn",
+                            "href": "https://www.linkedin.com/company/onsentia"
+                        }
+                    ]
+                },
+                {
+                    "title": "Contact Us",
+                    "items": [
+                        {
+                            "text": "support@onsentia.com",
+                            "href": "mailto:support@onsentia.com"
+                        }
+                    ]
+                },
+                {
+                    "title": "Legal Links",
+                    "items": [
+                        {
+                            "text": "Privacy Policy",
+                            "href": "privacy"
+                        },
+                        {
+                            "text": "Cookie Policy",
+                            "href": "cookies"
+                        }
+                    ]
+                }
+            ],
+            "copyrightText": "© 2024 Onsentia"
+        },
+        "portal": {
+            "title": "Complete Proxy Tasks and Questionnaires"
+        },
+        "analytics": {
+            "gaId": ""
+        }
+    }
+}

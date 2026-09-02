@@ -8,12 +8,12 @@
       "content": {
         "block1": {
           "blockType": "markdown",
-          "content": "# Join the world's largest ever study of anxiety & depression\n<br />\n- **1/6** people have reported depression or anxiety in the last year\n- **1/3** people experience symptoms in their lifetime\n- Only **50%** of people respond well to existing treatments\n<br />\n<button variant='contained' href='RADAR-GLAD-KCL-s1/enrol'>Join Study</button>"
+          "content": "# Improve the world's largest ever study of anxiety & depression\n<br />\n- **1/6** people have reported depression or anxiety in the last year\n- **1/3** people experience symptoms in their lifetime\n- Only **50%** of people respond well to existing treatments\n\n\nHelp us understand how everyday wearable data (sleep, activity, heart rate) relates to mental health\n<br />\n<button variant='contained' href='RADAR-GLAD-KCL-s1/enrol'>Join Study</button>"
         },
         "block2": {
           "blockType": "video",
           "video": {
-            "src": "http://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RADAR-GLAD-KCL-s1/resources/video.mp4",
+            "src": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RADAR-GLAD-KCL-s1/resources/video.mp4",
             "type": "video/mp4",
             "width": "100%",
             "params": {
@@ -28,11 +28,23 @@
       }
     },
     {
-      "blockType": "markdown",
+      "blockType": "column",
       "noCard": true,
-      "title": "Who Can Take Part?",
       "blockBackground": "white",
-      "content": "To take part in the GLAD Study you must either:\n- Have ever experienced anxiety or depressive disorders (with or without a medical diagnosis), or\n- Have never experienced any mental health disorder.\n<br />\nAND you must:\n- Be aged 16 or over\n- Live in the United Kingdom.\n<br />\nYou can withdraw from the study at any time."
+      "title": "",
+      "content": {
+        "block1": {
+          "blockType": "markdown",
+          "content": "![GLAD Wearable Data Study](https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RADAR-GLAD-KCL-s1/resources/image.jpg)"
+        },
+        "block2": {
+          "blockType": "markdown",
+          "noCard": true,
+          "title": "Who Can Take Part?",
+          "blockBackground": "white",
+          "content": "To take part in the GLAD Wearable Data Study you must:\n- Be part of the existing GLAD Study\n<br />\nAND you must:\n- Be aged 16 or over\n- Live in the United Kingdom.\n- Be willing to connect a wearable or health app so we can collect activity, sleep, and related metrics alongside your questionnaire responses.\n<br />\nYou can withdraw from the study at any time."
+        }
+      }
     },
     {
       "blockType": "column",
@@ -42,7 +54,7 @@
       "content": {
         "block1": {
           "blockType": "text",
-          "content": "The Genetic Links to Anxiety and Depression (GLAD) Study, led by the NIHR Mental Health BioResource and researchers at King's College London (KCL), in collaboration with Queen's University Belfast, University of Edinburgh, and Cardiff University, is a project set up to support studies exploring risk factors for depression and/or anxiety.\n\nOur aim is to understand why some people develop these conditions and how we can find effective treatments that are more targeted by combining questionnaire data with genetics and other health information."
+          "content": "The Genetic Links to Anxiety and Depression (GLAD) Study, led by the NIHR Mental Health BioResource and researchers at King's College London (KCL), in collaboration with Queen's University Belfast, University of Edinburgh, and Cardiff University, is a project set up to support studies exploring risk factors for depression and/or anxiety.\n\nOur aim is to understand why some people develop these conditions and how we can find effective treatments that are more targeted by combining questionnaire data with genetics, wearable sensor insights (e.g., sleep and activity patterns), and other health information."
         },
         "block2": {
           "blockType": "markdown",
@@ -55,7 +67,7 @@
       "noCard": true,
       "title": "What happens after you sign up?",
       "blockBackground": "white",
-      "content": "After completing the sign-up form, the study enrollment process consists of the following steps:\n- Reading the Information Sheet\n- Providing consent\n- Completing our questionnaire\n- Providing a saliva sample"
+      "content": "After completing the sign-up form, the study enrollment process consists of the following steps:\n- Reading the Information Sheet\n- Providing consent\n- Connecting your wearable or health app so we can securely collect activity, sleep and health data\n- Completing our questionnaires"
     },
     {
       "blockType": "carousel",
@@ -126,6 +138,10 @@
         {
           "title": "How do I sign up?",
           "content": "Click the Join Study button and follow the steps to create an account, read the Information Sheet, give consent, complete our questionnaire, and provide a saliva sample."
+        },
+        {
+          "title": "What wearable data will you collect?",
+          "content": "With your permission we will collect passive data such as daily activity, sleep duration and quality, and heart-rate metrics from your connected wearable or health app. This helps us link day-to-day patterns with mental health symptoms."
         }
       ]
     },

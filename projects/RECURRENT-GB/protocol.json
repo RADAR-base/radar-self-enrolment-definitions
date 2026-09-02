@@ -23,14 +23,14 @@
                     "description": "Click on the connect button for your device to share activity and health metrics in support of this study.",
                     "devices": [
                         {
-                            "id": "fitbit",
-                            "title": "Fitbit",
-                            "description": "Connect your Fitbit account."
+                            "id": "google_health",
+                            "title": "Google Health",
+                            "description": "Connect your Google/Fitbit account if you have one."
                         },
                         {
                             "id": "radar_armt",
                             "title": "RADAR aRMT",
-                            "description": "Connect via RADAR aRMT."
+                            "description": "Connect the RADAR Questionnaire app for this study."
                         }
                     ]
                 }

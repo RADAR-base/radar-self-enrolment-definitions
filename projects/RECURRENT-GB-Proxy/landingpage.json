@@ -1,0 +1,20 @@
+{
+    "blocks": [
+        {
+            "blockType": "column",
+            "noCard": true,
+            "blockBackground": "white",
+            "title": "",
+            "content": {
+                "block1": {
+                    "blockType": "markdown",
+                    "content": "# RECURRENT-GB Proxy: Carer and proxy portal.<br/><br/>\nThis portal allows carers or other proxies of RECURRENT-GB participants to complete study tasks, questionnaires and other assessments on the participant's behalf.\n<br/><br/>\n<button variant='contained' href='RECURRENT-GB-Proxy/enrol'>Access proxy portal</button>"
+                },
+                "block2": {
+                    "blockType": "markdown",
+                    "content": ""
+                }
+            }
+        }
+    ]
+}

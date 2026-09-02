@@ -1,0 +1,270 @@
+{
+  "blocks": [
+    {
+      "blockType": "column",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "padding": "4rem 0 3rem",
+        "bgcolor": "#fff8f5",
+        "color": "#2a2a2a",
+        "alignItems": "center",
+        "& .MuiGrid2-root": {
+          "alignItems": "center"
+        },
+        "& .MuiBox-root": {
+          "gap": "1rem"
+        },
+        "& .MuiTypography-h1": {
+          "fontSize": "3rem",
+          "fontWeight": "700",
+          "lineHeight": 1.15
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "1.2rem",
+          "lineHeight": 1.65
+        },
+        "& .MuiButton-root": {
+          "backgroundColor": "#950000",
+          "color": "#ffffff",
+          "border": "1px solid #f2c266",
+          "boxShadow": "0 6px 16px rgba(230, 150, 18, 0.25)"
+        },
+        "& .MuiButton-root:hover": {
+          "backgroundColor": "#e69612"
+        },
+        "& > div": {
+          "maxWidth": "1440px",
+          "paddingLeft": {
+            "xs": 1,
+            "sm": 2
+          },
+          "paddingRight": {
+            "xs": 1,
+            "sm": 2
+          }
+        },
+        "@media (min-width: 900px)": {
+          "& .MuiGrid2-container > .test:nth-of-type(1)": {
+            "gridColumn": "span 8"
+          },
+          "& .MuiGrid2-container > .test:nth-of-type(2)": {
+            "gridColumn": "span 4"
+          }
+        }
+      },
+      "content": {
+        "block1": {
+          "blockType": "hero",
+          "title": "Help us explore premenstrual disorders across the menstrual cycle",
+          "subtitle": "Join a King's College London research study using wearable and questionnaire data to better understand PMDD.<br /><br /><button style='font-size:1.05rem; padding:12px 28px; border-radius:999px;' variant='contained' href='PMDD-KCL/enrol'>Join Study</button>"
+        },
+        "block2": {
+          "blockType": "markdown",
+          "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Image%201_Phone.jpeg' alt='Cycle Study hero image' style='width:90%; border-radius:24px; box-shadow:0 14px 32px rgba(20,20,20,0.14); object-fit:cover;'/>"
+        }
+      }
+    },
+    {
+      "blockType": "markdown",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "bgcolor": "#fff8f5",
+        "color": "#2a2a2a",
+        "& .MuiTypography-body1": {
+          "fontSize": "1.15rem",
+          "lineHeight": 1.75
+        }
+      },
+      "title": "",
+      "content": "<div style='margin:0 auto; background:#ffffff; border-radius:20px; padding:2rem 2.2rem; box-shadow:0 10px 28px rgba(230,150,18,0.10); border:1px solid #f2c266;'><p style='margin-top:0;'>Premenstrual disorders, including <strong style='color:#950000;'>Premenstrual Syndrome (PMS)</strong> and <strong style='color:#950000;'>Premenstrual Dysphoric Disorder (PMDD)</strong>, can have severe effects on daily life.</p><ul style='margin:0.25rem 0 1rem 1.2rem;'><li style='margin-bottom:0.4rem;'><strong style='color:#e69612;'>1&nbsp;in&nbsp;3&nbsp;people</strong> who menstruate are clinically affected by PMS</li><li><strong style='color:#e69612;'>1&nbsp;in&nbsp;20&nbsp;people</strong> who menstruate are clinically affected by PMDD</li></ul><p>These conditions are characterised by physical and emotional symptoms that heighten during the <strong style='color:#950000;'>luteal phase</strong> (the time between ovulation and menstruation).</p><p style='margin-bottom:0;'>The Cycle Study aims to improve understanding of why premenstrual disorders occur and how to provide better support and treatment.</p></div>"
+    },
+    {
+      "blockType": "column",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "paddingTop": "2.5rem",
+        "paddingBottom": "2.5rem",
+        "bgcolor": "#ffffff",
+        "color": "#2a2a2a",
+        "& .MuiTypography-h2": {
+          "fontSize": "2rem",
+          "fontWeight": "700",
+          "color": "#950000"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "1.15rem",
+          "lineHeight": 1.65
+        },
+        "& .MuiBox-root": {
+          "alignItems": "flex-start"
+        }
+      },
+      "content": {
+        "block1": {
+          "blockType": "markdown",
+          "title": "Who Can Take Part?",
+          "content": "To take part in the Cycle Study, you must own a wearable device and have been diagnosed with <strong style='color:#950000;'>PMDD</strong>.<br /><br />You must also:<br />- Be <strong style='color:#e69612;'>aged 18 to 45</strong><br />- Live in the UK<br />- Be fluent in English<br />- Not be on hormonal contraception<br />- Not be pregnant or breastfeeding"
+        },
+        "block2": {
+          "blockType": "markdown",
+          "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Image%202_Wearable.jpeg' alt='Wearable device' style='width:95%; border-radius:20px; box-shadow:0 12px 24px rgba(0,0,0,0.12); object-fit:cover;'/>"
+        }
+      }
+    },
+    {
+      "blockType": "column",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "paddingTop": "2.5rem",
+        "paddingBottom": "2.5rem",
+        "bgcolor": "#fff5f2",
+        "color": "#2a2a2a",
+        "& .MuiTypography-h2": {
+          "fontSize": "2rem",
+          "fontWeight": "700",
+          "color": "#950000"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "1.15rem",
+          "lineHeight": 1.65
+        }
+      },
+      "content": {
+        "block1": {
+          "blockType": "markdown",
+          "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Image%203_Phone.jpeg' alt='Phone with study app' style='width:95%; border-radius:20px; box-shadow:0 12px 24px rgba(0,0,0,0.12); object-fit:cover;'/>"
+        },
+        "block2": {
+          "blockType": "markdown",
+          "title": "About the Cycle Study",
+          "content": "The Cycle Study, led by researchers at King's College London (KCL), explores how <strong style='color:#950000;'>PMDD fluctuates across the menstrual cycle</strong> and how it is influenced by environment, co-occurring conditions, and broader indicators of health.<br /><br />To do this, we combine questionnaire data with wearable device insights such as <strong style='color:#e69612;'>sleep</strong> and <strong style='color:#e69612;'>activity</strong> patterns."
+        }
+      }
+    },
+    {
+      "blockType": "markdown",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "bgcolor": "#ffffff",
+        "color": "#2a2a2a",
+        "& .MuiTypography-h2": {
+          "fontSize": "2rem",
+          "fontWeight": "700",
+          "color": "#950000"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "1.15rem",
+          "lineHeight": 1.65
+        }
+      },
+      "title": "What Happens After You Sign Up",
+      "content": "<div style='background:#fffaf1; border:1px solid #f2c266; border-radius:18px; padding:1.4rem 1.6rem;'><p style='margin-top:0;'>After filling out the sign-up form, you will be asked to:</p><ul style='margin:0 0 0 1.2rem;'><li>Complete a <strong style='color:#950000;'>screening questionnaire</strong> to check eligibility</li><li>Read the Information Sheet</li><li>Provide consent</li><li>Connect your wearable so we can securely collect <strong style='color:#e69612;'>activity, sleep, and health data</strong></li><li>Complete daily and weekly questionnaires for <strong style='color:#950000;'>two menstrual cycles</strong> or a maximum of 10 weeks (whichever comes first) via the Active app</li></ul></div>"
+    },
+    {
+      "blockType": "carousel",
+      "noCard": true,
+      "blockBackground": "#950000",
+      "sx": {
+        "& .MuiTypography-h2": {
+          "fontSize": "2.2rem",
+          "fontWeight": "700",
+          "color": "#ffffff"
+        }
+      },
+      "title": "Our Team",
+      "items": [
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Helena%20Zavos_Headshot.webp",
+          "title": "Dr Helena Zavos",
+          "content": "Cycle Study Co-Lead"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Catherine%20Jones_Headshot.webp",
+          "title": "Dr Catherine Jones",
+          "content": "Cycle Study Co-Lead"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Emma%20Diskin_Headshot.png",
+          "title": "Emma Diskin",
+          "content": "Research Assistant"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Claire%20Wilson_Headshot.webp",
+          "title": "Dr Claire Wilson",
+          "content": "Study Collaborator"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Thalia%20Eley_Headshot.webp",
+          "title": "Professor Thalia Eley",
+          "content": "Study Collaborator"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Gerome%20Breen_Headshot.webp",
+          "title": "Professor Gerome Breen",
+          "content": "Study Collaborator"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/PMDD-KCL/resources/Tom%20McAdams_Headshot.webp",
+          "title": "Professor Tom McAdams",
+          "content": "Study Collaborator"
+        }
+      ]
+    },
+    {
+      "blockType": "accordion",
+      "noCard": true,
+      "sx": {
+        "& .MuiTypography-h2": {
+          "color": "#950000"
+        },
+        "& .MuiAccordionSummary-expandIconWrapper": {
+          "color": "#e69612"
+        }
+      },
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "title": "Am I eligible?",
+          "content": "If you are aged 18 to 45, live in the UK, are fluent in English, and have PMDD, you may be eligible. If you are currently pregnant, breastfeeding, or on hormonal contraception, you are not eligible."
+        },
+        {
+          "title": "How do I sign up?",
+          "content": "Click the Join Study button and follow the steps to create an account, read the Information Sheet, give consent, and complete the initial questionnaire."
+        },
+        {
+          "title": "I own a wearable. What devices are eligible?",
+          "content": "Examples include Apple Watch (with iPhone via HealthKit), Fitbit, Garmin, and Oura."
+        },
+        {
+          "title": "Which wearable data will you collect?",
+          "content": "With your permission, we will collect passive data such as daily activity, sleep duration and quality, and heart-rate metrics from your connected wearable or health app."
+        }
+      ]
+    },
+    {
+      "blockType": "markdown",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "bgcolor": "#fff8f5",
+        "color": "#2a2a2a",
+        "& .MuiTypography-h2": {
+          "fontSize": "2rem",
+          "fontWeight": "700",
+          "color": "#950000"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "1.1rem",
+          "lineHeight": 1.6
+        }
+      },
+      "title": "Talk to Us",
+      "content": "Email us: cyclestudy@kcl.ac.uk<br />Office hours: Monday to Friday, 9:00am to 5:00pm (UK time)."
+    }
+  ]
+}

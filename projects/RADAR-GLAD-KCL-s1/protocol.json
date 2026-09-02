@@ -1,5 +1,5 @@
 {
-  "name": "GLAD Study",
+  "name": "GLAD Wearables Study",
   "studyId": "RADAR-GLAD-KCL-s1",
   "healthIssues": [],
   "onboarding": {
@@ -20,7 +20,7 @@
         "inbuiltId": "connect",
         "options": {
           "title": "TASK: Connect my device(s)",
-          "description": "<p>Click on the connect button for your device.</p><p>The study team will collect past physical activity data, if available, from 1st July 2016 until 31st December 2024. This will be a one-off transfer of data. We will not collect any activity data beyond the 31st December 2024.</p>",
+          "description": "<p>Click on the connect button for your device.</p><p>The study team will collect activity, sleep, and health data from your wearable devices or smartphone apps. This data will be collected securely and linked with your existing GLAD Study data.</p>",
           "devices": [
             {
               "id": "fitbit",
@@ -70,13 +70,13 @@
         {
           "fieldType": "yesno",
           "id": "criteria3",
-          "description": "Have you ever experienced anxiety or depressive disorders (with or without a medical diagnosis) or have never experienced any mental health disorder?"
+          "description": "Are you part of the existing GLAD Study?"
         }
       ]
     },
     "consent": {
       "title": "Consent",
-      "description": "Before you can take part in this study, we need your consent to complete questionnaires about your mental health experiences and share data from your wearable devices or smartphone apps.\n<br />\nWe also need you to create an account, using an email and password, so you can log back into the GLAD research study portal. You may want to do this to update your personal information or if you decide to leave the study.\n<br />\nYour data will be managed by the GLAD research team and will not be shared with any other parties. You can find out more information about the way we use personal information, and the rights individuals have to control and manage their data in our [privacy policy](https://gladstudy.org.uk/privacy).\n",
+      "description": "Before you can take part in this wearable data extension of the GLAD Study, we need your consent to share data from your wearable devices or smartphone apps (such as activity, sleep, and heart rate data) alongside your existing GLAD Study participation.\n<br />\nWe also need you to create an account, using an email and password, so you can log back into the GLAD Wearables Study portal. You may want to do this to update your personal information or if you decide to leave the study.\n<br />\nYour data will be managed by the GLAD research team and will not be shared with any other parties. You can find out more information about the way we use personal information, and the rights individuals have to control and manage their data in our [privacy policy](https://gladstudy.org.uk/privacy).\n",
       "requiredItems": [
         {
           "fieldType": "yesno",
@@ -91,32 +91,32 @@
         {
           "fieldType": "yesno",
           "id": "required3",
-          "description": "I understand my involvement in this study involves:\n- Completing online questionnaires about my mental health experiences on a platform hosted by King's College London\n- Sharing data from my wearable devices or smartphone apps (such as Fitbit, Apple Watch, Garmin, or health apps)\n- Allowing the GLAD team to analyse my questionnaire responses and wearable data to understand risk factors for anxiety and depression\n"
+          "description": "I understand my involvement in this wearable data extension of the GLAD Study involves:\n- Sharing data from my wearable devices or smartphone apps (such as Fitbit, Apple Watch, Garmin, or health apps) including activity, sleep, and heart rate metrics\n- Allowing the GLAD team to analyse my wearable data alongside my existing GLAD Study questionnaire responses to understand how everyday wearable data relates to mental health\n"
         },
         {
           "fieldType": "yesno",
           "id": "required4",
-          "description": "I give permission for the GLAD team to access and collect data from my wearable devices or smartphone apps. This includes physical activity data, sleep patterns, heart rate, and other health metrics that may be relevant to understanding anxiety and depression.\n"
+          "description": "I give permission for the GLAD team to access and collect data from my wearable devices or smartphone apps. This includes physical activity data, sleep patterns, heart rate, and other health metrics that may be relevant to understanding how everyday wearable data relates to mental health.\n"
         },
         {
           "fieldType": "yesno",
           "id": "required5",
-          "description": "I give permission for the GLAD team to access and analyse my questionnaire responses about my mental health experiences, including any history of anxiety or depression symptoms, treatments received, and family history of mental health conditions.\n"
+          "description": "I give permission for the GLAD team to link my wearable device data with my existing GLAD Study questionnaire responses and other data already collected as part of the GLAD Study.\n"
         },
         {
           "fieldType": "yesno",
           "id": "required6",
-          "description": "I give permission for the GLAD team to link my questionnaire responses with my wearable device data to investigate how lifestyle factors, physical activity, and sleep patterns may influence anxiety and depression risk.\n"
+          "description": "I give permission for the GLAD team to link my wearable device data with my existing GLAD Study data to investigate how everyday wearable data (sleep, activity, heart rate) relates to mental health.\n"
         },
         {
           "fieldType": "yesno",
           "id": "required7",
-          "description": "I understand that the data linkage involves combining my questionnaire responses with my wearable device data to form a complete research dataset. I give permission for my data to be linked and analysed together.\n"
+          "description": "I understand that the data linkage involves combining my wearable device data with my existing GLAD Study data to form a complete research dataset. I give permission for my data to be linked and analysed together.\n"
         },
         {
           "fieldType": "yesno",
           "id": "required8",
-          "description": "I give permission for the GLAD team to work with researchers at King's College London and partner institutions to analyse my linked data to answer the study's research questions about lifestyle and environmental risk factors for anxiety and depression.\n"
+          "description": "I give permission for the GLAD team to work with researchers at King's College London and partner institutions to analyse my linked data to answer the study's research questions about how everyday wearable data relates to mental health.\n"
         },
         {
           "fieldType": "yesno",
@@ -155,7 +155,7 @@
     },
     "account": {
       "title": "Register Account",
-      "description": "You need an account to give us your information and connect your fitness tracker or smartphone app.\nYou can find out more information about the way we use personal information, and the rights individuals have to control and manage their data in our [privacy policy](https://documents.manchester.ac.uk/display.aspx?DocID=37095)\n"
+      "description": "You need an account to connect your fitness tracker or smartphone app so we can collect activity, sleep, and health data.\nYou can find out more information about the way we use personal information, and the rights individuals have to control and manage their data in our [privacy policy](https://gladstudy.org.uk/privacy)\n"
     }
   },
   "studyUiConfig": {
@@ -314,7 +314,7 @@
           ]
         }
       ],
-      "copyrightText": "© 2024 Onsentia"
+      "copyrightText": "© 2025 Onsentia"
     },
     "portal": {
       "title": "Complete Tasks to Join Study"

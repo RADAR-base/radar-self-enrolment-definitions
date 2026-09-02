@@ -1,0 +1,558 @@
+{
+  "blocks": [
+    {
+      "sx": {
+        "position": "fixed",
+        "padding": "0",
+        "width": "auto",
+        "bottom": "2.5vw",
+        "right": "2.5vw",
+        "zIndex": "100",
+        "& .MuiBox-root": {
+          "padding": "0"
+        },
+        "& .MuiButton-root": {
+          "color": "white",
+          "backgroundColor": "#f1b3be70",
+          "backdropFilter": "blur(5rem)",
+          "padding": "1vh 1vw"
+        },
+        "& .MuiButton-root:hover": {
+          "opacity": "1.0",
+          "backgroundColor": "#f1b3be"
+        }
+      },
+
+      "blockType": "markdown",
+      "noCard": true,
+      "content": "<button href='STAGING_PROJECT/enrol'>Join Study</button>"
+    },
+    {
+      "blockType": "column",
+      "sx": {
+        "width": "100%",
+        "height": "100%",
+        "padding": "5rem 0rem",
+        "bgcolor": "bg.default",
+        "color": "#ffffff",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "center",
+
+        "& .MuiTypography-h1": {
+          "fontSize": "2.5rem",
+          "flex": "none",
+          "alignSelf": "flex-start"
+        },
+        "& .MuiGrid2-root": {
+          "alignContent": "center"
+        },
+        "& .MuiBox-root": {
+          "alignItems": "center"
+        },
+
+        "& .MuiButton-root": {
+          "backgroundColor": "#f1b3be",
+          "color": "#242c3d"
+        },
+
+        "& .MuiButton-root:hover": {
+          "backgroundColor": "#0e1b4d",
+          "color": "#b2b2b2"
+        },
+
+        "& #test": {
+          "paddingRight": "5rem"
+        },
+
+        "@media only screen and (max-device-width: 480px)": {
+          "padding": "1rem 0rem",
+
+          "& #test": {
+            "paddingRight": "0rem"
+          }
+        }
+      },
+      "noCard": true,
+      "content": {
+        "block1": {
+          "blockType": "markdown",
+          "content": "<div id='test'><h1>Study of Sleep Hygiene & Health (SSHH)</h1>\n<br /><h2 style='fontWeight: normal;'>Discover How Your Mobile Phone Usage affects your Sleep</h2><button style='fontSize: 2rem; padding: 10px 24px; margin: 1rem 0; align-self:flex-start' variant='contained' href='STAGING_PROJECT/enrol'>Join Study</button></div>"
+        },
+        "block2": {
+          "blockType": "video",
+          "video": {
+            "src": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/video.mp4",
+            "type": "video/mp4",
+            "width": "100%",
+            "params": {
+              "controls": true,
+              "muted": false,
+              "autoPlay": false,
+              "playsInline": true,
+              "poster": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/video_thumbnail.png"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "blockType": "hero",
+      "noCard": true,
+      "blockBackground": "#9775bd",
+      "sx": {
+        "color": "#ffffff",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "center",
+        "textAlign": "center",
+
+        "& .MuiBox-root": {
+          "flex": "none",
+          "width": "100%",
+          "gap": "0"
+        },
+
+        "& .MuiTypography-h1": {
+          "fontSize": "3rem",
+          "flex": "none",
+          "width": "100%",
+          "textAlign": "left"
+        },
+
+        "@media only screen and (max-device-width: 480px)": {
+          "& .MuiBox-root": {
+            "justifyContent": "center"
+          },
+          "& .MuiTypography-h1": {
+            "fontSize": "1.5rem",
+            "textAlign": "center"
+          }
+        }
+      },
+      "title": "Smartphones are now an integral part of daily life. Many people use their phones before bed — for social media, messaging, gaming, or watching videos. However, it is not fully understood how different types of phone interactions influence sleep."
+    },
+
+    {
+      "blockType": "column",
+      "sx": {
+        "width": "100%",
+        "paddingTop": "2rem",
+        "bgcolor": "background.quaternary",
+        "color": "background.quinary",
+
+        "& .MuiBox-root": {
+          "alignItems": "flex-start",
+          "paddingLeft": "0rem",
+          "paddingRight": "0rem"
+        },
+
+        "& .MuiGrid2-root": {
+          "alignSelf": "center"
+        },
+
+        "& .MuiTypography-h2": {
+          "fontSize": "3rem",
+          "fontWeight": "700",
+          "width": "100%",
+          "textAlign": "left"
+        },
+
+        "& .MuiTypography-body1": {
+          "fontSize": "1.25rem"
+        },
+
+        "@media only screen and (max-device-width: 480px)": {
+          "& .MuiBox-root": {
+            "alignItems": "center",
+            "alignSelf": "center"
+          },
+          "& .MuiGrid2-root": {
+            "alignItems": "center",
+            "alignSelf": "center"
+          },
+          "& .MuiTypography-h2": {
+            "textAlign": "center"
+          },
+          "& .MuiTypography-body1": {
+            "textAlign": "center"
+          }
+        }
+      },
+      "noCard": true,
+      "content": {
+        "block1": {
+          "blockType": "markdown",
+          "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/poster.png' alt='Sleep Hygiene Poster' width='80%'/>"
+        },
+        "block2": {
+          "blockType": "markdown",
+          "title": "About The Study of Sleep Hygiene & Health",
+          "content": "The Study of Sleep Hygiene & Health (SSHH) is a citizen science research project investigating how smartphone use — particularly before bedtime — influences sleep quality, duration, and overall sleep hygiene.\n<br />By combining wearable device data, smartphone usage information, and short daily questionnaires, we aim to better understand the relationship between digital behaviour and sleep in real-world settings.\n<br />Partners: King's College London, South London and Maudsley NHS Foundation Trust.\n<br />\n<button variant='contained' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/RADAR_Sleep_Hygiene_PIS.pdf' target='_blank' download='RADAR_Sleep_Hygiene_PIS.pdf'>Learn more</button>"
+        }
+      }
+    },
+
+    {
+      "blockType": "column",
+      "sx": {
+        "width": "100%",
+        "paddingTop": "2rem",
+        "paddingBottom": "2rem",
+        "bgcolor": "background.quaternary",
+        "color": "background.quinary",
+
+        "& .MuiBox-root": {
+          "alignItems": "center"
+        },
+
+        "& .MuiGrid2-root > .MuiBox-root": {
+          "gap": "0",
+          "alignItems": "start"
+        },
+
+        "& .MuiGrid2-root": {
+          "alignSelf": "start"
+        },
+
+        "& .MuiTypography-h1": {
+          "flex": "none",
+          "width": "100%",
+          "fontSize": "3rem",
+          "textAlign": "left"
+        },
+
+        "& .MuiTypography-h2": {
+          "fontSize": "1.5rem",
+          "fontWeight": "700",
+          "width": "100%",
+          "textAlign": "left"
+        },
+
+        "@media only screen and (max-device-width: 480px)": {
+          "& .MuiBox-root > .MuiBox-root": {
+            "padding": "0"
+          },
+          "& .MuiBox-root > .MuiBox-root > .MuiBox-root": {
+            "padding": "0"
+          },
+          "& .MuiGrid2-root > .MuiGrid2-root .MuiBox-root": {
+            "justifyContent": "start",
+            "minHeight": "0"
+          },
+          "& .MuiTypography-root": {
+            "textAlign": "left"
+          },
+
+          "& .MuiTypography-h2": {
+            "fontSize": "1.25rem"
+          }
+        }
+      },
+      "noCard": true,
+      "content": {
+        "block1": {
+          "blockType": "hero",
+          "title": "Our Aims",
+          "subtitle": "Our goal is to generate evidence that can inform healthier digital habits and improve sleep hygiene recommendations."
+        },
+        "block2": {
+          "blockType": "markdown",
+          "content": "<div style='display:flex; gap: 1rem; flex-direction:column;'><div style='background-color:white; border-radius:48px; padding:2rem'><h2>Investigate whether increased screen time before sleep is associated with:</h2><br /><p>Delayed sleep onset<br />Shorter sleep duration<br />Reduced sleep efficiency</p></div><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Examine whether different app categories (e.g., social media, gaming, productivity) have different effects on sleep</h2></div><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Compare sleep patterns across different age groups</h2></div><div style='background-color: white; border-radius: 48px; padding:2rem'><h2>Explore long-term sleep behaviour over several months</h2></div></div>"
+        }
+      }
+    },
+
+    {
+      "sx": {
+        "width": "100%",
+        "bgcolor": "#9775bd",
+        "color": "#ffffff",
+        "paddingBottom": "0rem",
+
+        "& .MuiTypography-h2": {
+          "fontSize": "3rem",
+          "fontWeight": "700",
+          "width": "100%",
+          "textAlign": "center"
+        },
+
+        "@media only screen and (max-device-width: 480px)": {
+          "paddingTop": "2rem",
+
+          "& .MuiBox-root": {
+            "gap": "0"
+          }
+        }
+      },
+      "blockType": "markdown",
+      "noCard": true,
+      "title": "How This Study Works"
+    },
+
+    {
+      "sx": {
+        "width": "100%",
+        "bgcolor": "#9775bd",
+        "color": "#ffffff",
+        "paddingTop": "0rem",
+
+        "& .MuiTypography-root": {
+          "textAlign": "center"
+        },
+
+        "@media only screen and (max-device-width: 480px)": {
+          "paddingTop": "0rem",
+          "paddingBottom": "2rem",
+
+          "& .MuiGrid2-root": {
+            "--Grid-rowSpacing": "32px"
+          }
+        }
+      },
+      "noCard": true,
+      "blockType": "column",
+      "content": {
+        "block1": {
+          "blockType": "markdown",
+          "title": "Phone Data is Collected",
+          "content": "Track your app usage and screen habits"
+        },
+        "block2": {
+          "blockType": "markdown",
+          "title": "Sleep Data is Collected",
+          "content": "Monitor your sleep, heart rate and movement patterns through your wearable device"
+        },
+        "block3": {
+          "blockType": "markdown",
+          "title": "Answer Questionnaires",
+          "content": "Recieve short daily questionnaires about your sleep and mood"
+        },
+        "block4": {
+          "blockType": "markdown",
+          "title": "Take Cognitive Tests",
+          "content": "Complete short Cognitron tasks to help us understand how sleep and smartphone use affect attention, memory, and thinking"
+        },
+        "block5": {
+          "blockType": "markdown",
+          "title": "Analayse Patterns Overtime",
+          "content": "Researchers will analyse the sleep data over several months to identify patterns and insights"
+        }
+      }
+    },
+
+    {
+      "blockType": "column",
+      "sx": {
+        "width": "100%",
+        "bgcolor": "background.quaternary",
+        "color": "background.quinary",
+        "paddingTop": "2rem",
+        "paddingBottom": "2rem",
+
+        "& .MuiBox-root": {
+          "alignItems": "center"
+        },
+
+        "& .MuiGrid2-root": {
+          "alignSelf": "start"
+        },
+
+        "& .MuiGrid2-root > .MuiBox-root": {
+          "gap": "0",
+          "alignItems": "start"
+        },
+
+        "& .MuiTypography-h1": {
+          "flex": "none",
+          "width": "100%",
+          "textAlign": "left",
+          "fontSize": "3rem"
+        },
+
+        "& .MuiTypography-body1": {
+          "width": "100%",
+          "textAlign": "left"
+        },
+
+        "@media only screen and (max-device-width: 480px)": {
+          "& .MuiBox-root > .MuiBox-root": {
+            "padding": "0"
+          },
+          "& .MuiBox-root > .MuiBox-root > .MuiBox-root": {
+            "padding": "0"
+          },
+          "& .MuiGrid2-root > .MuiGrid2-root .MuiBox-root": {
+            "justifyContent": "start",
+            "minHeight": "0",
+            "textAlign": "left"
+          },
+          "& .MuiTypography-h3": {
+            "fontSize": "1.25rem"
+          }
+        }
+      },
+      "noCard": true,
+      "content": {
+        "block1": {
+          "blockType": "hero",
+          "title": "Who Can Take Part",
+          "subtitle": "No diagnosed medical condition is required — this is a general population study.<br />You can withdraw from the study at any time."
+        },
+        "block2": {
+          "blockType": "markdown",
+          "content": "<div style='display:flex; gap: 1rem; flex-direction:column;'><div style='background-color: white; border-radius:48px; padding:2rem; display: flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Are 13 years or older</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/teenagerandadult.png' height='100rem'/></div><div style='background-color: white; border-radius:48px; padding:2rem; display: flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Regularly use a smartphone & Own a wearable device</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/devices.png' height='100rem'/></div><div style='background-color: white; border-radius:48px; padding:2rem; display: flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Install two secure research apps on your smartphone</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/radarApps.png' height='100rem'/></div><div style='background-color: white; border-radius:48px; padding:2rem; display: flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Wear your device regularly, including overnight</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/sleep.png' height='100rem'/></div><div style='background-color: white; border-radius:48px; padding:2rem; display:flex; gap: 2rem; align-items: center; justify-content: space-between;'><h3>Answer Questionnaires & Cognitive Tests</h3><img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/regularlydevice.png' height='100rem'/></div></div>"
+        }
+      }
+    },
+
+    {
+      "blockType": "markdown",
+      "noCard": true,
+      "blockBackground": "#9775bd",
+      "sx": {
+        "width": "100%",
+        "color": "#ffffff",
+        "gap": "0",
+        "paddingBottom": "0rem",
+
+        "& .MuiTypography-h2": {
+          "fontSize": "3rem",
+          "fontWeight": "700",
+          "width": "100%",
+          "textAlign": "center"
+        },
+
+        "& .MuiBox-root": {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "gap": "0"
+        }
+      },
+
+      "title": "Benefits",
+      "content": "Although there is no direct financial reward. However:"
+    },
+
+    {
+      "blockType": "column",
+      "noCard": true,
+      "blockBackground": "#9775bd",
+      "sx": {
+        "justifyContent": "center",
+        "alignItems": "center",
+        "alignContent": "center",
+        "width": "100%",
+        "color": "#ffffff",
+
+        "& .MuiTypography-root": {
+          "textAlign": "center"
+        }
+      },
+      "content": {
+        "block1": {
+          "blockType": "markdown",
+          "title": "Contributing to research on digital wellbeing & sleep health"
+        },
+        "block2": {
+          "blockType": "markdown",
+          "title": "Receive a summary of your own sleep data at the end of the study"
+        },
+        "block3": {
+          "blockType": "markdown",
+          "title": "Help improve public health recommendations around screen time & sleep"
+        }
+      }
+    },
+
+    {
+      "blockType": "carousel",
+      "noCard": true,
+      "blockBackground": "background.default",
+      "sx": {
+        "& .MuiTypography-h2": {
+          "fontSize": "3rem",
+          "fontWeight": "700",
+          "width": "100%",
+          "color": "#ffffff"
+        }
+      },
+      "title": "Meet The Team",
+      "items": [
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/richard.png",
+          "title": "Professor Richard Dobson",
+          "content": "Head of Bioinformatics",
+          "href": "https://phidatalab.org/team/richard-dobson/"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/amos.jpg",
+          "title": "Dr Amos Folarin",
+          "content": "Senior Software Development Group Leader",
+          "href": "https://phidatalab.org/team/amos-folarin/"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/akash.jpg",
+          "title": "Akash Roy Choudhury",
+          "content": "PhD student",
+          "href": "https://phidatalab.org/team/akash-roy-choudhury/"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/zulqarnain.jpg",
+          "title": "Dr Zulqarnain Rashid",
+          "content": "Lead Research Software Engineer",
+          "href": "https://phidatalab.org/team/zulqarnain-rashid/"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/pauline.png",
+          "title": "Pauline Conde",
+          "content": "PhD student",
+          "href": "https://phidatalab.org/team/pauline-conde/"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/yatharth.jpg",
+          "title": "Dr Yatharth Ranjan",
+          "content": "Software Developer",
+          "href": "https://phidatalab.org/team/yatharth-ranjan/"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/heet.jpg",
+          "title": "Heet Sankesara",
+          "content": "PhD student",
+          "href": "https://phidatalab.org/team/heet-sankesara/"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/yuezhou.png",
+          "title": "Dr Yuezhou Zhang",
+          "content": "Data Scientist",
+          "href": "https://phidatalab.org/team/yuezhou-zhang/"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/callum.jpg",
+          "title": "Callum Stewart",
+          "content": "Data Scientist",
+          "href": "https://phidatalab.org/team/callum-stewart/"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/peter.png",
+          "title": "Dr Peter Hellyer",
+          "content": "Senior Lecturer",
+          "href": "https://kclpure.kcl.ac.uk/portal/en/persons/peter.hellyer/"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/adam.png",
+          "title": "Dr Adam Hampshire",
+          "content": "Professor of Cognitive & Computational Neuroscience",
+          "href": "https://www.kcl.ac.uk/people/adam-hampshire"
+        },
+        {
+          "imgSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/STAGING_PROJECT/resources/milena.png",
+          "title": "Milena Davudova",
+          "content": "Research Assistant",
+          "href": "https://kclpure.kcl.ac.uk/portal/en/persons/milena.davudova"
+        }
+      ]
+    }
+  ]
+}
