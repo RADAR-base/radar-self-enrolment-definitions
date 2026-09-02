@@ -147,6 +147,25 @@
       ],
       "signatureDescription": "By signing this consent form, I declare that I have provided accurate identity details (full name and electronic signature)."
     },
+    "additional": {
+      "title": "Register Account",
+      "items": [
+        {
+          "field_name": "s_additional_heading",
+          "form_name": "s_additional",
+          "field_type": "descriptive",
+          "field_label": "You need an account to give us your information and (optionally) connect your wearable or smartphone app."
+        },
+        {
+          "field_name": "gbits_id",
+          "form_name": "s_additional",
+          "field_type": "text",
+          "field_label": "GBITs ID",
+          "required_field": "true",
+          "text_validation_type_or_show_slider_number": ""
+        }
+      ]
+    },
     "account": {
       "title": "Register Account",
       "description": "You need an account to give us your information and (optionally) connect your wearable or smartphone app."
