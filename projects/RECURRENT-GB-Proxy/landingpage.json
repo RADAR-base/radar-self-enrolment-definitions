@@ -3,7 +3,6 @@
         {
             "blockType": "column",
             "noCard": true,
-            "blockBackground": "white",
             "title": "",
             "content": {
                 "block1": {
