@@ -3,7 +3,10 @@
         {
             "blockType": "column",
             "noCard": true,
-            "blockBackground": "white",
+            "sx": {
+                "bgcolor": "#3a4997",
+                "color": "#ffffff"
+            },
             "title": "",
             "content": {
                 "block1": {
