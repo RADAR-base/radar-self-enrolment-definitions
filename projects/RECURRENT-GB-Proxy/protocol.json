@@ -86,19 +86,23 @@
                     "contrastText": "#FFFFFF"
                 },
                 "secondary": {
-                    "light": "#7B68AE",
-                    "main": "#5B4A9E",
-                    "dark": "#4A3D80",
+                    "light": "#CE93D8",
+                    "main": "#AB47BC",
+                    "dark": "#7B1FA2",
                     "contrastText": "#FFFFFF"
                 },
+                "text": {
+                    "primary": "#FFFFFF",
+                    "secondary": "rgba(255, 255, 255, 0.7)"
+                },
                 "success": {
-                    "main": "#5B4A9E"
+                    "main": "#4CAF50"
                 },
                 "warning": {
-                    "main": "#5B4A9E"
+                    "main": "#FF9800"
                 },
                 "error": {
-                    "main": "#5B4A9E"
+                    "main": "#F44336"
                 }
             },
             "components": {
@@ -158,6 +162,9 @@
                 },
                 "MuiInputLabel": {
                     "styleOverrides": {
+                        "root": {
+                            "color": "rgba(255, 255, 255, 0.7)"
+                        },
                         "standard": {
                             "fontSize": "1rem"
                         },
@@ -165,6 +172,19 @@
                             "fontSize": "1rem",
                             "fontWeight": "700",
                             "transform": "translate(0, -10px)"
+                        }
+                    }
+                },
+                "MuiInput": {
+                    "styleOverrides": {
+                        "root": {
+                            "color": "#FFFFFF",
+                            "&:before": {
+                                "borderBottomColor": "rgba(255, 255, 255, 0.42)"
+                            },
+                            "&:hover:not(.Mui-disabled):before": {
+                                "borderBottomColor": "#FFFFFF"
+                            }
                         }
                     }
                 }
