@@ -169,6 +169,7 @@
             "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RECURRENT-GB/resources/icon.png"
         },
         "footer": {
+            "backgroundColor": "#5B4A9E",
             "columns": [
                 {
                     "title": "Study Links",
