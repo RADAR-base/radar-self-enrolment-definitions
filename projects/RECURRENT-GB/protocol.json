@@ -54,19 +54,19 @@
                 "h1": {
                     "fontSize": "2rem",
                     "fontWeight": "700",
-                    "color": "#000000",
+                    "color": "#FFFFFF",
                     "wordBreak": "normal",
                     "overflow": "hidden"
                 },
                 "h2": {
                     "fontSize": "1.5rem",
                     "fontWeight": "700",
-                    "color": "#000000"
+                    "color": "#FFFFFF"
                 },
                 "h3": {
                     "fontSize": "1rem",
                     "fontWeight": "700",
-                    "color": "#000000"
+                    "color": "#FFFFFF"
                 },
                 "h4": {
                     "fontSize": "1rem",
@@ -81,28 +81,28 @@
             },
             "palette": {
                 "background": {
-                    "default": "#ffffff"
+                    "default": "#5B4A9E"
                 },
                 "primary": {
-                    "light": "#000000",
-                    "main": "#000000",
-                    "dark": "#000000",
-                    "contrastText": "#ffffff"
+                    "light": "#7B68AE",
+                    "main": "#5B4A9E",
+                    "dark": "#4A3D80",
+                    "contrastText": "#FFFFFF"
                 },
                 "secondary": {
-                    "light": "#000000",
-                    "main": "#000000",
-                    "dark": "#000000",
-                    "contrastText": "#ffffff"
+                    "light": "#7B68AE",
+                    "main": "#5B4A9E",
+                    "dark": "#4A3D80",
+                    "contrastText": "#FFFFFF"
                 },
                 "success": {
-                    "main": "#000000"
+                    "main": "#5B4A9E"
                 },
                 "warning": {
-                    "main": "#000000"
+                    "main": "#5B4A9E"
                 },
                 "error": {
-                    "main": "#000000"
+                    "main": "#5B4A9E"
                 }
             },
             "components": {
