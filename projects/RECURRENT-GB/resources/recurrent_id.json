@@ -1,10 +1,16 @@
 [
     {
+        "field_name": "study_id_description",
+        "form_name": "recurrent_study_id",
+        "field_type": "descriptive",
+        "field_label": "Please enter your Study ID. This study ID can be found on your RECURRENT-GB consent form and will be in the format 'RC-XXX-0000-R'."
+    },
+    {
         "field_name": "study_id",
         "form_name": "recurrent_study_id",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Please enter your Study ID. This study ID can be found on your RECURRENT-GB consent form and will be in the format 'RC-XXX-0000-R'.",
+        "field_label": "Study ID",
         "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
