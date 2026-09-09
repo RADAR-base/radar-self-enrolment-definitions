@@ -81,7 +81,8 @@
             },
             "palette": {
                 "background": {
-                    "default": "#5B4A9E"
+                    "default": "#5B4A9E",
+                    "paper": "#1A237E"
                 },
                 "primary": {
                     "light": "#7B68AE",
