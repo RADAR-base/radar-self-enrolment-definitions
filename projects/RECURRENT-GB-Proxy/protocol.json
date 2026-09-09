@@ -126,6 +126,22 @@
                         }
                     }
                 },
+                "MuiCard": {
+                    "styleOverrides": {
+                        "root": {
+                            "backgroundColor": "#1A237E",
+                            "color": "#FFFFFF"
+                        }
+                    }
+                },
+                "MuiPaper": {
+                    "styleOverrides": {
+                        "root": {
+                            "backgroundColor": "#1A237E",
+                            "color": "#FFFFFF"
+                        }
+                    }
+                },
                 "MuiToggleButton": {
                     "styleOverrides": {
                         "root": {
