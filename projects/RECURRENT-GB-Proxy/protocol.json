@@ -30,6 +30,24 @@
                     ]
                 }
             }
+        },
+        {
+            "id": "recurrent_id",
+            "appearance": {},
+            "schedule": {},
+            "metadata": {
+                "title": "About You",
+                "order": 3,
+                "description": "You will need the participant's RECURRENT-GB Study ID.",
+                "optional": true,
+                "type": "redcap_github",
+                "definitionLink": {
+                    "org": "RADAR-base",
+                    "project": "radar-self-enrolment-definitions",
+                    "avsc": "projects/RECURRENT-GB-Proxy/resources/recurrent_id.json",
+                    "ref": "main"
+                }
+            }
         }
     ],
     "enrolment": {
