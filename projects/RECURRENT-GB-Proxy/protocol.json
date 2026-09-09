@@ -105,7 +105,12 @@
                     "defaultProps": {
                         "disableElevation": true,
                         "sx": {
-                            "borderRadius": 3
+                            "borderRadius": 3,
+                            "backgroundColor": "#FFFFFF",
+                            "color": "#000000",
+                            "&:hover": {
+                                "backgroundColor": "#F0F0F0"
+                            }
                         }
                     }
                 },
@@ -113,6 +118,12 @@
                     "defaultProps": {
                         "elevation": 0,
                         "position": "static"
+                    },
+                    "styleOverrides": {
+                        "root": {
+                            "backgroundColor": "#5B4A9E",
+                            "color": "#FFFFFF"
+                        }
                     }
                 },
                 "MuiToggleButton": {
