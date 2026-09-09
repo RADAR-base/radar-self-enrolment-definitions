@@ -44,7 +44,7 @@
                 "title": "About You",
                 "order": 3,
                 "description": "You will need your RECURRENT-GB Study ID.",
-                "optional": true,
+                "optional": false,
                 "type": "redcap_github",
                 "definitionLink": {
                     "org": "RADAR-base",
