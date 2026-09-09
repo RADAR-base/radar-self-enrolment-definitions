@@ -147,7 +147,7 @@
                 }
             }
         },
-        "faviconSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RADAR-mCRAVING-KCL-s1/resources/icon.png",
+        "faviconSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RECURRENT-GB/resources/icon.png",
         "navbar": {
             "links": [
                 {
@@ -155,7 +155,7 @@
                     "href": "/RECURRENT-GB"
                 }
             ],
-            "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RADAR-mCRAVING-KCL-s1/resources/icon.png"
+            "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/RECURRENT-GB/resources/icon.png"
         },
         "footer": {
             "columns": [
