@@ -49,19 +49,16 @@
                 "h1": {
                     "fontSize": "2rem",
                     "fontWeight": "700",
-                    "color": "#FFFFFF",
                     "wordBreak": "normal",
                     "overflow": "hidden"
                 },
                 "h2": {
                     "fontSize": "1.5rem",
-                    "fontWeight": "700",
-                    "color": "#FFFFFF"
+                    "fontWeight": "700"
                 },
                 "h3": {
                     "fontSize": "1rem",
-                    "fontWeight": "700",
-                    "color": "#FFFFFF"
+                    "fontWeight": "700"
                 },
                 "h4": {
                     "fontSize": "1rem",
@@ -91,10 +88,6 @@
                     "dark": "#7B1FA2",
                     "contrastText": "#FFFFFF"
                 },
-                "text": {
-                    "primary": "#FFFFFF",
-                    "secondary": "rgba(255, 255, 255, 0.7)"
-                },
                 "success": {
                     "main": "#4CAF50"
                 },
@@ -111,10 +104,10 @@
                         "disableElevation": true,
                         "sx": {
                             "borderRadius": 3,
-                            "backgroundColor": "#FFFFFF",
-                            "color": "#000000",
+                            "backgroundColor": "#5B4A9E",
+                            "color": "#FFFFFF",
                             "&:hover": {
-                                "backgroundColor": "#F0F0F0"
+                                "backgroundColor": "#4A3D80"
                             }
                         }
                     }
@@ -162,9 +155,6 @@
                 },
                 "MuiInputLabel": {
                     "styleOverrides": {
-                        "root": {
-                            "color": "rgba(255, 255, 255, 0.7)"
-                        },
                         "standard": {
                             "fontSize": "1rem"
                         },
@@ -172,19 +162,6 @@
                             "fontSize": "1rem",
                             "fontWeight": "700",
                             "transform": "translate(0, -10px)"
-                        }
-                    }
-                },
-                "MuiInput": {
-                    "styleOverrides": {
-                        "root": {
-                            "color": "#FFFFFF",
-                            "&:before": {
-                                "borderBottomColor": "rgba(255, 255, 255, 0.42)"
-                            },
-                            "&:hover:not(.Mui-disabled):before": {
-                                "borderBottomColor": "#FFFFFF"
-                            }
                         }
                     }
                 }
