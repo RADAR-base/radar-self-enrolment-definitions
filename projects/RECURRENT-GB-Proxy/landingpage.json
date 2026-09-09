@@ -4,7 +4,7 @@
             "blockType": "column",
             "noCard": true,
             "sx": {
-                "bgcolor": "#1A237E",
+                "bgcolor": "#3a4997",
                 "color": "#ffffff"
             },
             "title": "",
