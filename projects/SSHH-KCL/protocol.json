@@ -40,7 +40,13 @@
             },
             {
               "id": "radar_prmt",
-              "title": "RADAR pRMT"
+              "title": "RADAR pRMT",
+              "description": "Connect the RADAR Passive app for this study."
+            },
+            {
+              "id": "radar_armt",
+              "title": "RADAR aRMT",
+              "description": "Connect the RADAR Questionnaire app for this study."
             }
           ]
         }
