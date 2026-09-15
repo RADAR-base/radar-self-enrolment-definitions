@@ -17,7 +17,7 @@
         "description": "Eight quick questions.\n<span style='color:red; font-style: italic'>Tip: You will need the month and year of your knee replacement surgery</span>",
         "optional": false,
         "type": "redcap_local",
-        "path": "/public/study/paprka/resources/paprka_surgery.json"
+        "path": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/paprka/resources/paprka_surgery.json"
       }
     },
     {
@@ -30,7 +30,7 @@
         "description": "Four quick questions.\n<span style='color:red; font-style: italic'>Tip: You will need your NHS number</span>",
         "optional": false,
         "type": "redcap_local",
-        "path": "/public/study/paprka/resources/paprka_about.json"
+        "path": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/paprka/resources/paprka_about.json"
       }
     },
     {
@@ -51,17 +51,17 @@
             {
               "id": "fitbit",
               "title": "Fitbit Tab",
-              "description": "Before clicking Connect, you can read [step-by-step instructions](/study/paprka/resources/guides/PAPrKA_Study_Guide_Fitbit.pdf) or [watch a video](https://youtu.be/cPYi0-3fmQ4) to see how to share your Fitbit physical activity data.\n"
+              "description": "Before clicking Connect, you can read [step-by-step instructions](https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/paprka/resources/guides/PAPrKA_Study_Guide_Fitbit.pdf) or [watch a video](https://youtu.be/cPYi0-3fmQ4) to see how to share your Fitbit physical activity data.\n"
             },
             {
               "id": "oura",
               "title": "Oura Ring Tab",
-              "description": "Before clicking Connect, you can read [step-by-step instructions](/study/paprka/resources/guides/PAPrKA_Study_Guide_Oura.pdf) or [watch a video](https://youtu.be/-id0Qb7V9Qc) to see how to share your Oura Ring physical activity data.\n"
+              "description": "Before clicking Connect, you can read [step-by-step instructions](https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/paprka/resources/guides/PAPrKA_Study_Guide_Oura.pdf) or [watch a video](https://youtu.be/-id0Qb7V9Qc) to see how to share your Oura Ring physical activity data.\n"
             },
             {
               "id": "apple_health",
               "title": "Apple Health Tab",
-              "description": "Before clicking Connect, you can [step-by-step instructions](/study/paprka/resources/guides/PAPrKA_Study_Guide_iPhone.pdf) or [watch a video](https://youtu.be/avBYvuSVvuU) to see how to share your iPhone or Apple Watch physical activity data.\n"
+              "description": "Before clicking Connect, you can [step-by-step instructions](https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/paprka/resources/guides/PAPrKA_Study_Guide_iPhone.pdf) or [watch a video](https://youtu.be/avBYvuSVvuU) to see how to share your iPhone or Apple Watch physical activity data.\n"
             }
           ]
         }
@@ -77,7 +77,7 @@
         "description": "Seven quick questions about joining the study",
         "optional": true,
         "type": "redcap_local",
-        "path": "/public/study/paprka/resources/paprka_feedback.json"
+        "path": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/paprka/resources/paprka_feedback.json"
       }
     }
   ],
@@ -121,7 +121,7 @@
         {
           "fieldType": "yesno",
           "id": "M-Confirmed read",
-          "description": "I confirm that I have read the [Participant Information Sheet](/study/paprka/resources/paprka_pis.pdf) (PIS) (**Version 6.0, 16/10/25**) for the above study and have had the opportunity to consider the information and ask questions and had these answered satisfactorily.\n"
+          "description": "I confirm that I have read the [Participant Information Sheet](https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/paprka/resources/paprka_pis.pdf) (PIS) (**Version 6.0, 16/10/25**) for the above study and have had the opportunity to consider the information and ask questions and had these answered satisfactorily.\n"
         },
         {
           "fieldType": "yesno",
@@ -199,7 +199,7 @@
     },
     "studyInformation": {
       "title": "Study Information",
-      "content": "We understand that you may have questions about our research, what your involvement would be and much more. Please read carefully the Participant Information Sheet to find answers to these questions. If you have any questions about what you have read, please feel free to contact the team on <paprka@manchester.ac.uk> and 0161 306 2719. Please feel free to talk to a family member or friend about taking part in this study before you go on to sign the consent form.\n<br />\n<PdfViewer fileUrl='/study/paprka/resources/paprka_pis.pdf' />\n<br />\n<button variant='contained' target='_blank' href='/study/study/paprka/resources/paprka_pis.pdf'>Download Participant Information</button>"
+      "content": "We understand that you may have questions about our research, what your involvement would be and much more. Please read carefully the Participant Information Sheet to find answers to these questions. If you have any questions about what you have read, please feel free to contact the team on <paprka@manchester.ac.uk> and 0161 306 2719. Please feel free to talk to a family member or friend about taking part in this study before you go on to sign the consent form.\n<br />\n<PdfViewer fileUrl='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/paprka/resources/paprka_pis.pdf' />\n<br />\n<button variant='contained' target='_blank' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/paprka/resources/paprka_pis.pdf'>Download Participant Information</button>"
     },
     "additional": {
       "title": "Thank you for consenting",
@@ -360,7 +360,7 @@
         }
       }
     },
-    "faviconSrc": "/study/paprka/resources/hrfh_low.png",
+    "faviconSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/paprka/resources/hrfh_low.png",
     "navbar": {
       "links": [
         {
@@ -376,7 +376,7 @@
           "href": "/paprka/faqs"
         }
       ],
-      "logoSrc": "/study/paprka/resources/uom.png"
+      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/paprka/resources/uom.png"
     },
     "footer": {
       "columns": [
@@ -425,10 +425,10 @@
           "aspectRatio": "3/1",
           "objectFit": "contain",
           "images": [
-            {"src": "/study/paprka/resources/landingpage/paprka-logo.webp", "alt": "University of Manchester"},
-            {"src": "/study/paprka/resources/landingpage/hrfh_landscape_text.jpg", "alt": "Health Research from Home"},
+            {"src": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/paprka/resources/landingpage/paprka-logo.webp", "alt": "University of Manchester"},
+            {"src": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/paprka/resources/landingpage/hrfh_landscape_text.jpg", "alt": "Health Research from Home"},
             {"src": "/radar/kcl-logo.webp", "alt": "King's College London"},
-            {"src": "/study/paprka/resources/landingpage/njr_logo.jpg", "alt": "National Joint Registry - This study uses NJR data"}
+            {"src": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/paprka/resources/landingpage/njr_logo.jpg", "alt": "National Joint Registry - This study uses NJR data"}
           ]
         }
       ],
