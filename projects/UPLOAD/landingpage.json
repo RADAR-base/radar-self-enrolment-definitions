@@ -1,0 +1,229 @@
+{
+  "blocks": [
+    {
+      "blockType": "column",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "padding": "4rem 0 3rem",
+        "bgcolor": "#E8F1FA",
+        "color": "#2a2a2a",
+        "alignItems": "center",
+        "& .MuiGrid2-root": {
+          "alignItems": "center"
+        },
+        "& .MuiBox-root": {
+          "gap": "1rem"
+        },
+        "& .MuiTypography-h1": {
+          "fontSize": "3rem",
+          "fontWeight": "700",
+          "lineHeight": 1.15
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "1.2rem",
+          "lineHeight": 1.65
+        },
+        "& .MuiButton-root": {
+          "backgroundColor": "#4A7FB5",
+          "color": "#ffffff",
+          "border": "1px solid #7BA6D1",
+          "boxShadow": "0 6px 16px rgba(74, 127, 181, 0.25)"
+        },
+        "& .MuiButton-root:hover": {
+          "backgroundColor": "#2C5F8A"
+        },
+        "& > div": {
+          "maxWidth": "1440px",
+          "paddingLeft": {
+            "xs": 1,
+            "sm": 2
+          },
+          "paddingRight": {
+            "xs": 1,
+            "sm": 2
+          }
+        },
+        "@media (min-width: 900px)": {
+          "& .MuiGrid2-container > .test:nth-of-type(1)": {
+            "gridColumn": "span 8"
+          },
+          "& .MuiGrid2-container > .test:nth-of-type(2)": {
+            "gridColumn": "span 4"
+          }
+        }
+      },
+      "content": {
+        "block1": {
+          "blockType": "hero",
+          "title": "Donate your phone and wearable data to help improve mental healthcare",
+          "subtitle": "A research study by King's College London and the South London and Maudsley NHS Trust, using wearable and smartphone data to build a better picture of health.<br /><br /><button style='font-size:1.05rem; padding:12px 28px; border-radius:999px;' variant='contained' href='UPLOAD/enrol'>Donate Data</button>"
+        },
+        "block2": {
+          "blockType": "markdown",
+          "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/UPLOAD/resources/icon.png' alt='UPLOAD study logo' style='width:90%; border-radius:24px; object-fit:cover;'/>"
+        }
+      }
+    },
+    {
+      "blockType": "markdown",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "bgcolor": "#E8F1FA",
+        "color": "#2a2a2a",
+        "& .MuiTypography-body1": {
+          "fontSize": "1.15rem",
+          "lineHeight": 1.75
+        }
+      },
+      "title": "",
+      "content": "<div style='margin:0 auto; background:#ffffff; border-radius:20px; padding:2rem 2.2rem; box-shadow:0 10px 28px rgba(74,127,181,0.10); border:1px solid #7BA6D1;'><p style='margin-top:0;'>Research has shown that information collected from <strong style='color:#2C5F8A;'>smartphones</strong> and <strong style='color:#2C5F8A;'>wearable devices</strong> (such as smartwatches, Fitbits, fitness trackers and smart rings) can build a better picture of someone's health.</p><p>Being able to see patterns of <strong style='color:#4A7FB5;'>exercise</strong>, <strong style='color:#4A7FB5;'>sleep</strong> and <strong style='color:#4A7FB5;'>heart rate</strong> may give a better idea of what happens in between appointments than relying on how someone feels at the time they are seen.</p><p style='margin-bottom:0;'>In this project, we invite people using or who have used <strong style='color:#2C5F8A;'>South London and Maudsley NHS Trust</strong> services to donate data from their wearable devices. The donated information will be linked to mental health records and kept anonymised using the Maudsley's CRIS platform.</p></div>"
+    },
+    {
+      "blockType": "column",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "paddingTop": "2.5rem",
+        "paddingBottom": "2.5rem",
+        "bgcolor": "#ffffff",
+        "color": "#2a2a2a",
+        "& .MuiTypography-h2": {
+          "fontSize": "2rem",
+          "fontWeight": "700",
+          "color": "#2C5F8A"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "1.15rem",
+          "lineHeight": 1.65
+        },
+        "& .MuiBox-root": {
+          "alignItems": "flex-start"
+        }
+      },
+      "content": {
+        "block1": {
+          "blockType": "markdown",
+          "title": "Who Can Take Part?",
+          "content": "You are invited to take part because you are <strong style='color:#4A7FB5;'>aged 18 or over</strong> and are currently accessing or have previously accessed services at the <strong style='color:#2C5F8A;'>South London and Maudsley NHS Trust</strong>.<br /><br />To donate your data, you will need a wearable device such as:<br />- <strong style='color:#4A7FB5;'>Fitbit</strong><br />- <strong style='color:#4A7FB5;'>Garmin</strong><br />- <strong style='color:#4A7FB5;'>Oura Ring</strong><br />- <strong style='color:#4A7FB5;'>Apple Watch</strong> (with iPhone via HealthKit)<br /><br />Taking part is completely voluntary and will not affect the care you receive."
+        },
+        "block2": {
+          "blockType": "markdown",
+          "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/UPLOAD/resources/icon.png' alt='UPLOAD study logo' style='width:80%; border-radius:20px; object-fit:cover;'/>"
+        }
+      }
+    },
+    {
+      "blockType": "column",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "paddingTop": "2.5rem",
+        "paddingBottom": "2.5rem",
+        "bgcolor": "#E8F1FA",
+        "color": "#2a2a2a",
+        "& .MuiTypography-h2": {
+          "fontSize": "2rem",
+          "fontWeight": "700",
+          "color": "#2C5F8A"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "1.15rem",
+          "lineHeight": 1.65
+        }
+      },
+      "content": {
+        "block1": {
+          "blockType": "markdown",
+          "title": "Why Are We Doing This?",
+          "content": "Very large numbers of people now own a smartphone and increasing numbers also wear a smartwatch. These automatically collect information that may indicate levels of <strong style='color:#4A7FB5;'>physical activity</strong>, <strong style='color:#4A7FB5;'>social activity</strong> and <strong style='color:#4A7FB5;'>sleep</strong>.<br /><br />Being able to see these patterns may give a <strong style='color:#2C5F8A;'>better picture of health over time</strong> than relying on how someone feels at the time of an appointment. By linking donated device data to anonymised health records, researchers can develop better ways to understand and support mental healthcare."
+        },
+        "block2": {
+          "blockType": "markdown",
+          "title": "What Data Will You Collect?",
+          "content": "With your permission, we will collect data from your wearable device such as:<br /><br />- <strong style='color:#4A7FB5;'>Daily activity levels</strong><br />- <strong style='color:#4A7FB5;'>Sleep duration and quality</strong><br />- <strong style='color:#4A7FB5;'>Heart rate metrics</strong><br /><br />We will only collect data relevant to your general health. We will <strong style='color:#2C5F8A;'>not</strong> collect data such as location tracking. All donated data will be de-identified and anonymised."
+        }
+      }
+    },
+    {
+      "blockType": "markdown",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "bgcolor": "#ffffff",
+        "color": "#2a2a2a",
+        "& .MuiTypography-h2": {
+          "fontSize": "2rem",
+          "fontWeight": "700",
+          "color": "#2C5F8A"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "1.15rem",
+          "lineHeight": 1.65
+        }
+      },
+      "title": "What Happens After You Sign Up",
+      "content": "<div style='background:#E8F1FA; border:1px solid #7BA6D1; border-radius:18px; padding:1.4rem 1.6rem;'><p style='margin-top:0;'>After reading the information sheet and providing consent, you will:</p><ul style='margin:0 0 0 1.2rem;'><li>Follow a link to our <strong style='color:#2C5F8A;'>data donation portal</strong></li><li>Provide some details about yourself, such as your <strong style='color:#4A7FB5;'>hospital or NHS number</strong> and email</li><li>Choose which <strong style='color:#4A7FB5;'>device</strong> you would like to donate data from</li><li>Connect your wearable so we can securely collect <strong style='color:#4A7FB5;'>activity, sleep, and health data</strong></li><li>Have the chance to tell us what you thought about the process</li></ul><p style='margin-bottom:0;'>At any point, you can pause and contact the research team with questions.</p></div>"
+    },
+    {
+      "blockType": "accordion",
+      "noCard": true,
+      "sx": {
+        "& .MuiTypography-h2": {
+          "color": "#2C5F8A"
+        },
+        "& .MuiAccordionSummary-expandIconWrapper": {
+          "color": "#4A7FB5"
+        }
+      },
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "title": "Am I eligible?",
+          "content": "If you are aged 18 or over and are currently accessing or have previously accessed services at the South London and Maudsley NHS Trust, you are eligible to take part."
+        },
+        {
+          "title": "Do I have to take part?",
+          "content": "No, taking part is completely voluntary. Your decision will not affect the care you receive in any way. You are also free to withdraw at any time without giving a reason."
+        },
+        {
+          "title": "What devices are supported?",
+          "content": "You can donate data from devices such as Fitbit, Garmin, Oura Ring, and Apple Watch (with iPhone via HealthKit)."
+        },
+        {
+          "title": "What data will you collect?",
+          "content": "With your permission, we will collect data such as daily activity levels, sleep duration and quality, and heart rate metrics. We will not collect data such as location tracking."
+        },
+        {
+          "title": "How will my data be kept safe?",
+          "content": "All donated data will be de-identified. Your name will be replaced with a code, and the information from your device will only be associated with this code. The data will be held securely and anonymised using the Maudsley's CRIS (Clinical Records Interactive Search) platform."
+        },
+        {
+          "title": "Can I withdraw after donating my data?",
+          "content": "You can withdraw within 2 weeks of donating your data and we will remove the information you provided. Once the donated data has been linked to your anonymised clinical record, it will no longer be possible to identify and delete it."
+        }
+      ]
+    },
+    {
+      "blockType": "markdown",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "bgcolor": "#E8F1FA",
+        "color": "#2a2a2a",
+        "& .MuiTypography-h2": {
+          "fontSize": "2rem",
+          "fontWeight": "700",
+          "color": "#2C5F8A"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "1.1rem",
+          "lineHeight": 1.6
+        }
+      },
+      "title": "Contact Us",
+      "content": "If you have any questions about the study or need support to take part, please contact:<br /><br /><strong>Luce Stewart</strong><br />Research Assistant, King's College London<br />Email: <a href='mailto:CRIS.Administrator@slam.nhs.uk'>CRIS.Administrator@slam.nhs.uk</a><br /><br />Please mention in your email that you are asking about the data donation study."
+    }
+  ]
+}

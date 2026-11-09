@@ -1,0 +1,230 @@
+{
+  "name": "Phone and Wearables Data Donation in Mental Healthcare",
+  "studyId": "UPLOAD",
+  "healthIssues": [],
+  "onboarding": {
+    "metadata": {},
+    "steps": []
+  },
+  "protocols": [
+    {
+      "id": "connect",
+      "appearance": {},
+      "schedule": {},
+      "metadata": {
+        "title": "Connect Devices",
+        "description": "Share your wearable device or smartphone app data with us.",
+        "optional": false,
+        "type": "inbuilt",
+        "inbuiltId": "connect",
+        "options": {
+          "title": "TASK: Connect my device(s)",
+          "description": "<p>Click on the connect button for your device.</p><p>The study team will collect activity, sleep, and health data from your wearable devices or smartphone apps. This data will be collected securely via RADAR-base. Once you have connected your devices, you can sign out of this portal.</p>",
+          "devices": [
+            {
+              "id": "fitbit",
+              "title": "Fitbit",
+              "description": "By clicking Connect, you can read step-by-step instructions to see how to share your Fitbit data. We are collecting physical activity, heart rate, and sleep data.",
+              "guideUrl": ""
+            },
+            {
+              "id": "garmin",
+              "title": "Garmin",
+              "description": "By clicking Connect, you can read step-by-step instructions to see how to share your Garmin data. We are collecting physical activity, heart rate, and sleep data.",
+              "guideUrl": ""
+            },
+            {
+              "id": "oura",
+              "title": "Oura Ring",
+              "description": "By clicking Connect, you can read step-by-step instructions to see how to share your Oura Ring data. We are collecting physical activity, heart rate, temperature, and sleep data.",
+              "guideUrl": ""
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "enrolment": {
+    "studyInformation": {
+      "title": "Study Information",
+      "content": "Please take some time to review the Participant Information Sheet, as it contains answers to many common questions related to taking part. If you have any questions, please contact the team at <CRIS.Administrator@slam.nhs.uk>.\n<br />\n<PdfViewer fileUrl='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/UPLOAD/resources/pis.pdf'/>\n<br />\n<button variant='contained' target='_blank' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/UPLOAD/resources/pis.pdf'>Download Participant Information</button>"
+    },
+    "additional": {
+      "title": "Register Account",
+      "items": [
+        {
+          "field_name": "upload_additional_heading",
+          "form_name": "upload_additional",
+          "field_type": "descriptive",
+          "field_label": "You need an account to connect your wearable device or smartphone app so we can collect activity, sleep, and health data. You can find out more information about the way we use personal information in our [privacy policy](privacy)."
+        },
+        {
+          "field_name": "hospital_number",
+          "form_name": "upload_additional",
+          "field_type": "text",
+          "field_label": "Hospital or NHS Number",
+          "required_field": "true",
+          "text_validation_type_or_show_slider_number": ""
+        }
+      ]
+    },
+    "account": {
+      "title": "Register Account",
+      "description": "You need an account to connect your wearable device or smartphone app so we can collect activity, sleep, and health data.\nYou can find out more information about the way we use personal information in our [privacy policy](privacy).\n"
+    }
+  },
+  "studyUiConfig": {
+    "materialTheme": {
+      "typography": {
+        "allVariants": {
+          "fontFamily": "var(--font-montserrat)",
+          "wordBreak": "break-word",
+          "whiteSpace": "pre-wrap"
+        },
+        "h1": {
+          "fontSize": "2rem",
+          "fontWeight": "700",
+          "color": "#2C5F8A",
+          "wordBreak": "normal",
+          "overflow": "hidden"
+        },
+        "h2": {
+          "fontSize": "1.5rem",
+          "fontWeight": "700",
+          "color": "#2C5F8A"
+        },
+        "h3": {
+          "fontSize": "1rem",
+          "fontWeight": "700",
+          "color": "#333333"
+        },
+        "h4": {
+          "fontSize": "1rem",
+          "fontWeight": "600"
+        },
+        "button": {
+          "textTransform": "none",
+          "wordBreak": "normal"
+        },
+        "body1": {},
+        "body2": {}
+      },
+      "palette": {
+        "background": {
+          "default": "#ffffff"
+        },
+        "primary": {
+          "light": "#7BA6D1",
+          "main": "#4A7FB5",
+          "dark": "#2C5F8A",
+          "contrastText": "#ffffff"
+        },
+        "secondary": {
+          "light": "#7a7a7a",
+          "main": "#2C3E6B",
+          "dark": "#1A2744",
+          "contrastText": "#ffffff"
+        },
+        "success": {
+          "main": "#2e7d32"
+        },
+        "warning": {
+          "main": "#4A7FB5"
+        },
+        "error": {
+          "main": "#d32f2f"
+        }
+      },
+      "components": {
+        "MuiButton": {
+          "defaultProps": {
+            "disableElevation": true,
+            "sx": {
+              "borderRadius": 3
+            }
+          }
+        },
+        "MuiAppBar": {
+          "defaultProps": {
+            "elevation": 0,
+            "position": "static"
+          }
+        },
+        "MuiToggleButton": {
+          "styleOverrides": {
+            "root": {
+              "borderRadius": 32,
+              "fontSize": "1em"
+            }
+          }
+        },
+        "MuiTextField": {
+          "defaultProps": {
+            "variant": "standard"
+          }
+        },
+        "MuiInputLabel": {
+          "styleOverrides": {
+            "standard": {
+              "fontSize": "1rem"
+            },
+            "shrink": {
+              "fontSize": "1rem",
+              "fontWeight": "700",
+              "transform": "translate(0, -10px)"
+            }
+          }
+        }
+      }
+    },
+    "faviconSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/UPLOAD/resources/icon.png",
+    "navbar": {
+      "links": [
+        {
+          "text": "Home",
+          "href": "/UPLOAD"
+        }
+      ],
+      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/UPLOAD/resources/icon.png"
+    },
+    "footer": {
+      "columns": [
+        {
+          "title": "Study Links",
+          "items": [
+            {
+              "text": "Home",
+              "href": "#"
+            }
+          ]
+        },
+        {
+          "title": "Contact Us",
+          "items": [
+            {
+              "text": "CRIS.Administrator@slam.nhs.uk",
+              "href": "mailto:CRIS.Administrator@slam.nhs.uk"
+            }
+          ]
+        },
+        {
+          "title": "Legal Links",
+          "items": [
+            {
+              "text": "Privacy Policy",
+              "href": "/UPLOAD/privacy"
+            }
+          ]
+        }
+      ],
+      "copyrightText": "© 2026 King's College London"
+    },
+    "portal": {
+      "title": "Complete Tasks to Donate Data",
+      "content": "Please click the 'To Do' button below to connect your wearable device and donate your data."
+    },
+    "analytics": {
+      "gaId": ""
+    }
+  }
+}
