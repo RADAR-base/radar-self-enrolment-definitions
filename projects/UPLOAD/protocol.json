@@ -49,6 +49,96 @@
       "title": "Study Information",
       "content": "Please take some time to review the Participant Information Sheet, as it contains answers to many common questions related to taking part. If you have any questions, please contact the team at <CRIS.Administrator@slam.nhs.uk>.\n<br />\n<PdfViewer fileUrl='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/UPLOAD/resources/pis.pdf'/>\n<br />\n<button variant='contained' target='_blank' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/UPLOAD/resources/pis.pdf'>Download Participant Information</button>"
     },
+    "eligibility": {
+      "title": "Check You Can Take Part",
+      "description": "We can only accept people into this study if they answer Yes to the following questions.",
+      "items": [
+        {
+          "fieldType": "yesno",
+          "id": "criteria1",
+          "description": "Are you aged 18 or over?"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "criteria2",
+          "description": "Are you currently accessing services, or have you previously accessed services, at the South London and Maudsley NHS Trust?"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "criteria3",
+          "description": "Do you own a wearable device (e.g. Fitbit, Garmin, Oura Ring, Apple Watch) or a smartphone that collects health data?"
+        }
+      ]
+    },
+    "consent": {
+      "title": "Consent",
+      "description": "Before you can take part in this study, we need your consent to donate data from your wearable device or smartphone. Please read each statement carefully and click Yes or No.\n<br />\nYou must answer Yes to all required statements to take part. The optional statements can be answered Yes or No and you can still take part.\n<br />\nYou can find out more information about the way we use personal information in our [privacy policy](privacy).\n",
+      "requiredItems": [
+        {
+          "fieldType": "yesno",
+          "id": "required1",
+          "description": "I confirm that I have read and understood the Participant Information Sheet (version 1.0, 28/09/2026) for the above study. I have had the opportunity to consider the information and ask questions which have been answered to my satisfaction.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required2",
+          "description": "I consent voluntarily to be a participant in this study and understand that I can refuse to take part and can withdraw at any time, without having to give a reason. I understand that my decision will not affect the care I receive.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required3",
+          "description": "I understand my personal information will be processed for the purposes explained to me in the Information Sheet. I understand that such information will be handled under the terms of UK data protection law, including the UK General Data Protection Regulation (UK GDPR) and the Data Protection Act 2018.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required4",
+          "description": "I give permission for the study team to download relevant data from my wearable device or smartphone, store it securely at King's College London and the South London and Maudsley NHS Trust, and link it to my health records.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required5",
+          "description": "I understand that my donated data will be de-identified and anonymised using the Maudsley's CRIS (Clinical Records Interactive Search) platform. I understand that once the data has been linked to my clinical record and anonymised, it will not be possible to delete it.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required6",
+          "description": "I understand that I can withdraw from the study within 2 weeks of donating my data and have my information removed. After this period, the data will have been anonymised and linked, and it will no longer be possible to identify and remove it.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required7",
+          "description": "I understand that the information collected will only be used for the purpose of health and care research, and will not be used to make decisions about future services available to me, such as insurance.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required8",
+          "description": "I agree that any data collected may be included in anonymous form in publications, academic theses, dissertations, or conference presentations. I understand that I will not be identified personally in any report or publication.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required9",
+          "description": "I understand that data collected during the study may be looked at by individuals from King's College London or regulatory authorities, where it is relevant to my taking part in this research. I give permission for these individuals to have access to my data.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required10",
+          "description": "I agree to take part in this study.\n"
+        }
+      ],
+      "optionalItems": [
+        {
+          "fieldType": "yesno",
+          "id": "optional1",
+          "description": "I agree that the researchers may retain my email address so that I can be contacted with newsletters or updates about the study results.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "optional2",
+          "description": "I agree that the researchers may contact me in future about other research projects that I might be eligible for.\n"
+        }
+      ],
+      "signatureDescription": "**Data Protection**\n\n**The personal information we collect and use to conduct this research will be processed in accordance with data protection law as explained in the Participant Information Sheet and the [Privacy Notice](privacy).**\n\nBy signing this consent form, I declare that I have provided accurate identity details (full name and electronic signature).\n"
+    },
     "additional": {
       "title": "Register Account",
       "items": [
