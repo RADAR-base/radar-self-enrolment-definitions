@@ -70,7 +70,7 @@
         {
           "fieldType": "yesno",
           "id": "criteria2",
-          "description": "Do you own and use a smartphone?"
+          "description": "Do you own and use a smartphone (Android or iPhone)?"
         },
         {
           "fieldType": "yesno",
@@ -113,7 +113,7 @@
         {
           "fieldType": "yesno",
           "id": "optional2",
-          "description": "I agree to wear my wearable device for as much of the time as possible during my Particpation Period of three months to one year."
+          "description": "I agree to wear my wearable device for as much of the time as possible during my Participation Period of three months to one year."
         },
         {
           "fieldType": "yesno",
@@ -163,11 +163,11 @@
           "field_label": "You need an account to give us your information and (optionally) connect your wearable or smartphone app."
         },
         {
-          "field_name": "gbits_id",
+          "field_name": "gbit_id",
           "form_name": "s_additional",
           "field_type": "text",
-          "field_label": "GBITs ID",
-          "required_field": "true",
+          "field_label": "GBIT ID",
+          "required_field": "false",
           "text_validation_type_or_show_slider_number": ""
         }
       ]

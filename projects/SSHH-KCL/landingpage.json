@@ -22,7 +22,6 @@
           "backgroundColor": "#f1b3be"
         }
       },
-
       "blockType": "markdown",
       "noCard": true,
       "content": "<button href='SSHH-KCL/enrol'>Join Study</button>"
@@ -38,7 +37,6 @@
         "justifyContent": "center",
         "alignItems": "center",
         "alignContent": "center",
-
         "& .MuiTypography-h1": {
           "fontSize": "2.5rem",
           "flex": "none",
@@ -50,24 +48,19 @@
         "& .MuiBox-root": {
           "alignItems": "center"
         },
-
         "& .MuiButton-root": {
           "backgroundColor": "#f1b3be",
           "color": "#242c3d"
         },
-
         "& .MuiButton-root:hover": {
           "backgroundColor": "#0e1b4d",
           "color": "#b2b2b2"
         },
-
         "& #test": {
           "paddingRight": "5rem"
         },
-
         "@media only screen and (max-device-width: 480px)": {
           "padding": "1rem 0rem",
-
           "& #test": {
             "paddingRight": "0rem"
           }
@@ -96,7 +89,6 @@
         }
       }
     },
-
     {
       "blockType": "hero",
       "noCard": true,
@@ -107,20 +99,17 @@
         "alignItems": "center",
         "alignContent": "center",
         "textAlign": "center",
-
         "& .MuiBox-root": {
           "flex": "none",
           "width": "100%",
           "gap": "0"
         },
-
         "& .MuiTypography-h1": {
           "fontSize": "3rem",
           "flex": "none",
           "width": "100%",
           "textAlign": "left"
         },
-
         "@media only screen and (max-device-width: 480px)": {
           "& .MuiBox-root": {
             "justifyContent": "center"
@@ -133,7 +122,6 @@
       },
       "title": "Smartphones are now an integral part of daily life. Many people use their phones before bed — for social media, messaging, gaming, or watching videos. However, it is not fully understood how different types of phone interactions influence sleep."
     },
-
     {
       "blockType": "column",
       "sx": {
@@ -141,28 +129,23 @@
         "paddingTop": "2rem",
         "bgcolor": "background.quaternary",
         "color": "background.quinary",
-
         "& .MuiBox-root": {
           "alignItems": "flex-start",
           "paddingLeft": "0rem",
           "paddingRight": "0rem"
         },
-
         "& .MuiGrid2-root": {
           "alignSelf": "center"
         },
-
         "& .MuiTypography-h2": {
           "fontSize": "3rem",
           "fontWeight": "700",
           "width": "100%",
           "textAlign": "left"
         },
-
         "& .MuiTypography-body1": {
           "fontSize": "1.25rem"
         },
-
         "@media only screen and (max-device-width: 480px)": {
           "& .MuiBox-root": {
             "alignItems": "center",
@@ -193,7 +176,6 @@
         }
       }
     },
-
     {
       "blockType": "column",
       "sx": {
@@ -202,34 +184,28 @@
         "paddingBottom": "2rem",
         "bgcolor": "background.quaternary",
         "color": "background.quinary",
-
         "& .MuiBox-root": {
           "alignItems": "center"
         },
-
         "& .MuiGrid2-root > .MuiBox-root": {
           "gap": "0",
           "alignItems": "start"
         },
-
         "& .MuiGrid2-root": {
           "alignSelf": "start"
         },
-
         "& .MuiTypography-h1": {
           "flex": "none",
           "width": "100%",
           "fontSize": "3rem",
           "textAlign": "left"
         },
-
         "& .MuiTypography-h2": {
           "fontSize": "1.5rem",
           "fontWeight": "700",
           "width": "100%",
           "textAlign": "left"
         },
-
         "@media only screen and (max-device-width: 480px)": {
           "& .MuiBox-root > .MuiBox-root": {
             "padding": "0"
@@ -244,7 +220,6 @@
           "& .MuiTypography-root": {
             "textAlign": "left"
           },
-
           "& .MuiTypography-h2": {
             "fontSize": "1.25rem"
           }
@@ -263,24 +238,20 @@
         }
       }
     },
-
     {
       "sx": {
         "width": "100%",
         "bgcolor": "#9775bd",
         "color": "#ffffff",
         "paddingBottom": "0rem",
-
         "& .MuiTypography-h2": {
           "fontSize": "3rem",
           "fontWeight": "700",
           "width": "100%",
           "textAlign": "center"
         },
-
         "@media only screen and (max-device-width: 480px)": {
           "paddingTop": "2rem",
-
           "& .MuiBox-root": {
             "gap": "0"
           }
@@ -290,22 +261,18 @@
       "noCard": true,
       "title": "How This Study Works"
     },
-
     {
       "sx": {
         "width": "100%",
         "bgcolor": "#9775bd",
         "color": "#ffffff",
         "paddingTop": "0rem",
-
         "& .MuiTypography-root": {
           "textAlign": "center"
         },
-
         "@media only screen and (max-device-width: 480px)": {
           "paddingTop": "0rem",
           "paddingBottom": "2rem",
-
           "& .MuiGrid2-root": {
             "--Grid-rowSpacing": "32px"
           }
@@ -336,12 +303,11 @@
         },
         "block5": {
           "blockType": "markdown",
-          "title": "Analayse Patterns Overtime",
+          "title": "Analyse Patterns Overtime",
           "content": "Researchers will analyse the sleep data over several months to identify patterns and insights"
         }
       }
     },
-
     {
       "blockType": "column",
       "sx": {
@@ -350,32 +316,26 @@
         "color": "background.quinary",
         "paddingTop": "2rem",
         "paddingBottom": "2rem",
-
         "& .MuiBox-root": {
           "alignItems": "center"
         },
-
         "& .MuiGrid2-root": {
           "alignSelf": "start"
         },
-
         "& .MuiGrid2-root > .MuiBox-root": {
           "gap": "0",
           "alignItems": "start"
         },
-
         "& .MuiTypography-h1": {
           "flex": "none",
           "width": "100%",
           "textAlign": "left",
           "fontSize": "3rem"
         },
-
         "& .MuiTypography-body1": {
           "width": "100%",
           "textAlign": "left"
         },
-
         "@media only screen and (max-device-width: 480px)": {
           "& .MuiBox-root > .MuiBox-root": {
             "padding": "0"
@@ -406,7 +366,6 @@
         }
       }
     },
-
     {
       "blockType": "markdown",
       "noCard": true,
@@ -416,25 +375,21 @@
         "color": "#ffffff",
         "gap": "0",
         "paddingBottom": "0rem",
-
         "& .MuiTypography-h2": {
           "fontSize": "3rem",
           "fontWeight": "700",
           "width": "100%",
           "textAlign": "center"
         },
-
         "& .MuiBox-root": {
           "alignItems": "center",
           "justifyContent": "center",
           "gap": "0"
         }
       },
-
       "title": "Benefits",
       "content": "Although there is no direct financial reward. However:"
     },
-
     {
       "blockType": "column",
       "noCard": true,
@@ -445,7 +400,6 @@
         "alignContent": "center",
         "width": "100%",
         "color": "#ffffff",
-
         "& .MuiTypography-root": {
           "textAlign": "center"
         }
@@ -465,7 +419,6 @@
         }
       }
     },
-
     {
       "blockType": "carousel",
       "noCard": true,
