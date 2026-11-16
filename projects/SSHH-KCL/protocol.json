@@ -167,7 +167,7 @@
           "form_name": "s_additional",
           "field_type": "text",
           "field_label": "GBIT ID",
-          "required_field": "false",
+          "required_field": "",
           "text_validation_type_or_show_slider_number": ""
         }
       ]
