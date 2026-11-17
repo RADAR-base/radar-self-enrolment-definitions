@@ -18,7 +18,7 @@
           "maxWidth": "640px"
         }
       },
-      "subtitle": "<span style='color:rgba(255,255,255,0.85);font-size:1.1rem;line-height:1.7;max-width:560px;display:block'>A five-year research project uniting 42 partners across 17 countries to help cardiac patients through early, personalised interventions.</span><br />",
+      "subtitle": "<span style='color:rgba(255,255,255,0.85);font-size:1.1rem;line-height:1.7;max-width:560px;display:block'>A five-year research project uniting 42 partners across 17 countries to help cardiac patients through early, personalised interventions.</span><br /><br /><button style='font-size:1.05rem; padding:12px 28px; border-radius:8px;' variant='contained' href='EXIT-CVD/enrol'>Join Study</button>",
       "sx": {
         "color": "white",
         "paddingTop": "5rem",
