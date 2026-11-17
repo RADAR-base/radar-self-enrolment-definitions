@@ -171,62 +171,79 @@
     "materialTheme": {
       "typography": {
         "allVariants": {
-          "fontFamily": "var(--font-montserrat)",
+          "fontFamily": "var(--font-inter, var(--font-montserrat), 'Inter', system-ui, -apple-system, sans-serif)",
           "wordBreak": "break-word",
-          "whiteSpace": "pre-wrap"
+          "whiteSpace": "pre-wrap",
+          "letterSpacing": "-0.011em"
         },
         "h1": {
-          "fontSize": "2rem",
-          "fontWeight": "700",
-          "color": "#32373c",
+          "fontSize": "2.25rem",
+          "fontWeight": "600",
+          "color": "#1a1a2e",
           "wordBreak": "normal",
-          "overflow": "hidden"
+          "overflow": "hidden",
+          "letterSpacing": "-0.025em",
+          "lineHeight": 1.2
         },
         "h2": {
-          "fontSize": "1.5rem",
-          "fontWeight": "700",
-          "color": "#32373c"
+          "fontSize": "1.6rem",
+          "fontWeight": "600",
+          "color": "#1a1a2e",
+          "letterSpacing": "-0.02em",
+          "lineHeight": 1.3
         },
         "h3": {
-          "fontSize": "1rem",
-          "fontWeight": "700",
-          "color": "#444"
+          "fontSize": "1.1rem",
+          "fontWeight": "600",
+          "color": "#1a1a2e",
+          "letterSpacing": "-0.015em"
         },
         "h4": {
           "fontSize": "1rem",
-          "fontWeight": "600"
+          "fontWeight": "500",
+          "letterSpacing": "-0.01em"
         },
         "button": {
           "textTransform": "none",
-          "wordBreak": "normal"
+          "wordBreak": "normal",
+          "fontWeight": "500",
+          "letterSpacing": "0"
         },
-        "body1": {},
-        "body2": {}
+        "body1": {
+          "fontSize": "0.975rem",
+          "lineHeight": 1.7,
+          "color": "#3a3a4a"
+        },
+        "body2": {
+          "fontSize": "0.875rem",
+          "lineHeight": 1.65,
+          "color": "#5a5a6a"
+        }
       },
       "palette": {
         "background": {
-          "default": "#f7f7f7"
+          "default": "#ffffff"
         },
         "primary": {
-          "light": "#8ed1fc",
-          "main": "#0693e3",
-          "dark": "#0570b0",
+          "light": "#e8f4fd",
+          "main": "#0078d4",
+          "dark": "#005a9e",
           "contrastText": "#fff"
         },
         "secondary": {
-          "light": "#e14b3b",
-          "main": "#cf2e2e",
-          "dark": "#a71202",
+          "light": "#fce8e6",
+          "main": "#c4302b",
+          "dark": "#9a0007",
           "contrastText": "#fff"
         },
         "success": {
-          "main": "#00d084"
+          "main": "#0f7b3f"
         },
         "warning": {
-          "main": "#fcb900"
+          "main": "#e8a500"
         },
         "error": {
-          "main": "#cf2e2e"
+          "main": "#c4302b"
         }
       },
       "components": {
@@ -243,13 +260,16 @@
                   },
                   "style": {
                     ":hover": {
-                      "backgroundColor": "#0693e3",
+                      "backgroundColor": "#0078d4",
                       "color": "#FFFFFF"
                     }
                   }
                 }
               ],
-              "borderRadius": 16
+              "borderRadius": 8,
+              "padding": "8px 20px",
+              "fontWeight": "500",
+              "fontSize": "0.9rem"
             }
           }
         },
@@ -262,8 +282,16 @@
         "MuiToggleButton": {
           "styleOverrides": {
             "root": {
-              "borderRadius": 32,
-              "fontSize": "1em"
+              "borderRadius": 8,
+              "fontSize": "0.9rem"
+            }
+          }
+        },
+        "MuiCard": {
+          "styleOverrides": {
+            "root": {
+              "borderRadius": 12,
+              "boxShadow": "0 1px 3px rgba(0,0,0,0.08)"
             }
           }
         },
@@ -297,8 +325,12 @@
         },
         "MuiOutlinedInput": {
           "styleOverrides": {
+            "root": {
+              "borderRadius": 8
+            },
             "notchedOutline": {
-              "fontSize": "1.35em"
+              "fontSize": "1.35em",
+              "borderColor": "#e0e0e0"
             }
           }
         },
@@ -308,6 +340,18 @@
               "&.MuiInputLabel-shrink": {
                 "fontSize": "1.5em",
                 "transform": "translate(0.75em, -0.5em) scale(0.75)"
+              }
+            }
+          }
+        },
+        "MuiAccordion": {
+          "styleOverrides": {
+            "root": {
+              "borderRadius": "8px !important",
+              "boxShadow": "none",
+              "border": "1px solid #eaeaea",
+              "&:before": {
+                "display": "none"
               }
             }
           }

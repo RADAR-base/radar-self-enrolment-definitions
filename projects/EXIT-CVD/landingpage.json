@@ -3,16 +3,23 @@
     {
       "blockType": "hero",
       "noCard": true,
-      "blockBackground": "linear-gradient(to bottom right, rgba(6, 147, 227, 0.85), rgba(50, 55, 60, 0.9)), #32373c",
+      "blockBackground": "linear-gradient(165deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)",
       "title": {
-        "children": "EXIT-CVD: Transforming Cardiovascular Care Across Europe",
+        "children": "Transforming Cardiovascular Care Across Europe",
         "sx": {
-          "color": "white"
+          "color": "white",
+          "fontSize": { "xs": "2rem", "md": "3rem" },
+          "fontWeight": "600",
+          "letterSpacing": "-0.03em",
+          "lineHeight": 1.1,
+          "maxWidth": "640px"
         }
       },
-      "subtitle": "A five-year research project uniting 42 partners across 17 countries to help cardiac patients avoid deterioration through early, personalised interventions delivered across the cardiac care journey.<br /><br />",
+      "subtitle": "<span style='opacity:0.85;font-size:1.1rem;line-height:1.7;max-width:560px;display:block'>A five-year research project uniting 42 partners across 17 countries to help cardiac patients through early, personalised interventions.</span><br />",
       "sx": {
-        "color": "white"
+        "color": "white",
+        "paddingTop": "5rem",
+        "paddingBottom": "5rem"
       },
       "ctas": [
         {
@@ -26,93 +33,166 @@
       ]
     },
     {
-      "blockType": "markdown",
-      "noCard": true,
-      "blockBackground": "white",
-      "title": "About EXIT-CVD",
-      "content": "<div id='more'></div>The <strong style='color:#0693e3;'>EXIT-CVD</strong> research consortium, co-funded by the <strong>European Union Innovative Health Initiative (IHI)</strong> and industry partners, aims to transform how cardiovascular disease is detected, monitored and treated.\n<br />\nIt identifies and acts on three key <strong style='color:#cf2e2e;'>exit points</strong> along the cardiac care journey:\n\n<ol><li><strong style='color:#0693e3;'>Early Exit</strong> - Preventing disease before it develops through digital monitoring and early detection</li><li><strong style='color:#0693e3;'>Mid Exit</strong> - Reversing disease progression through personalised risk assessment and targeted interventions</li><li><strong style='color:#0693e3;'>Late Exit</strong> - Halting progression in advanced stages with advanced therapies to support recovery</li></ol><br />Led by the <strong>University Medical Center Groningen (UMCG)</strong> and <strong>Philips</strong>, the consortium brings together 42 public and private partners across 17 countries to conduct 22 clinical studies involving over 14,000 patients."
-    },
-    {
       "blockType": "column",
       "noCard": true,
-      "blockBackground": "#f0f7fd",
-      "title": "",
-      "content": [
-        {
-          "blockType": "markdown",
-          "title": "Powered by Onsentia & RADAR-base",
-          "content": "Onsentia powers the digital data collection and remote monitoring infrastructure for EXIT-CVD using the open-source <strong style='color:#0693e3;'>RADAR-base</strong> platform.\n<br />\nThe platform combines:\n- <strong>Active monitoring (aRMT)</strong> - Patient-reported outcome questionnaires\n- <strong>Passive monitoring (pRMT)</strong> - Broad passive sensor and wearable data collection\n- <strong>Huawei D3 Watch</strong> - Ambulatory blood pressure monitoring via integrated oscillometric wrist BP cuff\n<br />\nThis enables multi-source, scalable, real-time remote monitoring and data integration across clinical trials."
-        },
-        {
-          "blockType": "markdown",
-          "content": "<div style='margin:auto'><Image src='/study/radar/rb-logo-hq2.png' alt={'RADAR-base logo'} width={200} height={200} /></div>"
-        }
-      ]
-    },
-    {
-      "blockType": "column",
-      "noCard": true,
-      "blockBackground": "white",
-      "content": [
-        {
-          "blockType": "markdown",
-          "title": "COMPASS Study",
-          "content": "Led by <strong style='color:#0693e3;'>King's College London (KCL) / GSTT</strong>, the COMPASS study brings together unique technological capabilities from several partners.\n<br />\n<strong>Huawei Health</strong> provides ambulatory blood pressure monitoring via its D3 Watch, with a novel integrated oscillometric wrist BP cuff. <strong>Onsentia's</strong> decentralised remote monitoring platform collects data from the Huawei D3 Watch. <strong>MEGI</strong> provides an AI-powered digital health app for personalised cardiovascular assessments, and <strong>CogStack</strong> assists in identifying participants from medical records."
-        },
-        {
-          "blockType": "markdown",
-          "title": "EMPOWER-BP Study",
-          "content": "<strong style='color:#0693e3;'>UMC Utrecht</strong>, together with Universita' Di Pavia, Politecnico Di Milano, and Stichting Vrouwenhart, the EMPOWER-BP study utilises a citizen science approach.\n<br />\nParticipants are recruited to Onsentia's platform via <strong>remote self-enrolment</strong> through social media and the <strong style='color:#cf2e2e;'>Huawei D3 Watch</strong> wearable. This study seeks to engage patients directly in their health management, enhancing adherence and reducing healthcare costs."
-        }
-      ]
-    },
-    {
-      "blockType": "markdown",
-      "noCard": true,
-      "blockBackground": "#f0f7fd",
-      "title": "Innovation That Reaches Everyone",
-      "content": "New diagnostics and digital tools often reach well-resourced populations first, widening gaps in access and outcomes. EXIT-CVD embeds <strong style='color:#0693e3;'>implementation science</strong> and <strong style='color:#0693e3;'>equity-by-design</strong> principles to ensure solutions are scalable, sustainable, and accessible to all relevant populations, including those historically underserved.\n<br />\nA digitally enabled, <strong>FAIR-compliant data platform</strong> aligned with the European Health Data Space (EHDS) supports the integration, evaluation, and real-world scalability of the project's innovations."
-    },
-    {
-      "blockType": "accordion",
-      "noCard": true,
-      "blockBackground": "white",
-      "title": "What Will I Have To Do?",
-      "items": [
-        {
-          "title": "1. Check eligibility and provide consent",
-          "content": "Complete a brief eligibility check to confirm you can take part, then read the Participant Information Sheet and sign an electronic consent form."
-        },
-        {
-          "title": "2. Set up your study account",
-          "content": "Create an account with your email address and a password. You will need to verify your email before you can proceed."
-        },
-        {
-          "title": "3. Connect your devices",
-          "content": "Connect the Huawei D3 Watch for blood pressure and health monitoring, install the RADAR Active App (aRMT) for questionnaires, and the RADAR Passive App (pRMT) for passive data collection."
-        },
-        {
-          "title": "4. Participate in monitoring",
-          "content": "Wear the Huawei D3 Watch as instructed, complete regular questionnaires via the Active App, and keep the Passive App running on your smartphone."
-        }
-      ]
-    },
-    {
-      "blockType": "column",
-      "noCard": true,
-      "blockBackground": "#32373c",
-      "title": "",
       "sx": {
-        "color": "white"
+        "width": "100%",
+        "padding": "4rem 0",
+        "bgcolor": "#ffffff",
+        "& .MuiTypography-h2": {
+          "fontSize": "1.6rem",
+          "fontWeight": "600",
+          "color": "#1a1a2e",
+          "letterSpacing": "-0.02em"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "0.975rem",
+          "lineHeight": 1.75,
+          "color": "#3a3a4a"
+        }
+      },
+      "content": {
+        "block1": {
+          "blockType": "markdown",
+          "title": "About EXIT-CVD",
+          "content": "<div id='more'></div>The **EXIT-CVD** research consortium, co-funded by the **European Union Innovative Health Initiative (IHI)**, aims to transform how cardiovascular disease is detected, monitored and treated.\n<br />\nIt acts on three key exit points along the cardiac care journey:\n<br />\n<div style='display:flex;flex-direction:column;gap:12px;margin:8px 0'><div style='padding:14px 18px;border-radius:8px;background:#f0f7fd;border-left:3px solid #0078d4'><strong style='color:#0078d4'>Early Exit</strong> &mdash; Preventing disease through digital monitoring and early detection</div><div style='padding:14px 18px;border-radius:8px;background:#f0f7fd;border-left:3px solid #0078d4'><strong style='color:#0078d4'>Mid Exit</strong> &mdash; Reversing progression through personalised risk assessment</div><div style='padding:14px 18px;border-radius:8px;background:#f0f7fd;border-left:3px solid #0078d4'><strong style='color:#0078d4'>Late Exit</strong> &mdash; Halting progression with advanced therapies</div></div>"
+        },
+        "block2": {
+          "blockType": "markdown",
+          "title": "By the Numbers",
+          "content": "<div style='display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px'><div style='padding:20px;border-radius:10px;background:#fafafa;text-align:center'><div style='font-size:2rem;font-weight:600;color:#0078d4;letter-spacing:-0.02em'>42</div><div style='font-size:0.85rem;color:#5a5a6a;margin-top:4px'>Partners</div></div><div style='padding:20px;border-radius:10px;background:#fafafa;text-align:center'><div style='font-size:2rem;font-weight:600;color:#0078d4;letter-spacing:-0.02em'>17</div><div style='font-size:0.85rem;color:#5a5a6a;margin-top:4px'>Countries</div></div><div style='padding:20px;border-radius:10px;background:#fafafa;text-align:center'><div style='font-size:2rem;font-weight:600;color:#0078d4;letter-spacing:-0.02em'>22</div><div style='font-size:0.85rem;color:#5a5a6a;margin-top:4px'>Clinical Studies</div></div><div style='padding:20px;border-radius:10px;background:#fafafa;text-align:center'><div style='font-size:2rem;font-weight:600;color:#0078d4;letter-spacing:-0.02em'>14k+</div><div style='font-size:0.85rem;color:#5a5a6a;margin-top:4px'>Patients</div></div></div>"
+        }
+      }
+    },
+    {
+      "blockType": "markdown",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "padding": "3rem 0",
+        "bgcolor": "#fafbfc",
+        "& .MuiTypography-h2": {
+          "fontSize": "1.6rem",
+          "fontWeight": "600",
+          "color": "#1a1a2e",
+          "letterSpacing": "-0.02em"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "0.975rem",
+          "lineHeight": 1.75,
+          "color": "#3a3a4a"
+        }
+      },
+      "title": "Powered by Onsentia & RADAR-base",
+      "content": "Onsentia powers the digital data collection and remote monitoring infrastructure for EXIT-CVD using the open-source **RADAR-base** platform.\n<br />\n<div style='display:flex;flex-direction:column;gap:10px;margin:12px 0'><div style='padding:12px 16px;border-radius:8px;background:#ffffff;border:1px solid #eaeaea'><strong>Active monitoring (aRMT)</strong> &mdash; Patient-reported outcome questionnaires</div><div style='padding:12px 16px;border-radius:8px;background:#ffffff;border:1px solid #eaeaea'><strong>Passive monitoring (pRMT)</strong> &mdash; Sensor and wearable data collection</div><div style='padding:12px 16px;border-radius:8px;background:#ffffff;border:1px solid #eaeaea'><strong>Huawei D3 Watch</strong> &mdash; Ambulatory blood pressure monitoring</div></div>"
+    },
+    {
+      "blockType": "column",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "padding": "3rem 0",
+        "bgcolor": "#ffffff",
+        "& .MuiTypography-h2": {
+          "fontSize": "1.4rem",
+          "fontWeight": "600",
+          "color": "#1a1a2e",
+          "letterSpacing": "-0.02em"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "0.95rem",
+          "lineHeight": 1.75,
+          "color": "#3a3a4a"
+        }
       },
       "content": [
         {
           "blockType": "markdown",
-          "content": "<div style='display:flex;flex-direction:column;justify-content:space-between;text-align:center;height:100%;gap:24px'><div>_More Information_\nVisit the EXIT-CVD project website</div><div style='margin-left:auto;margin-right:auto'><button variant='contained' href='https://exitcvd.eu/' target='_blank'>EXIT-CVD Website</button></div></div>"
+          "title": "COMPASS Study",
+          "content": "Led by **King's College London / GSTT**. Huawei Health provides ambulatory blood pressure monitoring via its D3 Watch. Onsentia's platform collects the data. MEGI delivers AI-powered cardiovascular assessments, and CogStack identifies participants from medical records."
         },
         {
           "blockType": "markdown",
-          "content": "<div style='display:flex;flex-direction:column;justify-content:space-between;text-align:center;height:100%;gap:24px'><div>_Questions?_\nContact the study team</div><div style='margin-left:auto;margin-right:auto'><button variant='contained' href='mailto:exit-cvd@kcl.ac.uk'>Contact Us</button></div></div>"
+          "title": "EMPOWER-BP Study",
+          "content": "Led by **UMC Utrecht** with partners across Europe. Uses a citizen science approach with remote self-enrolment via social media and the Huawei D3 Watch, engaging patients directly in their health management."
+        }
+      ]
+    },
+    {
+      "blockType": "markdown",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "padding": "3rem 0",
+        "bgcolor": "#fafbfc",
+        "& .MuiTypography-h2": {
+          "fontSize": "1.6rem",
+          "fontWeight": "600",
+          "color": "#1a1a2e",
+          "letterSpacing": "-0.02em"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "0.975rem",
+          "lineHeight": 1.75,
+          "color": "#3a3a4a"
+        }
+      },
+      "title": "Innovation That Reaches Everyone",
+      "content": "EXIT-CVD embeds **implementation science** and **equity-by-design** principles to ensure solutions are scalable, sustainable, and accessible to all populations &mdash; including those historically underserved.\n<br />\nA FAIR-compliant data platform aligned with the **European Health Data Space (EHDS)** supports integration, evaluation, and real-world scalability."
+    },
+    {
+      "blockType": "accordion",
+      "noCard": true,
+      "sx": {
+        "padding": "2rem 0",
+        "bgcolor": "#ffffff",
+        "& .MuiTypography-h2": {
+          "fontSize": "1.6rem",
+          "fontWeight": "600",
+          "color": "#1a1a2e",
+          "letterSpacing": "-0.02em"
+        }
+      },
+      "title": "How to Participate",
+      "items": [
+        {
+          "title": "1. Check eligibility and provide consent",
+          "content": "Complete a brief eligibility check, read the Participant Information Sheet, and sign an electronic consent form."
+        },
+        {
+          "title": "2. Set up your study account",
+          "content": "Create an account with your email and a password. Verify your email to proceed."
+        },
+        {
+          "title": "3. Connect your devices",
+          "content": "Connect the Huawei D3 Watch, install the RADAR Active App (aRMT) for questionnaires, and the RADAR Passive App (pRMT) for passive data collection."
+        },
+        {
+          "title": "4. Participate in monitoring",
+          "content": "Wear the Huawei D3 Watch as instructed, complete questionnaires via the Active App, and keep the Passive App running on your smartphone."
+        }
+      ]
+    },
+    {
+      "blockType": "column",
+      "noCard": true,
+      "blockBackground": "#1a1a2e",
+      "title": "",
+      "sx": {
+        "color": "white",
+        "padding": "3.5rem 0",
+        "& .MuiTypography-body1": {
+          "color": "rgba(255,255,255,0.8)"
+        }
+      },
+      "content": [
+        {
+          "blockType": "markdown",
+          "content": "<div style='display:flex;flex-direction:column;justify-content:space-between;text-align:center;height:100%;gap:20px'><div style='opacity:0.7;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.08em'>More Information</div><div>Visit the EXIT-CVD project website</div><div style='margin-left:auto;margin-right:auto'><button variant='contained' href='https://exitcvd.eu/' target='_blank'>EXIT-CVD Website</button></div></div>"
+        },
+        {
+          "blockType": "markdown",
+          "content": "<div style='display:flex;flex-direction:column;justify-content:space-between;text-align:center;height:100%;gap:20px'><div style='opacity:0.7;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.08em'>Questions?</div><div>Get in touch with the study team</div><div style='margin-left:auto;margin-right:auto'><button variant='contained' href='mailto:exit-cvd@kcl.ac.uk'>Contact Us</button></div></div>"
         }
       ]
     }
