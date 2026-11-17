@@ -8,20 +8,27 @@
         "children": "Transforming Cardiovascular Care Across Europe",
         "sx": {
           "color": "white",
-          "fontSize": { "xs": "2rem", "md": "3rem" },
+          "fontSize": {
+            "xs": "2rem",
+            "md": "3rem"
+          },
           "fontWeight": "600",
           "letterSpacing": "-0.03em",
           "lineHeight": 1.1,
           "maxWidth": "640px"
         }
       },
-      "subtitle": "<span style='opacity:0.85;font-size:1.1rem;line-height:1.7;max-width:560px;display:block'>A five-year research project uniting 42 partners across 17 countries to help cardiac patients through early, personalised interventions.</span><br />",
+      "subtitle": "<span style='color:rgba(255,255,255,0.85);font-size:1.1rem;line-height:1.7;max-width:560px;display:block'>A five-year research project uniting 42 partners across 17 countries to help cardiac patients through early, personalised interventions.</span><br />",
       "sx": {
         "color": "white",
         "paddingTop": "5rem",
         "paddingBottom": "5rem"
       },
       "ctas": [
+        {
+          "text": "Join Study",
+          "href": "EXIT-CVD/enrol"
+        },
         {
           "text": "Learn More",
           "href": "EXIT-CVD/about"
@@ -55,12 +62,12 @@
         "block1": {
           "blockType": "markdown",
           "title": "About EXIT-CVD",
-          "content": "<div id='more'></div>The **EXIT-CVD** research consortium, co-funded by the **European Union Innovative Health Initiative (IHI)**, aims to transform how cardiovascular disease is detected, monitored and treated.\n<br />\nIt acts on three key exit points along the cardiac care journey:\n<br />\n<div style='display:flex;flex-direction:column;gap:12px;margin:8px 0'><div style='padding:14px 18px;border-radius:8px;background:#f0f7fd;border-left:3px solid #0078d4'><strong style='color:#0078d4'>Early Exit</strong> &mdash; Preventing disease through digital monitoring and early detection</div><div style='padding:14px 18px;border-radius:8px;background:#f0f7fd;border-left:3px solid #0078d4'><strong style='color:#0078d4'>Mid Exit</strong> &mdash; Reversing progression through personalised risk assessment</div><div style='padding:14px 18px;border-radius:8px;background:#f0f7fd;border-left:3px solid #0078d4'><strong style='color:#0078d4'>Late Exit</strong> &mdash; Halting progression with advanced therapies</div></div>"
+          "content": "<div id='more'></div>The **EXIT-CVD** research consortium, co-funded by the **European Union Innovative Health Initiative (IHI)**, aims to transform how cardiovascular disease is detected, monitored and treated.\n<br />\nIt acts on three key exit points along the cardiac care journey:\n\n- **Early Exit** — Preventing disease through digital monitoring and early detection\n- **Mid Exit** — Reversing progression through personalised risk assessment\n- **Late Exit** — Halting progression with advanced therapies"
         },
         "block2": {
           "blockType": "markdown",
           "title": "By the Numbers",
-          "content": "<div style='display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px'><div style='padding:20px;border-radius:10px;background:#fafafa;text-align:center'><div style='font-size:2rem;font-weight:600;color:#0078d4;letter-spacing:-0.02em'>42</div><div style='font-size:0.85rem;color:#5a5a6a;margin-top:4px'>Partners</div></div><div style='padding:20px;border-radius:10px;background:#fafafa;text-align:center'><div style='font-size:2rem;font-weight:600;color:#0078d4;letter-spacing:-0.02em'>17</div><div style='font-size:0.85rem;color:#5a5a6a;margin-top:4px'>Countries</div></div><div style='padding:20px;border-radius:10px;background:#fafafa;text-align:center'><div style='font-size:2rem;font-weight:600;color:#0078d4;letter-spacing:-0.02em'>22</div><div style='font-size:0.85rem;color:#5a5a6a;margin-top:4px'>Clinical Studies</div></div><div style='padding:20px;border-radius:10px;background:#fafafa;text-align:center'><div style='font-size:2rem;font-weight:600;color:#0078d4;letter-spacing:-0.02em'>14k+</div><div style='font-size:0.85rem;color:#5a5a6a;margin-top:4px'>Patients</div></div></div>"
+          "content": "| | |\n|---|---|\n| **42** Partners | **17** Countries |\n| **22** Clinical Studies | **14,000+** Patients |\n\nLed by **UMCG** and **Philips**, with a total budget of EUR 27.6 million, co-funded by the EU Innovative Health Initiative."
         }
       }
     },
@@ -84,7 +91,7 @@
         }
       },
       "title": "Powered by Onsentia & RADAR-base",
-      "content": "Onsentia powers the digital data collection and remote monitoring infrastructure for EXIT-CVD using the open-source **RADAR-base** platform.\n<br />\n<div style='display:flex;flex-direction:column;gap:10px;margin:12px 0'><div style='padding:12px 16px;border-radius:8px;background:#ffffff;border:1px solid #eaeaea'><strong>Active monitoring (aRMT)</strong> &mdash; Patient-reported outcome questionnaires</div><div style='padding:12px 16px;border-radius:8px;background:#ffffff;border:1px solid #eaeaea'><strong>Passive monitoring (pRMT)</strong> &mdash; Sensor and wearable data collection</div><div style='padding:12px 16px;border-radius:8px;background:#ffffff;border:1px solid #eaeaea'><strong>Huawei D3 Watch</strong> &mdash; Ambulatory blood pressure monitoring</div></div>"
+      "content": "Onsentia powers the digital data collection and remote monitoring infrastructure for EXIT-CVD using the open-source **RADAR-base** platform.\n<br />\nThe platform combines:\n\n- **Active monitoring (aRMT)** — Patient-reported outcome questionnaires\n- **Passive monitoring (pRMT)** — Sensor and wearable data collection\n- **Huawei D3 Watch** — Ambulatory blood pressure monitoring\n\nThis enables multi-source, scalable, real-time remote monitoring and data integration across clinical trials."
     },
     {
       "blockType": "column",
@@ -138,7 +145,7 @@
         }
       },
       "title": "Innovation That Reaches Everyone",
-      "content": "EXIT-CVD embeds **implementation science** and **equity-by-design** principles to ensure solutions are scalable, sustainable, and accessible to all populations &mdash; including those historically underserved.\n<br />\nA FAIR-compliant data platform aligned with the **European Health Data Space (EHDS)** supports integration, evaluation, and real-world scalability."
+      "content": "EXIT-CVD embeds **implementation science** and **equity-by-design** principles to ensure solutions are scalable, sustainable, and accessible to all populations — including those historically underserved.\n<br />\nA FAIR-compliant data platform aligned with the **European Health Data Space (EHDS)** supports integration, evaluation, and real-world scalability."
     },
     {
       "blockType": "accordion",
