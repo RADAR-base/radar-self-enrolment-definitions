@@ -1,0 +1,36 @@
+{
+    "blocks": [
+          {
+            "blockType": "markdown",
+            "noCard": true,
+            "blockBackground": "white",
+            "content": "# EXIT-CVD: A European Initiative to Transform Cardiovascular Disease"
+          },
+          {
+            "blockType": "markdown",
+            "noCard": false,
+            "title": "About the Project",
+            "content": "EXIT-CVD is a five-year research project co-funded by the **European Union Innovative Health Initiative (IHI)** and industry partners, with a total budget of EUR 27.6 million. The research consortium is led by **University Medical Center Groningen (UMCG)** and **Philips**, and aims to transform how cardiovascular disease is detected, monitored and treated.\n<br />\nMore than 60 million people in the European Union are living with cardiovascular disease. For many, the condition significantly reduces quality of life and well-being. Without early detection, timely diagnosis and appropriate treatment, cardiovascular disease can progress silently from early risk factors to established disease and ultimately, cardiac events that may lead to premature death.\n<br />\nEXIT-CVD identifies and acts on three key exit points along the cardiac care journey: preventing disease before it develops (early exit), reversing disease progression (mid exit), or halting progression in advanced stages (late exit).\n"
+          },
+          {
+            "blockType": "markdown",
+            "title": "The Role of Onsentia & RADAR-base",
+            "content": "Onsentia powers the digital data collection and remote monitoring infrastructure for EXIT-CVD using the open-source RADAR-base platform.\n<br />\nBy combining active patient-reported outcome measurements (aRMT) with broad passive sensor and wearable data collection (pRMT), Onsentia and RADAR-base enable multi-source, scalable, real-time remote monitoring and data integration across modern clinical trials.\n<br />\nOnsentia participates in two studies in the \"early exit\": **COMPASS** and **EMPOWER-BP**.\n"
+          },
+          {
+            "blockType": "markdown",
+            "title": "COMPASS Study",
+            "content": "Led by King's College London (KCL)/GSTT, the COMPASS study brings together unique technological capabilities from several partners. **Huawei Health** provides ambulatory blood pressure monitoring via its D3 Watch, which uses a novel integrated oscillometric wrist BP cuff. Onsentia's decentralised remote monitoring platform collects data from the Huawei D3 Watch. **MEGI** provides an AI-powered digital health app that delivers personalised cardiovascular and maternal heart care assessments, and **CogStack** assists in identifying participants from medical records.\n"
+          },
+          {
+            "blockType": "markdown",
+            "title": "EMPOWER-BP Study",
+            "content": "Universitair Medisch Centrum Utrecht (UMCU), together with Universita' Di Pavia (UNIPV), Politecnico Di Milano (POLIMI) and Stichting Vrouwenhart, the EMPOWER-BP study utilises a citizen science approach, recruiting participants to Onsentia's platform and enabling remote self-enrolment via social media and the Huawei D3 Watch wearable. This study seeks to engage patients directly in their health management, enhancing adherence and reducing healthcare costs.\n"
+          },
+          {
+            "blockType": "markdown",
+            "title": "More Information",
+            "content": "For more details about the EXIT-CVD project, visit [exitcvd.eu](https://exitcvd.eu/).\n<br />\nThis website is hosted by King's College London on its secure health research platform called RADAR-base.\n"
+          }
+        ]
+}
