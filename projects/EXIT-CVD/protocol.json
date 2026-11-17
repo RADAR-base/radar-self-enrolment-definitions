@@ -238,7 +238,9 @@
             "root": {
               "variants": [
                 {
-                  "props": { "variant": "text"},
+                  "props": {
+                    "variant": "text"
+                  },
                   "style": {
                     ":hover": {
                       "backgroundColor": "#0693e3",
@@ -328,7 +330,7 @@
           "href": "/EXIT-CVD/faqs"
         }
       ],
-      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/EXIT-CVD/resources/icon.png"
+      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/EXIT-CVD/resources/icon.png"
     },
     "footer": {
       "columns": [
