@@ -1,0 +1,211 @@
+{
+  "blocks": [
+    {
+      "blockType": "hero",
+      "noCard": true,
+      "blockBackground": "linear-gradient(165deg, #002a2e 0%, #004d54 50%, #00697a 100%)",
+      "title": {
+        "children": "Continuous Monitoring of Postpartum Blood Pressure",
+        "sx": {
+          "color": "white",
+          "fontSize": {
+            "xs": "2rem",
+            "md": "3rem"
+          },
+          "fontWeight": "600",
+          "letterSpacing": "-0.03em",
+          "lineHeight": 1.1,
+          "maxWidth": "640px"
+        }
+      },
+      "subtitle": "<span style='color:rgba(255,255,255,0.85);font-size:1.1rem;line-height:1.7;max-width:560px;display:block'>The COMPASS study evaluates continuous blood pressure monitoring with wearable technology to improve cardiovascular outcomes for women after pregnancy.</span><br /><br /><button style='font-size:1.05rem; padding:12px 28px; border-radius:8px;' variant='contained' href='COMPASS/enrol'>Join Study</button>",
+      "imageSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/COMPASS/resources/image.png",
+      "imageSx": {
+        "borderRadius": "16px"
+      },
+      "sx": {
+        "color": "white",
+        "paddingTop": "5rem",
+        "paddingBottom": "5rem"
+      },
+      "ctas": [
+        {
+          "text": "Join Study",
+          "href": "COMPASS/enrol"
+        },
+        {
+          "text": "Learn More",
+          "href": "COMPASS/about"
+        },
+        {
+          "text": "FAQs",
+          "href": "COMPASS/faqs"
+        }
+      ]
+    },
+    {
+      "blockType": "column",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "padding": "4rem 0",
+        "bgcolor": "#ffffff",
+        "& .MuiTypography-h2": {
+          "fontSize": "1.6rem",
+          "fontWeight": "600",
+          "color": "#002a2e",
+          "letterSpacing": "-0.02em"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "0.975rem",
+          "lineHeight": 1.75,
+          "color": "#2a3a3a"
+        }
+      },
+      "content": {
+        "block1": {
+          "blockType": "markdown",
+          "title": "About COMPASS",
+          "content": "<div id='more'></div>The **COMPASS** study (Continuous Monitoring of Postpartum Blood Pressure for Assessment and Shifting of Cardiovascular Risk) is a clinical trial within the **EXIT-CVD** research consortium, co-funded by the **European Union Innovative Health Initiative (IHI)**.\n<br />\nHypertensive disorders of pregnancy affect approximately 10% of pregnancies and significantly increase long-term cardiovascular risk. COMPASS evaluates whether continuous blood pressure monitoring via validated wearable technology can improve postpartum BP control and cardiovascular outcomes."
+        },
+        "block2": {
+          "blockType": "markdown",
+          "title": "Study at a Glance",
+          "content": "| | |\n|---|---|\n| **100** Participants | **3** Clinical Sites |\n| **6 months** Participation | **Randomised** Controlled Trial |\n\nLed by **King's College London**, with sites at King's College Hospital, St Thomas' Hospital, and UMC Utrecht."
+        }
+      }
+    },
+    {
+      "blockType": "markdown",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "padding": "3rem 0",
+        "bgcolor": "#fafbfc",
+        "& .MuiTypography-h2": {
+          "fontSize": "1.6rem",
+          "fontWeight": "600",
+          "color": "#002a2e",
+          "letterSpacing": "-0.02em"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "0.975rem",
+          "lineHeight": 1.75,
+          "color": "#2a3a3a"
+        }
+      },
+      "title": "Powered by Onsentia & RADAR-base",
+      "content": "Onsentia powers the digital data collection and remote monitoring infrastructure for the COMPASS study using the open-source **RADAR-base** platform.\n<br />\nThe platform combines:\n\n- **Active monitoring (aRMT)** — Patient-reported outcome questionnaires\n- **Passive monitoring (pRMT)** — Sensor and wearable data collection\n- **Huawei D2 Watch** — Continuous blood pressure monitoring\n\nIntegrated with **Megi-Mum** for AI-powered cardiovascular and maternal heart care assessments, and **CogStack** for identifying eligible participants from medical records."
+    },
+    {
+      "blockType": "column",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "padding": "3rem 0",
+        "bgcolor": "#ffffff",
+        "& .MuiTypography-h2": {
+          "fontSize": "1.4rem",
+          "fontWeight": "600",
+          "color": "#002a2e",
+          "letterSpacing": "-0.02em"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "0.95rem",
+          "lineHeight": 1.75,
+          "color": "#2a3a3a"
+        }
+      },
+      "content": [
+        {
+          "blockType": "markdown",
+          "title": "Study Objectives",
+          "content": "**Primary:** Evaluate if continuous BP monitoring with wearable devices and clinician-supervised antihypertensive titration improves diastolic BP control at 6 months postpartum compared to standard care.\n\n**Secondary:** Assess acceptability and adherence, determine clinical outcomes, evaluate patient-reported experiences, assess cost-effectiveness, and develop personalised risk prediction models."
+        },
+        {
+          "blockType": "markdown",
+          "title": "Part of EXIT-CVD",
+          "content": "COMPASS is one of the \"early exit\" studies within the **EXIT-CVD** consortium, which brings together 42 partners across 17 countries to transform how cardiovascular disease is detected, monitored and treated across Europe."
+        }
+      ]
+    },
+    {
+      "blockType": "markdown",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "padding": "3rem 0",
+        "bgcolor": "#fafbfc",
+        "& .MuiTypography-h2": {
+          "fontSize": "1.6rem",
+          "fontWeight": "600",
+          "color": "#002a2e",
+          "letterSpacing": "-0.02em"
+        },
+        "& .MuiTypography-body1": {
+          "fontSize": "0.975rem",
+          "lineHeight": 1.75,
+          "color": "#2a3a3a"
+        }
+      },
+      "title": "Why This Matters",
+      "content": "Postpartum hypertension remains inadequately monitored despite contributing substantially to maternal morbidity and mortality. Emerging evidence indicates that postpartum BP control critically influences long-term cardiovascular health.\n<br />\nCOMPASS uses validated wearable technology to offer real-time, precise BP tracking — potentially enabling improved therapeutic interventions, better patient engagement, and improved cardiovascular outcomes for women after pregnancy."
+    },
+    {
+      "blockType": "accordion",
+      "noCard": true,
+      "sx": {
+        "padding": "2rem 0",
+        "bgcolor": "#ffffff",
+        "& .MuiTypography-h2": {
+          "fontSize": "1.6rem",
+          "fontWeight": "600",
+          "color": "#002a2e",
+          "letterSpacing": "-0.02em"
+        }
+      },
+      "title": "How to Participate",
+      "items": [
+        {
+          "title": "1. Check eligibility and provide consent",
+          "content": "Complete a brief eligibility check, read the Participant Information Sheet, and sign an electronic consent form."
+        },
+        {
+          "title": "2. Set up your study account",
+          "content": "Create an account with your email and a password. Verify your email to proceed."
+        },
+        {
+          "title": "3. Connect your devices",
+          "content": "Connect the Huawei D2 Watch, install the RADAR Active App (aRMT) for questionnaires, and the RADAR Passive App (pRMT) for passive data collection."
+        },
+        {
+          "title": "4. Participate in monitoring",
+          "content": "Wear the Huawei D2 Watch as instructed for continuous blood pressure monitoring, complete questionnaires via the Active App, and keep the Passive App running on your smartphone. The study lasts approximately 6 months."
+        }
+      ]
+    },
+    {
+      "blockType": "column",
+      "noCard": true,
+      "blockBackground": "#002a2e",
+      "title": "",
+      "sx": {
+        "color": "white",
+        "padding": "3.5rem 0",
+        "& .MuiTypography-body1": {
+          "color": "rgba(255,255,255,0.8)"
+        }
+      },
+      "content": [
+        {
+          "blockType": "markdown",
+          "content": "<div style='display:flex;flex-direction:column;justify-content:space-between;text-align:center;height:100%;gap:20px'><div style='opacity:0.7;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.08em'>More Information</div><div>Visit the EXIT-CVD project website</div><div style='margin-left:auto;margin-right:auto'><button variant='contained' href='https://exitcvd.eu/' target='_blank'>EXIT-CVD Website</button></div></div>"
+        },
+        {
+          "blockType": "markdown",
+          "content": "<div style='display:flex;flex-direction:column;justify-content:space-between;text-align:center;height:100%;gap:20px'><div style='opacity:0.7;font-size:0.85rem;text-transform:uppercase;letter-spacing:0.08em'>Questions?</div><div>Get in touch with the study team</div><div style='margin-left:auto;margin-right:auto'><button variant='contained' href='mailto:exit-cvd@kcl.ac.uk'>Contact Us</button></div></div>"
+        }
+      ]
+    }
+  ]
+}

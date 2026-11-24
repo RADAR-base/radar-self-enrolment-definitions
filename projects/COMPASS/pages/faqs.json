@@ -1,0 +1,98 @@
+{
+    "blocks": [
+      {
+        "blockType": "markdown",
+        "content": "# Frequently Asked Questions",
+        "noCard": true,
+        "blockBackground": "white"
+      },
+      {
+        "blockType": "accordion",
+        "noCard": true,
+        "title": "Getting Started",
+        "items": [
+          {
+            "title": "What is the COMPASS study?",
+            "content": "COMPASS (Continuous Monitoring of Postpartum Blood Pressure for Assessment and Shifting of Cardiovascular Risk) is a clinical trial that evaluates whether continuous blood pressure monitoring using a wearable device can improve postpartum BP control and cardiovascular outcomes. It is part of the EXIT-CVD research consortium, co-funded by the EU Innovative Health Initiative (IHI)."
+          },
+          {
+            "title": "How do I join the study?",
+            "content": "Click the 'Join Study' button on the homepage and follow these steps:\n1. Check that you are eligible to take part.\n2. Read the Participant Information Sheet.\n3. Sign an electronic consent form.\n4. Set up a study account.\n5. Connect your devices (Huawei D2 Watch, RADAR Active App, RADAR Passive App).\n"
+          },
+          {
+            "title": "Am I eligible to take part?",
+            "content": "You may be eligible if you are aged 18 or over and have been diagnosed with a hypertensive disorder of pregnancy (HDP) or have elevated postpartum blood pressure requiring clinical monitoring. You will also need a smartphone (Apple or Android) and be willing to wear a Huawei D2 Watch provided by the study."
+          },
+          {
+            "title": "How long does the study last?",
+            "content": "Participation lasts approximately 6 months. The intervention period runs from 1 to 6 months postpartum, with a primary endpoint assessment at 6 months and follow-up analysis from 6 to 9 months postpartum."
+          },
+          {
+            "title": "What devices and apps will I need?",
+            "content": "The study uses three main tools:\n1. **Huawei D2 Watch** - A smartwatch with continuous blood pressure monitoring capability, plus heart rate, activity and sleep tracking.\n2. **RADAR Active App (aRMT)** - A smartphone app for completing patient-reported outcome questionnaires.\n3. **RADAR Passive App (pRMT)** - A smartphone app that passively collects sensor data from your phone.\n"
+          }
+        ]
+      },
+      {
+        "blockType": "accordion",
+        "noCard": true,
+        "title": "About the Devices",
+        "items": [
+          {
+            "title": "What is the Huawei D2 Watch?",
+            "content": "The Huawei D2 Watch is a validated smartwatch for continuous blood pressure monitoring, meeting ANSI/AAMI/ISO 81060-2:2018 guidelines for accurate BP measurement. It also tracks heart rate, physical activity and sleep."
+          },
+          {
+            "title": "What data will the Huawei D2 Watch collect?",
+            "content": "The watch collects:\n- Continuous blood pressure measurements\n- Heart rate data\n- Physical activity levels\n- Sleep duration and quality\n"
+          },
+          {
+            "title": "What does the RADAR Active App (aRMT) do?",
+            "content": "The RADAR Active App sends you regular questionnaires about your health, wellbeing and symptoms. Your responses help the research team understand your quality of life and postpartum experience."
+          },
+          {
+            "title": "What does the RADAR Passive App (pRMT) do?",
+            "content": "The RADAR Passive App runs in the background on your smartphone and collects sensor data such as activity levels and environmental data. It does not access your personal messages, photos, or browsing history."
+          }
+        ]
+      },
+      {
+        "blockType": "accordion",
+        "noCard": true,
+        "title": "Your Data & Privacy",
+        "items": [
+          {
+            "title": "How is my data kept safe?",
+            "content": "Your data is stored securely on encrypted servers and is pseudonymised, meaning your name is replaced with a code. The data is managed by King's College London on the RADAR-base platform and handled in compliance with the EU GDPR and applicable national data protection laws."
+          },
+          {
+            "title": "Who will have access to my data?",
+            "content": "Your pseudonymised data will be accessible to the COMPASS research team, King's College London, and authorised EXIT-CVD consortium partners for research purposes only. It will not be shared with your healthcare provider or used for any purpose other than research."
+          },
+          {
+            "title": "Can I withdraw from the study?",
+            "content": "Yes. Your participation is entirely voluntary and you can withdraw at any time without giving a reason and without any effect on your medical care. Contact the study team at exit-cvd@kcl.ac.uk to withdraw."
+          }
+        ]
+      },
+      {
+        "blockType": "accordion",
+        "noCard": true,
+        "title": "Support",
+        "items": [
+          {
+            "title": "Who can I contact if I need help?",
+            "content": "You can contact the study team at [exit-cvd@kcl.ac.uk](mailto:exit-cvd@kcl.ac.uk)."
+          },
+          {
+            "title": "I haven't received my verification code",
+            "content": "1. Check your junk/spam folder for an email from platform@sep.radar-base.net\n2. The code expires after 1 hour. If it times out or doesn't arrive, go back to the \"verify account\" page and click \"Resend code\""
+          },
+          {
+            "title": "What is RADAR-base?",
+            "content": "RADAR-base is an open-source platform for the collection of health information from surveys, smartphones and wearable devices. It is managed by King's College London. For the COMPASS study, Onsentia provides the platform infrastructure for data collection and remote monitoring.\n\nYou can find more information at [https://radar-base.org/](https://radar-base.org)"
+          }
+        ]
+      }
+    ]
+}

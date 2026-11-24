@@ -1,0 +1,36 @@
+{
+    "blocks": [
+          {
+            "blockType": "markdown",
+            "noCard": true,
+            "blockBackground": "white",
+            "content": "# COMPASS: Continuous Monitoring of Postpartum Blood Pressure"
+          },
+          {
+            "blockType": "markdown",
+            "noCard": false,
+            "title": "About the Study",
+            "content": "The **COMPASS** study (Continuous Monitoring of Postpartum Blood Pressure for Assessment and Shifting of Cardiovascular Risk) is a prospective, multicenter, randomised controlled trial within the **EXIT-CVD** research consortium, co-funded by the **European Union Innovative Health Initiative (IHI)**.\n<br />\nHypertensive disorders of pregnancy (HDP) affect approximately 10% of pregnancies, carrying significant risks for maternal and neonatal health, including stroke and pre-eclampsia. Postpartum hypertension remains inadequately monitored despite contributing substantially to maternal morbidity and mortality. Emerging evidence indicates that postpartum BP control critically influences long-term cardiovascular health, with interventions potentially providing durable risk reductions.\n<br />\nCOMPASS evaluates the feasibility, clinical effectiveness, and cost-effectiveness of continuous BP monitoring via validated wearable technology (Huawei D2 Watch) to improve postpartum blood pressure control.\n"
+          },
+          {
+            "blockType": "markdown",
+            "title": "Study Design",
+            "content": "COMPASS is a prospective, multicenter, randomised controlled trial comparing:\n\n- **Control group:** Standard postpartum care\n- **Intervention group:** Continuous wearable BP monitoring (Huawei D2 Watch) plus digital assistant-supported clinician titration via Megi-Mum and the RADAR platform\n\nThe study recruits 100 postpartum women across three clinical sites: **King's College Hospital**, **St Thomas' Hospital**, and **UMC Utrecht**. Participation lasts approximately 6 months.\n"
+          },
+          {
+            "blockType": "markdown",
+            "title": "The Role of Onsentia & RADAR-base",
+            "content": "Onsentia powers the digital data collection and remote monitoring infrastructure for the COMPASS study using the open-source RADAR-base platform.\n<br />\nBy combining active patient-reported outcome measurements (aRMT) with passive sensor and wearable data collection (pRMT), Onsentia and RADAR-base enable multi-source, scalable, real-time remote monitoring and data integration.\n<br />\n**Huawei Health** provides continuous blood pressure monitoring via the D2 Watch. **Megi-Mum** delivers AI-powered personalised cardiovascular and maternal heart care assessments, and **CogStack** assists in identifying eligible participants from medical records.\n"
+          },
+          {
+            "blockType": "markdown",
+            "title": "Part of EXIT-CVD",
+            "content": "COMPASS is one of the \"early exit\" studies within the EXIT-CVD consortium. EXIT-CVD is a five-year research project that brings together 42 partners across 17 countries to transform how cardiovascular disease is detected, monitored and treated. It is led by **UMCG** and **Philips**, with a total budget of EUR 27.6 million.\n<br />\nThe study sponsor is **King's College London**, a public research university based in London, United Kingdom.\n"
+          },
+          {
+            "blockType": "markdown",
+            "title": "More Information",
+            "content": "For more details about the EXIT-CVD project, visit [exitcvd.eu](https://exitcvd.eu/).\n<br />\nThis website is hosted by King's College London on its secure health research platform called RADAR-base.\n"
+          }
+        ]
+}

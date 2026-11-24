@@ -1,0 +1,41 @@
+{
+    "blocks": [
+          {
+            "blockType": "markdown",
+            "noCard": true,
+            "blockBackground": "white",
+            "content": "# EMPOWER-BP: Empowering Women with SCAD or ANOCA"
+          },
+          {
+            "blockType": "markdown",
+            "noCard": false,
+            "title": "About the Study",
+            "content": "The **EMPOWER-BP** study (Empowering Women with SCAD or ANOCA through Citizen Science: Evaluating the Efficacy of Huawei's Blood Pressure Monitoring Watch) is a prospective, multicenter, observational citizen-science study within the **EXIT-CVD** research consortium, co-funded by the **European Union Innovative Health Initiative (IHI)**.\n<br />\nSpontaneous Coronary Artery Dissection (SCAD) and Angina with Non-Obstructive Coronary Arteries (ANOCA) are cardiovascular conditions predominantly affecting women, yet remain significantly underdiagnosed and undertreated due to atypical presentation and diagnostic challenges. Continuous, non-invasive blood pressure monitoring might help in early detection of symptom recurrence and better management of these conditions.\n<br />\nUtilising citizen science, leveraging social media platforms, and wearable technology (Huawei medical-grade blood pressure monitoring watch), this study seeks to engage patients directly in their health management, enhancing adherence and reducing healthcare costs.\n"
+          },
+          {
+            "blockType": "markdown",
+            "title": "Study Design",
+            "content": "EMPOWER-BP is a prospective, multicenter, observational citizen-science study that recruits participants via social media and online platforms, with active support from patient organisation **Vrouwenhart Professionals**.\n\nParticipants receive a Huawei medical-grade BP monitoring watch and engage in continuous data collection over **12 months**, with:\n\n- Monthly electronic case report form (eCRF) completion\n- Quarterly virtual check-ins and structured surveys (at months 3, 6, 9, and 12)\n- Online instructional materials and video tutorials for training\n\nThe study aims to recruit 100 participants through the Vrouwenhart network.\n"
+          },
+          {
+            "blockType": "markdown",
+            "title": "The Role of Onsentia & RADAR-base",
+            "content": "Onsentia powers the digital data collection and remote monitoring infrastructure for the EMPOWER-BP study using the open-source RADAR-base platform at King's College London.\n<br />\nBy combining active patient-reported outcome measurements (aRMT) with passive sensor and wearable data collection (pRMT), Onsentia and RADAR-base enable multi-source, scalable, real-time remote monitoring and data integration.\n<br />\nData is collected digitally via the RADAR platform, adhering to GDPR standards. Electronic case report forms (eCRFs) are co-developed with patients and capture monthly patient-reported outcomes.\n"
+          },
+          {
+            "blockType": "markdown",
+            "title": "Partners",
+            "content": "**Universitair Medisch Centrum Utrecht (UMC Utrecht)** is the study sponsor, together with **Universita' Di Pavia (UNIPV)**, **Politecnico Di Milano (POLIMI)**, and **Stichting Vrouwenhart**.\n<br />\n**Vrouwenhart Professionals** is a Dutch advocacy and education organisation focused on women's heart disease, with a community of over 10,000 followers and over 5,000 women engaged across SCAD and ANOCA groups. They serve as a recruitment partner, aiding in outreach, peer engagement, and dissemination.\n<br />\n**King's College London** provides the RADAR-base platform for data collection and statistical analysis. **Huawei** provides the wearable devices and data platform support.\n"
+          },
+          {
+            "blockType": "markdown",
+            "title": "Part of EXIT-CVD",
+            "content": "EMPOWER-BP is one of the \"early exit\" studies within the EXIT-CVD consortium. EXIT-CVD is a five-year research project that brings together 42 partners across 17 countries to transform how cardiovascular disease is detected, monitored and treated. It is led by **UMCG** and **Philips**, with a total budget of EUR 27.6 million.\n"
+          },
+          {
+            "blockType": "markdown",
+            "title": "More Information",
+            "content": "For more details about the EXIT-CVD project, visit [exitcvd.eu](https://exitcvd.eu/).\n<br />\nThis website is hosted by King's College London on its secure health research platform called RADAR-base.\n"
+          }
+        ]
+}

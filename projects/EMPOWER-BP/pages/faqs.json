@@ -1,0 +1,113 @@
+{
+    "blocks": [
+      {
+        "blockType": "markdown",
+        "content": "# Frequently Asked Questions",
+        "noCard": true,
+        "blockBackground": "white"
+      },
+      {
+        "blockType": "accordion",
+        "noCard": true,
+        "title": "Getting Started",
+        "items": [
+          {
+            "title": "What is the EMPOWER-BP study?",
+            "content": "EMPOWER-BP (Empowering Women with SCAD or ANOCA through Citizen Science) is a clinical study that evaluates the feasibility and adherence of continuous blood pressure monitoring using a wearable device among women with Spontaneous Coronary Artery Dissection (SCAD) or Angina with Non-Obstructive Coronary Arteries (ANOCA). It is part of the EXIT-CVD research consortium, co-funded by the EU Innovative Health Initiative (IHI)."
+          },
+          {
+            "title": "How do I join the study?",
+            "content": "Click the 'Join Study' button on the homepage and follow these steps:\n1. Check that you are eligible to take part.\n2. Read the Participant Information Sheet.\n3. Sign an electronic consent form.\n4. Set up a study account.\n5. Connect your devices (Huawei BP Watch, RADAR Active App, RADAR Passive App).\n"
+          },
+          {
+            "title": "Am I eligible to take part?",
+            "content": "You may be eligible if you are a woman aged 18 or over with a confirmed diagnosis of SCAD or ANOCA. You will need a smartphone (Apple or Android), be an active user of social media platforms, and be willing to wear a Huawei BP Watch provided by the study and share your data."
+          },
+          {
+            "title": "How long does the study last?",
+            "content": "Participation lasts 12 months, with continuous BP data collection and monthly questionnaires. You will have quarterly virtual check-ins at months 3, 6, 9, and 12."
+          },
+          {
+            "title": "What devices and apps will I need?",
+            "content": "The study uses three main tools:\n1. **Huawei BP Watch** - A medical-grade wearable device for continuous blood pressure monitoring, plus heart rate, activity and sleep tracking.\n2. **RADAR Active App (aRMT)** - A smartphone app for completing patient-reported outcome questionnaires.\n3. **RADAR Passive App (pRMT)** - A smartphone app that passively collects sensor data from your phone.\n"
+          }
+        ]
+      },
+      {
+        "blockType": "accordion",
+        "noCard": true,
+        "title": "About the Devices",
+        "items": [
+          {
+            "title": "What is the Huawei BP Watch?",
+            "content": "The Huawei BP Watch is a medical-grade smartwatch that uses photoplethysmography (PPG) technology and advanced algorithms validated for clinical-grade blood pressure measurement accuracy. It also tracks heart rate, physical activity and sleep."
+          },
+          {
+            "title": "What data will the Huawei BP Watch collect?",
+            "content": "The watch collects:\n- Continuous blood pressure measurements\n- Heart rate data\n- Physical activity levels\n- Sleep duration and quality\n"
+          },
+          {
+            "title": "What does the RADAR Active App (aRMT) do?",
+            "content": "The RADAR Active App sends you regular questionnaires about your health, wellbeing and symptoms. Your responses help the research team understand your cardiovascular health, symptom patterns, and quality of life."
+          },
+          {
+            "title": "What does the RADAR Passive App (pRMT) do?",
+            "content": "The RADAR Passive App runs in the background on your smartphone and collects sensor data such as activity levels and environmental data. It does not access your personal messages, photos, or browsing history."
+          }
+        ]
+      },
+      {
+        "blockType": "accordion",
+        "noCard": true,
+        "title": "About Citizen Science",
+        "items": [
+          {
+            "title": "What is citizen science?",
+            "content": "Citizen science involves engaging members of the public directly in scientific research. In the EMPOWER-BP study, participants actively contribute to research by monitoring their own health data using wearable technology and reporting their experiences through online platforms."
+          },
+          {
+            "title": "What is Vrouwenhart?",
+            "content": "Vrouwenhart Professionals is a Dutch advocacy and education organisation focused on women's heart disease. With a community of over 10,000 followers and over 5,000 women engaged across SCAD and ANOCA groups, they are a key recruitment partner for the EMPOWER-BP study."
+          }
+        ]
+      },
+      {
+        "blockType": "accordion",
+        "noCard": true,
+        "title": "Your Data & Privacy",
+        "items": [
+          {
+            "title": "How is my data kept safe?",
+            "content": "Your data is stored securely on encrypted servers and is pseudonymised, meaning your name is replaced with a code. Data is collected via the RADAR-base platform at King's College London and stored securely at UMC Utrecht, in compliance with the EU GDPR and applicable national data protection laws."
+          },
+          {
+            "title": "Who will have access to my data?",
+            "content": "Your pseudonymised data will be accessible to the EMPOWER-BP research team at UMC Utrecht, King's College London, and authorised EXIT-CVD consortium partners for research purposes only. It will not be shared with your healthcare provider or used for any purpose other than research."
+          },
+          {
+            "title": "Can I withdraw from the study?",
+            "content": "Yes. Your participation is entirely voluntary and you can withdraw at any time without giving a reason and without any effect on your medical care. Contact the study team at exit-cvd@kcl.ac.uk to withdraw."
+          }
+        ]
+      },
+      {
+        "blockType": "accordion",
+        "noCard": true,
+        "title": "Support",
+        "items": [
+          {
+            "title": "Who can I contact if I need help?",
+            "content": "You can contact the study team at [exit-cvd@kcl.ac.uk](mailto:exit-cvd@kcl.ac.uk)."
+          },
+          {
+            "title": "I haven't received my verification code",
+            "content": "1. Check your junk/spam folder for an email from platform@sep.radar-base.net\n2. The code expires after 1 hour. If it times out or doesn't arrive, go back to the \"verify account\" page and click \"Resend code\""
+          },
+          {
+            "title": "What is RADAR-base?",
+            "content": "RADAR-base is an open-source platform for the collection of health information from surveys, smartphones and wearable devices. It is managed by King's College London. For the EMPOWER-BP study, Onsentia provides the platform infrastructure for data collection and remote monitoring.\n\nYou can find more information at [https://radar-base.org/](https://radar-base.org)"
+          }
+        ]
+      }
+    ]
+}

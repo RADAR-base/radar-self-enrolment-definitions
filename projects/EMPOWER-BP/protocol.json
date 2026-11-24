@@ -1,0 +1,423 @@
+{
+  "name": "EMPOWER-BP",
+  "studyId": "EMPOWER-BP",
+  "healthIssues": [],
+  "onboarding": {
+    "metadata": {},
+    "steps": []
+  },
+  "protocols": [
+    {
+      "id": "connect",
+      "appearance": {},
+      "schedule": {},
+      "metadata": {
+        "title": "TASK 1: Connect my devices",
+        "order": 0,
+        "description": "Connect your wearable device and apps to share health data with the study.\n<span style='color:#cf2e2e; font-style: italic'>Tip: You will need login details for your Huawei Health account</span>",
+        "optional": false,
+        "type": "inbuilt",
+        "inbuiltId": "connect",
+        "options": {
+          "title": "TASK 1: Connect my device(s)",
+          "description": "<p>Click on the connect button for your device.</p><p>The study team will collect blood pressure, heart rate, activity, and sleep data from your wearable device. This data will be collected securely via the RADAR-base platform powered by Onsentia.</p>",
+          "devices": [
+            {
+              "id": "huawei",
+              "title": "Huawei BP Watch",
+              "description": "By clicking Connect, you can share your Huawei BP Watch data including continuous blood pressure monitoring, heart rate, activity, and sleep data.",
+              "guideUrl": ""
+            },
+            {
+              "id": "radar_armt",
+              "title": "RADAR Active App (aRMT)",
+              "description": "By clicking Connect, you can set up the RADAR Active App to complete patient-reported outcome questionnaires and share health data from your smartphone.",
+              "guideUrl": ""
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "enrolment": {
+    "version": "0.1",
+    "studyInformation": {
+      "title": "Study Information",
+      "content": "Please take some time to review the Participant Information Sheet, as it contains answers to many common questions related to taking part. If you have any questions, please contact the study team at <exit-cvd@kcl.ac.uk>.\n<br />\n<PdfViewer fileUrl='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/EMPOWER-BP/resources/pis.pdf' />\n<br />\n<button variant='contained' target='_blank' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/EMPOWER-BP/resources/pis.pdf'>Download Participant Information</button>"
+    },
+    "eligibility": {
+      "title": "Check You Can Take Part",
+      "description": "We can only accept people into this study if they answer Yes to the following questions.",
+      "items": [
+        {
+          "fieldType": "yesno",
+          "id": "criteria1",
+          "description": "Are you a woman aged 18 or over?\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "criteria2",
+          "description": "Have you been diagnosed with Spontaneous Coronary Artery Dissection (SCAD) or Angina with Non-Obstructive Coronary Arteries (ANOCA)?\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "criteria3",
+          "description": "Do you own a smartphone (Apple or Android) and are you an active user of social media platforms?\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "criteria4",
+          "description": "Are you willing to wear a Huawei BP Watch provided by the study for continuous blood pressure and health monitoring, and to share your data?\n"
+        }
+      ]
+    },
+    "consent": {
+      "title": "Consent",
+      "description": "Before you can take part in this study, we need your consent. Please read each statement carefully and click Yes or No.\n<br />\nYou must answer YES to all required statements to take part. The optional statements can be answered Yes or No and you can still take part.",
+      "requiredItems": [
+        {
+          "fieldType": "yesno",
+          "id": "required1",
+          "description": "I confirm that I have read and understood the Participant Information Sheet for the EMPOWER-BP study. I have had the opportunity to consider the information and ask questions which have been answered to my satisfaction.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required2",
+          "description": "I understand that my participation in the study is voluntary and that I am free to withdraw at any time without giving a reason and without detriment to myself or my medical care.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required3",
+          "description": "I understand my personal information will be processed for the purposes explained to me in the Information Sheet. I understand that such information will be handled in compliance with the EU General Data Protection Regulation (GDPR) and applicable national data protection laws.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required4",
+          "description": "I give permission for the study team to collect health data from my Huawei BP Watch, including continuous blood pressure measurements, heart rate, physical activity, and sleep data, via the Onsentia/RADAR-base platform.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required5",
+          "description": "I give permission for the study team to collect data from the RADAR Active App (aRMT), including my responses to patient-reported outcome questionnaires.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required6",
+          "description": "I give permission for the study team to collect passive sensor data from the RADAR Passive App (pRMT) on my smartphone, including activity and environmental data.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required7",
+          "description": "I understand that my data will be pseudonymised and stored securely. I understand that it will not be possible to remove my data from the project dataset once it has been anonymised and forms part of the research data.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required8",
+          "description": "I agree that any data collected may be included in anonymous form in **publications, academic theses, dissertations, or conference presentations.**\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required9",
+          "description": "I understand that data collected during the study may be looked at by individuals from UMC Utrecht, King's College London, the EXIT-CVD consortium partners, or regulatory authorities, where it is relevant to my taking part in this research. I give permission for these individuals to have access to my data.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "required10",
+          "description": "I agree to take part in this study.\n"
+        }
+      ],
+      "optionalItems": [
+        {
+          "fieldType": "yesno",
+          "id": "optional1",
+          "description": "I agree that my pseudonymised data held by the EXIT-CVD consortium can be shared with other academic researchers for research purposes, on the basis that data protection measures are in place to ensure confidentiality.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "optional2",
+          "description": "I agree that the researchers may contact me in future about other cardiovascular research projects that I might be eligible for.\n"
+        },
+        {
+          "fieldType": "yesno",
+          "id": "optional3",
+          "description": "I agree that the researchers may retain my contact details in order to provide me with a summary of the findings for this study.\n"
+        }
+      ],
+      "signatureDescription": "### Data Protection\n\nThe personal information we collect and use to conduct this research will be processed in accordance with data protection law as explained in the Participant Information Sheet and the [Privacy Notice](privacy).\n\nPlease draw or type your signature in the box below and press the Save button.\n<br />\n<em>Please note, drawing or typing your signature is the same as signing a paper form with a pen.</em>\n<br />\n<em>Please check your responses carefully before you submit.</em>"
+    },
+    "account": {
+      "title": "Register Account",
+      "description": "**You need an account to join the EMPOWER-BP study.**\nSet up your account by providing an email address and creating a password which must be 12 characters long.\n<br />\nOnce you provide both your email address and password, you will need to verify your account by opening an email we will send to you and entering the code.\n<br />\nOnce your account is verified, we will send you a copy of your consent form and the study's information sheet. If you cannot find the email, please check your junk/spam folder."
+    },
+    "additional": {
+      "title": "Thank you for consenting",
+      "items": [
+        {
+          "field_name": "empowerbp_additional_heading",
+          "form_name": "empowerbp_additional",
+          "field_type": "descriptive",
+          "field_label": "Thank you for consenting. Now set up your EMPOWER-BP study account.\n_Please note, if you do not set up your study account, the study team cannot get in touch with you._\n"
+        }
+      ]
+    }
+  },
+  "studyUiConfig": {
+    "materialTheme": {
+      "typography": {
+        "allVariants": {
+          "fontFamily": "var(--font-inter, var(--font-montserrat), 'Inter', system-ui, -apple-system, sans-serif)",
+          "wordBreak": "break-word",
+          "whiteSpace": "pre-wrap",
+          "letterSpacing": "-0.011em"
+        },
+        "h1": {
+          "fontSize": "2.25rem",
+          "fontWeight": "600",
+          "color": "#1a0a2e",
+          "wordBreak": "normal",
+          "overflow": "hidden",
+          "letterSpacing": "-0.025em",
+          "lineHeight": 1.2
+        },
+        "h2": {
+          "fontSize": "1.6rem",
+          "fontWeight": "600",
+          "color": "#1a0a2e",
+          "letterSpacing": "-0.02em",
+          "lineHeight": 1.3
+        },
+        "h3": {
+          "fontSize": "1.1rem",
+          "fontWeight": "600",
+          "color": "#1a0a2e",
+          "letterSpacing": "-0.015em"
+        },
+        "h4": {
+          "fontSize": "1rem",
+          "fontWeight": "500",
+          "letterSpacing": "-0.01em"
+        },
+        "button": {
+          "textTransform": "none",
+          "wordBreak": "normal",
+          "fontWeight": "500",
+          "letterSpacing": "0"
+        },
+        "body1": {
+          "fontSize": "0.975rem",
+          "lineHeight": 1.7,
+          "color": "#3a2a4a"
+        },
+        "body2": {
+          "fontSize": "0.875rem",
+          "lineHeight": 1.65,
+          "color": "#5a5a6a"
+        }
+      },
+      "palette": {
+        "background": {
+          "default": "#ffffff"
+        },
+        "primary": {
+          "light": "#f3e5f5",
+          "main": "#7b1fa2",
+          "dark": "#4a0072",
+          "contrastText": "#fff"
+        },
+        "secondary": {
+          "light": "#fce4ec",
+          "main": "#c2185b",
+          "dark": "#8c0032",
+          "contrastText": "#fff"
+        },
+        "success": {
+          "main": "#0f7b3f"
+        },
+        "warning": {
+          "main": "#e8a500"
+        },
+        "error": {
+          "main": "#c4302b"
+        }
+      },
+      "components": {
+        "MuiButton": {
+          "defaultProps": {
+            "disableElevation": true
+          },
+          "styleOverrides": {
+            "root": {
+              "variants": [
+                {
+                  "props": {
+                    "variant": "text"
+                  },
+                  "style": {
+                    ":hover": {
+                      "backgroundColor": "#7b1fa2",
+                      "color": "#FFFFFF"
+                    }
+                  }
+                }
+              ],
+              "borderRadius": 8,
+              "padding": "8px 20px",
+              "fontWeight": "500",
+              "fontSize": "0.9rem"
+            }
+          }
+        },
+        "MuiAppBar": {
+          "defaultProps": {
+            "elevation": 0,
+            "position": "static"
+          }
+        },
+        "MuiToggleButton": {
+          "styleOverrides": {
+            "root": {
+              "borderRadius": 8,
+              "fontSize": "0.9rem"
+            }
+          }
+        },
+        "MuiCard": {
+          "styleOverrides": {
+            "root": {
+              "borderRadius": 12,
+              "boxShadow": "0 1px 3px rgba(0,0,0,0.08)"
+            }
+          }
+        },
+        "MuiTextField": {
+          "defaultProps": {
+            "variant": "outlined"
+          },
+          "styleOverrides": {
+            "root": {
+              ".MuiInputLabel-outlined:has(+ .MuiOutlinedInput-root > .MuiOutlinedInput-input:-webkit-autofill)": {
+                "fontSize": "1.5em",
+                "transform": "translate(0.75em, -0.5em) scale(0.75)"
+              },
+              ".MuiOutlinedInput-input:-webkit-autofill + .MuiOutlinedInput-notchedOutline > legend": {
+                "maxWidth": "100%"
+              },
+              "& .MuiInputBase-root:has(input:-webkit-autofill)": {
+                "backgroundColor": "var(--mui-palette-action-selected)"
+              },
+              "& .MuiInputAdornment-root": {
+                "backgroundColor": "inherit"
+              },
+              "& input:-webkit-autofill": {
+                "WebkitBoxShadow": "0 0 0 1000px transparent inset",
+                "WebkitTextFillColor": "inherit",
+                "caretColor": "inherit",
+                "transition": "background-color 9999s ease-out"
+              }
+            }
+          }
+        },
+        "MuiOutlinedInput": {
+          "styleOverrides": {
+            "root": {
+              "borderRadius": 8
+            },
+            "notchedOutline": {
+              "fontSize": "1.35em",
+              "borderColor": "#e0e0e0"
+            }
+          }
+        },
+        "MuiInputLabel": {
+          "styleOverrides": {
+            "outlined": {
+              "&.MuiInputLabel-shrink": {
+                "fontSize": "1.5em",
+                "transform": "translate(0.75em, -0.5em) scale(0.75)"
+              }
+            }
+          }
+        },
+        "MuiAccordion": {
+          "styleOverrides": {
+            "root": {
+              "borderRadius": "8px !important",
+              "boxShadow": "none",
+              "border": "1px solid #eaeaea",
+              "&:before": {
+                "display": "none"
+              }
+            }
+          }
+        }
+      }
+    },
+    "faviconSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/EMPOWER-BP/resources/icon.png",
+    "navbar": {
+      "links": [
+        {
+          "text": "Home",
+          "href": "/EMPOWER-BP"
+        },
+        {
+          "text": "About",
+          "href": "/EMPOWER-BP/about"
+        },
+        {
+          "text": "FAQs",
+          "href": "/EMPOWER-BP/faqs"
+        }
+      ],
+      "logoSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/EMPOWER-BP/resources/icon.png"
+    },
+    "footer": {
+      "columns": [
+        {
+          "title": "More Information",
+          "items": [
+            {
+              "text": "About EMPOWER-BP",
+              "href": "/EMPOWER-BP/about"
+            },
+            {
+              "text": "exit-cvd@kcl.ac.uk",
+              "href": "mailto:exit-cvd@kcl.ac.uk"
+            },
+            {
+              "text": "EXIT-CVD Website",
+              "href": "https://exitcvd.eu/"
+            },
+            {
+              "text": "RADAR-base",
+              "href": "https://radar-base.org/"
+            }
+          ]
+        },
+        {
+          "title": "Legal",
+          "items": [
+            {
+              "text": "Privacy Policy",
+              "href": "/EMPOWER-BP/privacy"
+            },
+            {
+              "text": "Cookie Policy",
+              "href": "/EMPOWER-BP/cookies"
+            }
+          ]
+        }
+      ],
+      "copyrightText": "© 2026 EXIT-CVD Consortium | EMPOWER-BP Study | Co-funded by the EU Innovative Health Initiative"
+    },
+    "portal": {
+      "content": "To take part, please complete the tasks below. Connect your devices and apps to begin sharing your health data with the EMPOWER-BP study."
+    },
+    "finishContent": {
+      "title": "Thank you for joining the EMPOWER-BP study.",
+      "content": "<br />Thank you for taking part in our research.\n\n\nYour contribution will help advance understanding of cardiovascular health in women with SCAD and ANOCA, and improve how these conditions are monitored and managed.\n\n\nNow that you have completed the study tasks, you will be able to view your responses by logging back into your study account.\n"
+    },
+    "analytics": {
+      "gaId": ""
+    }
+  }
+}
