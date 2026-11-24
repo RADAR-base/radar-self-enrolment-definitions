@@ -19,10 +19,6 @@
         }
       },
       "subtitle": "<span style='color:rgba(255,255,255,0.85);font-size:1.1rem;line-height:1.7;max-width:560px;display:block'>The COMPASS study evaluates continuous blood pressure monitoring with wearable technology to improve cardiovascular outcomes for women after pregnancy.</span><br /><br /><button style='font-size:1.05rem; padding:12px 28px; border-radius:8px;' variant='contained' href='COMPASS/enrol'>Join Study</button>",
-      "imageSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/COMPASS/resources/image.png",
-      "imageSx": {
-        "borderRadius": "16px"
-      },
       "sx": {
         "color": "white",
         "paddingTop": "5rem",
@@ -42,6 +38,17 @@
           "href": "COMPASS/faqs"
         }
       ]
+    },
+    {
+      "blockType": "markdown",
+      "noCard": true,
+      "sx": {
+        "width": "100%",
+        "padding": "3rem 0",
+        "bgcolor": "#ffffff",
+        "textAlign": "center"
+      },
+      "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/COMPASS/resources/image.png' alt='COMPASS Study' style='max-width:600px;width:100%;border-radius:16px;box-shadow:0 4px 20px rgba(0,0,0,0.1)' />"
     },
     {
       "blockType": "column",
