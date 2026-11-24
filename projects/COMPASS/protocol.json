@@ -43,7 +43,7 @@
     "version": "0.1",
     "studyInformation": {
       "title": "Study Information",
-      "content": "Please take some time to review the Participant Information Sheet, as it contains answers to many common questions related to taking part. If you have any questions, please contact the study team at <exit-cvd@kcl.ac.uk>.\n<br />\n<PdfViewer fileUrl='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/COMPASS/resources/pis.pdf' />\n<br />\n<button variant='contained' target='_blank' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/COMPASS/resources/pis.pdf'>Download Participant Information</button>"
+      "content": "Please take some time to review the Participant Information Sheet, as it contains answers to many common questions related to taking part. If you have any questions, please contact the study team at <exit-cvd@kcl.ac.uk>.\n<br />\n<PdfViewer fileUrl='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/COMPASS/resources/pis.pdf' />\n<br />\n<button variant='contained' target='_blank' href='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/COMPASS/resources/pis.pdf'>Download Participant Information</button>"
     },
     "eligibility": {
       "title": "Check You Can Take Part",
@@ -352,7 +352,7 @@
         }
       }
     },
-    "faviconSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/dev/projects/COMPASS/resources/icon.png",
+    "faviconSrc": "https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/COMPASS/resources/icon.png",
     "navbar": {
       "links": [
         {
