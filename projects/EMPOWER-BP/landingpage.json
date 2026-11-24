@@ -12,11 +12,11 @@
       "content": [
         {
           "blockType": "markdown",
-          "content": "<h1 style='color:white;font-size:2.5rem;font-weight:600;letter-spacing:-0.03em;line-height:1.1;margin:0 0 1.5rem 0'>Empowering Women with SCAD or ANOCA through Citizen Science</h1>\n\n<span style='color:rgba(255,255,255,0.85);font-size:1.1rem;line-height:1.7;display:block;margin-bottom:2rem'>The EMPOWER-BP study uses wearable blood pressure monitoring and citizen science to engage women with SCAD or ANOCA directly in their health management.</span>\n\n<button style='font-size:1.05rem;padding:12px 28px;border-radius:8px' variant='contained' href='EMPOWER-BP/enrol'>Join Study</button>&nbsp;&nbsp;<button style='font-size:1.05rem;padding:12px 28px;border-radius:8px' variant='outlined' href='EMPOWER-BP/about'>Learn More</button>"
+          "content": "<h1 style='color:white;font-size:2.5rem;font-weight:600;letter-spacing:-0.03em;line-height:1.1;margin:0 0 1.5rem 0'>Empowering Women with SCAD or ANOCA through Citizen Science</h1>\n\n<span style='color:rgba(255,255,255,0.85);font-size:1.1rem;line-height:1.7;display:block;margin-bottom:2rem'>The EMPOWER-BP study uses wearable blood pressure monitoring and citizen science to engage women with SCAD or ANOCA directly in their health management.</span>\n\n<div style='display:flex;gap:12px;flex-wrap:wrap'><button style='font-size:1.05rem;padding:12px 28px;border-radius:8px' variant='contained' href='EMPOWER-BP/enrol'>Join Study</button><button style='font-size:1.05rem;padding:12px 28px;border-radius:8px' variant='outlined' href='EMPOWER-BP/about'>Learn More</button></div>"
         },
         {
           "blockType": "markdown",
-          "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/EMPOWER-BP/resources/image.png' alt='EMPOWER-BP Study' style='max-width:400px;width:100%;border-radius:16px' />"
+          "content": "<img src='https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/EMPOWER-BP/resources/image.png' alt='EMPOWER-BP Study' style='max-width:300px;width:100%;border-radius:16px;overflow:hidden;display:block' />"
         }
       ]
     },
