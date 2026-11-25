@@ -22,15 +22,16 @@
             ]
         },
         {
+            "blockType": "markdown",
+            "noCard": true,
+            "blockBackground": "#F8F5FA",
+            "content": "<div style='text-align:center'>\n\n## Who can take part?\n\n</div>"
+        },
+        {
             "blockType": "column",
             "noCard": true,
             "blockBackground": "#F8F5FA",
-            "title": {
-                "children": "Who can take part?",
-                "sx": {
-                    "textAlign": "center"
-                }
-            },
+            "title": "",
             "content": [
                 {
                     "blockType": "markdown",
