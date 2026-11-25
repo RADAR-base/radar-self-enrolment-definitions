@@ -1,0 +1,128 @@
+{
+    "blocks": [
+        {
+            "blockType": "hero",
+            "noCard": true,
+            "blockBackground": "linear-gradient(to bottom right, rgba(74, 36, 85, 0.75), rgba(74, 36, 85, 0.85)), center / cover no-repeat url('https://raw.githubusercontent.com/RADAR-base/radar-self-enrolment-definitions/refs/heads/main/projects/TwinsUK/resources/image.png'), #4a2455",
+            "title": {
+                "children": "TwinsUK Wearable Study",
+                "sx": {
+                    "color": "white"
+                }
+            },
+            "subtitle": "Help us understand the links between daily activity, sleep and long-term health by sharing data from your wearable device.<br /><br />As one of the most clinically detailed twin studies in the world, TwinsUK is now exploring how wearable data can complement decades of research into the genetic and environmental causes of age-related disease.",
+            "sx": {
+                "color": "white"
+            },
+            "ctas": [
+                {
+                    "text": "Join the Study",
+                    "href": "TwinsUK/enrol"
+                }
+            ]
+        },
+        {
+            "blockType": "column",
+            "noCard": true,
+            "blockBackground": "#F8F5FA",
+            "title": {
+                "children": "Who can take part?",
+                "sx": {
+                    "textAlign": "center"
+                }
+            },
+            "content": [
+                {
+                    "blockType": "markdown",
+                    "content": "<div style='text-align:center;padding:24px 16px'>\n\n### 👤 TwinsUK participant\nYou must be a registered member of the TwinsUK cohort\n\n</div>"
+                },
+                {
+                    "blockType": "markdown",
+                    "content": "<div style='text-align:center;padding:24px 16px'>\n\n### 🎂 Aged 18+\nYou must be 18 years of age or over\n\n</div>"
+                },
+                {
+                    "blockType": "markdown",
+                    "content": "<div style='text-align:center;padding:24px 16px'>\n\n### ⌚ Own a wearable\nYou use a Fitbit, Apple Watch, Garmin or Oura Ring\n\n</div>"
+                }
+            ]
+        },
+        {
+            "blockType": "markdown",
+            "noCard": true,
+            "blockBackground": "#F8F5FA",
+            "content": "<div style='text-align:center;padding:0 16px 8px'>Participation is entirely optional and will not affect your involvement in other TwinsUK activities. You can withdraw at any time.</div>"
+        },
+        {
+            "blockType": "column",
+            "noCard": true,
+            "blockBackground": "white",
+            "title": "About the study",
+            "content": {
+                "block1": {
+                    "blockType": "text",
+                    "content": "Established in 1992 at King's College London, TwinsUK follows over 15,000 twins and holds more than 700,000 biological samples. This pilot study explores whether data from personal wearable devices can add a valuable new layer to that evidence base.\n\nYour wearable data could help us understand how activity, sleep and cardiovascular patterns relate to conditions such as metabolic, musculoskeletal and ophthalmologic disorders."
+                },
+                "block2": {
+                    "blockType": "markdown",
+                    "content": "Data is collected securely via RADAR-base, managed by Onsentia and developed at King's College London.\n<br /><br />\n<button variant='contained' href='TwinsUK/enrol'>Join the Study</button>"
+                }
+            }
+        },
+        {
+            "blockType": "markdown",
+            "noCard": true,
+            "title": "What will the data be used for?",
+            "blockBackground": "white",
+            "content": "We will combine your wearable data with clinical and biological information already held by TwinsUK. Research questions include:\n\n- How does the quality of personal-device data compare with clinical-grade measurements?\n- Can wearable data reveal new insights into the genetic and environmental drivers of age-related disease?\n- Do activity and sleep patterns change after someone joins a monitoring study?\n- How do daily rhythms relate to cardiovascular, metabolic and musculoskeletal health?\n\nYour data will only be shared with academic researchers and used solely for health research."
+        },
+        {
+            "blockType": "markdown",
+            "noCard": true,
+            "title": "What does taking part involve?",
+            "blockBackground": "white",
+            "content": "You will connect your device through a secure research platform called RADAR-base. The process is straightforward:\n\n- Confirm your eligibility\n- Sign an electronic consent form\n- Create a study account\n- Connect your device in up to 4 short tasks\n\nThe whole process takes roughly 20–35 minutes, depending on your device."
+        },
+        {
+            "blockType": "accordion",
+            "noCard": true,
+            "title": "Frequently asked questions",
+            "items": [
+                {
+                    "title": "Who can take part?",
+                    "content": "Any registered TwinsUK participant aged 18 or over who uses a Fitbit, Apple Watch, Garmin or Oura Ring."
+                },
+                {
+                    "title": "How do I sign up?",
+                    "content": "Click Join the Study and follow the steps to check eligibility, read the information sheet, give consent, create an account and connect your device."
+                },
+                {
+                    "title": "What wearable data will you collect?",
+                    "content": "With your permission we collect passively recorded data such as daily activity, sleep duration and quality, and heart-rate metrics. This lets us link day-to-day patterns with health outcomes across the TwinsUK cohort."
+                },
+                {
+                    "title": "Will you collect retrospective data?",
+                    "content": "Yes. With your consent we collect both retrospective data already stored on your device or account, and prospective data going forward. Historical data is especially valuable for understanding long-term health patterns."
+                },
+                {
+                    "title": "What is RADAR-base?",
+                    "content": "RADAR-base is a secure, open-source research platform developed at King's College London. It connects your wearable device and collects activity, sleep and related health data so it can be linked with your existing TwinsUK information. All data is stored securely at King's College London."
+                },
+                {
+                    "title": "What is Onsentia?",
+                    "content": "Onsentia manages the RADAR-base platform and self-enrolment portal used in this study. It provides the secure technical infrastructure that lets you connect your device and share data safely with the research team."
+                },
+                {
+                    "title": "What if I don't own a wearable device?",
+                    "content": "This pilot focuses on participants who already own a device. In a future phase we may be able to provide devices — please register your interest and we will be in touch if that becomes possible."
+                }
+            ]
+        },
+        {
+            "blockType": "markdown",
+            "noCard": true,
+            "title": "Get in touch",
+            "blockBackground": "white",
+            "content": "Questions? Contact the TwinsUK study team at twinsuk@kcl.ac.uk.\n<br />\nParticipation is optional and does not affect your involvement in TwinsUK."
+        }
+    ]
+}
